@@ -1,0 +1,23 @@
+
+//
+// Java Script Functional Programming:
+//------------------------------------
+https://www.youtube.com/watch?v=e-5obm1G_FY
+https://github.com/vakila/net-set
+----
+https://en.wikipedia.org/wiki/Pure_function
+https://www.quora.com/Are-JavaScript-functions-like-map-reduce-and-filter-already-optimized-for-traversing-array
+https://en.wikipedia.org/wiki/Functional_programming
+
+
+
+https://addyosmani.com/resources/essentialjsdesignpatterns/book/#constructorpatternjavascript
+
+http://www.w3schools.com/js/default.asp
+
+
+
+Anjana Vakil: Learning Functional Programming with JavaScript - JSUnconf 2016
+https://www.youtube.com/watch?v=e-5obm1G_FY
+
+https://www.youtube.com/watch?v=Pg3UeB-5FdA

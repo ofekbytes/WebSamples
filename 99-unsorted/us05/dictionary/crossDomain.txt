@@ -1,0 +1,7 @@
+
+***[cross domain]: ***
+https://en.wikipedia.org/wiki/Cross-domain_solution
+https://en.wikipedia.org/wiki/Cross-origin_resource_sharing
+https://en.wikipedia.org/wiki/Cross-domain_interoperability
+https://en.wikipedia.org/wiki/Same-origin_policy
+https://en.wikipedia.org/wiki/Cross-site_request_forgery

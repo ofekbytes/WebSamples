@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+var ulindex = 0;
+$(document).ready(function(){
+    $("ul").find("/ul")
+    	ulindex = ulindex + 1;
+
+    
+  Document.write("<h1>" + ulindex + "</h1>");
+});
+
+
+</script>
+</head>
+
+<body>
+  <ul>
+    <li>Item:
+       <ol>
+         <li>Point:
+           <div>
+             <ul>
+               <li>elem1</li>
+             </ul>
+           </div>
+         </li>
+       </ol>
+    </li>
+    <li>elem2</li>
+  </ul>
+  <ul>
+    <li>simple list1</li>
+  </ul>
+  <ul>
+  </ul>
+
+</body>
+
+</html>

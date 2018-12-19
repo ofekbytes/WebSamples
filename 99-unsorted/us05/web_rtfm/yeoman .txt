@@ -1,0 +1,16 @@
+.
+.
+[Yeoman]
+.
+.
+http://yeoman.io/
+
+[download]
+http://yeoman.io/
+
+[install]
+npm install -g yo
+
+
+
+

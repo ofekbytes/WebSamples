@@ -1,0 +1,14 @@
+manual to read (key-words)
+
+
+** value vs. reference type
+
+reference type (pointer to):
+obect
+array
+function
+
+value type: (other)
+
+
+heap

@@ -1,0 +1,9 @@
+
+pouchdb
+https://www.youtube.com/watch?v=-Z7UF2TuSp0
+
+coutchdb:
+
+angular
+
+typescript

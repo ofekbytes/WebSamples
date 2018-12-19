@@ -1,0 +1,33 @@
+
+java dictionary:
+
+
+01. Overloading / Method Overloading (Static Polymorphism)
+
+* OOPS CONCEPT
+* constructor overloading
+*  Static Polymorphism
+* Static binding
+
+
+
+
+01. [Overloading / Method Overloading (Static Polymorphism)]:
+Method Overloading is a feature that allows a class to have two or more methods having same name, if their argument lists are different.
+[dictionary/Method_Overloading/*.java]
+
+
+
+links (delete when done....)
+http://beginnersbook.com/2013/05/method-overloading/
+
+
+
+2.read.
+
+https://en.wikipedia.org/wiki/Java_(programming_language)
+
+https://en.wikibooks.org/wiki/Main_Page
+
+???
+https://en.wikibooks.org/wiki/Subject:Computing

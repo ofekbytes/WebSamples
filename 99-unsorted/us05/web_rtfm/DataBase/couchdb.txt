@@ -1,0 +1,25 @@
+.
+.
+[couchdb]
+.
+.
+
+## couchdb local-host site
+http://127.0.0.1:5984/_utils/
+
+
+
+[download]
+http://couchdb.apache.org/
+
+
+[manual]
+
+## main
+http://docs.couchdb.org/en/2.0.0/
+
+## api
+http://docs.couchdb.org/en/2.1.0/intro/api.html
+
+## tour
+http://docs.couchdb.org/en/2.1.0/intro/tour.html

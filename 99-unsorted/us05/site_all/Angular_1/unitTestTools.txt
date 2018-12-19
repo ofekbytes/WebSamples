@@ -1,0 +1,24 @@
+
+
+[Unit Test Tools - install]
+
+*** tools and code ***
+
+
+Karma - a test runner that fits all our needs.
+https://karma-runner.github.io/1.0/index.html
+$ npm install karma
+$ git clone https://github.com/karma-runner/karma.git
+$ git clone https://github.com/karma-runner/karma-mocha.git
+$ git clone https://github.com/karma-runner/karma-qunit.git
+
+
+Protractor - testing
+Protractor is an end-to-end test framework for Angular and AngularJS applications.
+$ git clone https://github.com/angular/protractor.git
+
+
+jasmine
+https://www.npmjs.com/package/jasmine#installation
+$ npm install --save-dev jasmine
+$ git clone https://github.com/karma-runner/karma-jasmine.git

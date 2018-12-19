@@ -1,0 +1,24 @@
+.
+.
+The DOM: Style in the Header, Script in the Footer
+https://www.youtube.com/watch?v=i1rQi9Maem8
+
+.
+.
+The DOM: What's the Document Object Model?
+https://www.youtube.com/watch?v=80Mr2Z6Qikc
+
+
+
+
+Manipulating the Document Object Model in JavaScript
+
+https://www.youtube.com/watch?v=4Gv81XcC8iE
+
+
+DOM Introduction
+Introduction to the Document Object Model with Javascript and HTML.
+I use resources from the W3C, W3 Schools, Wikipedia, and QuirksMode.org.
+Images are used from the web for educational purposes. This was created for my online Javascript and JQuery class
+
+https://www.youtube.com/watch?v=kMgbGJuYMpU

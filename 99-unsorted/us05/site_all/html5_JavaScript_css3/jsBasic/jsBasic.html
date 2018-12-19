@@ -1,0 +1,169 @@
+
+<!DOCTYPE HTML>
+<html lang="he">
+<head>
+
+<title>Java Script Example: </title>
+<meta charset="UTF-8">
+
+<!-- css3 loaded file/s-->
+<link rel="stylesheet" type="text/css" href="jsBasic.css">
+
+<!-- java script loaded file/s -->
+<script type="text/javascript" src="./js_example_01.js"></script>
+<script type="text/javascript" src="./jsBasic3.class.js"></script>
+
+
+<!--Google font inport "Lobster" loaded file/s-->
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+</head>
+
+<body dir="ltr" class="fnt_right body_font">
+
+
+  <script>
+
+    console.log("---[Java Script - Being Here]----------------------------");
+
+    //check script imported
+    jbBasic_IsExist(); //show that [src="./js_example_01.js"] have been loaded
+
+
+    getTimeDate();
+
+    // console: log, info, warn, error //
+    fn_console();
+
+    //pass by value
+    console.log(" add ====  " + fn_Add('22',33));
+    console.log(" add2 ==== " + fn_add2('22','44'));
+
+    //variable
+    fn_js_variable();
+    fn_js_variable2();
+
+
+    //log - message (log,message)
+    console.log("calling function log(type,message)")
+    log("err","error loading");
+    log("loading data");
+    log("msg","thing to do");
+
+
+    //// function properties
+    fn_dark(11);
+    fn_dark.num = 11;
+    console.error("fn_dark() properties")
+    console.log("fn_dark.num === " + fn_dark.num);
+    console.log("fn_dark.length === " + fn_dark.length);
+    console.log("fn_dark.toString() === " + fn_dark.toString());
+    console.log("fn_dark.arguments === " + fn_dark.arguments);      //?
+    console.log("***fn_dark.call.name === " + fn_dark.call.name);      //?
+
+
+    //closure
+    console.log("---[counter]-------------------------------------------"); //?
+
+    var count = fnGetCounter();
+
+    count(); //1
+    count(); //2
+    count(); //3
+
+
+    console.log("---[counter-2]-------------------------------------------");
+    var count2  = fnGetCounter2();
+    var fnReset = fnReset(); //function+print 0;
+
+    count2(); //1
+    count2(); //2
+    count2(); //3
+    fnReset(); //0
+    count2();  //1
+
+
+    console.log("---[this.*]-------------------------------------------");
+    //this.*
+    fnThisExample();
+
+
+    console.log("---[this.*, apply]-------------------------------------------");
+    fnAppyCallMethods();
+
+    var myobject = {fname:"shay", lname:"why", age:25, height:250};
+    console.log("---[this.*]-------------------------------------------");
+    fnAppyCallMethods2("John", "fireman");
+    fnAppyCallMethods2.apply(undefined, ["Susan", "school teacher"]);
+    fnAppyCallMethods2.call(undefined, "Claude", "mathematician");
+    fnAppyCallMethods2.call(undefined, ...["Matthew", "physicist"]); // used with the spread operator
+
+
+    //with apply
+    fnAppyCallMethods2.apply(myobject, [myobject.fname,myobject.lname]);
+    //with call
+    fnAppyCallMethods2.call(myobject, myobject.fname, myobject.lname);
+
+    console.info(" myobject === " + myobject + " === " + myobject.name  + " , " + myobject.age);
+
+
+    console.log("---[GetCalc --> SetCalc >> GlNumberAge(global-variable)]-------------------");
+    GetCalc();
+
+
+    console.log("---[global variable]-------------------------------------------");
+    writeGlobal(123);
+    printGloabl();
+
+
+
+
+    console.log("---[module]-------------------------------------------");
+    getModuleValue();
+
+
+    //??
+    console.log("---[function as a factory]----------------------------");
+    var fca1 = fnFactoryAdd(5,5);
+    var factoryOut1, factoryOut2;
+    var fca2 = fnCalcAdd(3,6);
+    factoryOut1 = fca1.dump;
+    factoryOut2 = fca1.print;
+    //fca2.dump;
+    console.log("FactoryOut1 === " + factoryOut1 + "  factoryOut2 === " + factoryOut2);
+    console.log(fca1);
+
+    console.log("---[function as a constructor]----------------------------");
+    var fpp1 = new fPinPoint(2,2);
+    console.log("print ==> fpp1 ==> ");
+    console.log(fpp1);
+
+
+    console.log("---[function as a constructor #2]----------------------------");
+    callfPinPoint();
+
+
+
+    console.log("---[Class example 1: ]--> <jsBasic3.class.js>----------------");
+    var nac = new Account("test", "drive");
+    nac.dump();
+
+
+    test();
+
+    console.log("---[Java Script - THE END]----------------------------");
+
+
+
+
+ </script>
+
+    <h2 class="body_font fnt_left"> jsBasic.html </h2>
+    <h2 class="body_font fnt_right"> ./js_example_01.js </h2>
+    <h2 class="body_font fnt_center">font center</h2>
+
+    <hr>
+
+</body>
+
+</html>

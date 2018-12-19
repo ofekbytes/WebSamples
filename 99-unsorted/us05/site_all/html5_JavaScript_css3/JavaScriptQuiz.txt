@@ -1,0 +1,33 @@
+
+
+// What would the output of the following code snippet be?
+console.log(5 + true);
+
++---------------------+
+| output              |
++---------------------+
+6
+
+
+//What are the values of b and c after executing this snippet?
+int a = 0;
+int b = a++;
+int c = ++b; // b=0 ==> ++b ==> b=1 ==> c=b ==> c=1
+
++---------------------+
+| output              |
++---------------------+
+b = 1
+c = 1
+
+
+// What does new Date(2016, 5, 31) return?
+
+// -!- mounth array start with 0-11 month start 1-12
+// month 5 = array 6
+31 day is not exist in June month (total day 30)
+thats why the month is July 1 2016
++---------------------+
+| output              |
++---------------------+
+July 1 2016

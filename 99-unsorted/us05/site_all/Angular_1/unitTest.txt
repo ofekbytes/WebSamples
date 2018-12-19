@@ -1,0 +1,24 @@
+
+[testing]
+
+
+[unit testing]
+[test driven development] (write a test before writing the code):
+
+
+unit testing -
+
+test driven development -
+write a test before writing the code
+
+
+
+Karma - a test runner that fits all our needs.
+https://karma-runner.github.io/1.0/index.html
+
+Protractor - testing
+Protractor is an end-to-end test framework for Angular and AngularJS applications.
+
+
+jasmine
+https://www.npmjs.com/package/jasmine#installation

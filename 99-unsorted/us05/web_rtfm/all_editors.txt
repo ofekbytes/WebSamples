@@ -1,0 +1,24 @@
+.
+.
+[editors]
+.
+.
+code editor - free
+breakets
+vscode
+unity
+
+
+movie editor - free
+blender
+www.blender.org
+
+
+picture editor - free
+gimp
+www.gimp.org
+
+
+sound - free
+audacity.org
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html data-ng-app="myApp"> <!-- Angularjs Directive> -->
+
+<head>
+	<meta charset="UTF-8">
+    <title>phone-list</title>
+
+    <link rel="stylesheet" type="text/css" href="./mainstyle.css">
+    <script type="text/javascript" src="./phone_list.json"></script>
+	<script language="javascript" src="./list.js"></script>
+</head>
+
+
+<body> <!--ng-controller for all the body-->
+
+    <h1 dir=rtl align=center>Phone List</h1>
+
+
+    <div class="container" data-ng-controller="custList" dir="rtl" align="right">
+       <p>Filtering
+       <input type "text" data-ng-model='nameText' />
+        <br><br align=right dir=rtl>-----<u> {{nameText}} </u> -----
+        </p>
+
+        <table dir=ltr align=center width=100%>
+
+          <tr>
+              <td width=8%> &nbsp; </td>
+              <td width=16%><u> First-Name </u></td>
+              <td width=16%><u> Last-Name </u></td>
+              <td width=16%><u> Phone </u></td>
+              <td width=16%><u> Fax </u></td>
+              <td width=20%><u> Email </u></td>
+              <td width=8%> &nbsp; </td>
+          </tr>
+              <tr data-ng-repeat="cust in customers | filter:nameText">
+              <td width=8%> &nbsp; </td>
+              <td width=16%> {{cust.fname}} </td>
+              <td width=16%> {{cust.lname}} </td>
+              <td width=16%> {{cust.cell}} </td>
+              <td width=16%> {{cust.fax}} </td>
+              <td width=20%> {{cust.email}} </td>
+              <td width=8%> &nbsp; </td>
+							<script>
+							   fnColorChange();
+							</script>
+          </tr>
+        </table>
+   </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+
+    <script>
+        //create new angular app with empty dependenices array
+        fnLoadPhoneList();
+
+
+    </script>
+
+</body>
+
+</html>

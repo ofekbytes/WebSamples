@@ -1,0 +1,56 @@
+
+
+/*mathSlideShow.css*/
+
+/*link hover*/
+a:hover { color: black; }
+a:active { color: black; }
+a:visited { color: black; }
+
+
+body {
+     background-color: black;
+}
+
+span {
+    font-size: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+span#idDateTime {
+  font-family: "Times New Roman", Times, serif;
+  color: red;
+  font-size: 10px;
+}
+
+span#val1 {
+    font-size: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: deepskyblue;
+}
+
+span#val2 {
+    font-size: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightblue;
+}
+
+span#val3 {
+    font-size: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: dodgerblue;
+}
+
+span#val4 {
+    font-size: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightblue;
+}
+
+span#val5 {
+    font-size: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightskyblue;
+}
+

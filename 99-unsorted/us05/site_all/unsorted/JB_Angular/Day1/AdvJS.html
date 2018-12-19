@@ -1,0 +1,56 @@
+<html>
+	<head>
+	</head>
+	<body>
+
+		<h1>Adv. JS</h1>
+		<script>
+
+					var undef1;
+
+					//if not undefined (undefined==false)
+					if(undef1){
+						console.log("udef1 is not undefined" + typeof(udef1));
+					}
+					else
+					{
+						console.log("udef1 is undefined ==> typeof(udef1) == " + typeof(udef1));
+					}
+
+					//this will throw exception
+					if(undef1 && undef1==10){
+						console.log("typeof(udef1) == " + typeof(udef1));
+					}
+					else {
+						console.log("udef1 is undefined ==> typeof(udef1) == " + typeof(udef1));
+
+					}
+
+					var arr=[];
+					arr.innerArr = [1,2,3];
+
+					function showName(name){
+						name = name || 'default value';
+						alert(name);
+					}
+
+					function getCounter(number){
+						var num=0;
+						if (number => 0)
+						{
+							num = number;
+						}
+
+						return function(){
+							++num;
+							console.log("num =" + num);
+						}
+					}
+
+					var counter = getCounter(2);
+					counter();
+					counter();
+					counter();
+		</script>
+	</body>
+</html>

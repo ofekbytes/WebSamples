@@ -1,0 +1,34 @@
+
+
+
+**[Text Casing]**
+
+*- PascalCase --> words first letter of each concatenated word is capitalized.
+                  No other characters are used to separate the words, like hyphens or underscores.
+                  Example: FirstName, LastName, BackColor, TextColor.
+
+*-  camelCase --> wordsfirst letter can be lowercase or capitalized 
+                  and each subsequent concatenated word is capitalized.
+                  Example: firstName, lastName, backColor, textColor.
+
+*-  Snake_case --> words always lowercased and combined with an underscore character (_)
+
+*-  mIxEd CaSe --> words with uppercase and lowercase.
+
+
+
+**[Variable Type convention]**
+
+*- constant/case variable -  declare variable name with a UPPERCASE.
+
+*- Class variable - declare variable name with PascalCase.
+
+*- function / procedure - declare variable name with camelCase.
+
+*- Single Letter Prefixes - declare a varaible word that his first 1-2 latter is small 
+                            (type of variale) and the rest is PascalCase (the name/purpose of the variable).
+                            sFirstName = "name"; //string
+                            iMaxNumber = 10; //integer
+                            stName = "name"; //String
+
+

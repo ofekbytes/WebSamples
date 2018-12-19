@@ -1,0 +1,26 @@
+.
+.
+[grunt]
+.
+.
+[grunt] - JavaScript task runner.
+performing repetitive tasks like minification, compilation, unit testing.
+
+
+[site]
+== getting-started 
+https://gruntjs.com/getting-started
+
+== sample-gruntfile
+https://gruntjs.com/sample-gruntfile
+
+== configuring-tasks
+https://gruntjs.com/configuring-tasks
+
+
+[install]
+$ npm install -g grunt-cli
+
+
+
+

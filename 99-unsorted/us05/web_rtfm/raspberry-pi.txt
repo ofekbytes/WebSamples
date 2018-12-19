@@ -1,0 +1,21 @@
+.
+.
+[raspberry-pi]
+.
+.
+
+http://www.makeuseof.com/tag/raspberry-pi-disk-images-install-weekend/
+
+http://geektillithertz.com/wordpress/index.php/2016/08/26/android7-raspberry-pi-3/
+
+http://geektillithertz.com/wordpress/index.php/2016/04/09/raspberry-pi-3-android-6-0-marshmallow-download/
+
+https://sourceforge.net/directory/os:windows/?q=android%206.0%20raspberry%20pi%203
+
+*andorid os*
+https://www.raspberrypi.org/magpi/android-raspberry-pi/
+
+*andorid download*
+https://git.embedded.rwth-aachen.de/rtandroid/downloads/raspberry-pi/
+
+

@@ -1,0 +1,124 @@
+
+* {
+    font-family: serif, sans-serif;
+    font-size: 10;
+}
+
+body{
+    background: gray;
+}
+
+
+h2{
+    color: blue;
+    background: lightblue;
+}
+
+hr{
+    color:lightgreen;
+    background: green;
+}
+
+.fnt_right
+{
+    text-align: right;
+}
+
+.fnt_center{
+    text-align: center;
+}
+
+.fnt_left{
+    text-align: left;
+}
+
+.fnt_right, .fnt_center, .fnt_left
+{
+    font-family: serif, sans-serif;
+}
+
+
+.body_font {
+    font-size: 20px;
+}
+
+.title_font {
+    font-size: 10px;
+}
+
+.footer_font {
+    font-size: 30px;
+}
+
+.body_font ,
+.title_font ,
+.footer_font {
+    font-family: Lobster, serif, sans-serif;
+    /*font-size: 8px;*/
+}
+
+
+
+.colorit{
+    font-family: serif, sans-serif;
+    color: lightblue;
+    background-color: blue;
+}
+
+.title.colorit
+{
+    font-size: 12;
+    text-align: left;
+}
+
+.textbody[id]{
+    font-size: 12;
+    text-align: right;
+    color:aqua;
+}
+
+#textbody{
+    font-size: 12;
+    text-align: center;
+    color:blue;
+}
+
+
+/*link hover*/
+a:hover { color: black; }
+a:active { color: black; }
+a:visited { color: black; }
+
+
+/*boxes & messages*/
+
+.box {
+  border: 2px solid black;
+  margin: 1em;
+  color: black;
+  background-color: white;
+
+}
+
+.important-box {
+  border: 2px solid black;
+  margin: 1em;
+  color: black;
+  background-color: lightgray;
+}
+
+.error-box {
+  border: 2px solid black;
+  margin: 1em;
+  background-color: #FCC;
+  color: black;
+  border-color: red;
+}
+
+.ok-box {
+  border: 3px solid black;
+  margin: 1em;
+  background-color: #90EE90;
+  color: black;
+  border-color: yellowgreen;
+}

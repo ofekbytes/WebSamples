@@ -1,0 +1,76 @@
+<html ng-app="myApp">
+	<head>
+		<title>Hello World, AngularJS - ViralPatel.net</title>
+		<meta charset="utf-8" />
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+		<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+	</head>	
+	<body class="container">
+		<div ng-controller="ContactController">
+			{{greeting}}
+			<pre>{{kipiUser}}</pre>
+			<select>
+				<option ng-repeat="location in locations track by $index">{{location}}</option>
+			</select>
+			
+		</div>
+	<script type="text/javascript">
+		//create new angular app with empty dependencies array
+		var myApp = angular.module('myApp',[]);
+		// can get any data type if get object it should be instance of class 
+		myApp.value('greetingValue','Hello');
+		// get a class and will be lazy instantiated
+		myApp.service('StorageService',['greetingValue',function(greetingValue){
+			this.userName = 'Kipi ben Kipod';
+			this.greet = this.userName + ' ' +greetingValue;
+			this.getAddress=function(){
+				return "Sesami street";
+			}
+		}]);
+		
+		//factory is a static class with private/pubilc static members
+		myApp.factory('LocationsFactory',['greetingValue',function(greetingValue){
+			/* private memebers*/
+			var locations = ['Krypton','Wonder land'];
+			//public API
+			return {
+				getList: function(){
+					return locations;
+				}
+			}
+		}]);
+
+		//the provider itself
+		myApp.provider('Contactlist',function(){
+			// private member
+			var cacheEnabled = false;
+			// private member except config
+			this.enableCache = function(cache){
+				cacheEnabled=cache;
+			}
+			// this is the public API
+			this.$get = function(){
+				//public api private 
+				var list = ['Alon','Kipi','Moishe'];
+				return {
+					getList: function(){
+						return list;
+					}
+				}
+			}
+		})
+		//configure all providers
+		myApp.config(function(ContactlistProvider){
+			ContactlistProvider.enableCache(true);
+		});
+		myApp.controller('ContactController',
+		['$scope','$filter','greetingValue','StorageService','LocationsFactory','Contactlist',
+		function ContactController($scope,$filter,greetingValue,StorageService,LocationsFactory,Contactlist) {
+			$scope.greeting = StorageService.greet;
+			$scope.kipiUser = StorageService;
+			$scope.locations = LocationsFactory.getList();
+			$scope.contactList = Contactlist.getList();
+		}]);
+	</script>
+	</body>
+</html>

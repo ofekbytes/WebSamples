@@ -1,0 +1,33 @@
+.
+.
+[Angular_1_Dictionary_general]
+.
+
+
+angular SPA FrameWork (directory)
+AngularJS ("Angular.js" or "AngularJS 1.X") is a JavaScript-based open-source front-end web application framework
+
+
+
+
+
+
+*** [angularjs 1 wikipedia] ***
+https://en.wikipedia.org/wiki/AngularJS
+
+
+
+
+[Living_document] -
+https://en.wikipedia.org/wiki/Living_document
+
+
+
+??
+
+[Angular (application platform)]
+https://en.wikipedia.org/wiki/Angular_(application_platform)
+
+
+[Cross-platform interchange]
+https://en.wikipedia.org/wiki/Cross-platform_interchange

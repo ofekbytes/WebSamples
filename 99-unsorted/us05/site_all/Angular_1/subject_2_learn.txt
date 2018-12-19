@@ -1,0 +1,5 @@
+subject to learn
+
+
+scope:
+angular.element($0).scope().

@@ -1,0 +1,26 @@
+.
+.
+[DOM] - the Document Object Model
+.
+.
+The W3C Document Object Model (DOM) is a platform and language-neutral interface that allows
+programs and scripts to dynamically access and update the content, structure, and style of a document."
+
+
+
+-!- The DOM: Style in the Header, Script in the Footer
+
+
+
+
+subject to learn
+- DOMContentLoaded
+-
+
+
+-- getElementById
+document.getElementById("name").innerHTML = "i have a new name";
+
+
+-- getElementsByTagName
+document.getElementsByTagName("h1")[0].innerHTML = "change text in first h1 (h1[0])";

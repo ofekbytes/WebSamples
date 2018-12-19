@@ -1,0 +1,31 @@
+.
+.
+[pouchdb]
+.
+.
+
+[download]
+https://pouchdb.com/download.html
+
+[npm --> pouchdb-browser]
+$ npm install --save pouchdb
+
+//After installing, call require() to use it:
+
+var PouchDB = require('pouchdb');
+var db = new PouchDB('my_database');
+
+//PouchDB can be used either in Node or in the browser.
+//A bundler such as Browserify, Webpack, or Rollup is needed for browser usage.
+
+
+[Browser only]
+$ npm install --save pouchdb-browser
+
+
+[bower -- >pouchdb]
+bower install --> save pouchdb
+
+
+[pouchdb git]
+git clone https://github.com/pouchdb/pouchdb.git

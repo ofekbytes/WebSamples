@@ -1,0 +1,57 @@
+.
+.
+[node.js]
+.
+.
+
+[node.js] - 
+
+[npm] - npm is the package manager for JavaScript and the world’s largest software registry.
+
+
+[site]
+https://nodejs.org/en/
+
+
+[download]
+https://nodejs.org/en/download/
+
+
+[ubuntu console installation - apt-get]
+
+[install curl]
+$ sudo apt-get install curl
+
+[install pacman]
+$ sudo apt-get install pacman
+
+
+[install node.js] 
+
+[node.js version 6]
+$ curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+$ sudo apt-get install -y nodejs
+
+[node.js version 7]
+$ curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
+$ sudo apt-get install -y nodejs
+
+[node.js build-essential]
+$ sudo apt-get install -y build-essential
+
+
+[another way to install]
+Node.js and npm packages are available in the Community Repository:
+$ pacman -S nodejs npm
+
+
+[updte npm version]
+$ sudo npm install npm -g
+
+
+[install just the npm - not recommended]
+$ sudo apt-get install npm
+
+
+
+

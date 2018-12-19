@@ -1,0 +1,18 @@
+.
+.
+[jquery]
+.
+.
+
+https://jquery.com/download/
+
+
+[download]
+https://jquery.com/download/
+
+$ npm install jquery
+
+$ bower install jquery
+
+
+

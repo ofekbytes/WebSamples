@@ -1,0 +1,95 @@
+Java-Script dictionary:
+
+JavaScript is one of the 3 languages all web developers must learn:
+   1. HTML to define the content of web pages
+   2. CSS to specify the layout of web pages
+   3. JavaScript to program the behavior of web pages
+   
+implicit variable declaration -->
+
+undefined --> undeclared variable
+
+window -->
+console.log(window.num);
+
+heap -->
+
+value -->
+
+reference type -->
+reference is implemented as a pointer 
+
+*- string < ""  '' > -->
+*- boolean -->
+*- number -->
+*- casting -->
+
+*- array / object -->
+*- function -->
+*- this --> Avvailable only inside a function
+*- logical operators < ||  && > -->
+*- Error Handling and debugging -->
+*- apply & call method (recap) - 
+--- control the value of "this.*" using "apply" method and "call" method
+--- "apply" method lets you invoke the function with arguments as an array; 
+     theFunction.apply(valueForThis, arrayOfArgs);
+--- "call" requires the parameters be listed explicitly. 
+     theFunction.call(valueForThis, arg1, arg2, ...);
+-- self executing function
+--- function witout a name 
+--- a.k.a self executing function
+*- closure --> inner function may access the local variables of the outer function
+
+*- Modules --> arrange JavaScript code into modules.
+               module is surrounded with self executing function
+               (hides all local variable and function).
+               collection of global methods.
+               regular function invoke multiple time (new)
+               
+*- class --> 
+*- factory --> 
+*- tateful function -->
+*- constructor -->
+
+*- function as a factory -->
+*- function as constructor -->
+
+*- The Core (ECMAScript) --> 
+*- The DOM (Document Object Model) --> 
+*- The BOM (Browser Object Model) --> 
+
+
+
+-**** view and delete
+https://code.tutsplus.com/articles/9-confusing-naming-conventions-for-beginners--net-15584
+
+.
+.
+HTML5 mobile apps
+- Server side development (NodeJS)
+- JS on devices – the internet of things
+.
+.
+
+value vs reference
+reference type
+- object
+- array
+- function
+
+
+reference is implemented as a pointer (object inside heap)
+reference can point to the same object
+value can only copied. (not address)
+
+
+"this.*" - available only inside a function.
+
+global object - point to the window object.
+
+
+
+
+
+
+

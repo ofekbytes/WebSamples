@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="he" >
+<head>
+ 
+    <title>לוח הכפל</title>
+    <link href="main.css"rel="stylesheet"type="text/css"/>
+    <meta name=viewport content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+ 	<script src="jquery.js"></script>
+    <script src="controller.js"></script>
+ 
+</head>
+<body onloadstart="fnRand">
+
+<div id="topbar" align=center> שאלות לוח הכפל </div>
+
+    
+<p id="demo"></p>  
+    
+<script>
+function fnRand() {
+    var x = Math.floor((Math.random() * 60) + 1);
+    document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+    
+</body>
+</html>

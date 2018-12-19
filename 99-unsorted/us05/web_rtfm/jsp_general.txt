@@ -1,0 +1,35 @@
+##
+## JPS
+##
+
+
+JSP (Java Server Pages) is a server-side developing a Web pages that supports dynamic content.
+insert java code in HTML pages with JSP tags.
+jsp can access java api's like jdbc api.
+
+example:
+<% and end with %>.
+
+
+
+links:
+https://www.tutorialspoint.com/jsp/jsp_overview.htm
+
+
+https://he.wikipedia.org/wiki/JavaServer_Pages
+
+http://j2eetutorials.50webs.com/JSP_example1.html
+https://www3.ntu.edu.sg/home/ehchua/programming/java/JSPByExample.html
+
+
+???
+http://webmaster.org.il/articles/jsp
+
+
+??install??
+
+http://www.tutorialspoint.com/articles/run-your-first-jsp-program-in-apache-tomcat-server
+
+
+ Configuring Tomcat on Ubuntu
+https://www.youtube.com/watch?v=UTAMrGCZi2I

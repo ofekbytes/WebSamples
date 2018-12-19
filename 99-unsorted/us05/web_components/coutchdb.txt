@@ -1,0 +1,18 @@
+.
+.
+[pouchdb]
+.
+.
+
+[download]
+
+
+
+[read]
+http://cnx.org/contents/zyXaXgRS@14/Apache-CouchDB---a-quick-start
+
+
+[chouchdb - link]
+http://localhost:5984/
+
+http://127.0.0.1:5984/

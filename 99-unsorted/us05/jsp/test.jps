@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>jsp</title>
+</head>
+<body>
+
+<%-- START --%>
+<%
+    out.println("Welcome to JSP.");
+%>
+<%-- END --%>
+
+</body>
+</html>

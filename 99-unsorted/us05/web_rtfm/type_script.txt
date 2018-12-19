@@ -1,0 +1,47 @@
+.
+.
+[Type-Script]
+.
+.
+https://www.typescriptlang.org/
+
+
+[download]
+https://www.typescriptlang.org/index.html#download-links
+
+https://github.com/Microsoft/TypeScript
+
+[git]
+$ git clone https://github.com/Microsoft/TypeScript.git
+$ git clone https://github.com/Microsoft/TypeScriptSamples.git
+
+
+[Type-Script - install]
+.
+.
+[INSTALLnpm]
+$ npm install -g typescript
+
+[COMPILE]
+$ tsc helloworld.ts
+
+
+[tutorial/documentation]
+https://www.typescriptlang.org/docs/tutorial.html
+
+[wiki]
+https://en.wikipedia.org/wiki/TypeScript
+https://he.wikipedia.org/wiki/TypeScript
+
+[samples]
+https://www.typescriptlang.org/samples/index.html
+
+[greeter - example]
+tsc --sourcemap greeter.ts
+start greeter.html
+
+[PlayGround]
+https://www.typescriptlang.org/play/index.html
+
+
+

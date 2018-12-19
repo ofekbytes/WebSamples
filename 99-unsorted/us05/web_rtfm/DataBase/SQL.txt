@@ -1,0 +1,16 @@
+.
+.
+[SQL]
+.
+.
+
+sql ddl (Data definition language)
+https://en.wikipedia.org/wiki/Data_definition_language
+
+
+sql dml (Data manipulation language)
+https://en.wikipedia.org/wiki/Data_manipulation_language
+
+
+sql dcl (Data control language)
+https://en.wikipedia.org/wiki/Data_control_language

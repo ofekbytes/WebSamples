@@ -1,0 +1,55 @@
+.
+.
+.[harel]
+.
+.
+JAVA
+Full Stack
+SQL
+
+
+**[ux]
+html5
+JAVA SCRIPT
+AngularJS
+JSP
+
+
+Unit-test
+
+
+Profiling
+https://en.wikipedia.org/wiki/Profiling_(computer_programming)
+
+Optimization
+https://en.wikipedia.org/wiki/Program_optimization
+https://he.wikipedia.org/wiki/%D7%90%D7%95%D7%A4%D7%98%D7%99%D7%9E%D7%99%D7%96%D7%A6%D7%99%D7%94_(%D7%9E%D7%AA%D7%9E%D7%98%D7%99%D7%A7%D7%94)
+https://en.wikipedia.org/wiki/Mathematical_optimization
+
+
+[ci]
+Jenkins
+https://en.wikipedia.org/wiki/Jenkins_(software)
+
+Hibernate (framework)
+https://en.wikipedia.org/wiki/Hibernate_(framework)
+https://he.wikipedia.org/wiki/Hibernate
+
+
+AGILE
+https://he.wikipedia.org/wiki/%D7%A4%D7%99%D7%AA%D7%95%D7%97_%D7%AA%D7%95%D7%9B%D7%A0%D7%94_%D7%96%D7%A8%D7%99%D7%96
+https://en.wikipedia.org/wiki/Agile_software_development
+
+DevOps
+https://he.wikipedia.org/wiki/DevOps
+https://en.wikipedia.org/wiki/DevOps
+
+
+Software deployment
+https://en.wikipedia.org/wiki/Software_deployment
+https://he.wikipedia.org/wiki/%D7%A4%D7%A8%D7%99%D7%A1%D7%AA_%D7%AA%D7%95%D7%9B%D7%A0%D7%94
+
+
+Continuous delivery
+https://en.wikipedia.org/wiki/Continuous_delivery
+https://he.wikipedia.org/wiki/%D7%90%D7%99%D7%A0%D7%98%D7%92%D7%A8%D7%A6%D7%99%D7%94_%D7%A8%D7%A6%D7%99%D7%A4%D7%94

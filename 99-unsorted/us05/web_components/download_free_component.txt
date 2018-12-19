@@ -1,0 +1,14 @@
+﻿
+
+ng-grid
+angular-strap
+ngStorage
+angular-ui-tree
+angular-loading-bar
+ng-sortable
+ng-table
+ui-router
+angular-translate
+angular-ui
+ng-file-upload
+angular-chart

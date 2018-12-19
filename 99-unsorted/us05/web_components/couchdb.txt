@@ -1,0 +1,15 @@
+.
+.
+[couchdb]
+.
+.
+
+[download]
+http://couchdb.apache.org/
+
+[manual]
+
+http://docs.couchdb.org/en/2.0.0/
+
+http://docs.couchdb.org/en/2.0.0/intro/tour.html
+

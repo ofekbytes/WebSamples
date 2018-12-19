@@ -1,0 +1,122 @@
+<!--
+Use the Bootstrap Grid to Put Elements Side By Side
+Bootstrap uses a responsive grid system.
+put element/s into rows and specify each element/s relative width.
+Most of Bootstrap's classes can be applied to a div element.
+
+Bootstrap's 12-column grid layout:
+[col-md-1][col-md-1][col-md-1][col-md-1][col-md-1][col-md-1][col-md-1][col-md-1][col-md-1][col-md-1][col-md-1][col-md-1]
+[__________________________col-md-6________________________][__________________________col-md-6________________________]
+[___________________________________col-md-8___________________________________][_______________col-md-4_______________]
+[_______________col-md-4_______________][_______________col-md-4_______________][_______________col-md-4_______________]
+
+[class col]
+"xs" - extra small size -(<576px)- a display for phone.
+"sm" - Small size -(≥576px)- a dispaly for laptop / tablets.
+"md" - medium size -(≥768px)- a dispaly for laptop / Desktop.
+"lg" - larger size -(≥992px)- a dispaly for laptop / Desktop.
+"xl" - extra large -(≥1200px)- a dispaly for laptop / Desktop.
+
+<div class="col-xs-4"> element</div>
+
+[class="row"]
+<div class="row">
+
+[col/row example]
+<div class="row">
+<div class="col-xs-4"> element 1.</div>
+<div class="col-xs-4"> element 2.</div>
+<div class="col-xs-4"> element 3.</div>
+<div class="col-xs-4"> element 4.</div>
+</div>
+-->
+
+<!--header -->
+<!DOCTYPE html>
+<html lang="en">  <!-- "en"=english; "he"=hebrew -->
+
+<head>
+  <title>bootstrap</title>
+
+  <link rel="stylesheet" href="../../components/bootstrap-3.3.7-dist/css/bootstrap.css">
+</head>
+<body>
+
+
+
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+  <style>
+    .red-text {
+      color: red;
+    }
+
+    h2 {
+      font-family: Lobster, Monospace;
+    }
+
+    p {
+      font-size: 16px;
+      font-family: Monospace;
+    }
+
+    .thick-green-border {
+      border-color: green;
+      border-width: 10px;
+      border-style: solid;
+      border-radius: 50%;
+    }
+
+    .smaller-image {
+      width: 100px;
+    }
+  </style>
+
+  <div class="container-fluid">
+    <h2 class="red-text text-center">CatPhotoApp</h2>
+
+    <p>Click here for <a href="#">cat photos</a>.</p>
+
+    <a href="#"><img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back. "></a>
+
+    <img src="https://bit.ly/fcc-running-cats" class="img-responsive" alt="Three kittens running towards the camera. ">
+
+  <div class="row">
+    <div class="col-xs-4"><button class="btn btn-primary">Like</button></div>
+    <div class="col-xs-4"><button class="btn btn-info">Info</button></div>
+    <div class="col-xs-4"><button class="btn btn-danger">Delete</button></div>
+  </div>
+
+    <p>Things cats love:</p>
+    <ul>
+      <li>cat nip</li>
+      <li>laser pointers</li>
+      <li>lasagna</li>
+    </ul>
+    <p>Top 3 things cats hate:</p>
+    <ol>
+      <li>flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+    </ol>
+    <form action="/submit-cat-photo">
+      <label><input type="radio" name="indoor-outdoor"> Indoor</label>
+      <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+      <label><input type="checkbox" name="personality"> Loving</label>
+      <label><input type="checkbox" name="personality"> Lazy</label>
+      <label><input type="checkbox" name="personality"> Crazy</label>
+      <input type="text" placeholder="cat photo URL" required>
+      <div class="row"><div class="col-xs-4"><button type="submit" class="btn-primary" >Submit</button></div></div>
+    </form>
+  </div>
+
+
+
+    <!--footer-->
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script type="text/javascript" src="../../components/jquery-3.2.1/jquery-3.2.1.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="../../components/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <!--/footer-->
+
+</body>
+</html>

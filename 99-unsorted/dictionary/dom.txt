@@ -1,0 +1,16 @@
+
+[DOM] - Document Object Model -
+The Document Object Model (DOM) is a cross-platform and language-independent
+application programming interface that treats an HTML, XHTML, or
+XML document as a tree structure wherein each node is an object representing a part of the document.
+The objects can be manipulated programmatically and any visible changes occurring as a result
+may then be reflected in the display of the document.
+
+The principal standardization of DOM was handled by the W3C, which last developed a recommendation in 2004.
+WHATWG took over development of the standard, publishing it as a living document.
+The W3C now publishes stable snapshots of the WHATWG standard.
+
+
+[WHATWG] - Web Hypertext Application Technology Working Group.
+WHATWG is a community of people interested in evolving HTML and related technologies.
+https://en.wikipedia.org/wiki/World_Wide_Web_Consortium

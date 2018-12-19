@@ -1,0 +1,46 @@
+
+*
+{
+    color: black;
+    /*background: lightgray;*/
+    padding: 5px;
+}
+
+h1,h2
+{
+    color: darkblue;
+/*    background: gray;*/
+    padding: 15px;
+}
+
+#search
+{
+    color: white;
+/*    background: gray;*/
+    padding: 10px;
+}
+
+/*
+tr
+{
+    background: lightblue;
+}
+*/
+
+td
+{
+    background: linear-gradient(60deg, gray, white);
+    text-align: center;
+}
+
+#td_zogi
+{
+    background: linear-gradient(60deg, gray, white);
+    text-align: center;
+}
+
+#td_eizogi
+{
+    background: linear-gradient(60deg, lightgray, white);
+    text-align: center;
+}

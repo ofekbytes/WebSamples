@@ -1,0 +1,25 @@
+body{
+    margin-top : 60px;
+    background-color: black;
+    color: white;
+  }
+
+  .title {
+    color: green;
+    background-color: lightgray;
+    align-items: center;
+  }
+
+
+  .thick-green-border {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5%;
+  }
+
+
+
+  .smaller-image {
+    width: 100%;
+  }

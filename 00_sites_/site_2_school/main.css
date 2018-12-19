@@ -1,0 +1,42 @@
+
+body{
+background: linear-gradient(60deg, black, white);
+/*background: radial-gradient(red, yellow, rgb(33, 150, 255));*/
+/* background-image: url(http://forum.vgd.ru/file.php?fid=77179); */
+}
+
+table{
+  /*border: 1px dotted black;*/
+  width: 100%;
+  background: linear-gradient(60deg, blue, white);
+}
+td{
+  width:14%;
+  text-align: center;
+}
+
+.page_head {
+  font-size: 40px;
+  color: lightblue;
+  background: blue;
+  direction: rtl;
+  text-align: center;
+}
+
+.page_middle {
+  font-size: 12px;
+  font-weight: bolder;
+  color:  black;
+  background: yellow;
+  direction: rtl;
+}
+
+
+.page_bottom {
+  font-size: 8px;
+  color:  yellow;
+  background: black;
+  direction: rtl; 
+}
+
+.lw { font-size: 60px; }

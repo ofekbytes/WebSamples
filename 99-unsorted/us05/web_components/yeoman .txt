@@ -1,0 +1,21 @@
+.
+.
+[Yeoman]
+.
+.
+[Yeoman] - THE WEB'S SCAFFOLDING TOOnpm install -g yo
+Yeoman helps you to kickstart new projects, prescribing best practices and tools to help you stay productive.
+
+
+[site]
+http://yeoman.io/
+
+[download]
+http://yeoman.io/
+
+[install]
+$ npm install -g yo
+
+
+
+

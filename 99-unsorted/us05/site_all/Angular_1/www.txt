@@ -1,0 +1,89 @@
+﻿[www]
+
+
+***[angular 4]
+https://angular.io/
+
+
+***[angular 1]
+
+[1] https://angularjs.org/
+
+[2] https://docs.angularjs.org/tutorial
+
+[3]
+https://docs.angularjs.org/guide
+https://docs.angularjs.org/guide/concepts
+https://docs.angularjs.org/guide/directive
+
+
+
+***[angular - wikipedia]
+https://en.wikipedia.org/wiki/AngularJS
+
+***[data_binding]
+https://en.wikipedia.org/wiki/Data_binding
+
+***[cdn]
+https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js
+https://en.wikipedia.org/wiki/Content_delivery_network
+
+***[WHATWG] - Web Hypertext Application Technology Working Group.
+https://en.wikipedia.org/wiki/World_Wide_Web_Consortium
+
+***[directive]
+https://docs.angularjs.org/guide/directive
+
+***[SPA] - Single Page Application
+https://en.wikipedia.org/wiki/Single-page_application
+
+
+***[cross domain]***
+https://en.wikipedia.org/wiki/Cross-domain_solution
+https://en.wikipedia.org/wiki/Cross-origin_resource_sharing
+https://en.wikipedia.org/wiki/Cross-domain_interoperability
+https://en.wikipedia.org/wiki/Same-origin_policy
+https://en.wikipedia.org/wiki/Cross-site_request_forgery
+
+
+[testing]
+
+Protractor - testing
+http://www.protractortest.org/#/
+$ git clone https://github.com/angular/protractor.git
+
+
+Karma - a test runner that fits all our needs.
+https://karma-runner.github.io/1.0/index.html
+$ npm install karma
+$ git clone https://github.com/karma-runner/karma.git
+$ git clone https://github.com/karma-runner/karma-mocha.git
+$ git clone https://github.com/karma-runner/karma-qunit.git
+
+
+Jasmine (JavaScript testing framework) -
+https://en.wikipedia.org/wiki/Jasmine_(JavaScript_testing_framework)
+https://de.wikipedia.org/wiki/Jasmine_(JavaScript)
+
+jasmine install:
+https://www.npmjs.com/package/jasmine#installation
+
+
+
+[testing]
+
+unit-testing + test driven development
+https://www.youtube.com/watch?v=82iDVtbr7cY&list=PLAwxTw4SYaPkv4LG-0UHNfhPkKPfYacOg&index=1
+
+https://www.youtube.com/watch?v=5mHjJ4xf_K0
+
+
+
+[Common AngularJS Questions]
+https://www.codementor.io/angularjs/tutorial/angularjs-interview-questions-sample-answers
+
+https://www.toptal.com/angular-js/interview-questions
+
+https://www.codeproject.com/Articles/891718/AngularJS-Interview-Questions-and-Answers
+
+*

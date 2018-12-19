@@ -1,0 +1,44 @@
+.
+.
+[JavaScript]
+.
+.
+JavaScript is one of the 3 languages all web developers must learn:
+   1. HTML to define the content of web pages
+   2. CSS to specify the layout of web pages
+   3. JavaScript to program the behavior of web pages
+   
+   
+Language Overview
+- Types
+- Arrays
+- Functions
+- Error Handling and debugging
+- Modules
+.
+.
+HTML5 mobile apps
+- Server side development (NodeJS)
+- JS on devices – the internet of things
+.
+.
+
+value vs reference
+reference type
+- object
+- array
+- function
+
+reference is implemented as a pointer (object inside heap)
+reference can point to the same object
+value can only copied. (not address)
+
+
+"this.*" - available only inside a function.
+
+global object - point to the window object.
+
+
+
+
+

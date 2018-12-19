@@ -1,0 +1,13 @@
+.
+.
+[MySql]
+.
+.
+
+
+MySql Connection - basic information:
+--------------------------
+hostname: localhost
+port: 3306
+user: root
+password: MyBasicPassword

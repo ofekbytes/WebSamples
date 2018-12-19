@@ -1,0 +1,27 @@
+
+[CDN] - content delivery network -or- content distribution network.
+CDN is a geographically distributed network of proxy servers and their data centers.
+The goal is to distribute service spatially relative to end-users to provide high availability
+and high performance.
+- CDNs serve a large fraction of the Internet content today,
+-- including web objects (text, graphics and scripts),
+-- downloadable objects (media files, software, documents),
+-- applications (e-commerce, portals),
+-- live streaming media,
+-- on-demand streaming media,
+-- social networks.
+
+- CDN nodes are usually deployed in multiple locations, often over multiple backbones.
+- CDN Benefits include
+-- reducing bandwidth costs,
+-- improving page load times,
+-- increasing global availability of content.
+
+- The number of nodes and servers making up a CDN varies, depending on the architecture,
+some reaching thousands of nodes with tens of thousands of
+servers on many remote points of presence (PoPs).
+Others build a global network and have a small number of geographical PoPs.
+
+- CDN Benefit:
+-- Cashing benefit
+-- parallize benefit of browser can load different scripts from different domain (cross domain)

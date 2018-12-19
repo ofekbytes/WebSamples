@@ -1,0 +1,28 @@
+
+
+Free Code Camp Youtube:
+
+.
+.
+[JavaScript playlist]
+.
+.
+//JavaScript Basic
+https://www.youtube.com/playlist?list=PLWKjhJtqVAbk2qRZtWSzCIN38JC_NdhW5
+
+//JavaScript Clean Code
+https://www.youtube.com/playlist?list=PLWKjhJtqVAbkK24EaPurzMq0-kw5U9pJh
+
+//JavaScript Data Structures and Algorithms
+https://www.youtube.com/playlist?list=PLWKjhJtqVAbkso-IbgiiP48n-O-JQA9PJ
+
+//JavaScript Design Patterns 
+https://www.youtube.com/playlist?list=PLWKjhJtqVAbnZtkAI3BqcYxKnfWn_C704    
+
+//JavaScript ES6
+https://www.youtube.com/playlist?list=PLWKjhJtqVAbljtmmeS0c-CEl2LdE-eR_F
+.
+.
+[JavaScript]
+.
+.

@@ -1,0 +1,29 @@
+.
+.
+[DataBase Links]
+.
+.
+
+- read.me
+
+http://nosql-database.org/
+
+http://www.capterra.com/big-data-software/
+
+https://en.wikipedia.org/wiki/NoSQL
+
+
+.
+.
+[manual]
+.
+.
+
+
+
+
+.
+.
+[Download]
+.
+.

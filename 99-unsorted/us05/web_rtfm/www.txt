@@ -1,0 +1,48 @@
+[www]
+
+
+todomvc: ???
+http://todomvc.com/
+
+
+Angular_2 videos links:
+
+https://www.youtube.com/watch?v=J5Bvy4KhIs0&list=PLOETEcp3DkCq788xapkP_OU-78jhTf68j&index=1
+
+https://www.youtube.com/watch?v=e3djIqAGqZo
+
+https://www.youtube.com/watch?v=hpqvLKmmm5U
+
+https://www.youtube.com/watch?v=wgbBVqNJ4QY
+
+https://www.youtube.com/watch?v=1awD6ADnEWo
+
+
+
+links:
+
+Angular 2 - npm
+https://www.npmjs.com/package/angular2
+
+
+Angular 2
+https://angular.io/
+
+
+Angular 2 - quickstart
+https://angular.io/docs/ts/latest/quickstart.html
+
+
+Angular 2 - Angular Augury
+Augury is a Chrome Dev Tools extension for debugging Angular 2 applications.)
+https://augury.angular.io/
+
+
+Angular_2 CLI install
+https://cli.angular.io/
+
+
+other stuff
+https://github.com/jacurtis/laravel-blog-tutorial
+https://github.com/jacurtis
+https://www.youtube.com/watch?v=czxuzH0kRHs

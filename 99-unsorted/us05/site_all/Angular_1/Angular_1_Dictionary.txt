@@ -1,0 +1,150 @@
+.
+.
+[Angular 1 Dictionary]
+.
+.
+
+angular SPA FrameWork (directory)
+AngularJS ("Angular.js" or "AngularJS 1.X") is a JavaScript-based open-source front-end web application framework.
+
+
+[SPA] - Single-page application
+In an SPA, either all necessary code – HTML, JavaScript, CSS is retrieved with a single page load,
+or the appropriate resources are dynamically loaded and added to the page as necessary, usually in response to user actions.
+
+
+[CDN] - content delivery network -or- content distribution network.
+CDN is a geographically distributed network of proxy servers and their data centers.
+
+- CDN Benefit:
+-- Cashing benefit
+-- parallize benefit of browser can load different scripts from different domain
+<see "Angular_1_Dictionary_general.txt">
+
+
+***[cross domain]: ***
+https://en.wikipedia.org/wiki/Cross-domain_solution
+https://en.wikipedia.org/wiki/Cross-origin_resource_sharing
+https://en.wikipedia.org/wiki/Cross-domain_interoperability
+https://en.wikipedia.org/wiki/Same-origin_policy
+https://en.wikipedia.org/wiki/Cross-site_request_forgery
+
+
+[DOM] - Document Object Model -
+The Document Object Model (DOM) is a cross-platform and language-independent
+application programming interface that treats an HTML, XHTML, or
+XML document as a tree structure wherein each node is an object representing a part of the document.
+<see "Angular_1_Dictionary_general.txt">
+
+
+
+[Angular SPA FrameWork Subject]
+
+[Data Binding] - Two Way Data Binding
+Data binding is a general technique that binds data sources from the provider
+and consumer together and synchronizes them.
+This is usually done with two data/information sources with different languages
+as in XML data binding.
+In UI data binding, data and information objects of the same language but different
+logic function are bound together (e.g. Java UI elements to Java objects).
+In a data binding process, each data change is reflected automatically by
+the elements that are bound to the data.
+The term data binding is also used in cases where an outer representation of data
+in an element changes, and the underlying data is automatically updated
+to reflect this change.
+As an example, a change in a TextBox element could modify the underlying data value.
+
+
+[The Provider ($provide)] -
+https://github.com/angular/angular.js/wiki/Understanding-Dependency-Injection
+
+provider example:
+https://github.com/yunlzheng/workspace/wiki/angular-provider
+
+
+[MVC] -
+Model View Controller
+
+[Routing] -
+Routing of the view (routing support)
+
+[Testing] -
+building test (unit text)
+
+[Jqlite] - JQuery lite -
+dom minpulation
+JQuery and Angular can work togther.
+
+[Templates] -
+Data Binding - full support for template
+
+[History] -
+Data Binding - build in
+
+[Factories] - share code
+
+[Services] - share code
+
+[ViewModel] - Data Binding
+
+[Directive] - teach html new tricks
+
+[validation] -
+
+[dependency injection] -
+dynamically injecting new feature at run time
+
+[controllers] -
+
+
+[views] -
+what the user sees (the DOM)
+
+
+[DOM] - Document Object Model -
+The Document Object Model (DOM) is a cross-platform and language-independent
+application programming interface that treats an HTML, XHTML, or
+XML document as a tree structure wherein each node is an object representing a part of the document.
+The objects can be manipulated programmatically and any visible changes occurring as a result
+may then be reflected in the display of the document.
+
+The principal standardization of DOM was handled by the W3C, which last developed a recommendation in 2004.
+WHATWG took over development of the standard, publishing it as a living document.
+The W3C now publishes stable snapshots of the WHATWG standard.
+
+
+[WHATWG] - Web Hypertext Application Technology Working Group.
+WHATWG is a community of people interested in evolving HTML and related technologies.
+
+
+
+[directive] - directive is a way to teach html new tricks.
+
+- directive/s list
+-- data-ng-app
+-- data-ng-model
+   data-ng-model is a view view-model
+-- {{::data Binding Expression}}
+
+
+filter
+data Binding, two way data binding
+
+
+views
+controllers
+scope
+
+
+
+modules
+routes
+factories
+
+
+transclusion
+restriction
+linking
+scope
+space
+promise

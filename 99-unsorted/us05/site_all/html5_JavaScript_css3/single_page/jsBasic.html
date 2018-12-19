@@ -1,0 +1,145 @@
+<html>
+	<head>
+	</head>
+	<body>
+
+		<h2>JavaScript </h2>
+		<h4><br/>JavaScript,css3 inside html5 file.
+		<br/>Press "F12" - to view output inside console</h4>
+		<script>
+
+		
+            console.log("console.log()");
+            console.warn("console.warn()");
+            console.error("console.error()");
+
+
+            /* variable declaration */
+			var a;
+
+            console.log("log: log: a == " + a + " typeof " + typeof(a));
+
+			//string
+			a = 'str';
+
+			//numeric
+			a = 121.12;
+
+			//boolean
+			a = true;
+
+			//undefined (null in any othe language)
+			console.log(typeof b);
+
+			//object
+			a = {}; //empty object
+			console.log(typeof null); //object
+
+			//array (Object)
+			a = []; //empty array
+			console.log(typeof []); //object
+
+			var obj = {
+				prop1 : "Hello"
+			};
+
+
+			var key = "prop1";
+			obj.prop1;
+			obj["prop1"];
+			obj[key];
+
+
+			//datatype function
+			function func(){}
+			var func = function(){};
+
+
+			//casting
+			var a="1";
+			a = parseInt(a);
+			b = a*1; //b is numeric
+			a*=1;
+
+
+			var b="hello";
+			b*1; // NaN (Not a numeric)
+
+			a=1;
+			a.toString();
+			a+'';
+
+			a="1";
+			// convert to boolean
+			a=!!a;
+
+			try{
+				throw new Error ('error message');
+			}catch(e){
+				console.dir(e);
+			}
+            finally{
+                console.log("finally will allways works.")
+			}
+
+			//JSON
+			var x= {
+			 prop1: true,
+			 prop2: "string",
+			 prop3: 123,
+			 propArr : [],
+			 propObj: {},
+			 func: function(){}
+			}
+
+
+			var undef1;
+
+			//if not undefined (undefined==false)
+			if(undef1){
+				console.log("udef1 is not undefined" + typeof(udef1));
+			}
+			else
+			{
+				console.log("udef1 is undefined ==> typeof(udef1) == " + typeof(udef1));
+			}
+
+			//this will throw exception
+			if(undef1 && undef1==10){
+				console.log("typeof(udef1) == " + typeof(udef1));
+			}
+			else {
+				console.log("udef1 is undefined ==> typeof(udef1) == " + typeof(udef1));
+
+			}
+
+			var arr=[];
+			arr.innerArr = [1,2,3];
+
+			function showName(name){
+				name = name || 'default value';
+				alert(name);
+			}
+
+			function getCounter(number){
+				var num=0;
+				if (number => 0)
+				{
+					num = number;
+				}
+
+				return function(){
+					++num;
+					console.log("num =" + num);
+				}
+			}
+
+			var counter = getCounter(2);
+			counter();
+			counter();
+			counter();
+
+		</script>
+
+	</body>
+</html>

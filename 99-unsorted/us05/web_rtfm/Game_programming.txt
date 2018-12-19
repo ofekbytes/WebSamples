@@ -1,0 +1,15 @@
+--[unity]--
+
+
+https://store.unity.com/download/thank-you?thank-you=personal&os=win&nid=190
+
+
+- Tutorials
+https://unity3d.com/learn/tutorials?_ga=1.48474918.1087592753.1485506070
+
+
+-- Documentation
+https://docs.unity3d.com/ScriptReference/index.html?_ga=1.48474918.1087592753.1485506070
+
+https://docs.unity3d.com/Manual/index.html?_ga=1.5358003.1087592753.1485506070
+

@@ -1,0 +1,28 @@
+<html>
+	<head>
+	</head>
+	<body>
+		
+		<h1>Adv. JS</h1>
+		<script>
+			var app = function(){
+				/*
+				 here come the application code
+				*/
+			}
+			app();
+			
+			var inScopeVar=10;
+			var MAX_ITERATION = 20;
+			(function(mi){
+				//var mi = MAX_ITERATION;
+				console.log(inScopeVar); //undefined
+				var inScopeVar=20;
+				/*code goes here*/
+				/*the code does not interfere with any othe code*/
+				console.log(inScopeVar); //20
+				for(vat i=0;i<mi;i++){};
+			})(MAX_ITERATION);
+		</script>
+	</body>
+</html>

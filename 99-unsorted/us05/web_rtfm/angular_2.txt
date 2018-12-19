@@ -1,0 +1,75 @@
+.
+.
+[Angular 2]
+.
+.
+
+https://angular.io/
+
+
+[Angular-2 - getting-started]
+https://material.angular.io/guide/getting-started
+
+
+[git]
+https://github.com/angular/angular-cli
+$ git clone https://github.com/angular/angular-cli.git
+
+
+[Angular 2 - quick install]
+$ npm install -g angular-cli
+$ ng new my-dream-app
+$ cd my-dream-app
+$ ng serve
+
+
+[trubleshotting]
+$ npm set strict-ssl false
+
+
+.
+.
+[Setup - man]
+Install Node.js. (Requires Node 4 or greater and NPM 3)
+$ npm install -g angular2-cli
+
+[Creating your angular2 app]
+$ ng2 create <app-name> [options]
+
+[Running your app]
+$ cd <app-folder>
+$ ng2 init
+$ ng2 serve
+
+[Running tests]
+$ ng2 test
+
+[Lint]
+$ npm run lint
+
+[Dev and Production builds]
+$ ng2 build --dev
+$ ng2 build --prod
+ 
+$ ng2 serve --dev
+$ ng2 serve --prod
+
+[Help]
+$ ng2 --help
+$ ng2 <command> --help
+
+
+[placeholder for API references]
+Add environment specific api service urls src/app/environments/environment.[dev/prod].ts
+
+import src/app/environments/environment.ts to your component and use the service variables for your HTTP requests.
+
+[Copy files/folders to build folder]
+If you need any files/folders (such as CNAME) needs to be copied to build folder
+
+add those entries to build-config.js which is located in the project folder.
+
+[License]
+MIT
+.
+.
