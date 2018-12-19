@@ -71,19 +71,27 @@
 			type: 'GET',
 			//url: '/api/order'
 			//url: './_drinks1.1.json',
-			url: './test.json',
-			//url: 'http://localhost:8080/orders',
+			//url: './test.json',
+			url: 'http://localhost:8080/orders',
 			success: function(orders) 
 			{			
 				console.log('success ' + orders + ' orders is data array') ;
 
-				$.each(orders, function(i, order) //i=index (0-N) //order is the data // $.each(JSON.parse(myData), ...);
-				{
-					//$orders.append('<li> order test </li>');
-					$orders.append('<li>::[' + order.id + ']:: Name: ' + order.name  +  ' , Drink: ' + order.drink + '</li>');
-					//$orders.append('<li>Name: ' + order.name);
-					//addOrder(order);
-				});
+//				 $.each(orders, function(i, order) //i=index (0-N) //order is the data // $.each(JSON.parse(myData), ...);
+//				 {
+					//console.log("orders" + orders + "i");
+				// 	//$orders.append('<li> order test </li>');
+				// 	$orders.append('<li>::[' + order.id + ']:: Name: ' + order.name  +  ' , Drink: ' + order.drink + '</li>');
+				// 	//$orders.append('<li>Name: ' + order.name);
+				// 	//addOrder(order);
+//				 });
+
+				 $($orders).each(function(i, order)
+				 {
+				 	console.log(" - " + i + " - " + order + " - " + orders.name);
+				 });
+
+
 
 			},
 			error: function(data)
