@@ -1,0 +1,92 @@
+
+
+-[ js ]-
+
+
+//Scroll - vertical//
+$(document).ready(function() {
+    $('#example').DataTable( {
+        "scrollY":        "200px",
+        "scrollCollapse": true,
+        "paging":         false
+    } );
+} );
+
+
+
+//Scroll - vertical, dynamic height//
+$(document).ready(function() {
+    $('#example').DataTable( {
+        scrollY:        '50vh',
+        scrollCollapse: true,
+        paging:         false
+    } );
+} );
+
+
+
+//Scroll - horizontal//
+$(document).ready(function() {
+    $('#example').DataTable( {
+        "scrollX": true
+    } );
+} );
+
+//css//
+div.dataTables_wrapper {
+        width: 800px;
+        margin: 0 auto;
+    }
+
+//html//
+<table id="example" class="display nowrap" style="width:100%">
+
+
+//Scroll - horizontal and vertical//
+$(document).ready(function() {
+    $('#example').DataTable( {
+        "scrollY": 200,
+        "scrollX": true
+    } );
+} );
+
+//css//
+div.dataTables_wrapper {
+        width: 800px;
+        margin: 0 auto;
+    }
+
+//html//
+<table id="example" class="display nowrap" style="width:100%">
+
+
+
+//Language - Comma decimal place//
+$(document).ready(function() {
+    $('#example').DataTable( {
+        "language": {
+            "decimal": ",",
+            "thousands": "."
+        }
+    } );
+} );
+
+
+
+//Language options//
+$(document).ready(function() {
+    $('#example').DataTable( {
+        "language": {
+            "lengthMenu": "Display _MENU_ records per page",
+            "zeroRecords": "Nothing found - sorry",
+            "info": "Showing page _PAGE_ of _PAGES_",
+            "infoEmpty": "No records available",
+            "infoFiltered": "(filtered from _MAX_ total records)"
+        }
+    } );
+} );
+
+
+
+// //
+

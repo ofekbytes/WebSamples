@@ -1,0 +1,30 @@
+
+//serach icon//
+
+//js
+<div class="col-sm-6">
+  <div class="right-inner-addon">
+    <i class="icon-search"></i>
+    <input type="search" class="form-control" placeholder="Search" />
+  </div>
+</div>
+
+
+//css
+.right-inner-addon {
+  position: relative;
+}
+
+.right-inner-addon input {
+  padding-right: 30px;
+}
+
+.right-inner-addon i {
+  position: absolute;
+  right: 0px;
+  padding: 10px 12px;
+  pointer-events: none;
+}
+
+
+

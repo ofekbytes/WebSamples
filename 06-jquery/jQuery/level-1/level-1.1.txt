@@ -1,0 +1,75 @@
+.
+.
+jQuery - JavaScript library.
+.
+.
+level 1: Starting jQuery
+.
+.
+// JavaScript
+var status = document.getElementById("start");
+status.innerHTML = "stop";
+
+// jQuery
+$("#start").html("stop");
+
+.
+.
+- CDN (Content Delivery Network)
+
+https://code.jquery.com/jquery-3.1.1.js
+
+<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+
+.
+.
+-- ready status - wait for the HTML page finished loaded and then start jquery.
+
+
+// jQuery long code
+$(document).ready(function() 
+{
+   // jQuery code 
+});
+
+
+//jQuery short code
+$(function() {
+   // jQuery code 
+});
+
+
+// jQuery manipulation
+./example-1.1.html
+
+
+// jQuery perform "actions" on elements.
+
+Syntax:
+$("selector").action()
+
+example: hide all.
+$("div").hide() 
+$(".className").hide()
+$("#elementID").hide()
+
+// html() method to change html Content
+$("#start").html("stop"); 
+
+// all <div> elements with class="menu"
+$("div.menu") 
+
+// the first <p> element
+$("p:first")  
+
+// all <h1> and all <p> elements
+$("h1, p") 
+
+// all <p> elements that are descendants of a <div> element
+$("div p") 
+
+// all elements of the DOM
+$("*")  
+
+
+*** method - function defined in an object **

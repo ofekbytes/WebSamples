@@ -1,0 +1,22 @@
+<!-- example-2.1.1.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Get Attribute Values</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  </head>
+  <body>
+
+    <a href="http://www.cnn.com"> Click here </a> 
+  
+    <script>
+        $(function() 
+         {
+            var value = $("a").attr("href");
+            console.log(value);
+        });
+    </script>
+    
+</body>
+</html>

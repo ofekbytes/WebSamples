@@ -1,0 +1,29 @@
+{
+    "data" :
+    [
+        {
+            "name":"shalom",
+            "position":"lizerovitch",
+            "Office":"lod",
+            "age":"33",
+            "startDate":"01/01/2010",
+            "salary":"15,000"
+        },
+        {
+            "name":"yifat",
+            "position":"harel",
+            "Office":"tel-aviv",
+            "age":"44",
+            "startDate":"01/01/2009",
+            "salary":"16,000"
+        },
+        {
+            "name":"uri",
+            "position":"goldfarb",
+            "Office":"modeain elte",
+            "age":"55",
+            "startDate":"01/01/2006",
+            "salary":"18,000"
+        }
+    ]
+}

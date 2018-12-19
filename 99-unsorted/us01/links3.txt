@@ -1,0 +1,38 @@
+
+
+\\\ links \\\
+
+
+//// bootstrap ////
+https://getbootstrap.com/docs/4.0/content/tables/
+https://getbootstrap.com/docs/4.0/examples/
+
+
+////  ////
+https://www.w3schools.com/bootstrap/bootstrap_filters.asp#
+
+
+//// bootstrap ////
+https://www.w3schools.com/bootstrap/bootstrap_ref_comp_dropdowns.asp
+https://www.w3schools.com/bootstrap/bootstrap_ref_comp_navs.asp
+https://www.w3schools.com/bootstrap/bootstrap_ref_comp_glyphs.asp
+
+
+//bootstrap example///
+https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_ref_glyph_search&stacked=h
+
+
+////  local json load ////
+https://codepen.io/KryptoniteDove/post/load-json-file-locally-using-pure-javascript
+
+
+////  local storage ////
+https://blog.teamtreehouse.com/storing-data-on-the-client-with-localstorage
+
+
+https://tableexport.v3.travismclarke.com/
+
+
+https://dev.to/rdegges/please-stop-using-local-storage-1i04
+
+

@@ -1,0 +1,35 @@
+<!-- example-5.4.3.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> KeyPressed to Ascii value</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  </head>
+
+  <style>
+
+  </style>
+
+
+  <body>
+    <div>Click this erea</div>
+    
+    <script>
+      
+      $(function() 
+      {
+        $("div").click(function () 
+        {
+            console.log("Clicked!");
+        });
+
+        // trigger on load //
+        $("div").trigger("click");
+      })
+      
+    </script>
+
+   </body>
+</html>
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>user information</title>
+</head>
+
+<body>
+    <script>
+        var objPeople = 
+        [
+            {
+                lastName:"smith",
+                firstName:"nio",
+                age:"33"
+            },
+            {
+                lastName:"shalom",
+                firstName:"lizer",
+                age:"35"
+            },
+            {
+                lastName:"jron",
+                firstName:"kess",
+                age:"44"
+            }
+        ]
+
+
+        console.log(objPeople[1].lastName + " , " + objPeople[1].firstName + " , "  + objPeople[1].age);
+
+        for (var i=0;i<objPeople.length ; i++)
+        {
+            console.log(objPeople[i]);
+        }
+
+        for (var i=0;i<objPeople.length ; i++)
+        {
+            console.log("["+i +"] ::: " + objPeople[i].lastName + " , " + objPeople[i].firstName + " , " + objPeople[i].age);
+        }
+
+    </script>
+</body>
+
+</html>

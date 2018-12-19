@@ -1,0 +1,45 @@
+<!-- example-2.2.3.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>get / set value  method val() (input field/s)</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  </head>
+
+  <style>
+  </style>
+
+  <body>
+
+        <input type="text" id="cityHall" value="city hall London">
+        <input type="text" id="cpCity" value = "">
+
+    <script>
+        $(function() 
+         {
+            //get
+            console.log($("#cityHall").val());
+            console.log("cityHall ==> " + $("#cityHall").val()) ; 
+
+
+            // get vale from "#cityHall"  and set the value to "#cpCity"
+            $("#cpCity").val($("#cityHall").val());
+            console.log("cityHall ==> " + $("#cityHall").val() + " <===> cpCity ==> " + $("#cpCity").val() ) ;
+
+
+            //set variable new value (change value)
+            var setCity = $("#cityHall").val("new value >> NY city selected");            
+            console.log("cityHall ==> " + $("#cityHall").val() ) ; 
+
+        });
+        // output: 
+        // city hall London
+        // cityHall ==> city hall London
+        // cityHall ==> city hall London <===> cpCity ==> city hall London
+        // cityHall ==> new value >> NY city selected
+    </script>
+
+</body>
+</html>
+

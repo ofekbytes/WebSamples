@@ -1,0 +1,49 @@
+
+== rtfm ==
+
+
+https://datatables.net/examples/ajax/
+
+https://datatables.net/examples/ajax/objects.html
+
+https://datatables.net/reference/option/ajax
+
+
+
+https://datatables.net/examples/data_sources/
+
+https://datatables.net/extensions/
+
+https://datatables.net/extensions/buttons/
+
+
+
+https://datatables.net/reference/option/drawCallback
+
+https://datatables.net/reference/option/columns.data
+
+
+
+git - bootstrap select
+https://github.com/silviomoreto/bootstrap-select.git
+
+
+== download ==
+
+https://datatables.net/download/packages
+
+https://github.com/DataTables/Buttons
+
+https://datatables.net/download/
+
+
+== clone ==
+$ git clone https://github.com/DataTables/Buttons.git
+
+
+
+
+
+
+
+

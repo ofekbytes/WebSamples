@@ -1,0 +1,8 @@
+https://developerdan77.wordpress.com/2011/10/14/dynamically-populate-a-select-element-from-json-data-with-jquery/
+
+https://www.codebyamir.com/blog/populate-a-select-dropdown-list-with-json
+
+https://github.com/silviomoreto/bootstrap-select/issues/1151
+
+https://stackoverflow.com/questions/16442422/jquery-populate-select-from-json
+

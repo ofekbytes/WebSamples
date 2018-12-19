@@ -1,0 +1,45 @@
+<!-- example-3.2.1.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> add/remove class from 'div' element </title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  </head>
+
+  <style>
+
+    .changeColor 
+    {
+        color: green;
+        background: white;
+        font-size:x-large;
+    }
+
+
+  </style>
+
+  <body>
+
+      <p id="pChange"> Make a change </p>
+
+
+      <script>
+
+          $(function() 
+           {
+                // css display from <p> #id.
+                console.log($("#pChange").css("color"));      // green //
+                console.log($("#pChange").css("background")); // white //
+                console.log($("#pChange").css("font-size"));  // x-large //
+
+                // css change
+                $("#pChange").css("background-color", "black");
+                $("#pChange").css("color", "white");
+            });
+
+    </script>
+
+</body>
+</html>
+

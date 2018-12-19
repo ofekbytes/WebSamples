@@ -1,0 +1,202 @@
+.
+.
+jQuery - JavaScript library.
+.
+.
+lavel 6 - effects
+.
+.
+level 6.1 - hide/show (animations)
+level 6.2 - Fade In/Out
+level 6.3 - Slide Up/Down
+level 6.4 - animate()
+
+.
+.
+level 6.1 - hide/show (animations)
+
+-- hide() methods - hide the selected elements
+-- show() methods - show the selected elements
+-- toggle() method - toggle between hiding and showing elements.
+
+    $(function() 
+    {
+        $("p").click(function() 
+        {
+            $("div").toggle();
+         });
+    });
+
+--- example: <"example-6.1.1.html"> - hide()/show()/toggle() method
+
+
+-- The hide()/show()/toggle() methods - speed optional animation argument
+   speed in milliseconds.
+   For example, let's pass 1000 millisecond as the speed argument to the toggle() method:
+
+    $(function() 
+    {
+        $("p").click(function() 
+        {
+            $("div").toggle(1000);
+        });
+    });
+
+--- example: <"example-6.1.2.html"> - hide()/show()/toggle() method speed optional animation argument
+
+
+-!- The hide()/show()/toggle() methods can take a second optional parameter callback, 
+   which is a function to be executed after the animation completes.
+
+--- example: <"example-6.1.3.html"> - hide()/show()/toggle() method speed/callback optional animation argument
+.
+.
+level 6.2 - Fade In/Out
+
+-- fadeIn method - Fade In animation
+-- fadeOut method - Fade Out animation
+-- fadeToggle() method - fadeToggle between hiding and showing elements.
+
+    $(function() 
+    {
+        $("p").click(function() 
+        {
+            $("div").fadeToggle(1000);
+        });
+    });
+
+--- example: <"example-6.2.1.html"> - hide()/show()/fadeToggle()
+
+-!- fadeToggle() method - optional parameters: "speed" and "callback"
+
+
+--- example: <"example-6.2.2.html"> - hide()/show()/fadeToggle() with function
+
+
+-- fadeTo() method fading - which allows fading to a given opacity (value between 0 and 1).
+--- example: fadeTo 70% opacity in 1.5 seconds.
+   $("div").fadeTo(1500, 0.7);
+
+--- example: fadeTo 60% opacity in 2 seconds.
+    $("p").fadeTo(2000,0.6);
+.
+.
+level 6.3 - Slide Up/Down
+
+-- slideUp() method - up sliding effect on elements
+-- slideDown() method - down sliding effect on elements
+-- slideToggle() method - switches between the sliding effects 
+   and can take two optional parameters: speed and callback.
+
+    $(function() 
+    {
+        $("p").click(function() 
+        {
+            $("div").slideToggle(500);
+        });
+    });
+
+--- example: <"example-6.3.1.html"> - hislideUpde()/slideDown()/slideToggle()
+.
+.
+level 6.4 - animate()
+
+-- The animate() method lets you animate to a set value, or to a value relative to the current value.
+   define CSS properties to be animated as its parameter in JSON format ("key":"value").
+   The second parameter defines the speed of the animation.
+   For example: animates the width property of the div in 1 second to the value 250px:
+
+    $("div").click(function() 
+    {
+        $("div").animate({width: '250px'}, 1000);
+    });
+
+--- example: <"example-6.4.1.html"> - animate() method
+
+
+-!- You can animate any CSS property using the above mentioned syntax,
+    but there is one important thing to remember: 
+    all property names must be camel-cased when used with the animate() method 
+    (camelCase is the practice of writing compound words or phrases such that each word 
+    or abbreviation begins with a capital letter with the first word in lowercase).
+    
+--- example: 
+    write "paddingLeft" instead of "padding-left", 
+    "marginRight" instead of "margin-right" 
+    ...
+
+
+-- Multiple properties can be animated at the same time by separating them with commas ',' .
+
+    $("div").animate(
+    {
+        width: '250px',
+        height: '250px'
+    }, 1000);
+
+--- example: <"example-6.4.2.html"> - Multiple properties
+
+-- define relative values (value relative to the element's current value). 
+   using "+=" / "-=" in front of the value:   
+
+    $("div").animate(
+    {
+        width: '+=250px',
+        height: '+=250px'
+    }, 1000);
+
+--- example: <"example-6.4.3.html"> - Multiple properties with relative values
+
+
+-- stop() method - "stop" an animation before it is finished.
+.
+.
+level 6.5 - Animation Queue 
+
+-- jQuery comes with queue functionality for animations.
+   writing multiple animate() will be calls one after another, ("internal" queue).
+   runs the animate calls one-by-one.
+
+    var div = $("div");
+    div.animate({opacity: 1});
+    div.animate({height: '+=100px', width: '+=100px', top: '+=100px'}, 500);
+    div.animate({height: '-=100px', width: '-=100px', left: '+=100px'}, 500);
+    div.animate({height: '+=100px', width: '+=100px', top: '-=100px'}, 500);
+    div.animate({height: '-=100px', width: '-=100px', left: '-=100px'}, 500);
+    div.animate({opacity: 0.5});
+
+
+--- example: <"example-6.5.1.html"> - animations queue
+
+
+-- Each animate() method call will run one after another.
+   Remember, to manipulate the position of elements, you need to set the CSS position property of the element to relative, fixed, or absolute.
+
+-!- The animate() method, just like the hide/show/fade/slide methods, can take an optional callback function as its parameter, 
+    which is executed after the current effect is finished.
+.
+.
+level 6.5 - Drop-Down Menu
+
+-- Let's create a simple drop-down menu that will open upon clicking on the menu item.
+
+    HTML:
+    <div class="menu">
+    <div id="item">Drop-Down</div>
+    <div id="submenu">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+    </div>
+    </div>
+
+    JS:
+    $("#item").click(function() 
+    {
+        $("#submenu").slideToggle(500);
+    }); 
+
+--- example: <"example-6.6.1.html"> - Drop-Down Menu
+
+-- "click" event of the id="item" element and opens/closes the submenu in 500 milliseconds.
+

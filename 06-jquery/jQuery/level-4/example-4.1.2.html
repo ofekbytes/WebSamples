@@ -1,0 +1,45 @@
+<!-- example-4.1.2.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> parent() method </title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  </head>
+
+
+  <style>
+
+    div 
+    {
+        padding: 10px;
+    }
+
+    p 
+    {
+        border: 1px solid black;
+        padding: 5px;
+    }
+
+  </style>
+
+
+  <body>
+
+    <div> div element
+      <p>paragraph</p> 
+    </div>
+
+   
+    <script>
+
+        //parnet of <p> tag
+        $(function() {
+            var e = $("p").parent();
+            e.css("border", "2px solid red");
+        });
+    </script>
+
+   </body>
+</html>
+

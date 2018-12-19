@@ -1,0 +1,14 @@
+
+// https://datatables.net/reference/option/ajax //
+
+$('#example').dataTable( {
+  "ajax": function (data, callback, settings) {
+    callback(
+      JSON.parse( localStorage.getItem('dataTablesData') )
+    );
+  }
+} );
+
+
+
+

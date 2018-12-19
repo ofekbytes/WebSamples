@@ -1,0 +1,40 @@
+<!-- example-4.1.5.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> empty() method - This removes all the child elements of the div, leaving it empty. </title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  </head>
+
+
+  <style>
+    div 
+    {
+        background-color: aqua;
+        width: 300px;
+        height: 200px;
+    }
+  </style>
+
+
+  <body>
+
+    <div>
+      <p>first</p>
+      <p>second</p>
+      <p>third</p>
+    </div>  
+    
+    <script>
+
+        $(function() 
+        {
+          //remove all 
+           $("div").empty();
+        });
+    </script>
+
+   </body>
+</html>
+

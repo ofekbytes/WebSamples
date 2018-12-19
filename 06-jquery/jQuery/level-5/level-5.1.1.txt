@@ -1,0 +1,234 @@
+.
+.
+jQuery - JavaScript library.
+.
+.
+lavel 5 - Events
+.
+.
+level 5.1 - Handling Events
+level 5.2 - Common Events
+level 5.3 - on() method, off() method
+level 5.4 - The Event Object
+level 5.5 - trigger Events
+
+.
+.
+level 5.1 - Handling Events
+
+-- Handling Events - 
+   JQuery provides an efficient way to handle events. 
+   Events occur when the user performs an action: "clicking" an element, "moving" the mouse, "submitting" a form. 
+   When an event occurs on a target element, a handler function is executed.
+   For example: handling the "click" event on an element with id="demo" and display the current date when the button is clicked. 
+
+--- example: <"example-5.1.1.html"> - JavaScript example
+
+    var x = document.getElementById("demo");
+    x.onclick = function () 
+    {
+        document.body.innerHTML = Date();
+    }
+
+
+--- example: <"example-5.1.2.html"> - jquery example
+ 
+    $("#demo").click(function() 
+    {
+        $("body").html(Date());
+    });
+
+
+-!- "onclick" in JavaScript is "click" in jQuery
+
+-!- event handler - is event that fired/submited and execute a function
+    (The function that is executed when an event is fired is called the event handler)
+.
+.
+level 5.2 - Common Events
+
+- most commonly used events:
+
+-- Mouse Events:
+--- click occurs - when an element is clicked.
+--- dblclick occurs - when an element is double-clicked.
+--- mouseenter occurs - when the mouse pointer is over (enters) the selected element.
+--- mouseleave occurs - when the mouse pointer leaves the selected element.
+--- mouseover occurs - when the mouse pointer is over the selected element.
+
+-- Keyboard Events:
+--- keydown occurs - when a keyboard key is pressed down.
+--- keyup occurs - when a keyboard key is released.
+
+-- Form Events:
+--- submit occurs - when a form is submitted.
+--- change occurs - when the value of an element has been changed.
+--- focus occurs - when an element gets focus.
+--- blur occurs - when an element loses focus.
+
+-- Document Events: 
+--- ready occurs - when the DOM has been loaded.
+--- resize occurs - when the browser window changes size.
+--- scroll occurs - when the user scrolls in the specified element.
+
+--- example: <"example-5.1.1.html"> - "keyup" event handler
+.
+.
+level 5.3 - on() method, off() method
+
+- on() method - used to attach an event to the selected element.
+-- example - on() method
+    $( "p" ).on( "click", function() 
+    {
+        alert("clicked");
+    });
+
+--- example: <"example-5.3.1.html"> - on() method
+
+-- Try It Yourself
+
+
+-!- The on() method is useful for binding the same handler function to multiple events. 
+    You can provide multiple event names separated by spaces as the first argument(click dblclick). 
+   
+    $( "p" ).on( "click mouseover", function() 
+    {
+        alert("clicked");
+    });
+
+- off() method - remove event handlers
+-- example:
+    $("div").on("click", function() 
+    { 
+        alert('Hi there!'); 
+    }); 
+    $("div").off("click");
+
+--- example: <"example-5.3.2.html"> - off() method / remove event handler
+
+
+-!- The argument of the off() method is the event name you want to remove the handler for.
+.
+.
+level 5.4 - The Event Object
+
+-- very event handling function can receive an event object (properties and methods related to the event).
+-- example 
+--- mouse position: pageX, pageY (X , Y).
+--- type the type of the event (example: "click").
+--- button / key that was pressed.
+--- data any data that was passed in when the event was bound.
+--- target the DOM element that initiated the event.
+--- preventDefault() method -- prevent the default action of the event (example: following a link).
+--- stopPropagation() method - stop the event from bubbling up to other elements.
+
+--- example: <"example-5.4.1.html"> - "click" event on an <a> element and prevent it from following the link provided in the "href" attribute:
+
+--- example: <"example-5.4.2.html">  - KeyPressed to Ascii value
+    $("input").keydown(function(event)
+    {
+        console.log(event.which);
+    })
+.
+.
+level 5.5 - trigger Events
+
+-- trigger() method - trigger events programmatically (from code). 
+--- example, trigger "click" event from the code (without the help of the user)
+    $("div").click(function() 
+    {
+        alert("Clicked!");
+    });
+    $("div").trigger("click");
+
+--- example: <"example-5.4.3.html"> - trigger Events
+
+-!- The trigger() method cannot be used to mimic native browser events, such as clicking on a file input box or an anchor tag. Only events in the jQuery event system can be handled.
+
+-- example: trigger the submit event on the selected element.
+$("form").trigger("submit");
+.
+.
+level 5.6 - Creating a To-Do List
+
+-- example: a To-Do list project. (add/remove items).
+
+-- html --
+    <h1>My To-Do List</h1>
+    <input type="text" placeholder="New item" />
+    <button id="add">Add</button>
+    <ol id="mylist"></ol>
+
+
+-- click event for the button - 
+    $(function() 
+    {
+        $("#add").on("click", function() 
+        {
+        //event handler//
+        });
+    });
+
+
+-- Inside the event handler we select the value of the input field and create a new <li> element, adding it to the list:
+
+    $(function() 
+    {
+        $("#add").on("click", function() 
+        {
+            //event handler// 
+            var val = $("input").val();
+            if(val !== '') 
+            {
+                var elem = $("<li></li>").text(val);
+                $(elem).append("<button class='rem'>X</button>");
+                $("#mylist").append(elem);
+                $("input").val(""); //clear the input
+            }
+       });
+    });
+
+
+--  The code above takes the value of the input field, assigns it to the val variable. 
+    The if statement checks that the value is not blank and then creates a new <li> element.
+    A button for removing it is added, after which the newly created element is added to the <ol id="mylist"> list.
+
+--- example: <"example-5.5.1.html"> - to do list part 1 - add
+
+
+-- remove event - (remove event button)
+
+    $(".rem").on("click", function() {
+    $(this).parent().remove();
+    });
+
+
+-- removing the parent of the current object (the parent of the "remove" button is the <li> element)
+
+    $(function() 
+    {
+        $("#add").on("click", function() 
+        {
+            var val = $("input").val();
+
+            if(val !== '') 
+            {
+                var elem = $("<li></li>").text(val);
+                $(elem).append("<button class='rem'>X</button>");
+                $("#mylist").append(elem);
+                $("input").val("");
+                $(".rem").on("click", function() 
+                {
+                     $(this).parent().remove();
+                });
+            }
+        });
+    });
+
+
+--- example: <"example-5.5.2.html"> - to do list part 2 - add/delete
+
+
+-!- "this" keyword represents the current object.
+
+

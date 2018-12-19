@@ -1,0 +1,85 @@
+.
+.
+jQuery - JavaScript library.
+.
+.
+lavel 2 - Attributes and Content
+.
+.
+level 2.1 - Get & Set Attribute Values
+level 2.2 - Get & Set Content
+level 2.3 - Adding Content
+.
+.
+level 2.1 - Get & Set Attribute Values
+
+-- manipulate attributes assigned to HTML elements through jQuery:
+   HTML attributes: href, src, id, class, style.
+
+
+-- attr() method GET the value of an attribute.
+--- example: <"example-2.1.1.html">
+    var value = $("a").attr("href");
+    console.log(value);
+
+
+-- attr() method SET a value for an attribute (as the second parameter).
+--- example: <"example-2.1.2.html">
+    $("a").attr("href","http://www.google.com");
+
+
+-- removeAttr() method remove attributes from HTML elements.
+--- example: <"example-2.1.3.html">
+   $("table").removeAttr("border");
+   $("table").removeAttr("class"); 
+
+
+.
+.
+level 2.2 - Get & Set Content
+
+-- methods for manipulating the content of HTML elements through jQuery:
+   html(), 
+
+
+-- html() method get the content of the selected element with the HTML markup.  
+-- text() method get the content of the selected element without html markup (clean from html tags).
+--- example: <"example-2.2.1.html"> - get method html() text() 
+--- example: <"example-2.2.2.html"> - set method html() / text()
+
+-!- html() method and text() method can be used for all HTML elements that can contain content.
+
+
+-- val() method get / set the values of form fields (input field/s) (textboxes, dropdowns ...).  
+--- example: <"example-2.2.3.html"> - set method html() / text()
+
+
+-- Tip --
+get and set method that have content and attributes of selected HTML elements:
+text() method - set / get the text content of selected elements.
+html() method - set / get the content of selected elements (including HTML markup).
+val() method - set /get the value of form fields. (input field/s).
+attr() method - set / get the value of attributes.
+removeAttr() method -  removes the specified attribute.
+
+
+.
+.
+level 2.3 - Adding Content
+
+-- jQuery has methods that are used to add new content to a selected element without deleting the existing content:
+-- append() methods - inserts content at the end of the selected elements.
+-- prepend() methods - inserts content at the beginning of the selected elements.
+--- example: <"example-2.3.1.html"> - append() / prepend() method - add text to the end / begin of tag .
+
+-- after() methods - inserts content after the selected elements.
+-- before() methods - inserts content before the selected elements.
+--- example: <"example-2.3.2.html"> -  after() / before() method - add text after -and- before the tag .
+
+--  using append/prepend/after/before method() with the use of variable
+--- example: <"example-2.3.3.html"> -  using method() with variable .
+
+-!- creating elements can be used to create any new HTML element, 
+--- example: creates a new div.
+    $("<div></div>") 
+

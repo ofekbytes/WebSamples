@@ -1,0 +1,33 @@
+<!-- example-5.1.2.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> jquery example - Handling Events</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  </head>
+
+  <style>
+
+  </style>
+
+
+  <body>
+
+    <div id="demo">Click Me</div>
+
+    <script>
+      
+      $(function() 
+      {
+         $("#demo").click(function() 
+         {
+           $("body").html(Date());
+         });
+      });
+
+    </script>
+
+   </body>
+</html>
+

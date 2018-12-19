@@ -1,0 +1,37 @@
+<!-- example-3.3.1.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Dimensions - width/height </title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  </head>
+
+  <style>
+      .test{
+          background-color: aqua;
+      }
+
+  </style>
+
+  <body>
+
+      <div id="pChange"></div>
+
+
+      <script>
+
+          $(function() 
+           {
+               $("div").css("background-color","aqua");
+
+               $("#pChange").width(120);
+               $("#pChange").height(120);
+
+            });
+
+    </script>
+
+</body>
+</html>
+

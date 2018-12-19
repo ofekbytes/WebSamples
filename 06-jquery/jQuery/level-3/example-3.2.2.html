@@ -1,0 +1,35 @@
+<!-- example-3.2.2.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> add/remove class from 'div' element </title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  </head>
+
+  <style>
+
+  </style>
+
+  <body>
+
+      <p id="pChange"> Make a change </p>
+
+
+      <script>
+
+          $(function() 
+           {
+                //change property with jSon
+                $("#pChange").css({"background-color": "blue" ,"color":"white" ,"font-size": "200%"});
+
+                console.log($("#pChange").css("background-color")); 
+                console.log($("#pChange").css("color")); 
+                console.log($("#pChange").css("font-size")); 
+            });
+
+    </script>
+
+</body>
+</html>
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>user information</title>
+</head>
+
+<body>
+    <script>
+        var objPersion = 
+        {
+            name:"shalom",
+            age: 33,
+        }
+
+
+        console.log(objPersion);
+
+        //object --> json --> ajex --> server
+        //set object to json format. 
+        objPersion = JSON.stringify(objPersion);
+        console.log(objPersion);
+
+        //set Json to object
+        objPersion = JSON.parse(objPersion);
+        console.log(objPersion.name);
+
+
+    </script>
+</body>
+
+</html>

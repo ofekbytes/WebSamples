@@ -1,0 +1,49 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>html() method </title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  </head>
+
+  <style>
+  </style>
+
+  <body>
+
+    <p><u>Time To Have some <b>fun</b></u></p>
+  
+    <table id="tbm" border=2>
+        <tr>
+            <th>index</th>
+            <th>custname</th>
+            <th>custdes</th>
+        </tr>
+    </table>
+
+    <script>
+            $(document).ready(function()
+            {
+                $.ajax({
+                    url:"http://localhost:8080/list", //"sample.json",
+                    dataType: "json",
+                    success:function(data)
+                    {
+                        $(data.customer).each(function(index,value){
+                            var record = "<tr>" 
+                                         + "<td>" + (index++) + "</td>" 
+                                         + "<td>" + value.custname + "</td>"
+                                         + "<td>" + value.custdes + "</td>"
+                                         + "</tr>";
+                                         $("#tbm").append(record);
+                        })             
+                    }
+                })
+            })
+     </script>
+
+</body>
+</html>
+
+

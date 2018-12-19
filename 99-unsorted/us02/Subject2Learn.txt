@@ -1,0 +1,38 @@
+
+
+- Java - 
+
+-- algorithem ??
+-- Design parten
+-- Lambda Expressions
+https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html
+
+-- java maven
+-- java hibrenet
+
+
+
+ajax learning subject/subject
+
+
+//fetch
+https://github.com/github/fetch/issues/256
+
+https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+
+https://stackoverflow.com/questions/35038857/setting-query-string-using-fetch-get-request
+
+
+
+// buttons / select
+http://paulrose.com/bootstrap-select-sass/
+
+
+////******************/////
+// java-script promises //
+https://davidwalsh.name/write-javascript-promises
+
+https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+
+//Add Option Using DOM Methods//
+https://www.dyn-web.com/tutorials/forms/select/option/

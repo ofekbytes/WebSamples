@@ -1,0 +1,30 @@
+[ 
+  {
+    "custname" : "000001",
+    "custdes" : "value_000001"
+  }, 
+  {
+    "custname" : "000002",
+    "custdes" : "value_000002"
+  }, 
+  {
+    "custname" : "000003",
+    "custdes" : "value_000003"
+  }, 
+  {
+    "custname" : "000004",
+    "custdes" : "value_000004"
+  }, 
+  {
+    "custname" : "000005",
+    "custdes" : "value_000005"
+  }, 
+  {
+    "custname" : "000006",
+    "custdes" : "value_000006"
+  },   
+   {
+    "custname" : "000999",
+    "custdes" : "value_000999"
+  } 
+]

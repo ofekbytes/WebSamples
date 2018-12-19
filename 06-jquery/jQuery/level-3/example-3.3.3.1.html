@@ -1,0 +1,44 @@
+
+<!-- example-3.3.3.1.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Dimensions -test- width/height/innerWidth/innerHeight/outerWidth/outerHeight </title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  </head>
+
+  <style>
+
+      div 
+      {
+      }
+
+  </style>
+
+  <body>
+
+
+        <p></p>
+      <script>
+
+          $(function() 
+           {
+    
+                //console.log("#addPadding == " +  stPadding);
+                $("p").height(84);
+                $("p").width(80);
+                $("p").css("margin", 8);
+                $("p").css("padding", 2);
+
+                console.log($("p").outerHeight());
+                console.log($("p").outerWidth());
+            });
+
+        </script>
+
+</body>
+</html>
+
+
+

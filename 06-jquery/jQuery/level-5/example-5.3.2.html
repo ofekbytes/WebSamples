@@ -1,0 +1,38 @@
+<!-- example-5.3.2.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> off() method - remove event handler</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  </head>
+
+  <style>
+
+  </style>
+
+
+  <body>
+
+      <p>Click Me</p>
+
+    <script>
+      
+      $(function() 
+      {
+        //add
+        $("p").on( "click", function() 
+        {
+          console.log("click the click");
+        });   
+
+        //remove
+        $("p").off("click");
+
+      })
+      
+    </script>
+
+   </body>
+</html>
+

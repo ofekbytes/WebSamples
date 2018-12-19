@@ -1,0 +1,35 @@
+<!-- example-2.2.1.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>get method html() text()</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  </head>
+
+  <style>
+  </style>
+
+  <body>
+
+    <p><u>Time To Have some <b>fun</b></u></p>
+  
+    <script>
+        $(function() 
+         {
+             //html() method get the content of the selected element with the HTML markup
+            var valueWithHtmlTags = $("p").html();
+            console.log(valueWithHtmlTags);
+
+            //text() method get the content of the selected element clean from html tags
+            var valueCleanText = $("p").text();
+            console.log(valueCleanText);
+        });
+        // output: 
+        // <u>Time To Have some <b>fun</b></u>
+        // Time To Have some fun
+    </script>
+
+</body>
+</html>
+

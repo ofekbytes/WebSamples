@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>local Data Storage Basic</title>   
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="../../assets/modular/css/core.css" rel="stylesheet" type="text/css">
+<link href="../../assets/bootstrap.min.css" rel="stylesheet"  type="text/css" >  
+<link href="../../assets/modular/css/datepicker.css" rel="stylesheet" type="text/css">
+
+<script src="../../assets/jquery-3.3.1/jquery-3.3.1.js"></script>
+<script src="../../assets/modular/js/core.js" type="text/javascript"></script>
+<script src="../../assets/modular/js/datepicker.js"></script>
+
+<style>
+
+    #userName
+    {
+        text-align : center;
+        font-family: fantasy;
+        font-size: 22px;
+        color: green;
+    }
+
+</style>
+
+</head>
+
+<div>
+    <p id='userName'>test</p>
+
+</div>
+
+<body> 
+
+<script>
+
+onJscriptLoad();
+
+//
+//
+function onJscriptLoad()
+{
+    console.log('check if LocalStorage supported....');
+    if (localStorage)
+    {
+        console.log('LocalStorage is supported');
+        fnLoacalStorageSave();
+        fnPrintLocalStorage();
+
+        fnLoacalStorageDelete(); 
+        //fnPrintLocalStorage();
+    } 
+    else
+    {
+        console.log('LocalStorage is not supported');
+    }
+}
+
+//
+//
+function fnLoacalStorageSave() 
+{
+    console.log('store data in local storage >> ');
+    localStorage.userName = "Jron";
+    localStorage.setItem("language", "java");
+
+    console.log('userName: ' + localStorage.userName + ' language: ' + localStorage.language);
+}
+
+//
+//
+function fnLoacalStorageDelete() 
+{
+
+    console.log('Removing data from local storage >> ');
+    localStorage.removeItem("userName");
+    localStorage.removeItem("language");
+
+    console.log('check if local storage exist >> ');
+    console.log('userName: ' + localStorage.userName + ' language: ' + localStorage.language);
+    
+}
+
+//
+//
+function fnPrintLocalStorage()
+{
+    $("#userName").html(' userName: <u>' + localStorage.userName + '</u><br/> language: <u>' + localStorage.language + '</u>');
+}
+
+</script>    
+
+
+</body>
+
+</html>
+

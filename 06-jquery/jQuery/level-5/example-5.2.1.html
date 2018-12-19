@@ -1,0 +1,39 @@
+<!-- example-5.2.1.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> jquery example - "keyup" event handler</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  </head>
+
+  <style>
+
+    #messages
+    {
+      color:blue;
+      font-size: 14px;
+    }
+  </style>
+
+
+  <body>
+
+    <input type="text" id="enterText" />
+    <div id="messages"></div>
+
+    <script>
+      
+      $(function() 
+      {
+        $("#enterText").keyup(function() 
+        {
+          $("#messages").html($("#enterText").val());
+        });
+      });   
+  
+    </script>
+
+   </body>
+</html>
+

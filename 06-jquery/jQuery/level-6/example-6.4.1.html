@@ -1,0 +1,48 @@
+<!-- example-6.4.1.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> animate() method </title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  </head>
+
+  <style>
+
+    div 
+    {
+      display:inline-block;
+      padding:25px;
+      background-color:grey;
+      color:white;
+      text-align:center;
+      cursor:pointer;
+    }
+
+  </style>
+
+
+  <body>
+
+    <div>Click me</div>
+
+    <p id="outputCallback"></p>
+
+  <script>
+      
+      $(function() 
+      {
+        $("div").click(function() 
+        {
+           $("div").animate({width: '250px'}, 1000);
+
+           $("#outputCallback").text("click animation");
+           console.log("click animation");
+        });
+      });
+   
+    </script>
+
+   </body>
+</html>
+

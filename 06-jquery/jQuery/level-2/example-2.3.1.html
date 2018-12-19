@@ -1,0 +1,33 @@
+<!-- example-2.3.1.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> append() / prepend() method - add text to the end / begin of tag </title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  </head>
+
+  <style>
+  </style>
+
+  <body>
+
+    <div id="greeting">good </div>     
+
+    <script>
+        $(function() 
+         {
+            // after "#greeting" (after the word "good")
+            $("#greeting").append("morning to you");
+
+            // before "#greeting" (before the word "good")
+            $("#greeting").prepend("hello, ");
+        });
+        // output: 
+        // hello, good morning to you
+
+    </script>
+
+</body>
+</html>
+

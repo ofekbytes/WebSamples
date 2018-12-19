@@ -1,0 +1,25 @@
+{
+    "people": 
+    [
+        {
+           "lastName":"smith",
+           "firstName":"nio",
+           "age":"33"
+        },
+        {
+            "lastName":"shalom",
+            "firstName":"lizer",
+            "age":"35"
+        },
+        {
+            "lastName":"jron",
+            "firstName":"kess",
+            "age":"44"
+        },
+        {
+            "lastName":"koskas",
+            "firstName":"ko",
+            "age":"56"
+        }
+    ]
+}

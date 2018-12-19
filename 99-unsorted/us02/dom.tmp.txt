@@ -1,0 +1,36 @@
+.
+.
+.
+[Add Option Using DOM Methods]
+The document.createElement method is used to create an option element. 
+The document.createTextNode method is used to add text to the option. 
+To add a value attribute to the option element, you can use either the setAttribute method or dot syntax. 
+To add the new option element to the end of the list of options, use the appendChild method.
+
+https://www.dyn-web.com/tutorials/forms/select/option/
+
+// get reference to select element
+var sel = document.getElementById('selDemo');
+
+// create new option element
+var opt = document.createElement('option');
+
+// create text node to add to option element (opt)
+opt.appendChild( document.createTextNode('New Option Text') );
+
+// set value property of opt
+opt.value = 'option value'; 
+
+// add opt to end of select box (sel)
+sel.appendChild(opt); 
+.
+.
+.
+[Remove Option with removeChild]
+The removeChild method can be used to remove an option or optgroup element from a select box:
+
+// remove 2nd option in select box (sel)
+sel.removeChild( sel.options[1] ); 
+
+
+

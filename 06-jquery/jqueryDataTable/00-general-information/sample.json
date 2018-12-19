@@ -1,0 +1,21 @@
+{ "customer" : [ {
+    "custname" : "01010002",
+    "custdes" :  "01010002a"
+  }, {
+    "custname" : "09900001",
+    "custdes" :  "09900001a"
+  }, {
+    "custname" : "09900003",
+    "custdes" :  "09900003a"
+  }, {
+    "custname" : "09900004",
+    "custdes" :  "09900004a"
+  }, {
+    "custname" : "09900005",
+    "custdes" :  "09900005a"
+  }, {
+    "custname" : "09900006",
+    "custdes" :  "09900006a"
+  }
+]
+}

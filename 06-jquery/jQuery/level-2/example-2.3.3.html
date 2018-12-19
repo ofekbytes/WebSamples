@@ -1,0 +1,37 @@
+<!-- example-2.3.3.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> using method() with variable </title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  </head>
+
+  <style>
+  </style>
+
+  <body>
+
+      <div id="greeting"> hi, </div>     
+
+      <script>
+          $(function() 
+           {
+               var varVal1 = "<u>i am</u>, ";
+               var varVal2 = "<b>he is</b>, ";
+               var varVal3 = "<i>she is</i>, ";
+               var varSingle = "before > ";
+
+              $("#greeting").after(varVal1, varVal2, varVal3);
+              $("#greeting").before(varSingle);
+        });
+        // output: 
+        // before >
+        // hi,
+        // i am, he is, she is,
+
+    </script>
+
+</body>
+</html>
+

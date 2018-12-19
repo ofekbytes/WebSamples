@@ -1,0 +1,49 @@
+.
+.
+css - Cascading Style Sheets.
+.
+.
+level 1: css
+.
+.
+-- Cascading refers to the way CSS applies one style on top of another.
+--- Style Sheets control the look and feel of web documents.
+--- CSS apply specific styles to specific HTML elements.
+
+-!- file extension format type:
+    html - "*.html"
+    css - "*.css"
+    javaScript - "*.js"
+
+
+-- Inline CSS: adding css style attribute to the relevant tag
+   
+--- example: <p> tag:
+
+    <p style="color:white; background-color:gray;">
+      This is an example of inline styling. 
+    </p>
+
+
+-- Embedded/Internal CSS:
+--- Internal styles are defined within the <style> element, inside the head section of an HTML page.
+
+    <html>
+    <head>
+        <style>
+        /* css code */
+        p {
+            color:white;
+            background-color:gray;
+        }
+        </style>
+    </head>
+    <body>
+        /* html code */
+        <p>This is my first paragraph. </p>
+        <p>This is my second paragraph. </p>
+    </body>
+    </html>
+
+
+-- 

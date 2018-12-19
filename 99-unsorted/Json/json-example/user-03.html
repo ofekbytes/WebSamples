@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>user information</title>
+</head>
+
+<body>
+    <script>
+        var objPersion = 
+        {
+            "lastName":"smith",
+            "firstName":"nio",
+            "age":"33",
+            "address":
+            {
+                "street":"hamasger",
+                "streetNumber":"40",
+                "city":"tel-aviv"
+            },
+            "hobbies": ["basketball","football","tennis"]
+        }
+
+        console.log(objPersion.lastName);
+        console.log(objPersion.firstName);
+        console.log(objPersion.age);
+        
+        console.log(objPersion.address.street);
+        console.log(objPersion.address.streetNumber);
+        console.log(objPersion.address.city);
+
+        console.log("[0]== " + objPersion.hobbies[0]);
+
+        console.log("loops"); 
+        for (var i=0;i<objPersion.hobbies.length ; i++)
+        {
+            console.log(objPersion.hobbies[i]);
+        }
+    </script>
+</body>
+
+</html>

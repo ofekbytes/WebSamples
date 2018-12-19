@@ -1,0 +1,58 @@
+<!-- example-6.1.3.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> hide()/show()/toggle() method speed optional animation argument and callback </title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  </head>
+
+  <style>
+
+    p 
+    {
+      background-color:grey;
+      text-align:center;
+      color:white;
+      padding:5px;
+     cursor:pointer;
+    }
+
+    div 
+    {
+      background-color:grey;
+      color:white;
+    }
+
+  </style>
+
+
+  <body>
+
+    <p>Click to toggle show/hide</p>
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+      nisi ut aliquip ex ea commodo consequat.
+    </div>
+
+    <p id="outputCallback"></p>
+    <script>
+      
+      $(function() 
+      {
+        $("p").click(function() 
+        {
+          $("div").toggle(1000, function()  
+          {
+            console.log("function doing somthing after animation - toggle");
+          }); //1000ms = 1sec
+        }); 
+      });
+   
+    </script>
+
+   </body>
+</html>
+

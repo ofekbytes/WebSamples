@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <title>take.5.1 -  Add rows </title>
+
+    <link href="../../assets/modular/css/core.css" rel="stylesheet" type="text/css">
+    <link href="../../assets/bootstrap-4.1.2-dist/css/bootstrap.min.css"  rel="stylesheet" type="text/css">  
+    <link href="../../assets/modular/css/datepicker.css" rel="stylesheet" type="text/css">
+    <link href="./DataTable.css" rel="stylesheet" type="text/css">
+    <link href="../../assets/DataTables-1.10.18/css/jquery.dataTables.min.css" rel="stylesheet" class="href">
+
+    <script src="../../assets/jquery-3.3.1/jquery-3.3.1.js"></script>
+    <script src="../../assets/popper/popper.min.1.14.3.js"></script>
+    <script src="../../assets/bootstrap-4.1.2-dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/modular/js/core.js" type="text/javascript"></script>
+    <script src="../../assets/modular/js/datepicker.js"></script>
+    <script src="../../assets/DataTables-1.10.18/js/jquery.dataTables.min.js"></script>
+
+<style>
+
+    div.dataTables_wrapper 
+    {
+        margin-bottom: 3em;
+    }
+    
+</style>
+
+</head>
+
+<body>
+
+<script>
+
+    $(document).ready(function() 
+    {
+        var t = $('#example').DataTable();
+        var counter = 1;
+    
+        $('#addRow').on( 'click', function () 
+        {
+            t.row.add( [
+                counter +'.1',
+                counter +'.2',
+                counter +'.3',
+                counter +'.4',
+                counter +'.5'
+            ] ).draw( false );
+    
+            counter++;
+        } );
+    
+        // Automatically add a first row of data
+        $('#addRow').click();
+    } );
+
+</script>
+<button id="addRow">add</button>
+<table id="example" class="display" style="width:100%">
+    <thead>
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+            <th>Column 4</th>
+            <th>Column 5</th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+            <th>Column 4</th>
+            <th>Column 5</th>
+        </tr>
+    </tfoot>
+</table>
+
+</body>
+</html>

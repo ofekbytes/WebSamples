@@ -1,0 +1,68 @@
+<!-- example-3.1.1.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> add/remove class from 'div' element </title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  </head>
+
+  <style>
+
+    .changeColor 
+    {
+        color: green;
+        font-size:x-large;
+    }
+
+    .changeSize
+    {
+        font-size: xx-large;
+    }
+
+
+    .changeColor
+    {
+        color: blue;
+        /* color: red; */
+        font-weight: bold;
+    }
+
+    .changeBackGround
+    {
+        background: yellowgreen;
+    }
+
+  </style>
+
+  <body>
+
+      <div id="greeting"> add class to all 'div' elements </div>     
+      <div id="subject"> add class to id="subject" </div>
+
+      <p id="pChange"> Make a change </p>
+      <button id="btnToggleClass" type="submit">Toggle Class</button>
+
+      <script>
+
+          $(function() 
+           {
+                //addClass
+                $("div").addClass("changeColor");
+                $("#subject").addClass("changeSize changeColor changeBackGround");
+
+                //removeClass
+                $("#subject").removeClass("changeSize");
+
+                $("button").click(function()
+                {
+                    $("#pChange").toggleClass("changeColor");
+                })
+
+            });
+
+    </script>
+
+</body>
+</html>
+

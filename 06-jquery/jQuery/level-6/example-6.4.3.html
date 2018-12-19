@@ -1,0 +1,52 @@
+<!-- example-6.4.3.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> animate() method - Multiple properties with relative values </title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  </head>
+
+  <style>
+
+    div 
+    {
+      display:inline-block;
+      padding:25px;
+      background-color:grey;
+      color:white;
+      text-align:center;
+      cursor:pointer;
+    }
+
+  </style>
+
+
+  <body>
+
+    <div>Click me - again</div>
+
+    <p id="outputCallback"></p>
+
+  <script>
+
+      // click - more then once to see the //
+      // relative values //
+      $(function() 
+      {
+        $("div").click(function() 
+        {
+          $("div").animate(
+          {
+            width: '+=250px',
+            height: '+=250px'
+          }, 1000);
+
+        });
+      });
+   
+    </script>
+
+   </body>
+</html>
+

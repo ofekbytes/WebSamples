@@ -1,0 +1,5 @@
+sample.txt - sample dot text file.
+its nice to have thing like that.
+and its
+wonderfull
+to see it

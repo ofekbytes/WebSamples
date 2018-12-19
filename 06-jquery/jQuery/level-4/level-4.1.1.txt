@@ -1,0 +1,122 @@
+.
+.
+jQuery - JavaScript library.
+.
+.
+lavel 4 - Manipulate DOM - jQuery Manipulate DOM methods .
+.
+.
+level 4.1 - Manipulate DOM 
+level 4.2 - DOM Traversal
+level 4.3 - DOM Traversal method available
+level 4.4 - DOM Traversal method
+.
+.
+level 4.1 - Manipulate DOM 
+
+
+-- When you open any webpage in a browser, the HTML of the page is loaded and rendered visually on the screen.
+   To accomplish this, the browser builds the Document Object Model (DOM) of that page, 
+   which is an object oriented model of its logical structure.
+   The DOM of an HTML document can be represented as a nested set of boxes:
+
+-- dom.png
+
+     [document]
+         |  
+       <html>
+          |
+     +-----+-----+
+     |           |
+   <head>      <body>
+     |            |
+     |         +-----+
+     |         |     |
+  <title>     <h1>  <h2>    
+
+-- The DOM represents a document as a tree structure where HTML elements are interrelated nodes in the tree.
+   Nodes can have child nodes. 
+   Nodes on the same tree level are called siblings.
+   jQuery traversing is the term used to describe the process of moving through the DOM and finding (selecting) 
+   HTML elements based on their relation to other elements.
+
+-- jQuery makes it easy to traverse the DOM and work with HTML elements.
+.
+.
+level 4.2 - DOM Traversal
+
+-- example:
+
+    <html>
+      |
+      |
+    <body>
+      |
+   +--+--+
+   |     |
+  <h1>  <h2>    
+
+
+The <html> element is the parent of <body> and an ancestor of everything below it.
+The <body> element is the parent of the <h1> and <a> elements.
+The <h1> and <a> elements are child elements of the <body> element and descendants of <html>.
+The <h1> and <a> elements are siblings (they share the same parent).
+
+
+Summary
+<html> parent of <body> <h1> <h2>
+<body> parent of <h1> <h2>
+<h1> <h2> child of <body> 
+<h1> <h2> are Siblings share the same parent <body>
+<body> child of <html>
+
+--- example: <"example-4.1.1.html">  - dom example
+.
+.
+level 4.3 - DOM Traversal method available
+.
+.
+-- parent() method - direct parent element of the selected element
+-- parents() method - all ancestor elements of the selected element
+-- children() method - all direct children of the selected element
+-- siblings() method - all siblings elements
+-- next() method - next siblings element
+-- nextAll() method - all next siblings elements
+-- prev () method - previous siblings element of the selected element
+-- prevAll() method - all previous siblings elements of the selected element
+-- eq() - method - element with a specific index number of the selected element
+.
+.
+level 4.4 - DOM Traversal method
+
+-- parent() method - returns the direct parent element of the selected element
+--- example: <"example-4.1.2.html"> - parent() method
+
+-- eq() method - used to select a specific element from multiple selected elements.
+--- second <div> element (index 0 = 1)
+    $("div").eq(1); //=2
+--- example: <"example-4.1.3.html">  - Dom Elements Method
+.
+.
+level 4.4 - Removing Elements
+
+-- remove() method - remove selected elements from the DOM
+-- example: <"example-4.1.4.html">  - remove() method
+
+-!- remove() method - removes the selected element(s), as well as its child elements.
+--- example:
+---- remove second <p>
+     $("p").eq(1).remove();
+
+---- remove all <p>
+     $("p").remove();
+
+
+-- empty() method - remove the child elements of the selected element/s
+-- example: <"example-4.1.5.html"> - empty() method - This removes all the child elements of the div, leaving it empty.
+
+--- example: empty the second of the element with id "nav"
+    var e = $("#nav").children();
+    e.eql(1).empty();
+
+    

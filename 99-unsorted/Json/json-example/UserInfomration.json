@@ -1,0 +1,12 @@
+{
+    "lastName":"smith",
+    "firstName":"nio",
+    "age":33,
+    "address":
+    {
+        "street":"hamasger",
+        "streetNumber":40,
+        "city":"tel-aviv"
+    },
+    "hobbies": ["basketball","football","tennis"]
+}
