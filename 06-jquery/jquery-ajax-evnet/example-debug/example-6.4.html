@@ -73,9 +73,12 @@
 			//url: './_drinks1.1.json',
 			//url: './test.json',
 			url: 'http://localhost:8080/orders',
-			success: function(orders,status, index) 
+			success: function(orders,status) 
 			{			
-				console.log('success ' + orders + ' orders is data array') ;
+				console.log('orders ') ;
+				console.log(orders) ;
+				console.log('<<< status: ' + status + ' >>> ') ;
+
 
 //				 $.each(orders, function(i, order) //i=index (0-N) //order is the data // $.each(JSON.parse(myData), ...);
 //				 {
@@ -86,10 +89,11 @@
 				// 	//addOrder(order);
 //				 });
 
-				 $($orders).each(function(i, order)
-				 {
-				 	console.log(" - " + i + " - " + order + " - " + orders.name);
-				 });
+				//TODO///
+				//  $($orders).each(function(i, order)
+				//  {
+				//  	console.log(" - " + i + " - " + order + " - " + orders.name);
+				//  });
 
 
 
