@@ -51,3 +51,63 @@ public class test
 	}
 
 }
+
+
+-------------------------------------------------------------
+
+java jdbc types
+
+
+  <!--- https://www.cis.upenn.edu/~bcpierce/courses/629/jdkdocs/guide/jdbc/getstart/mapping.doc.html -->
+
+
+...JDBC Types  Mapped to Java Types...
+
+...---------.......---------
+...JDBC-type.......Java type
+...---------.......---------
+...CHAR............String
+...VARCHAR.........String
+...LONGVARCHAR.....String
+...NUMERIC.........java.math.BigDecimal
+...DECIMAL.........java.math.BigDecimal
+...BIT.............boolean
+...TINYINT.........byte
+...SMALLINT........short
+...INTEGER.........int
+...BIGINT..........long
+...REAL............float
+...FLOAT...........double
+...DOUBLE..........double
+...BINARY..........byte[]
+...VARBINARY.......byte[]
+...LONGVARBINARY...byte[]
+...DATE............java.sql.Date
+...TIME............java.sql.Time
+...TIMESTAMP.......java.sql.Timestamp
+
+
+...Java Types Mapped to JDBC Types...
+
+
+Java Type	JDBC type
+String	VARCHAR or LONGVARCHAR
+java.math.BigDecimal	NUMERIC
+boolean	BIT
+byte	TINYINT
+short	SMALLINT
+int	INTEGER
+long	BIGINT
+float	REAL
+double	DOUBLE
+byte[]	VARBINARY or LONGVARBINARY
+java.sql.Date	DATE
+java.sql.Time	TIME
+java.sql.Timestamp	TIMESTAMP
+
+-------------------------------------------------------------
+
+
+
+
+-------------------------------------------------------------

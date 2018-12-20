@@ -73,7 +73,7 @@
 			//url: './_drinks1.1.json',
 			//url: './test.json',
 			url: 'http://localhost:8080/orders',
-			success: function(orders) 
+			success: function(orders,status, index) 
 			{			
 				console.log('success ' + orders + ' orders is data array') ;
 
@@ -116,10 +116,14 @@
 				//url: './_drinks1.1.json',  //TODO POST API//
 				url: 'http://localhost:8080/orders',
 				data: order,
-				success: function(newOrder)
+				success: function(newOrder, status, index)
 				{
+					console.log(":::newOrder:::");
+					console.log(status);
+					console.log(index);
+					console.log(newOrder);
 					//$orders.append('<li>::[' + newOrder.id + ']:: Name: ' + newOrder.name  +  ' , Drink: ' + newOrder.drink + '</li>');
-					$orders.append('<li>Name: ' + newOrder.name  +  ' , Drink: ' + newOrder.drink + '</li>');
+					$orders.append('<li>Name: ' + index.name  +  ' , Drink: ' + index.drink + '</li>');
 					//addOrder(newOrder);
 				},
 				error: function()
