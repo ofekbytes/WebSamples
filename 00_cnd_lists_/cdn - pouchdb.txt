@@ -1,0 +1,33 @@
+
+https://pouchdb.com/
+
+
+pouchdb-7.0.0.min.js (compressed for production)
+pouchdb-7.0.0.js (uncompressed for debugging)
+
+-----------------------------------------------------------------------------------
+
+<script src="//cdn.jsdelivr.net/npm/pouchdb@7.0.0/dist/pouchdb.min.js"></script>
+<script> 
+  var db = new PouchDB('my_database');
+</script>
+
+-----------------------------------------------------------------------------------
+
+<script src="//cdn.jsdelivr.net/npm/pouchdb@7.0.0/dist/pouchdb-7.0.0.js"></script>
+<script> 
+  var db = new PouchDB('my_database');
+</script>
+
+-----------------------------------------------------------------------------------
+
+PouchDB is hosted at these CDNs:
+
+https://cdnjs.com/libraries/pouchdb
+
+https://www.jsdelivr.com/package/npm/pouchdb
+
+https://unpkg.com/pouchdb@7.0.0/dist/
+
+-----------------------------------------------------------------------------------
+
