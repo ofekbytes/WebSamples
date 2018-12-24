@@ -8,6 +8,7 @@
 
   // EDITING STARTS HERE (you dont need to edit anything above this line)
 
+  // var db = false;
   var db = new PouchDB('todos');
 
   // Replace with remote instance, this just replicates to another local instance.

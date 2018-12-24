@@ -1,0 +1,6 @@
+
+--[ Verify your installation ]----------------------------------
+$ curl localhost:5984
+
+--[ output ]----------------------------------
+{"couchdb":"Welcome","version":"2.2.0",...}

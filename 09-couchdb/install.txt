@@ -1,0 +1,10 @@
+--[ install couchdb ]----------------------------------
+
+
+--[ install couchdb --> windows ]----------------------
+
+
+
+--[ install couchdb --> ubuntu ]----------------------
+
+

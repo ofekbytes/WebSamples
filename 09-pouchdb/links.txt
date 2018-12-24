@@ -7,7 +7,10 @@ https://pouchdb.com/getting-started.html
 https://pouchdb.com/api.html#overview
 https://pouchdb.com/guides/
 
+:::youtube:::
+https://www.youtube.com/watch?time_continue=410&v=-Z7UF2TuSp0
 
 :::localhost:::
 http://localhost:5984/_utils/index.html
 http://localhost:5984/_utils/index.html#_config/couchdb@localhost
+
