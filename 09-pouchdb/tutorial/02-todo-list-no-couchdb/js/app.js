@@ -8,9 +8,13 @@
 
   // EDITING STARTS HERE (you dont need to edit anything above this line)
 
-  var db = new PouchDB('todos');
-  var db = new PouchDB('http://localhost:5984/todos')
+  // var db = new PouchDB('todos');
+  // var db = new PouchDB('http://localhost:5984/todos');
   
+  //var db = new PouchDB('todos');
+  var db = new PouchDB('');
+
+
   // Replace with remote instance, this just replicates to another local instance.
   //var remoteCouch = 'todos_remote';
   var remoteCouch = '';
