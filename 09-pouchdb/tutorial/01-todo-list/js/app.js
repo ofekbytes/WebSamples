@@ -8,10 +8,12 @@
 
   // EDITING STARTS HERE (you dont need to edit anything above this line)
 
-  var db = new PouchDB('todos');
+  //  var db = new PouchDB('todos');
+  var db = new PouchDB('http://localhost:5984/todos');
 
   // Replace with remote instance, this just replicates to another local instance.
-  var remoteCouch = 'todos_remote';
+  //var remoteCouch = 'todos_remote';
+  var remoteCouch = '';
 
   db.changes({
     since: 'now',
@@ -21,7 +23,7 @@
   // We have to create a new todo document and enter it in the database
   function addTodo(text) {
     var todo = {
-      _id: new Date().toISOString(),
+      _id: new Date().  (),
       title: text,
       completed: false
     };

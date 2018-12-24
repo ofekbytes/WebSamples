@@ -1,0 +1,13 @@
+
+:::rtfm:::
+https://www.tutorialspoint.com/pouchdb/
+
+https://pouchdb.com/
+https://pouchdb.com/getting-started.html
+https://pouchdb.com/api.html#overview
+https://pouchdb.com/guides/
+
+
+:::localhost:::
+http://localhost:5984/_utils/index.html
+http://localhost:5984/_utils/index.html#_config/couchdb@localhost
