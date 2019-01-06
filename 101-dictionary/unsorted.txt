@@ -1,0 +1,18 @@
+
+
+< unsorted >
+
+UNIX SCRIPTING, PERL OR PYTHON, JAVA\SCALA
+-מיומנות ב-SQL ו-UNIX
+
+HADOOP, 
+HDFS, 
+HIVE, 
+SPARK
+FLUME, 
+KAFKA...
+HIVE, 
+SQOOP, 
+SPARK, 
+HDFS 
+MapReduce
