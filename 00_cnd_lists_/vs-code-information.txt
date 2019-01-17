@@ -10,15 +10,16 @@
 .
 [extensions <ctrl+shift+x> ]
 .
-1) Numbered Bookmarks - <Alessandro Fragnani> ..MIT License..
-2) Angular 7 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout - <Mikael Morlund> ..MIT License..
-3) Angular v7 Snippets - <John Papa> ..MIT License..
-4) Paste JSON as Code - <quicktype> ..Apache License..
-5) vscode-spotify - <shyykoserhiy>  ..MIT License.. 
-6) Debugger for Chrome - <Microsoft>  ..MIT License..
-7) GitLens — Git supercharged - <Eric Amodio> ..MIT License..
-8) VS Live Share - <Microsoft>  ..MICROSOFT PRE-RELEASE SOFTWARE LICENSE TERMS..
-9) 
+1) Live Server - <ritwickdey.liveserver> ..MIT License
+2) Numbered Bookmarks - <Alessandro Fragnani> ..MIT License..
+3) Angular 7 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout - <Mikael Morlund> ..MIT License..
+4) Angular v7 Snippets - <John Papa> ..MIT License..
+5) Paste JSON as Code - <quicktype> ..Apache License..
+6) vscode-spotify - <shyykoserhiy>  ..MIT License.. 
+7) Debugger for Chrome - <Microsoft>  ..MIT License..
+8) GitLens — Git supercharged - <Eric Amodio> ..MIT License..
+9) VS Live Share - <Microsoft>  ..MICROSOFT PRE-RELEASE SOFTWARE LICENSE TERMS..
+
 
 2018
 *) Settings Sync - <Shan Khan>  ..MIT License..
