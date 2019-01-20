@@ -1,0 +1,39 @@
+Learn CSS in this complete tutorial course. Cascading Style Sheets (CSS) tell the browser how to display the text and other content that you write in HTML.
+
+This course will teach you everything you need to know to get started with CSS3, including flexbox and CSS grid.
+
+⭐️Course Contents ⭐️
+See pinned first comment for course contents.
+
+⭐️Curriculum ⭐️
+This course goes along with the CSS curriculum at www.freecodecamp.org.
+🔗Basic CSS: https://learn.freecodecamp.org/respon...
+🔗CSS Flexbox: https://learn.freecodecamp.org/respon...
+🔗CSS Grid: https://learn.freecodecamp.org/respon...
+
+Additional CSS tutorials on freecodecamp.org not covered in this video:
+🔗Applied Visual Design: https://learn.freecodecamp.org/respon...
+🔗Applied Accessibility: https://learn.freecodecamp.org/respon...
+🔗Responsive Web Design: https://learn.freecodecamp.org/respon...
+
+⭐️Code ⭐️
+These videos were recorded on scrimba.com. You can access the scrimba.com version of the videos, which gives access to the full code and allows live code editing.
+🔗Basic CSS: https://scrimba.com/playlist/pPK9Cq
+🔗CSS Grid: https://scrimba.com/playlist/pByETK
+🔗CSS Flexbox: https://scrimba.com/playlist/pVaDAv
+
+⭐️Learn More ⭐️
+🔗CSS Projects: https://www.youtube.com/watch?v=pmKyG... 
+🔗HTML full course video: https://youtu.be/pQN-pnXPaVg
+🔗HTML curriculum on freeCodeCamp.org: https://learn.freecodecamp.org/respon...
+🔗Javascript full course video: https://youtu.be/PkZNo7MFNFg
+
+🐦Follow course creator Beau Carnes on Twitter: https://twitter.com/carnesbeau
+
+--
+
+Learn to code for free and get a developer job: https://www.freecodecamp.org
+
+Read hundreds of articles on programming: https://medium.freecodecamp.org
+
+And subscribe for new videos on technology every day: https://youtube.com/subscription_cent...

@@ -1,0 +1,26 @@
+
+## HTML ##
+
+HTML - 
+HTML is HyperText Markup Language. 
+html use a markup language uses tags to identify content. 
+
+
+## Modern Web Design ##
+HTML: Structure
+CSS: Presentation
+JavaScript: Behavior
+
+PHP / spring boots / Node.js: Backend
+CMS: Content Management
+
+## HTML basics ##
+<html>
+    <head>
+    </head>
+    <body>
+    </body>
+    <footer>
+    </footer>
+</html>
+

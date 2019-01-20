@@ -1,0 +1,18 @@
+
+
+##### video-links #####
+
+
+## html ##
+https://www.youtube.com/watch?v=pQN-pnXPaVg
+
+
+
+
+## css ##
+https://www.youtube.com/watch?v=ieTHC78giGQ&list=PL5Tw98-9k5IYeeZz_ai5bx9ItGrUI-nmc
+
+https://www.youtube.com/watch?v=pmKyG3NBY_k&list=PLWKjhJtqVAbl1AfjiGyYxwpdAPi5v-1OU
+
+## JavaScript ##
+
