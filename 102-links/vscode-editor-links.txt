@@ -1,0 +1,18 @@
+
+
+--[ Atom ]--
+
+
+[Atom Editor installation]
+
+https://atom.io/
+
+
+[Atom Packages]
+
+
+
+
+[Atom Themes]
+
+

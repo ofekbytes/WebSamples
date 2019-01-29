@@ -1,0 +1,40 @@
+
+
+--[ Atom ]--
+
+
+[Atom Editor installation]
+https://atom.io/
+
+
+[Atom Packages]
+
+1. atom-beautify
+2. atom-ternjs
+3. autoclose-html
+4. emmet
+5. csslint
+
+6. linter
+* When you install linter it will ask you to install the dependencies for the package, click agree to all and install. 
+
+7. linter-jshint
+**See below to setup linter-jshint
+
+8. pigments
+9. language-ejs
+10. atom-html-preview
+11. Sublime-Style-Column-Selection
+
+12. linter-eslint
+**Step 1. After installing linter-jshint you should head into its settings.
+**Step 2. On the settings page for linter-jshint, scroll down and enable the checkbox for “Lint Inline Java Script”.
+
+
+[Atom Themes]
+
+If you want your code to be highlighted in the same colours as mine, be sure to have your Atom theme set as “One Dark”.
+
+
+
+
