@@ -1,7 +1,0 @@
-
-
-html
-
-https://www.w3schools.com/tags/tag_form.asp
-
-https://www.w3schools.com/html/html_paragraphs.asp
