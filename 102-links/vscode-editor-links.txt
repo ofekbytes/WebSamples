@@ -3,16 +3,16 @@
 --[ Atom ]--
 
 
-[Atom Editor installation]
+[vsCode Editor installation]
 
-https://atom.io/
-
-
-[Atom Packages]
+https://code.visualstudio.com/
 
 
+[vsCode Packages]
 
 
-[Atom Themes]
+
+
+[vsCode Themes]
 
 

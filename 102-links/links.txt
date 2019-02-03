@@ -1,8 +1,13 @@
 
 
-Jron links
+
+[Jron links]
 
 
+<!-- W3 -->
+https://dev.w3.org/cvsweb/
+
+<!-- -->
 https://www.tutorialspoint.com/jquery/ajax-jquery-post.htm
 
 https://www.formget.com/jquery-post-data/

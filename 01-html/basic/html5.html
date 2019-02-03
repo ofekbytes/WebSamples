@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+
+	<head>
+
+	<title>HTML5 Tutorial</title>
+	
+	</head>
+	
+	<body onload="alert('Hello')" onunload="alert('Bye Bye')">
+	
+	<div id="wrapper">
+	
+	<!-- Can jump with in the page by referencing the name -->
+	<a name="pageTop">Top of page</a>
+	
+	<!-- Links to the bottom by referencing the id -->
+	<a href="html5.html#pageBottom">Bottom of page</a>
+	
+	
+	
+	
+	<!-- HYPERLINKS -->
+	<!-- Contains the referenced link with an optional title -->
+	<!-- A hyperlink has 3 interactive states hover, active, visited -->
+	<a href="http://youtube.com/" title="YouTube">YouTube</a>
+	
+	<!-- You can link to parts of the same web page -->
+	<a href="html5.html#pageTop">Top of Page</a>
+	<a id="pageBottom">Bottom of page</a><br>
+	
+	<!-- You can open the mail software to send a message -->
+	<a href="mailto:derekbanas@verizon.net">Send an Email</a>
+	
+	<!-- You can also dynamically call for a JavaScript function to execute -->
+	<a href="javascript:toggleImg()">Toggle Image</a><br>
+	
+	<!-- You can define hot spot links in images with image maps. 
+	Import your image into Gimp and Filters → Web → ImageMap -->
+	<img src="http://localhost/html5/imagemap.png" alt="imagemap example" width="600" height="125" usemap="#map" />
+
+	<map name="map">
+	<area shape="circle" coords="57,62,39" alt="Yahoo" title="Go to Yahoo" href="http://yahoo.com" />
+	<area shape="poly" coords="192,20,166,45,232,105,301,42,272,20,192,19,195,20" alt="Diamonds" title="Go to Diamonds" href="http://diamonds.com" />
+	<area shape="rect" coords="332,8,595,115" alt="Google" title="Go to Google" href="http://google.com" />
+	</map>
+	
+	<!-- You can embed numerous external file formats using the object tag -->
+	
+	<!-- Embed a PDF -->
+	<object data="SmallBusinessPresentation.pdf" type="application/pdf" 
+		width="750" height="400">
+	</object>
+	
+	<!-- Embed a HTML file -->
+	<object data="html52.html" type="text/html" 
+		width="750" height="400">
+	</object>
+	
+	<!-- Embed a WAV file -->
+	<object data="http://www.wavsource.com/snds_2014-11-23_3967152387108926/animals/bird.wav" type="audio/x-wav">
+	
+		<!-- Used to pass parameters to an embedded object 
+		attributes consist of a name and value -->
+		<param name="autoplay" value="true">
+		<param name="controller" value="true">
+	
+	</object>
+	
+	<!-- Other Formats 
+	application/msword : MS Doc Files
+	application/x-java-applet : Java Applet
+	audio/mpeg : MP3s
+	image/png : PNGs
+	image/jpeg : JPEGs
+	image/gif : GIFS
+	image/svg+xml : SVG Vector images
+	text/plain : Text
+	video/mp4 : MP4s
+	video/x-msvideo : AVIs
+	video/x-msv-wmv : WMVs
+	video/quicktime : MOVs
+	-->
+	
+	<!-- You can embed externale resources in an iframe -->
+	<iframe width="560" height="315" src="http://www.youtube.com/embed/Rub-JsjMhWY" allowfullscreen=""></iframe>
+	
+	<!-- Interactive files like Flash files can be embedded with embed
+	You can define the file type, plugin and set other params -->
+	<embed src="http://www.itma.vt.edu/tech/flash.swf" pluginspage="http://www.macromedia.com/shockwave/download/" type="application/x-shockwave-flash" width="300" height="120" loop="false" quality="high"> 
+
+	<!-- You can embed MP3 and Wav (Not IE) files using audio 
+	mp3 uses audio/mpeg -->
+	
+	<audio controls autoplay loop preload>
+		<source src="comingtotake.wav" type="audio/wav">
+		Browser doesn't support the audio tag
+	</audio>
+		
+	<!-- You can embed MP4s with video -->
+	<video controls autoplay loop preload>
+		<source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+	</video>
+	
+	<br><br><br><br><br><br>
+	</div>
+	</body>
+
+</html>

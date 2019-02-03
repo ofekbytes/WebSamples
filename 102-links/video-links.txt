@@ -8,6 +8,8 @@ https://www.youtube.com/watch?v=pQN-pnXPaVg
 
 http://www.newthinktank.com/2014/12/html-5-tutorial/
 
+https://www.youtube.com/watch?v=kDyJN7qQETA&t=2154s
+
 
 ## css ##
 https://www.youtube.com/watch?v=ieTHC78giGQ&list=PL5Tw98-9k5IYeeZz_ai5bx9ItGrUI-nmc
@@ -16,3 +18,10 @@ https://www.youtube.com/watch?v=pmKyG3NBY_k&list=PLWKjhJtqVAbl1AfjiGyYxwpdAPi5v-
 
 ## JavaScript ##
 
+
+## Jquery ##
+
+
+## Ajax ##
+
+## other ##

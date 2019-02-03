@@ -21,3 +21,7 @@ https://archive.org/web/
 [ html ]
 https://www.w3schools.com/tags/tag_form.asp
 https://www.w3schools.com/html/html_paragraphs.asp
+
+
+[ html ]
+http://www.newthinktank.com/2014/12/html-5-tutorial/
