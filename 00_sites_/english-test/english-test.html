@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <title>English Test</title>
+  <!-- <head>a Tribute Page</head> -->
+
+  <!-- <link rel="stylesheet" type="text/css" href="./80s-music.css"> -->
+
+</head>
+
+<body>
+ 
+
+  <div>
+    <div>
+      <h1 class="title">English Test</h1>
+    </div>
+
+    <div>
+        <span><input type="text" id="aword" name="awords"> </span>
+    </div> 
+
+    <script>
+
+        var JSON = [{"name":"cat"}, {"name":"dog"}];
+
+
+        var hasMatch = false;
+
+        for (var index = 0; index < JSON.length; ++index) 
+        {
+            var wordList = JSON[index];
+
+
+            if( $("#aword").val() == wordList)
+            {
+                hasMatch = true;
+                break;
+            }
+        }
+
+    </script>
+  </div>
+  
+</body>
+
+</html>

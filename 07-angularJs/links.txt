@@ -1,0 +1,16 @@
+
+[ links ]
+
+
+[rtfm]
+
+https://www.tutorialspoint.com/angularjs/index.htm
+
+https://www.w3schools.com/angular/default.asp
+
+
+
+https://docs.angularjs.org/api
+
+https://docs.angularjs.org/api/ng
+
