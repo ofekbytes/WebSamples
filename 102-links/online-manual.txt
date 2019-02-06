@@ -10,6 +10,9 @@ https://www.w3schools.com/
 https://developer.mozilla.org/en-US/docs/Web
 
 
+[howto]
+https://www.w3schools.com/howto/
+
 
 [web books online stories]
 https://www.gutenberg.org/ebooks/1661
@@ -25,3 +28,7 @@ https://www.w3schools.com/html/html_paragraphs.asp
 
 [ html ]
 http://www.newthinktank.com/2014/12/html-5-tutorial/
+
+[ json ]
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
+
