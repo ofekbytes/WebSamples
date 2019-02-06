@@ -49,7 +49,7 @@ function JsonRead()
   $.getJSON('school-timer.json', function(data) 
 {
 
-  stOutput += "<table id='sh' dir='rtl' align='center' border='5' width='100%'>";
+  //stOutput += "<table id='sh' ccdir='rtl' align='center' border='5' width='100%'>";
   for(i=0;i<data.schoolTimer.length;i++)
   { 
     stOutput += "<tr align=center>";
@@ -69,14 +69,17 @@ function JsonRead()
     // questionBank[i][3]=data.quizlist[i].option3;
 
     stOutput += "</tr>";
+    $("#sh").append(stOutput);
+    stOutput = "";
+
 	}
 
-  stOutput += "</table>";
-
+//  stOutput += "</table>";
+////
   console.log (">>>");
-  console.log (stOutput);
-
-  document.write(stOutput);
+ // console.log (stOutput);
+//
+ // document.write(stOutput);
 	// numberOfQuestions=questionBank.length; 
 
 	//console.log("numberOfQuestions ==>  " + numberOfQuestions + "  questionBank.length ==> " + questionBank.length );

@@ -24,11 +24,21 @@ https://archive.org/web/
 [ html ]
 https://www.w3schools.com/tags/tag_form.asp
 https://www.w3schools.com/html/html_paragraphs.asp
-
+https://www.w3schools.com/html/
 
 [ html ]
 http://www.newthinktank.com/2014/12/html-5-tutorial/
 
+//dom//
+https://www.w3schools.com/jsref/event_onload.asp
+
 [ json ]
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
+
+https://www.w3schools.com/js/js_json_intro.asp
+
+
+
+[ jquery ]
 https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
 
