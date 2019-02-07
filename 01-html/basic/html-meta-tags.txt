@@ -1,0 +1,14 @@
+
+[ meta - tags ]
+
+<!-- Redriects to page -or- refrsh page  -->
+<meta http-equiv="refresh" content= "10; url='html-web-page.html'"/>
+
+<!-- charset -->
+<meta charset="UTF-8">	
+
+<!-- Description for your page -->
+<meta name="description" content="html page description content "/>
+
+<!-- keywords - keys -->
+<meta name="keywords" content="subject1, subject2, web"/>

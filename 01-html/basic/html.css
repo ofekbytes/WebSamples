@@ -1,0 +1,29 @@
+body
+{
+    background-color:  navy;
+    color:white;
+}
+
+a { color:white;}
+a:hover{ color : green; }
+a:active{ color : red; }
+a:visited {color: pink; }
+
+div#wrapper 
+{
+    background: blue;
+    margin: auto;
+}
+
+.bott 
+{
+    /* background: black; */
+    color:yellow;
+}
+
+header { 
+	display:block;
+	/* Padding Top, Right, Bottom, Left */
+	padding: 0px 0px 70px 0px;
+}
+
