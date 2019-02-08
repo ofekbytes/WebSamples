@@ -1,0 +1,41 @@
+
+body{
+    color:white;
+    background:black;
+}
+
+/* #title , #phone 
+{
+    text-align:center;
+} */
+
+header
+{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;‏
+}
+
+#title
+{
+    /* text-align: center; */
+    color:red;
+    font-size: 32px;
+    font-weight: bold;
+
+}
+
+#phone
+{
+    /* text-align:center; */
+    color:yellowgreen;
+    font-size: 20px; 
+    /* font-weight: bold; */
+}
+
+#email
+{
+    /* text-align:center; */
+    color:yellow;
+    font-size: 18px; 
+    /* font-weight: bold; */
+}

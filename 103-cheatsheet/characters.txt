@@ -1,0 +1,47 @@
+
+
+# characters
+https://dev.w3.org/html5/html-author/charref
+
+
+a - &aopf;
+b - &bopf;
+c - &copf;
+d - &dopf;
+e - &eopf;
+f - &fopf;
+g - &gopf;
+h - &hopf;
+i - &iopf;
+j - &jopf;
+k - &kopf;
+l - &lopf;
+m - &mopf;
+n - &nopf;
+o - &oopf;
+p - &popf;
+q - &qopf;
+r - &ropf;
+s - &sopf;
+t - &topf;
+u - &uopf;
+v - &vopf;
+w - &wopf;
+x - &xopf;
+y - &yopf;
+z - &zopf;
+
+@ - &commat;
+
+(+) - &oplus; 
+(-) - &ominus;
+(-) - &odash; 
+(/) - &osol;
+(x) - &otimes; 
+(.) - &odot;
+(()) - &ocir;
+(*) -  &oast;
+
+(  - &lpar;
+)  - &rpar;
+

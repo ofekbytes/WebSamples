@@ -29,6 +29,11 @@ https://www.w3schools.com/html/
 [ html ]
 http://www.newthinktank.com/2014/12/html-5-tutorial/
 
+
+[ html graphics ]
+https://www.w3schools.com/graphics/svg_intro.asp
+
+
 //dom//
 https://www.w3schools.com/jsref/event_onload.asp
 

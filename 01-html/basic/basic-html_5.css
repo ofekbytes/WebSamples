@@ -1,0 +1,33 @@
+
+/* basic-html_5.css */
+
+header 
+{
+    display: block;
+    padding: 10px, 10px, 10px, 10px;
+    color: white;
+    background: black;
+}
+
+
+ 
+#hnav{
+	float:left;
+	background: blue;
+	/* Padding Top, Right, Bottom, Left */
+	/* padding: 0px 10px 0px 10px; */
+}
+ 
+#hnav span {
+	text-decoration: none;
+	/* Links don't except padding by default so we must switch them to block */
+	display: inline-block;
+	/* Padding Top, Right, Bottom, Left */
+	/* padding: 0px 0px 20px 0px; */
+	color:white;
+}
+
+#section1 , #section2
+{
+    background:yellow;
+}
