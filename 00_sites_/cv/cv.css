@@ -12,7 +12,15 @@ body{
 header
 {
     text-align: center;
-    font-family: 'Indie Flower', cursive;‏
+    font-family: "Indie Flower";
+}
+
+footer
+{
+    background: gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
 }
 
 #title
@@ -28,6 +36,7 @@ header
 {
     /* text-align:center; */
     color:yellowgreen;
+    /* background: linear-gradient(60deg, rgb(15, 15, 212), rgb(3, 2, 29)); */
     font-size: 20px; 
     /* font-weight: bold; */
 }
@@ -39,3 +48,12 @@ header
     font-size: 18px; 
     /* font-weight: bold; */
 }
+
+
+#test
+{
+    color:white;
+    /* background: linear-gradient(60deg, rgb(236, 10, 10), rgb(158, 54, 54)); */
+    /* background: linear-gradient(60deg, rgb(15, 15, 212), rgb(3, 2, 29)); */
+}
+
