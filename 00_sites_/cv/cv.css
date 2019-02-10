@@ -17,7 +17,8 @@ header
 
 footer
 {
-    background: gray;
+    color:white;
+    background: red;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;

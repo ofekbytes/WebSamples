@@ -2,11 +2,11 @@
 // character - convert //
 
 
-onload = main;
+//onload = characterMain;
 
-function main()
+function characterMain()
 {
-
+    console.log("character.js () - <loaded> ")
     
 
 }

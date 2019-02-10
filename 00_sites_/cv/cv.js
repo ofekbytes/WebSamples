@@ -1,11 +1,11 @@
 // character - convert //
 
 
-onload = main;
+onload = cvMain;
 
-function main()
+function cvMain()
 {
-
-    
+    console.log("cv.js() - <loaded> ");
+    characterMain();
 
 }

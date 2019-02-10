@@ -31,3 +31,8 @@ header
 {
     background:yellow;
 }
+
+
+span#menu_1 {color:white;}
+span#menu_1:hover {color:red;}
+
