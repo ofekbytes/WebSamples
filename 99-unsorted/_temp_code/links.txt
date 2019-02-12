@@ -1,0 +1,44 @@
+
+-- read json --
+https://www.codebyamir.com/blog/populate-a-select-dropdown-list-with-json
+
+
+--bootstrap--
+
+https://thdoan.github.io/bootstrap-select/examples.html
+
+http://paulrose.com/bootstrap-select-sass/
+
+https://github.com/silviomoreto/bootstrap-select/issues/752
+
+https://stackoverflow.com/questions/41843395/get-the-current-value-in-bootstrap-select
+
+//list example//
+https://embed.plnkr.co/SQt0hSykjjWEym0Rj8X4/
+
+
+https://getbootstrap.com/docs/4.0/content/tables/
+
+//????list box title///
+https://github.com/silviomoreto/bootstrap-select/issues/757
+
+//???### 2 ###???//
+https://github.com/silviomoreto/scrollYou/blob/master/jquery.mousewheel.js
+
+---[temp]-------------------------------------------
+selectAllText:"select all"
+
+selectAllText:"Select All"
+,deselectAllText:"Deselect All"
+
++this.options.selectAllText
++this.options.deselectAllText
+
+
+----[temp example]----
+$(".selectpicker").selectpicker({
+        noneSelectedText : 'Please Select' // by this default 'Nothing selected' -->will change to Please Select
+    });
+
+---[/temp]-------------------------------------------
+

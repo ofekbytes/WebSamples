@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>load-jquery-json</title>   
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="color-list.json"></script>
+
+
+<style>
+
+    #dp
+    {
+        text-align : center;
+        font-family: fantasy;
+        font-size: 22px;
+        color: green;
+    }
+
+</style>
+
+</head>
+
+<div>
+    <p id='dp'>Dispaly Point</p>
+
+</div>
+
+<body> 
+
+<script>
+
+// dataColor = '[{"bc" : "blue", "tc" : "yellow"}]';
+
+
+onJscriptLoad();
+
+
+//
+//
+function onJscriptLoad()
+{
+    fnLoadJson();
+    
+}
+
+
+//
+//
+function fnLoadJson()
+{
+    var varData = JSON.parse(dataColor);
+    //$("#dp").text("changes");
+    $("#dp").html('data = ' + varData[0].backgroundColor);
+}
+
+
+//
+//
+function loadJSON(callback) 
+{   
+
+    var xobj = new XMLHttpRequest();
+        xobj.overrideMimeType("application/json");
+    xobj.open('GET', 'my_data.json', true); // Replace 'my_data' with the path to your file
+    xobj.onreadystatechange = function () 
+    {
+        if (xobj.readyState == 4 && xobj.status == "200") 
+        {
+            // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+            callback(xobj.responseText);
+        }
+    };
+    xobj.send(null);  
+}
+
+
+//
+//
+function init() 
+{
+    loadJSON(function(response) 
+    {
+        // Parse JSON string into object
+        var actual_JSON = JSON.parse(response);
+    });
+}
+
+
+</script>    
+
+
+</body>
+
+</html>
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>json api</title>   
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="../../assets/modular/css/core.css" rel="stylesheet" type="text/css">
+<link href="../../assets/bootstrap.min.css" rel="stylesheet"  type="text/css" >  
+<link href="../../assets/modular/css/datepicker.css" rel="stylesheet" type="text/css">
+
+
+<script src="../../assets/jquery-3.3.1/jquery-3.3.1.js"></script>
+<script src="../../assets/modular/js/core.js" type="text/javascript"></script>
+<script src="../../assets/modular/js/datepicker.js"></script>
+
+
+
+</head>
+
+<body onload="onLoading()"> 
+
+<script>
+    var gData;
+
+    function onLoading()
+    {
+
+      loadJSON('http://localhost:8080/list',gotData);
+
+    }
+
+
+    function gotData(data)
+    {
+        console.log(data);
+        gData = data;
+        console.log('gData ==> ' + gData);
+    }
+    
+</script>    
+
+
+
+</body>
+
+</html>
+
