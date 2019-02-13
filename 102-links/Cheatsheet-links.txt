@@ -3,21 +3,23 @@
 [cheat-sheet-links]
 
 
-# HTML Cheatsheet
+# HTML Cheatsheet #
 https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf
 
-# emmet
+# emmet #
 https://docs.emmet.io/cheat-sheet/
 
 
-# List of UTF-8 characters
+# List of UTF-8 characters #
 https://www.fileformat.info/info/charset/UTF-8/list.htm
 
 
-# characters
+# characters #
 https://dev.w3.org/html5/html-author/charref
 
 
-#
+# unicode #
+https://unicode-table.com/en/
 
-
+# font character - utf-8 #
+https://www.w3schools.com/charsets/default.asp

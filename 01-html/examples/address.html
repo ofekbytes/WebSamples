@@ -8,39 +8,43 @@
     <meta charset="UTF-8">
 
     <!-- icon -->
-    <link rel="icon" href="myIcon.ico"/>
+    <link rel="icon" href="../../00_media/icons/star.jpg" />
 
     <!-- title -->
-    <title> Html - Page 1 </title>
+    <title> 🚀 Html - Page 1 </title>
 
-<style>
+    <style>
+        a[href^="mailto"]::before , a[href^="mailto"]::after 
+        {
+            content: " 📧 ";
+            color: green
+        }
+ 
 
-a[href^="mailto"]::before {
-    content: " 📧 ";
-    color: green
-}
-
-a[href^="tel"]::before {
-    content: " 📞  ";
-    color:navy;
-}
-
-</style>
+        a[href^="tel"]::before , a[href^="tel"]::after
+        {
+            content: " 📞  ";
+            color: navy;
+        }
+         /* 📧 */
+         /* ☎   ☏ */
+    </style>
 
 </head>
 
 <body>
 
-<div id="wrapper">
+    <div id="wrapper">
 
         <p>Contact the author of this page:</p>
 
         <address>
-          <a href="mailto :jim@rock.com"> jim@rock.com</a><br/>
-          <a href="tel: +311-555-2368"> 1111+</a><br/>
+            <a href="mailto :jim@rock.com"> jim@rock.com</a><br />
+            <a href="tel: +311-555-2368"> 1111+</a><br />
         </address>
-        
 
-</div>
+
+    </div>
 </body>
+
 </html>
