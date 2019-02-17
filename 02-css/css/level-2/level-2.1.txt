@@ -3,8 +3,119 @@
 css - text.
 .
 .
-level 1: text
+level 2.1 - The font-family Property
+level 2.2 - The font-size Property
+- level 2.3 - The font-style Property
+- level 2.4 - _The font-weight Property
 .
 .
 
-- The font-family Property
+
+.
+.
+- level 2.1 - The font-family Property
+.
+
+- The font-family property specifies the font for an element. 
+
+- There are two types of font family names: 
+-- font family: a specific font family 
+--- example: 
+    "Times New Roman", Georgia, Arial, 
+    Verdana, "Courier New", "Lucida Console".
+
+-- generic family: a group of font families with a similar look (like Serif or Monospace)
+--- example:
+    "Serif", "Sans-serif", Monospace
+
+--- example:
+    <css-2.1.html>
+
+-- Separate each font with a comma.
+--- example:
+    Arial, "Lucida Console", Monospace.
+
+    body 
+    {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+
+
+.
+.
+- level 2.2 - The font-size Property
+.
+
+- The font-size property sets the size of a font - font keywords:
+-- xx-small, small, medium, large, larger, etc. 
+
+--- example:
+    <css-2.2.html>
+
+
+-- The font-size Property - font size: pixels
+--- font size in pixel values
+
+--- example:
+
+    p 
+    {
+        font-size: 20px;
+    }
+
+
+-- The font-size Property - font size:  ems
+--- em is a relative size unit.
+
+--- example:
+
+    p 
+    {
+        font-size: 1.25em; 
+    }
+
+
+-!- font size: pixels / ems :
+
+    20px = 1.25em.
+
+    pixels / 20 = ems
+    20px / 16 = 1.25em.
+
+
+.
+.
+- level 2.3 - The font-style Property
+.
+
+-- The font-style property is used to specify italic/normal/oblique text.
+
+--- example:
+
+    p.normal 
+    {
+        font-style: normal;
+    }
+
+    p.italic 
+    {
+        font-style: italic;
+    }
+
+    p.oblique 
+    {
+        font-style: oblique;
+    }
+
+--- example: 
+    <css-2.3.html>
+
+
+.
+.
+- level 2.4 - _The font-weight Property
+.
+
+-- 
+
+

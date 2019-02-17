@@ -1,33 +1,28 @@
-
 /* css-1.4.css */
 
 
-body{
-    background-color:blue;
+body {
+    background-color: blue;
 }
 
 
 /* Type Selectors */
-p
-{
-    background-color:white;
-    color:blue; 
+p {
+    background-color: white;
+    color: blue;
 }
 
 
 /* id */
-#id-selection
-{
+#id-selection {
     font-style: italic;
     font-size: 33px;
 }
 
 
 /* class */
-.class-selection{
+.class-selection {
     background-color: brown;
     color: black;
-    font-size:150%;
+    font-size: 150%;
 }
-
-

@@ -1,0 +1,15 @@
+
+/* temp.css */
+
+div #name #firstName
+{
+    color:blueviolet;
+    font-size: 25px;
+}
+
+#wrapper #name #firstName u 
+{
+    color: red;
+    font-size:40px;
+}
+

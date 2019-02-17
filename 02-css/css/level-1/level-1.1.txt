@@ -3,18 +3,18 @@
 css - Cascading Style Sheets.
 .
 .
-level 1: css
-level 1.1 - Inline CSS
-level 1.2 - Embedded/Internal CSS
-level 1.3 - External CSS
-level 1.4 - CSS Syntax
-level 1.5 - Type Selectors
-level 1.6 - Cascade
-level 1.7 - Inheritance
+- level 1: css
+- level 1.1 - Inline CSS
+- level 1.2 - Embedded/Internal CSS
+- level 1.3 - External CSS
+- level 1.4 - CSS Syntax
+- level 1.5 - Type Selectors
+- level 1.6 - Cascade
+- level 1.7 - Inheritance
 
 .
 .
-level 1: css
+- level 1: css
 
 -- Cascading refers to the way CSS applies one style on top of another.
 --- Style Sheets control the look and feel of web documents.
@@ -28,7 +28,7 @@ level 1: css
 
 .
 .
-level 1.1 - Inline CSS
+- level 1.1 - Inline CSS
 
 --  Inline CSS: adding css style attribute to the relevant tag
    
@@ -41,7 +41,7 @@ level 1.1 - Inline CSS
 
 .
 .
-level 1.2 - Embedded/Internal CSS:
+- level 1.2 - Embedded/Internal CSS:
 
 -- Internal styles are defined within the <style> element, inside the head section of an HTML page.
 
@@ -65,7 +65,7 @@ level 1.2 - Embedded/Internal CSS:
 
 .
 .
-level 1.3 - External CSS:
+- level 1.3 - External CSS:
 
 -- With this method, all styling rules are contained in a single text file,("***.css")
     This CSS file is then referenced in the HTML using the <link> tag. (inside <head> section.
@@ -80,7 +80,7 @@ level 1.3 - External CSS:
 
 .
 .
-level 1.4 - CSS Syntax
+- level 1.4 - CSS Syntax
 
 --- CSS is composed of style rules for the document. 
     A style rule has three parts: selector, property, and value. 
@@ -94,7 +94,7 @@ level 1.4 - CSS Syntax
 
 .
 .
-level 1.5 - Type Selectors (html tag, id, class)
+- level 1.5 - Type Selectors (html tag, id, class)
 
 -- Type Selectors are selector targets element types on the page (html tags).
 
@@ -167,7 +167,7 @@ level 1.5 - Type Selectors (html tag, id, class)
 
 .
 .
-level 1.6 - Cascade
+- level 1.6 - Cascade
 
 -- The three/3 main sources of style information that form a cascade are
 
@@ -180,7 +180,7 @@ level 1.6 - Cascade
 
 .
 .
-level 1.7 - Inheritance
+- level 1.7 - Inheritance
 
 -- Inheritance refers to the way "properties" flow through the page. 
     A "child" element will usually take on the characteristics of the "parent" element unless otherwise defined.
