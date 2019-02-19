@@ -58,3 +58,6 @@ footer
     /* background: linear-gradient(60deg, rgb(15, 15, 212), rgb(3, 2, 29)); */
 }
 
+pic {
+    align-content: center;
+}
