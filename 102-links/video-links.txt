@@ -17,6 +17,8 @@ https://www.youtube.com/watch?v=ieTHC78giGQ&list=PL5Tw98-9k5IYeeZz_ai5bx9ItGrUI-
 https://www.youtube.com/watch?v=pmKyG3NBY_k&list=PLWKjhJtqVAbl1AfjiGyYxwpdAPi5v-1OU
 
 ## JavaScript ##
+https://www.youtube.com/watch?v=PkZNo7MFNFg&t=1s
+https://www.youtube.com/watch?v=PkZNo7MFNFg&t=127s  
 
 
 ## Jquery ##

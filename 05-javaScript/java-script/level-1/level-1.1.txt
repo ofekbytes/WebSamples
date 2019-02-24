@@ -7,6 +7,7 @@ Java-Script
 - level 1.2 - comment
 - 
 
+
 .
 .
 - level 1 - Java-Script
@@ -24,8 +25,42 @@ Java-Script
 
 .
 .
-- level 1.1 - xxx
+- level 1.1 - JavaScript
 
+-- JavaScript on the web lives inside the HTML document. 
+   In HTML, JavaScript code must be inserted between <script> and </script> tags:
+
+--- example:
+
+    <script>
+        ...
+    </script>
+
+-- JavaScript can be placed in the HTML page's <body> and <head> sections.
+
+-!- script in the <head> section, will be executed before the <body> is rendered. 
+
+-!- place your script at the end of the <body> tag.
+
+--- example: 
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <script>
+            console.log("head script");    
+        </script>        
+    </head>
+    <body>
+        <h1>
+        <script>
+            console.log("body script");    
+        </script>
+        <!--end of <body> body -->
+    </body>
+    </html>
+
+--- example: <java-Script-1.1.html>
 
 .
 .
@@ -37,36 +72,55 @@ Java-Script
 * multi line comment
 */
 
+--- example: <java-Script-1.1.html>
 
 .
 .
-- level 1.3 - DataType / variable
+- level 1.3 - document.write()
 
-/*** 
-* DataType 
-* undefined, null, boolean, string, symbol, number, object
-* undefined - not set yet
-* null - nothing 
-* boolean - true/false
-* string - text value
-* number - number value
-* symbol - unique value
-* object - key-value pair
-***/
+-- The document.write() function writes a string into our HTML document (TEXT and/or HTML). 
 
-var variableVar = "var can be used in all the program ";
-let variableLet = "let can be used in code scope";
-const pi = 3.14; // const never change
+-!- The document.write() method should be used only for testing. 
 
-// example:
-var temp;
-var number = 33;
+--- example:
 
-number = number + 22;
-temp = "tempData";
+    document.write("<h1>document.write test </h1>");
+
+--- example: <java-Script-1.1.html>
+
+-!- You can output almost everything in the webpage using JavaScript. 
+    Many JavaScript frameworks use this to create HTML pages.
+
+.
+.
+- level 1.4 - DataType / variable
+
+-- JavaScript provides seven/7 different data types which are:
+   undefined, null, boolean, string, symbol, number, object.
+
+-- undefined --> not set yet
+-- null --> nothing 
+-- boolean --> true/false
+-- string --> text value
+-- number --> number value
+-- symbol --> unique value
+-- object --> key-value pair
+
+
+-- example:
+    var variableVar = "var can be used in all the program ";
+    let variableLet = "let can be used in code scope";
+    const pi = 3.14; // const never change
+
+    var temp;
+    var number = 33;
+
+    number = number + 22;
+    temp = "tempData";
  
-console.log("number ==> " + number);
-console.log("temp ==> " + temp);
+    console.log("number ==> " + number);
+    console.log("temp ==> " + temp);
+
 
 
 
