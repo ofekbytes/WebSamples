@@ -36,6 +36,7 @@ function  fnCheckboxEvent()
         document.getElementById("output").innerText = "barcode ... id == " + document.getElementById("barcode").id;
         console.log("barcode ... id == " + document.getElementById("barcode").id);    
     }
+    console.log("i am here");
 }
 
 

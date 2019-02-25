@@ -106,13 +106,17 @@ Java-Script
 -- symbol --> unique value
 -- object --> key-value pair
 
+-- var --> var can be used in all the program
+-- lest --> let can be used in code scope
+-- const --> const is a constants that never change.
 
 -- example:
     var variableVar = "var can be used in all the program ";
     let variableLet = "let can be used in code scope";
-    const pi = 3.14; // const never change
+    const constTitle = "const is a constants that never change";
+    const pi = 3.14; //const is a constants that never change.
 
-    var temp;
+    var temp;  // undefined //
     var number = 33;
 
     number = number + 22;
@@ -121,6 +125,11 @@ Java-Script
     console.log("number ==> " + number);
     console.log("temp ==> " + temp);
 
+
+    if (stLastName ===  undefined )
+    {
+        console.log(" stLastName is " + typeof(stLastName) ) ; // undefined //
+    }
 
 
 
