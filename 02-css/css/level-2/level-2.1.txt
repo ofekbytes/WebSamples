@@ -3,8 +3,8 @@
 css - text.
 .
 .
-level 2.1 - The font-family Property
-level 2.2 - The font-size Property
+- level 2.1 - The font-family Property
+- level 2.2 - The font-size Property
 - level 2.3 - The font-style Property
 - level 2.4 - _The font-weight Property
 .
