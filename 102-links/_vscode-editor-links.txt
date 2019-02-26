@@ -1,14 +1,15 @@
-.
-./////////////////
-+---------------+/
-|               |/
-|  vs code      |/
-|  information  |/
-|               |/
-+---------------+/
-.
-.
+
+
+--[ vsCode --> visual studio Code ]--
+
+
+[visual studio Code - Editor installation]
+
+https://code.visualstudio.com/
+
+
 [extensions <ctrl+shift+x> ]
+.
 .
 1) Live Server - <ritwickdey.liveserver> ..MIT License
 2) Numbered Bookmarks - <Alessandro Fragnani> ..MIT License..
@@ -19,7 +20,6 @@
 7) Debugger for Chrome - <Microsoft>  ..MIT License..
 8) GitLens — Git supercharged - <Eric Amodio> ..MIT License..
 9) VS Live Share - <Microsoft>  ..MICROSOFT PRE-RELEASE SOFTWARE LICENSE TERMS..
-
 
 2018
 *) Settings Sync - <Shan Khan>  ..MIT License..
