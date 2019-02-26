@@ -131,6 +131,24 @@ Java-Script
         console.log(" stLastName is " + typeof(stLastName) ) ; // undefined //
     }
 
+--- example: <java-Script-1.2.html>
+
+
+-- variable camel Case --> camelCaseVariable
+
+--- example:
+    var stBanner = "Welcome .";
+    var userAge = 55;
+    var isUserNew = true;
+
+
+-- typeof - type of variable
+
+--- example:
+    var stLastName = "jack"
+    typeof(stLastName);
+
+--- example: <java-Script-1.2.html>
 
 
 
