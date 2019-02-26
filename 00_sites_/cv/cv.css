@@ -2,6 +2,7 @@
 body{
     color:white;
     background:black;
+    font-family: "Indie Flower";
 }
 
 /* #title , #phone 
@@ -12,7 +13,7 @@ body{
 header
 {
     text-align: center;
-    font-family: "Indie Flower";
+    /* font-family: "Indie Flower"; */
 }
 
 footer
