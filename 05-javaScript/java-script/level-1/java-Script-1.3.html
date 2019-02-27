@@ -15,7 +15,12 @@
         var num1 = 10;
         var num2 = 20;
         var num3 = "total";
-    </script>
+        var numDecimal_1 = 4.2;
+        var numDecimal_2 = 2.1;
+
+        var stTeamName = " developer ";
+        var stTeamNickName = " TheATeam ";
+     </script>
 
 </head>
 
@@ -23,8 +28,49 @@
 
     <script>
 
-        console.log(typeof(num3));
+        //console.log(" num3 is a :: " + typeof(num3)); //temp
         
+        num3 = num1 + num2;
+        console.log(num1 + " + " + num2 + " = " + num3);
+
+        num3 = num2 - num1;
+        console.log(num2 + " - " + num1 + " = " + num3);
+
+        num3 = num1 * num2;
+        console.log(num1 + " * " + num2 + " = " + num3);
+
+        num3 = num2 / num1;
+        console.log(num2 + " / " + num1 + " = " + num3);
+
+        num4 = 9;
+        num3 = num2 % num4;
+        console.log(num2 + " % " + num4 + " = " + num3);
+
+        console.log("num1 == " + num1);
+        num1++;
+        console.log("num1 == " + num1);
+        num1--;
+        console.log("num1 == " + num1);
+
+        // console.log("num1++ == " + num1++ + " ::: ++num2 == " + ++num2);
+        // console.log("num1++ == " + num1++ + " ::: ++num2 == " + ++num2);
+
+        console.log(numDecimal_1 + " + " + numDecimal_2 + " = " + (numDecimal_1 + numDecimal_2) );
+        console.log(numDecimal_1 + " - " + numDecimal_2 + " = " + (numDecimal_1 - numDecimal_2) );
+        console.log(numDecimal_1 + " * " + numDecimal_2 + " = " + (numDecimal_1 * numDecimal_2) );
+        console.log(numDecimal_1 + " / " + numDecimal_2 + " = " + (numDecimal_1 / numDecimal_2) );
+        console.log((numDecimal_1+1) + " % " + numDecimal_2 + " = " + ((numDecimal_1+1) % numDecimal_2) );
+
+        console.log("num1 = num1 + 2 == " + (num1 = num1 + 2) );
+        console.log("== " + (num1 += 2) );        
+        console.log("num1 -= 2 == " + (num1 -= 2) );        
+        console.log("num1 *= 2 == " + (num1 *= 2) );        
+        console.log("num1 /= 2 == " + (num1 /= 2) );        
+        console.log("num1 %= 2 == " + (num1 %= 2) );        
+
+        console.warn("TeamName === " +  stTeamName);
+        console.warn("stTeamNickName === " +  stTeamNickName);
+        console.warn("TeamName + stTeamNickName === " +  stTeamName + stTeamNickName);
     </script>
 </body>
 

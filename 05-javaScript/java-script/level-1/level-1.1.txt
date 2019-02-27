@@ -5,6 +5,9 @@ Java-Script
 .
 - level 1: Java-Script
 - level 1.2 - comment
+- level 1.3 - document.write()
+- level 1.4 - DataType / variable - math
+
 - 
 
 
@@ -149,6 +152,38 @@ Java-Script
     typeof(stLastName);
 
 --- example: <java-Script-1.2.html>
+
+.
+.
+- level 1.4 - DataType / variable - math
+
+--- example:
+
+    num3 = num1 + num2;
+    num3 = num2 - num1;
+    num3 = num1 * num2;
+    num3 = num1 / num2;
+    num3 = num2 % num1;
+
+    var numDecimal_1 = 1.1;
+    numDecimal_1 += 2.2;
+    numDecimal_1 -= 2.2;
+    numDecimal_1 *= 2.2;
+    numDecimal_1 /= 2.2;
+    numDecimal_1 %= 2.2;
+
+    num1 += 2;
+    num1 -= 2;
+    num1 *= 2;
+    num1 /= 2;
+    num1 %= 2;
+
+    
+
+    --- example: <java-Script-1.3.html> 
+
+
+
 
 
 
