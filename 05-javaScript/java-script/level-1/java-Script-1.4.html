@@ -12,14 +12,10 @@
 
     
     <script>
-        var num1 = 10;
-        var num2 = 20;
-        var num3 = "total";
-        var numDecimal_1 = 4.2;
-        var numDecimal_2 = 2.1;
-
-        var stTeamName = " developer ";
-        var stTeamNickName = " TheATeam ";
+        var StringMarks_1  = " Test for \"jron\" ";
+        var StringMarks_2  = ' Test for "jron" ';
+        var StringMarks_3  = ` Test 'it' and "enjoy" `;
+        var StringMarks_4  = " 'Error'.. `temp` message ";
      </script>
 
 </head>
@@ -28,60 +24,23 @@
 
     <script>
 
-        //console.log(" num3 is a :: " + typeof(num3)); //temp
-        
-        num3 = num1 + num2;
-        console.log(num1 + " + " + num2 + " = " + num3);
+        console.info(StringMarks_1);
+        console.log(StringMarks_2);
+        console.warn(StringMarks_3);
+        console.error(StringMarks_4);                
+        document.write(StringMarks_4);
 
-        num3 = num2 - num1;
-        console.log(num2 + " - " + num1 + " = " + num3);
+        StringMarks_4 = StringMarks_1;
 
-        num3 = num1 * num2;
-        console.log(num1 + " * " + num2 + " = " + num3);
-
-        num3 = num2 / num1;
-        console.log(num2 + " / " + num1 + " = " + num3);
-
-        num4 = 9;
-        num3 = num2 % num4;
-        console.log(num2 + " % " + num4 + " = " + num3);
-
-        console.log("num1 == " + num1);
-        num1++;
-        console.log("num1 == " + num1);
-        num1--;
-        console.log("num1 == " + num1);
-
-        // console.log("num1++ == " + num1++ + " ::: ++num2 == " + ++num2);
-        // console.log("num1++ == " + num1++ + " ::: ++num2 == " + ++num2);
-
-        console.log(numDecimal_1 + " + " + numDecimal_2 + " = " + (numDecimal_1 + numDecimal_2) );
-        console.log(numDecimal_1 + " - " + numDecimal_2 + " = " + (numDecimal_1 - numDecimal_2) );
-        console.log(numDecimal_1 + " * " + numDecimal_2 + " = " + (numDecimal_1 * numDecimal_2) );
-        console.log(numDecimal_1 + " / " + numDecimal_2 + " = " + (numDecimal_1 / numDecimal_2) );
-        console.log((numDecimal_1+1) + " % " + numDecimal_2 + " = " + ((numDecimal_1+1) % numDecimal_2) );
-
-        console.log("num1 = num1 + 2 == " + (num1 = num1 + 2) );
-        console.log("== " + (num1 += 2) );        
-        console.log("num1 -= 2 == " + (num1 -= 2) );        
-        console.log("num1 *= 2 == " + (num1 *= 2) );        
-        console.log("num1 /= 2 == " + (num1 /= 2) );        
-        console.log("num1 %= 2 == " + (num1 %= 2) );        
-
-        console.warn("TeamName === " +  stTeamName);
-        console.warn("stTeamNickName === " +  stTeamNickName);
-        console.warn("TeamName + stTeamNickName === " +  stTeamName + stTeamNickName);
-
-        let test=2;
-        console.log("test == " + test);
-        console.log("test++ == " + test++);
-        console.log("test-- == " + test--);
-        console.log("++test == " + ++test);
-        console.log("--test == " + --test);
-
-        console.log("test < 1 == " + (test < 1) + " , test > 1 == " + (test > 1) );
+        //unassigned variable value
+        let stName ;
+        let a;
+        console.log("stName === " + stName); //undefined
+        console.log("a += 2 === " + (a += 2) ); //NaN
 
     </script>
 </body>
 
 </html>
+
+
