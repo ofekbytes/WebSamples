@@ -1,8 +1,0 @@
-﻿[www]
-
-
-typescript playground:
-http://www.typescriptlang.org/
-http://www.typescriptlang.org/play/
-
-

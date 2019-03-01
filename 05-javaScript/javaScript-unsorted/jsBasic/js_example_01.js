@@ -432,13 +432,15 @@ function fn_add2(num1,num2) {
 
 //
 //closure
+//
 function fnGetCounter()
 {
+    //static variable//
     var intCount = 0;
 
     function fnAdd() {
         ++intCount;
-        console.log("intCount ===" + intCount);
+        console.log("fnGetCounter() -- return fnAdd() value from variable intCount ===" + intCount);
     }
 
     return fnAdd;
