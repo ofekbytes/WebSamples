@@ -70,7 +70,19 @@
 
         console.warn("TeamName === " +  stTeamName);
         console.warn("stTeamNickName === " +  stTeamNickName);
-        console.warn("TeamName + stTeamNickName === " +  stTeamName + stTeamNickName);
+        console.warn("TeamName + stTeamNickName === " +  stTeamName + stTeamNickName); //Concatenation
+
+        /***
+         * 
+         *  Concatenation
+         * 
+         */
+        let stConcatenationOne = " this is the first ";
+        let stConcatenationTwo = " this is the second ";
+        let stTotalConcatenation = stConcatenationOne + " :: " + stConcatenationTwo;
+
+        console.error("Concatenation example #1 \n" + stTotalConcatenation);
+        console.error("Concatenation example #2 \n" + (stConcatenationOne += stConcatenationTwo));
 
         console.log(" escaped characters \' \" \\ \t ==tab \n ==new_line \r ==carriage_return \b ==backspace \f ==form_feed \' \"\" ==> in console mode");
 

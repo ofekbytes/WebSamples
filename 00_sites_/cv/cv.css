@@ -2,8 +2,23 @@
 body{
     color:white;
     background:black;
-    font-family: "Indie Flower";
+    font-family: "Indie Flower", Lobster;
 }
+
+
+.thick-green-border 
+{
+    border-color: white;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 30px; /*square - using "%"*/
+}
+
+
+/* .font2
+{
+    font-family: Lobster ;
+} */
 
 /* #title , #phone 
 {
@@ -15,6 +30,8 @@ header
     text-align: center;
     /* font-family: "Indie Flower"; */
 }
+
+
 
 footer
 {

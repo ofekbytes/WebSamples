@@ -1,26 +1,17 @@
----------------------
-Java-Script KeyWords
----------------------
+.
+.
+Java-Script
+.
+.
+- level 1.2.1: escaped characters are:
+- level 1.2.2: JavaScript JavaScript Reserved Words
+- level 1.2.3: JavaScript Arithmetic Operators 
+- level 1.2.4: JavaScript Assignment Operators 
+- level 1.2.5: JavaScript Comparison Operators 
 
-
-scope
-section
-Script
-charset
-value
-reference-type
-obect
-array
-function
-heap
-
-
--- math 
-
-
-
-
---- escaped characters are:
+.
+.
+- level 1.2.1: escaped characters are:
 
 \'   ' 
 \"   "
@@ -32,9 +23,9 @@ heap
 \f   <form_feed>
 
 
-
-
-** JavaScript JavaScript Reserved Words **
+.
+.
+- level 1.2.2: JavaScript JavaScript Reserved Words
 
 abstract , arguments , await* , boolean , break , byte , case , catch , 
 char , class* , const , continue , debugger , default , delete , do , 
@@ -45,9 +36,9 @@ null , package , private , protected , public , return , short , static ,
 super* , switch , synchronized , this , throw , throws , transient , true , 
 try , typeof , var , void , volatile , while , with , yield
 
-
-
-** JavaScript Arithmetic Operators **
+.
+.
+- level 1.2.3: JavaScript Arithmetic Operators 
 
 +    Addition
 -    Subtraction
@@ -59,8 +50,9 @@ try , typeof , var , void , volatile , while , with , yield
 --   Decrement
 
 
-
-** JavaScript Assignment Operators **
+.
+.
+- level 1.2.4: JavaScript Assignment Operators 
 
 =    x = y    x = y
 +=   x += y   x = x + y
@@ -70,8 +62,9 @@ try , typeof , var , void , volatile , while , with , yield
 %=   x %= y   x = x % y
 
 
-
-** JavaScript Comparison Operators **
+.
+.
+- level 1.2.5: JavaScript Comparison Operators 
 
 ==    equal to
 ===   equal value and equal type
@@ -82,6 +75,9 @@ try , typeof , var , void , volatile , while , with , yield
 >=    greater than or equal to
 <=    less than or equal to
 ?     ternary operator
+
+
+
 
 
 

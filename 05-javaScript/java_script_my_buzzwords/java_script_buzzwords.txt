@@ -14,6 +14,12 @@ array
 function
 heap
 
+
+
+
+String Concatenating - adding two/2 string together **
+<https://en.wikipedia.org/wiki/Concatenation>
+
 spa - single page application
 <https://en.wikipedia.org/wiki/Single-page_application>
 
