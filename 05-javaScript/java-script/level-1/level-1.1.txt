@@ -182,6 +182,21 @@ Java-Script
 
     --- example: <java-Script-1.3.html> 
 
+.
+.
+- level 1.5 - String and escaped characters
+
+--- escaped characters are:
+
+\'   ' 
+\"   "
+\\   \
+\t   <tab>
+\n   <new line>
+\r   <carriage_return>
+\b   <backspace>
+\f   <form_feed>
+
 
 
 

@@ -1,0 +1,43 @@
+---------------------
+Java-Script KeyWords
+---------------------
+
+
+scope
+section
+Script
+charset
+value
+reference-type
+obect
+array
+function
+heap
+
+
+-- math 
+
+--- escaped characters are:
+
+\'   ' 
+\"   "
+\\   \
+\t   <tab>
+\n   <new line>
+\r   <carriage_return>
+\b   <backspace>
+\f   <form_feed>
+
+
+
+---[Math]---
+Math.sign()
+Math.abs()
+Math.ceil()
+Math.floor()
+Math.round()
+Math.trunc()
+
+
+
+

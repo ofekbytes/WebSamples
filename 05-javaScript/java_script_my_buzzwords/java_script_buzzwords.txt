@@ -1,0 +1,17 @@
+---------------------
+Java-Script buzzwords
+---------------------
+
+
+scope
+section
+Script
+charset
+value
+reference-type
+obect
+array
+function
+heap
+
+
