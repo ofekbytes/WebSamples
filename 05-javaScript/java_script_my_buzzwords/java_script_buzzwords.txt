@@ -14,4 +14,30 @@ array
 function
 heap
 
+spa - single page application
+<https://en.wikipedia.org/wiki/Single-page_application>
+
+mdi - multiple document interface
+<https://en.wikibooks.org/wiki/Windows_Programming/MDI_Programs>
+
+<https://en.wikipedia.org/wiki/Multiple_document_interface>
+
+Service_provider_interface
+<https://en.wikipedia.org/wiki/Service_provider_interface>
+
+Interface-based_programming
+<https://en.wikipedia.org/wiki/Interface-based_programming>
+
+Application_programming_interface
+<https://en.wikipedia.org/wiki/Application_programming_interface>
+
+Interface_control_document
+<https://en.wikipedia.org/wiki/Interface_control_document>
+
+
+sdi - single document interface
+
+application
+
+
 

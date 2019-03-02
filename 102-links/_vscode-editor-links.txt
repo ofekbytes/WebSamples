@@ -9,6 +9,8 @@ https://code.visualstudio.com/
 
 
 [extensions <ctrl+shift+x> ]
+
+-!- installed press "@installed"  <enter>
 .
 .
 1) Live Server - <ritwickdey.liveserver> ..MIT License
