@@ -76,8 +76,3 @@ try , typeof , var , void , volatile , while , with , yield
 <=    less than or equal to
 ?     ternary operator
 
-
-
-
-
-

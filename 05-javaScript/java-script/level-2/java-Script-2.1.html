@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <!-- title -->
+    <title> java-Script - variable </title>
+
+    
+    <script>
+        var StringText1  = "Welcome Back";
+        var intTotalCharacter = 0;
+    </script>
+
+</head>
+
+<body>
+
+    <script>
+        console.log(StringText1 + " length = " + StringText1.length);
+
+        console.log("first character of the word " + StringText1 + " is :: " + StringText1[0]);
+
+        console.log("lst character of the word " + StringText1 + " is :: " + StringText1[StringText1.length - 1]);
+
+        StringText1[0] = "T"; //Not-OK - will not work//
+        console.log("*error* StringText1 == " + StringText1);
+        
+        StringText1 = "test me again"; //OK-will work//
+        console.log("*ok* StringText1 == " + StringText1); 
+
+    </script>
+</body>
+
+</html>
+
+
+

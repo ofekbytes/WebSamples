@@ -1,0 +1,37 @@
+.
+.
+Java-Script
+.
+.
+- level 2.01 - JavaScript String Property
+
+
+
+.
+.
+- level 2.01 - JavaScript String length
+.
+
+-- length - 
+   length - Returns the length of a string
+
+--- example:
+
+    var StringText1  = "Welcome Back ...";
+    var intTotalCharacter = 0;
+
+    console.log(StringText1 + " length = " + StringText1.length);
+
+    
+--- example: <java-Script-2.1.html>
+
+
+.
+.
+- level 2.02 - JavaScript String - bracket notation to find first character in String
+
+
+
+
+
+

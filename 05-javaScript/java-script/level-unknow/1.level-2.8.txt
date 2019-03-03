@@ -1,0 +1,44 @@
+.
+.
+Java-Script
+.
+.
+- level 2.01 - JavaScript String Property
+
+
+
+.
+.
+- level 2.01 - JavaScript String Property
+.
+
+-- length - 
+   length - Returns the length of a string
+
+--- example:
+
+    var StringText1  = "Welcome Back ...";
+    var intTotalCharacter = 0;
+
+    console.log(StringText1 + " length = " + StringText1.length);
+
+    
+--- example: <java-Script-2.1.html>
+
+
+-- prototype - 
+   prototype - Allows you to add properties and methods to an object
+
+
+
+
+
+
+
+----------------------[temp]------------------------------------------
+
+-- constructor - (***jsarray****)
+   constructor - Returns the string's constructor function
+https://www.w3schools.com/jsref/jsref_constructor_array.asp
+
+----------------------------------------------------------------------

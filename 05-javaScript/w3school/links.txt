@@ -1,1 +1,14 @@
 https://www.w3schools.com/js/default.asp
+
+//String
+https://www.w3schools.com/jsref/jsref_obj_string.asp 
+
+//Array
+https://www.w3schools.com/jsref/jsref_obj_array.asp
+
+//Logical
+https://www.w3schools.com/js/js_comparisons.asp
+
+
+//array
+https://www.w3schools.com/jsref/jsref_obj_array.asp
