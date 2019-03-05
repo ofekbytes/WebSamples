@@ -6,6 +6,10 @@ Java-Script
 .
 .
 - level 3.01 - JavaScript Conditionals and Loops
+- level 3.02 - if() ... else() -  if...else Statement
+- level 3.03 - contains a conditional operator (like if..else)
+- level 3.04 - if() ... else if () -  if...else if Statement
+- level 3.05 - Switch
 
 
 
@@ -44,7 +48,7 @@ if (condition/expression)
 
 .
 .
-- level 3.01 - if() ... else() -  if...else Statement
+- level 3.02 - if() ... else() -  if...else Statement
 
 if (condition/expression) 
 {
@@ -76,13 +80,13 @@ else
 
 .
 .
-- level 3.01 - contains a conditional operator (like if..else)
+- level 3.03 - contains a conditional operator (like if..else)
 
 -- example:
 
  variablename = (condition) ? value1:value2 
 
---- Example : 
+--- example : 
     x = 18;
     var voteable = (age < x) ? "Too young":"Old enough";
 
@@ -90,6 +94,67 @@ else
     (x = 18) ==> output ==> "Old enough"
     (x = 16) ==> output ==> "Too young"
 ---------------------------------------------
+
+
+.
+.
+- level 3.04 - if() ... else if () -  if...else if Statement
+
+-- else if() statement to specify a new condition if the first condition is false.
+
+-!- You can write as many else if statements as you need.
+
+-!- The final "else" statement ends the else if statement.
+    ( should be always written after the "if" and "else if" statements ).
+
+-!- The final "else" statement block will be executed when none of the conditions is TRUE 
+    (when all the conditions is FALSE).
+
+--- example: 
+
+var level = 2;
+
+if (level == 1) //FALSE
+{
+   document.write("<h1>level 1</h1>");
+} 
+else if (level == 2) //TRUE
+{
+   document.write("<h1>level 2/h1>"");
+} 
+else 
+{
+   document.write("<h1>level 3</h1>"");
+}
+
+--- example: <java-Script-3.1.html>
+
+
+.
+.
+- level 3.05 - Switch 
+
+-- In cases when you need to test for multiple conditions, 
+   writing if else statements for each condition might not be the best solution. 
+   The switch statement is used to perform different actions based on different conditions.
+
+--- example:
+
+   switch (expression) 
+   {
+      case n1: 
+        statements
+        break;
+      case n2: 
+        statements
+        break;
+      default: 
+        statements
+}
+
+
+
+
 
 
 
