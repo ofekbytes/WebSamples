@@ -12,7 +12,7 @@
 
     
     <script>
-        var StringText1  = "Welcome Back";
+        var StringText1  = "java-Script - variable";
         var intTotalCharacter = 0;
     </script>
 
@@ -25,12 +25,13 @@
 
         console.log("first character of the word " + StringText1 + " is :: " + StringText1[0]);
 
-        console.log("lst character of the word " + StringText1 + " is :: " + StringText1[StringText1.length - 1]);
+        console.log("last character of the word " + StringText1 + " is :: " + StringText1[StringText1.length - 1]);
+        console.log("2 character before the end of the word " + StringText1 + " is :: " + StringText1[StringText1.length - 2]);
 
-        StringText1[0] = "T"; //Not-OK - will not work//
+        StringText1[0] = "T"; //Not-OK - we can't change a single character in string variable//
         console.log("*error* StringText1 == " + StringText1);
         
-        StringText1 = "test me again"; //OK-will work//
+        StringText1 = "test me again"; //OK-we can replace all the value in a variable//
         console.log("*ok* StringText1 == " + StringText1); 
 
     </script>

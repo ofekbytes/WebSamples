@@ -30,7 +30,7 @@ Java-Script
 .
 - level 2.02 - JavaScript String - bracket notation to find first character in String
 
-
+-- 
 
 
 

@@ -1,0 +1,95 @@
+.
+.
+Java-Script
+
+
+.
+.
+- level 3.01 - JavaScript Conditionals and Loops
+
+
+
+.
+.
+- level 3.01 - JavaScript Conditionals and Loops
+
+
+.
+.
+- level 3.01 - if() -  if Statement
+
+-- conditional statements - perform different actions based on different conditions.
+
+--- example:
+
+if (condition/expression) 
+{
+   TRUE - executed if condition is true
+}
+
+-- example:
+
+    var num1 = 7;
+    var num2 = 10;
+
+    console.log(":::if_Statemen:::");
+
+    if (num1 < num2) 
+    {
+        console.log("num1 < num2 - condition is TRUE");
+    }
+
+--- example: <java-Script-3.1.html>
+
+
+.
+.
+- level 3.01 - if() ... else() -  if...else Statement
+
+if (condition/expression) 
+{
+   // TRUE - executed if condition is true
+}
+else 
+{
+   // FALSE - executed if condition is false
+}
+
+-- example:
+
+    var num1 = 10;
+    var num2 = 20;
+
+    console.log(":::if_Statemen:::");
+
+    if (num1 < num2) 
+    {
+        console.log("num1 < num2 - condition is TRUE");
+    }
+    else
+    {
+        console.log("num1 > num2 - condition is FALSE");
+    }
+
+--- example: <java-Script-3.1.html>
+
+
+.
+.
+- level 3.01 - contains a conditional operator (like if..else)
+
+-- example:
+
+ variablename = (condition) ? value1:value2 
+
+--- Example : 
+    x = 18;
+    var voteable = (age < x) ? "Too young":"Old enough";
+
+-----[output]--------------------------------
+    (x = 18) ==> output ==> "Old enough"
+    (x = 16) ==> output ==> "Too young"
+---------------------------------------------
+
+
+

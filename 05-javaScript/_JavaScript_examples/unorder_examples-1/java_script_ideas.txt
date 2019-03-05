@@ -1,0 +1,6 @@
+
+
+function/method/file ideas
+** generate random number
+** question and answer with json file
+

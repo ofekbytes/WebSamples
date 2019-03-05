@@ -296,10 +296,10 @@ Javascript file:
 
         let stConcatenationOne = " this is the first ";
         let stConcatenationTwo = " this is the second ";
-        let stTotalConcatenation = stConcatenationOne + " :: " + stConcatenationTwo;
+        let stTotalConcatenation = stConcatenationOne + " :: " + stConcatenationTwo; //string1+string2
 
         console.error("Concatenation example #1 \n" + stTotalConcatenation);
-        console.error("Concatenation example #2 \n" + (stConcatenationOne += stConcatenationTwo));
+        console.error("Concatenation example #2 \n" + (stConcatenationOne += stConcatenationTwo)); //string1+string2
 
 .
 .
