@@ -1,0 +1,8 @@
+//get the data in the module
+$.getJSON("days.json", function( data ) {
+});
+
+//wait for data to load...
+setTimeout(function(){
+	console.log(days(1));
+},1000);

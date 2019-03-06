@@ -1,0 +1,75 @@
+<html ng-app="myApp">
+	<head>
+		<title>Hello World, AngularJS - ViralPatel.net</title>
+		<meta charset="utf-8" />
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+		<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+	</head>	
+	<body class="container">
+		<div>
+			<my-greeting></my-greeting><br />
+			<span my-red>this is info message</span><br />
+			<my-replace></my-replace><br />
+			<span scoped-directive></span><br />
+			<span contrld-directive></span><br />
+			
+		</div>
+
+		</div>
+		<script type="text/javascript">
+			//create new angular app with empty dependencies array
+			var myApp = angular.module('myApp',[]);
+			myApp.directive('myGreeting',function(){
+				return {
+					restrict: 'E',
+					template: '<span>Hello World</span>'
+				}
+			});
+			myApp.directive('myReplace',function(){
+				return {
+					replace: true,
+					restrict: 'E',
+					template: '<span>Hello World</span>'
+				}
+			});
+			myApp.directive('myRed',function(){
+				return {
+					restrict: 'A',
+					link: function($scope,$element,$attr){
+						$element.addClass('text-danger');
+						return '';
+					}
+				}
+			});
+			myApp.directive('myRed',function(){
+				return {
+					restrict: 'A',
+					link: function($scope,$element,$attr){
+						$element.addClass('text-danger');
+						return '';
+					}
+				}
+			});
+			myApp.directive('scopedDirective',function(){
+				return {
+					restrict: 'A',
+					link: function($scope,$element,$attr){
+						$scope.name = "Alon";
+						$element.addClass('text-danger');
+					},
+					template: '<span>{{name}}</span>'
+				}
+			});
+			myApp.directive('contrldDirective',function(){
+				return {
+					restrict: 'A',
+					controller: function($scope,$element,$http){
+						$scope.name = "Alon";
+						$element.addClass('text-danger');
+					},
+					template: '<span>{{name}}</span>'
+				}
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,68 @@
+<!-- Ex3 Directives - array with filters. -->
+<!-- AngularJS View,controller, scope -->
+
+<!DOCTYPE html>
+<html data-ng-app=""> <!-- Angularjs Directive> -->
+<head>
+    <title>AngularJS Directives and Data Binding</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+ 
+   <body>
+  
+      <br /> AngularJs MVC (Model View Controller): view, controllers, scope (scope=view-model)
+      <br /> [view]   [controller]
+      <br /> [view]--directive, filter, data-binding  but, we don't want to put all logic into the view 
+      <br /> becuase it's not maintainable, testable
+      <br /> [controller] - is a java-script object container, and controller will drive/move the things.   
+      <br /> it will control what data get bound into the views
+      <br /> $scope is the "glue" (ViewModle) between a controller and a view.
+      <br /> $scope is a view model between a view and the controller.
+      <br />            
+      <br /> .
+       
+      <div class="container">     
+         Name:
+         <br />
+         <input type "text" data-ng-model="name" /> {{name}} <!-- {{name}} = data Binding Expression -->           
+      </div>
+ 
+ 
+       <div class="container"
+          data-ng-init="names=['i_am','you_are','we_are','they_are']">
+         
+          <h3> looping with the ng-repeat Directive </h3>
+          <ul>
+              <!-- personName reads the names array with filter: uppercase/lowercase  -->
+              <li data-ng-repeat="pesoneName in names">{{pesoneName | uppercase}}</li>
+          </ul>
+      </div>
+ 
+ 
+      <div class="container"
+          data-ng-init="customers=[{name:'eli li',city:'jerusalem'},
+                                   {name:'shalom lo',city:'lod'},
+                                   {name:'uri ri',city:'modin'},
+                                   {name:'uri iri',city:'modin'},
+                                   {name:'tomer mer	',city:'modin'},
+                                   {name:'itzik it',city:'netanya'}]">
+         
+          
+ 
+          <br />
+          <h3> looping with the ng-repeat Directive + 2 filters: by the ''filter'' text box and orderBy 'name'/'city' field + filter lowercase/uppercase </h3>
+          Filter
+          <input type "text" data-ng-model='nameText' />
+          <ul>
+              <li data-ng-repeat="cust in customers | filter:nameText | orderBy:'city'"> {{cust.name | lowercase}} - {{cust.city | uppercase}} </li>              
+          </ul>
+      </div>
+ 
+  
+      <script src="angular.min.js"> </script> <!-- script loading up -->
+   </body>
+ 
+</html>
+ 
+ 

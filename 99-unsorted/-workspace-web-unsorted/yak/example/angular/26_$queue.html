@@ -1,0 +1,44 @@
+<html ng-app="myApp">
+	<head>
+		<title>Hello World, AngularJS - ViralPatel.net</title>
+		<meta charset="utf-8" />
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+		<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+	</head>	
+	<body class="container">
+		<div ng-controller="ContactController" >
+			
+
+		</div>
+		<script type="text/javascript">
+			//create new angular app with empty dependencies array
+			var myApp = angular.module('myApp',[]);
+			myApp.cotroller('ContactController',function ContactController($scope,dataFactory) {
+				$scope.contacts = [];
+				dataFactory.getData().then(function(data){
+					$scope.contacts = data;
+				});
+			});
+			myApp.factory('dataFactory',function(){
+				return{
+					cachedData : false,
+					getData:function (){
+						//prepare the promise	
+						var deferred = $q.defer();
+						//if we have cache return the data\
+						var that  = this;
+						if(cachedData){
+							deferred.resolve(cachedData);
+						}else{
+							setTimeout(function(){
+								that.cachedData = ['Kipi','Moishe'];
+								deferred.resolve(that.cachedData);
+							},1999);
+						}
+						return deferred.promise;
+					}
+				}
+			})
+		</script>
+	</body>
+</html>

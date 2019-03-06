@@ -1,0 +1,28 @@
+
+<html>
+   <head>Java Script</head>
+   
+      
+   <body>
+   	<script type="text/javascript"> 
+        
+		function getCounter()
+		{
+			var num=0;
+			return function()
+			{
+				++num;
+				console.log(num);
+			}
+		}
+        
+		var counter = getounter();
+		counter();
+		counter();
+                   			
+   		
+   	 </script>
+   		
+   </body>
+
+</html>

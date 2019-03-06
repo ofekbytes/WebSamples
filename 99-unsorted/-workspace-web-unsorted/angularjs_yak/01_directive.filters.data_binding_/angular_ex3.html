@@ -1,0 +1,62 @@
+<!-- Ex3 Directives - array with filters. -->
+
+<!DOCTYPE html>
+<html data-ng-app=""> <!-- Angularjs Directive> -->
+
+<head>
+   <title>AngularJS Array + filter</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+</head>
+ 
+<body>
+
+	<br /> property "name" into a memory scope/view model - making an empty view model and filling it with a name property
+	<br /> Angularjs Directive: ng-app, ng-model, bind-data-to-model
+	<br /> Angularjs Directive: ng-app, ng-init, ng-repeat, bind-data-to-model 
+	<br /> using filters
+	<br /> .
+    
+	<div class="container">     
+		Name:
+	 	<br />
+	 	<input type "text" data-ng-model="name" /> {{name}} <!-- {{name}} = data Binding Expression -->           
+	</div>
+
+
+	<div class="container" data-ng-init="names=['i_am','you_are','we_are','they_are']">
+		<h3> looping with the ng-repeat Directive </h3>
+ 		<ul>
+    		<!-- personName reads the names array with filter: uppercase/lowercase  -->
+			<li data-ng-repeat="pesoneName in names">{{pesoneName | uppercase}}</li>
+		</ul>
+	</div>
+
+
+	<div class="container"
+		data-ng-init="customers=[{name:'eli li',city:'jerusalem'},
+		                         {name:'shalom lo',city:'lod'},
+		                         {name:'uri ri',city:'modin'},
+		                         {name:'uri iri',city:'modin'},
+		                         {name:'tomer mer	',city:'modin'},
+		                         {name:'itzik it',city:'netanya'}]">
+		<br />
+		<h3> 	looping with the ng-repeat Directive + 2 filters: by the ''filter'' 
+				text box and orderBy 'name'/'city' field + filter lowercase/uppercase
+		</h3>
+		
+		Filter
+		<input type "text" data-ng-model='nameText' />
+		<ul>
+    		<li data-ng-repeat="cust in customers | filter:nameText | orderBy:'name'"> {{cust.name | lowercase}} - {{cust.city | uppercase}} </li>              
+		</ul>
+	</div>
+
+
+	<script src="angular.min.js"> </script> <!-- script loading up -->
+	
+</body>
+ 
+</html>
+ 
+ 

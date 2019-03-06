@@ -1,0 +1,48 @@
+
+<html ng-app="myApp"> <!-- declare angular -->
+   <head>
+   		<title>Angular Script</title>
+   		
+   		<style>
+   			[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak
+   			{
+		  		display: none !important;
+			}
+		</style>
+   </head>
+   
+      
+   <body ng-cloak>
+
+		<div ng-controller="HelloCtrl">
+			Name: 
+			<br>
+			
+			<input type="text" ng-model="name"> <!-- name property -->
+			<span>Hello, {{name}} </span>  <!-- {{}} = read only data binding -->
+	
+	        <br>
+	        Say it again!
+	        <input type="text" ng-model="name">
+		</div>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+		
+		
+		<script>
+		    //create new angular app with empty dependenices array
+			var myApp = angular.module('myApp',[]);
+		
+			myApp.controller('HelloCtrl',function($scope)
+		    {
+		    	$scope.name = 'yak';
+		    	
+		    });
+		    
+		</script>
+		   		
+   </body>
+
+</html>
+
+<!-- https://developers.google.com/speed/libraries/devguide -->		

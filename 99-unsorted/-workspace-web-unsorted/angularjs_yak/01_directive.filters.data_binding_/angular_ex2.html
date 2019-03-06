@@ -1,0 +1,40 @@
+<!-- Ex2 Directives - teach HTML new tricks (extend HTML) + array  -->
+
+<!DOCTYPE html>
+<html data-ng-app=""> <!-- Angularjs Directive> --> 
+
+<head>
+    <title>AngularJS Directives and Data Binding</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+ 
+<body>  
+	<br /> property "name" into a memory scope/view model - making an empty view model and filling it with a name property
+	<br /> Angularjs Directive: ng-app, ng-model, bind-data-to-model
+	<br /> Angularjs Directive: ng-app, ng-init, ng-repeat, bind-data-to-model
+	<br /> .
+ 
+	<div class="container">     
+   		Name:
+   		<br />
+   		<input type "text" data-ng-model="name" /> {{name}} <!-- {{name}} = data Binding Expression -->           
+	</div>
+
+
+	<div class="container"
+    	data-ng-init="names=['eli li','shalom lo','uri ri','itzik it']">
+   
+    	<h3> looping with the ng-repeat Directive </h3>
+    	<ul>
+	        <li data-ng-repeat="pesoneName in names">{{pesoneName}}</li>  <!-- personName reads the names array -->
+    	</ul>
+	</div>
+
+
+	<script src="angular.min.js"> </script> <!-- script loading up -->
+</body>
+ 
+</html>
+ 
+ 

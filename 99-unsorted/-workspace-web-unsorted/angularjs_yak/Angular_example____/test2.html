@@ -1,0 +1,32 @@
+<!doctype html>
+<html data-ng-app="">
+  <body>
+     <head>
+        <title>Yak-TestDrive</title>
+     </head>
+     
+     <div class="container"
+        data-ng-init="family=[{name:'yaron',city:'holon',age:'40',sex:'man'},
+                              {name:'ilanit',city:'hifa',age:'43',sex:'woman'},
+                              {name:'hofit',city:'bay-yam',age:'38',sex:'woman'}]">
+         
+     </div>
+     
+     
+     
+     <h1> Family list </h1>
+     <br />
+     Enter a name:
+     <br />
+        <input type:"text" data-ng-model="name"> {{name}}
+     <br />
+       <ul>
+          <li data-ng-repeat="mf in family | filter:name |  orderBy:city"> {{mf.name | uppercase}} - {{mf.city | lowercase}} - {{mf.age}} - {{mf.sex | uppercase}}  </li>
+       </ul>
+     <br />    
+     
+     <script src="angular.min.js"></script> 
+  </body>
+  
+  
+</html>

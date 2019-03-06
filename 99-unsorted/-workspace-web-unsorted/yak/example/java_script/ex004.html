@@ -1,0 +1,30 @@
+
+<html>
+   <head>Java Script</head>
+   
+      
+   <body>
+   	<script type="text/javascript"> 
+        
+		function getDay()
+		{
+			var days=["sun","mon","tue","ther","fri","sat"];		
+			var num = 0
+			
+			return function()
+			{				
+				console.log(days[num]);
+				num++;
+			}
+		}
+        
+		var todayday = getDay();
+		todayday();
+		todayday();
+                   			
+   		
+   	 </script>
+   		
+   </body>
+
+</html>

@@ -1,0 +1,61 @@
+<html ng-app="myApp">
+	<head>
+		<title>Hello World, AngularJS - ViralPatel.net</title>
+		<meta charset="utf-8" />
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+		<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+	</head>	
+	<body class="container">
+		<div ng-controller="ContactController" class="ng-scope">
+			Email:<input type="text" ng-model="newcontact" class="ng-pristine ng-valid">
+			<button ng-click="add()">Add</button>
+			<h2 class="alert" ng-class='
+				{
+					"alert-success": !isEmpty(), 
+					"alert-warning": isEmpty()
+				}'>Contacts ({{contacts.length}})</h2>
+			<div ng-hide="isEmpty()">
+				<ul>
+					<!-- ngRepeat: contact in contacts -->
+					<li ng-repeat="contact in contacts" class="ng-scope ng-binding">{{contact}}</li>
+				</ul>
+			</div>
+			<div ng-show="isEmpty()">
+				No result
+			</div>
+
+		<div class="panel panel-default">
+		  <div class="panel-heading">Filters</div>
+		  <div class="panel-body">
+			<ul>
+				<li><b>date:</b> {{dateObj | date : 'dd/MM/yyyy'}}</li>
+				<li><b>number:</b> {{12445.765765 | number : 2}}</li>
+				<li><b>currency:</b> {{14245.765765 | currency : '₪' : 4}}</li>
+				<li><b>json:</b> <pre>{{contacts | json : 4}}</pre></li>
+			</ul>
+		  </div>
+		</div>
+
+		</div>
+		<script type="text/javascript">
+			//create new angular app with empty dependencies array
+			var myApp = angular.module('myApp',[]);
+			myApp.controller('ContactController',function ContactController($scope,$filter) {
+				//get the number filter
+				var numberFilter = $filter('number');
+				console.log(numberFilter(1212545.545454))
+				
+				$scope.dateObj = new Date();
+				$scope.contacts = []; //= ["hi@email.com", "hello@email.com"];
+				//true on empty contacts
+				$scope.isEmpty = function(){
+					return $scope.contacts.length==0;
+				}
+				$scope.add = function () {
+					$scope.contacts.push($scope.newcontact);
+					$scope.newcontact = "";
+				}
+			});
+		</script>
+	</body>
+</html>

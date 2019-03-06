@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html data-ng-app="myApp"> <!-- Angularjs Directive> -->
+    
+<head>
+    <title>AngularJS Directives and Data Binding</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+ 
+    
+<body> <!--ng-controller for all the body-->       
+    
+    <h1>Controller**</h1>
+    
+    
+    <div class="container" data-ng-controller="custList">
+       Filter
+       <input type "text" data-ng-model='nameText' /> {{nameText}}
+          <ul>
+              <li data-ng-repeat="cust in customers | filter:nameText">{{cust.name}} - {{cust.city}} </li>              
+          </ul>      
+   </div>    
+ 
+    <script src="angular.min.js"></script>
+
+    
+    
+	<script>
+		//create new angular app with empty dependenices array
+        
+        var myApp = angular.module('myApp', []);
+        
+		myApp.controller('custList', function($scope) 
+        {            
+            $scope.customers=[{name:'eli li',city:'jerusalem'},
+                              {name:'shalom lo',city:'lod'},
+                              {name:'uri ri',city:'modin'},
+                              {name:'uri iri',city:'modin'},
+                              {name:'tomer mer	',city:'modin'},
+                              {name:'itzik it',city:'netanya'}
+                             ];            
+        });        
+	</script>
+        
+</body>
+ 
+</html>
+ 
+ 
