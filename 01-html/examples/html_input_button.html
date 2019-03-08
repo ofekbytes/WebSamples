@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <!-- icon -->
+    <!-- <link rel="icon" href="../../00_media/icons/star.jpg" /> -->
+
+    <!-- title -->
+    <title> 🚀 Html - input button </title>
+
+    <style>
+
+        #idFile 
+        {
+            padding-right: 10px;
+            font-size: 17px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+    <form>
+        <input id="machine_Start_Stop" type="button" value="Start machine" accesskey="s">  <!-- alt+'s' *** -->
+
+        <!--
+            <input id="mbe" type="button" value="Start machine" accesskey="b"> alt+'b' ***
+        -->
+
+    </form>
+    <p id="machineStatus">machine status: stopped.</p>
+    <div>test</div>
+    </div>
+
+    <script>
+
+
+        // //#1 - getElementById()
+        const button = document.getElementById('machine_Start_Stop')
+        const paragraph = document.getElementById('machineStatus');
+
+        // //#2 querySelector() + <tag-name#id>
+        // const button = document.querySelector('input#mbe'); //<input> + id ==> #mbe
+        // const paragraph = document.querySelector('p#machineStatus'); //<p> + id ==> #machineStatus 
+
+        // //#3 querySelector() + <tag-name>
+        // const button = document.querySelector('input'); // <input>
+        // const paragraph = document.querySelector('p');
+
+        button.addEventListener('click', updateButton);
+
+        function updateButton() 
+        {
+            if (button.value === 'Start machine') 
+            {
+                button.value = 'Stop machine';
+                paragraph.textContent = 'machine status: started.';
+            } 
+            else 
+            {
+                button.value = 'Start machine';
+                paragraph.textContent = 'machine status: stopped.';
+            }
+        }
+
+    </script>
+</body>
+
+</html>
