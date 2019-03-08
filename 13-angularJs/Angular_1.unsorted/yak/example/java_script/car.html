@@ -1,0 +1,49 @@
+
+<html>
+   <head>car milage</head>
+   
+
+<body>
+	<script type="text/javascript"> 
+
+		  //shortcut cl = console.log
+		  function cl(o) 
+		  {
+			  console.log(0)
+		  }
+		
+		  
+		  function Car(name)
+		  {
+			  this.name = name;
+			  var _milage = 0;
+			  this.drive = function(ml)
+			  {
+				  _milage+=ml;
+			  }
+			  
+			  this.getMilage = function()
+			  {
+				  return _milage;
+			  }	  
+		  }
+		  
+		  //instance non static fuinction
+		  //car.protoype.resetmilage()
+		 // {
+		//	  _milage  //undifined
+		 // }
+		
+		  
+		  var audi = new Car('Audi t4');
+		  cl(audi.name);
+		  audi.drive(10);
+		  audi.drive(15);
+		  cl(audi.getMilage()); //25
+  
+	</script>
+
+
+   </body>
+
+</html>

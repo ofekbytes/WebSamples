@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html data-ng-app=""> <!-- Angularjs Directive> -->
+<head>
+    <title>AngularJS Directives and Data Binding</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+  
+<body data-ng-controller='nameController'>
+ 
+ <!--   <div ng-controller="nameController">-->
+        Name:
+        <br />
+        <input type="text" data-ng-model="name"> {{name}}
+
+        <br />
+        <ul>
+            <li data-ng-repeat="cust in customers | filter:name | orderby: name"></li>
+        </ul>
+<!--    </div>-->
+   
+
+    <script>        
+        function nameController($scope)
+        {
+            $scope.customers =[{name:'eli li',city:'jerusalem'},
+                               {name:'shalom lo',city:'lod'},
+                               {name:'uri ri',city:'modin'},
+                               {name:'uri iri',city:'modin'},
+                               {name:'tomer mer	',city:'modin'},
+                               {name:'itzik it',city:'netanya'}
+                              ];         
+        }        
+    </script> 
+
+   <script src="angular.min.js"> </script>        
+</body>
+ 
+</html>
+ 
+ 

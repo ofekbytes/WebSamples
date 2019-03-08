@@ -1,0 +1,36 @@
+<html ng-app='myApp'>
+	<head>
+		<style>
+			[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+			  display: none !important;
+			}
+		</style>
+	</head>
+	<body ng-cloak>
+		<div ng-controller="HelloCtrl">
+			Name: <input type="text" ng-model="name" /><br/>
+			<span>Hello, {{name}}</span><br/>
+			root scope: {{txt}}
+		</div>
+		<div ng-controller="HelloCtrl2">
+			<input type="text" ng-model="name" />
+			2nd controller: {{name}}<br/>
+			root scope: {{txt}}
+			
+			
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+		<script>
+			//create new angular app with empty dependencies array
+			var myApp = angular.module('myApp',[]);
+			myApp.controller('HelloCtrl',function($scope,$rootScope){
+				/*Code goes here!*/
+				$scope.name = 'Alon';
+				$rootScope.txt = 'root Scope TXT';
+			});
+			myApp.controller('HelloCtrl2',function($scope,$rootScope){
+				/*Code goes here!*/
+			});
+		</script>	
+	</body>
+</html>

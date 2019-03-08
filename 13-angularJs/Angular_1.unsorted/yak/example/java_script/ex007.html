@@ -1,0 +1,37 @@
+
+<html>
+   <head>Java Script - self_execting </head>
+   
+      
+   <body>
+   	<script type="text/javascript"> 
+        
+		var app = function()
+		{
+			//code
+		}
+   		
+		app();
+		
+		var inScopeVar=10;
+		var MAX_INERATION = 20;
+		
+	 	console.log(inScopeVar);
+		
+		(function()
+		 {/*code*/
+			console.log(inScopeVar); //undifne
+		 
+			inScopeVar=20;
+		 
+		 	console.log(inScopeVar); //20
+		 }) ();
+		
+	 	console.log(inScopeVar);
+
+
+   	 </script>
+   		
+   </body>
+
+</html>

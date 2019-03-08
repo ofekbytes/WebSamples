@@ -1,0 +1,36 @@
+<html>
+	<head>
+	</head>
+	<body>
+		
+		<h1>Adv. JS</h1>
+		<script>
+			//if not undefined (undefined==false)
+			if(undef1){
+			}
+			//this will throw exception
+			if(undef1 && undef1==10){
+			}
+			
+			var arr=[];
+			arr.innerArr = [1,2,3];
+		
+			function showName(name){
+				name = name || 'default value';
+				alert(name);
+			}
+			
+			function getCounter(){
+				var num=0;
+				return function(){
+					++num;
+					console.log(num);
+				}
+			}
+			
+			var counter = getCounter();
+			counter();
+			counter();
+		</script>
+	</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html data-ng-app="">
+	<body  data-ng-init="names=['eli lee','eliran lee','ran lee']">
+		<head>
+		   <title>Directive, Filters, Data Binding</title>		   
+		</head>
+				
+		Fisrt-Name:
+		<br \>
+		<input type="text" data-ng-model="FirstName" /> {{FirstName}}
+		
+		<br \>
+		<ul>
+			<li data-ng-repeat="personName in names">{{ personName }} </li>			
+		</ul>
+		
+	</body>
+
+
+    <script src="angular.js"></script>
+    
+</html>

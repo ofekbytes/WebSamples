@@ -1,0 +1,66 @@
+<html ng-app='myApp'>
+	<head>
+		<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+		<style>
+			[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+			  display: none !important;
+			}
+			
+			.strikeThrough{
+				text-decoration: line-through;
+			}
+		</style>
+	</head>
+	<body ng-cloak>
+		<div ng-controller="TodoCtrl" class="container-fluid">
+			<div class="row">
+			  <div class="col-lg-6">
+				<div class="input-group">
+				  <input type="text" ng-model="todoItem" class="form-control" placeholder="add task...">
+				  <span class="input-group-btn">
+					<button ng-click="add()" class="btn btn-primary" type="button">Add!</button>
+				  </span>
+				</div><!-- /input-group -->
+			  </div><!-- /.col-lg-6 -->
+			</div><!-- /.row -->
+			<div class="row">
+				<div class="col-lg-6">
+					<h2>tasks List</h2>
+					<ul class="list-unstyled">
+						<li ng-repeat="item in todoList track by $index">
+							<div class="form-group">
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" ng-model="item.done" />
+										<span ng-class="{strikeThrough:item.done,'text-success':item.done,'text-<!-- dange -->r':!item.done}">{{item.taskName}}</span>
+									</label>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<code>
+				{{todoList}}
+			</code>
+		</div>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+		<script>
+			//create new angular app with empty dependencies array
+			var myApp = angular.module('myApp',[]);
+			myApp.controller('TodoCtrl',function($scope){
+				//$scope.todoList = ["clean the room","fix the car"];
+				$scope.todoList = [{taskName: "clean the room",done: false},
+								   {taskName:"fix the car",done: true}];
+				$scope.add =function(){
+					//add to list
+					$scope.todoList.push({taskName: $scope.todoItem,done: false});
+					//clear the value from the input
+					$scope.todoItem='';
+				};
+				
+			});
+		</script>	
+	</body>
+</html>

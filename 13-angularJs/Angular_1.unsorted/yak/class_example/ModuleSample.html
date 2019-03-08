@@ -1,0 +1,24 @@
+<html>
+	<head>
+	</head>
+	<body>
+		
+		<h1>Adv. JS</h1>
+		<script>
+			var ajax = (function(alon)){
+				/* private params*/
+				var _base_url = 'http://localhost/demo/';
+				var _execute(reltiveUrl){
+					$.get(base_url+reltiveUrl);
+				}
+				/*expose to public*/
+				return {
+					exec: _execute
+				}
+				
+			})(jQuery);
+			
+			ajax.exec();
+		</script>
+	</body>
+</html>

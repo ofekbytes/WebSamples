@@ -1,0 +1,36 @@
+
+<html>
+   <head>Java Script - apply and call </head>
+   
+      
+   <body>
+   	<script type="text/javascript"> 
+        
+   	
+   		var obj = {id: 123};
+   		   		
+   		function dump(n,x)
+   		{
+   			console.log(x);
+   			console.log(n);
+   			console.log(this.id);
+   		}
+   		
+   		function dumpWithObj(obj)
+   		{
+   			console.log(obj.key);
+   			console.log(this.id);
+   		}
+
+   		
+   		dump.call(obj,12,11); //call for object
+   		dump.apply(obj,[12,11]);
+                   			
+   		dumpWithObj.call(obj,{key:"value"});
+   		dumpWithObj.apply(obj,[{key:"value"}]);
+   		
+   	 </script>
+   		
+   </body>
+
+</html>

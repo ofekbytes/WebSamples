@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html data-ng-app="">
+
+<head>
+    <title>Directive, Filters, Data Binding</title>		   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+    
+<body  data-ng-init="names=['eli lee','eliran lee','ran lee']">
+				
+	Fisrt-Name:
+	<br \>
+	<input type="text" data-ng-model="FirstName" /> {{FirstName}}
+	
+	<br \>
+	<ul>
+		<li data-ng-repeat="personName in names">{{ personName }} </li>			
+	</ul>
+
+
+	<script src="angular.min.js"></script>		
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script> -->	
+		
+</body>
+    
+</html>

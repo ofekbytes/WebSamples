@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div data-ng-app="" data-ng-init="firstName='constant-fixed-name'">
+
+<p><u> Angular </u></p> 
+
+<p> 8 + 12 = {{ 8 + 12 }}</p>
+
+ 	<p>First_Name: <input type="text" ng-model="first_name"></p>
+ 	<p ng-bind="first_name"></p>
+ 	
+ 	<p>Last_Name: <input type="text" ng-model="last_name"></p>
+ 	<p ng-bind="last_name"></p>
+
+
+</div>
+
+
+<script src="../utils/angular/angular.min.js"></script>
+
+</body>
+</html>
