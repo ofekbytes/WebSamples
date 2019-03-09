@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html ng-app="customerApp">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular.min.js"></script>
+
+<body>
+
+  <div>
+
+    <h2>Dan Search </h2>
+    <p>Search : <input type="text" ng-model="searchText" placeholder="Enter name here"></p>
+    <h1>Hello {{searchText}}</h1>
+
+    <div ng-controller="CustomerController">
+      <table>
+        <tr ng-repeat="cust in customers | filter:searchText">
+          <!--       <td>{{ cust }}</td> -->
+          <td>{{ cust.id }}</td>
+          <td>{{ cust.name }}</td>
+          <td>{{ cust.total | currency }}</td>
+        </tr>
+      </table>
+    </div>
+    <!--   --------------------------------------- -->
+    <br />
+
+    <div ng-controller="phoneController">
+      <table>
+        <tr ng-repeat="phone in phones | filter:searchText">
+          <!--       <td>{{ cust }}</td> -->
+          <td>{{ phone.id }}</td>
+          <td>{{ phone.name }}</td>
+          <td>{{ phone.phone | phone }}</td>
+        </tr>
+      </table>
+      <!--   --------------------------------------- -->
+
+
+    </div>
+
+    <script>
+      var app = angular.module('customerApp', []); //module (package, namespace + [] = no need from oter model)
+      app.controller('CustomerController', function ($scope) {
+        $scope.customers = [{
+            "id": 1,
+            "name": "jron",
+            "total": 45
+          },
+          {
+            "id": 2,
+            "name": "yaron",
+            "total": 40
+          },
+          {
+            "id": 2,
+            "name": "shalom",
+            "total": 33
+          },
+          {
+            "id": 2,
+            "name": "yifat",
+            "total": 35
+          }
+        ];
+      });
+
+      app.controller('phoneController', function ($scope) {
+        $scope.phones = [{
+            "id": 1,
+            "name": "jron",
+            "phone": "03-7777-777-77"
+          },
+          {
+            "id": 2,
+            "name": "yaron",
+            "phone": "03-6666-666-66"
+          },
+          {
+            "id": 2,
+            "name": "shalom",
+            "phone": "03-4444-444-44"
+          },
+          {
+            "id": 2,
+            "name": "yifat",
+            "phone": "03-1111-222-77"
+          }
+        ];
+      });
+    </script>
+
+</body>
+
+</html>
+
+
+<!-- dan - links -->
+<!--   https://www.youtube.com/watch?v=tnXO-i7944M -->
+<!-- create a service -->
