@@ -1,20 +1,31 @@
 
 ## HTML ##
 
-HTML - 
+1. HTML
+2. Modern Web Design
+3. HTML basics file
+4. HTML Elements
+5. HTML Attributes
+6. html links <a> tag
+
+
+.
+1. HTML - 
 HTML is HyperText Markup Language. 
 html use a markup language uses tags to identify content. 
-
-
-## Modern Web Design ##
+.
+.
+2. Modern Web Design -
 HTML: Structure
 CSS: Presentation
 JavaScript: Behavior
 
 PHP / spring boots / Node.js: Backend
 CMS: Content Management
+.
+.
+3. HTML basics file -
 
-## HTML basics ##
 <html>
     <head>
     </head>
@@ -23,4 +34,47 @@ CMS: Content Management
     <footer>
     </footer>
 </html>
+.
+.
+4. HTML Elements - 
+HTML documents are made up of HTML elements.
+An HTML element is written using a start tag and an end tag, and with the content in between.
+   <p>content in between tags</p>
+-!- Some HTML elements (like the <br /> tag) do not have end tags.
+.
+.
+5. HTML Attributes -
+Attributes provide additional information about an element or a tag, 
+while also modifying them. Most attributes have a value; the value modifies the attribute.
 
+--- example: Attributes: align="center" 
+<p align="center"> 
+    This text is aligned to center
+</p>
+<p>
+<hr width="50px" />
+<hr width="50%" />
+<hr width="10%" align="right" />  some text.
+<hr width="50%" align="left" />
+</p>
+.
+.
+6. html links <a> tag - 
+
+Links are also an integral part of every web page. 
+You can add links to text or images that will enable the user to click on them in order to be directed to another file or webpage.
+In HTML, links are defined using the <a> tag.
+
+-!- To link an image to another document, simply nest the <img> tag inside <a> tags.
+
+--- example:
+    
+    <!-- links - a tag -->
+    <a href=""></a>
+
+    <br/><a href="http://www.cnn.com"> cnn </a>
+
+    <br/><a href="http://www.nbc.com" target="_blank"> nbc site  </a>
+.
+.
+7. 
