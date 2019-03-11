@@ -47,7 +47,7 @@
         // //#1 - getElementById() - pointer to button + paragraph //
         const button = document.getElementById('machine_Start_Stop')
         const paragraph = document.getElementById('machineStatus');
-
+        var blResult = false;
         // //#2 querySelector() + <tag-name#id>
         // const button = document.querySelector('input#mbe'); //<input> + id ==> #mbe
         // const paragraph = document.querySelector('p#machineStatus'); //<p> + id ==> #machineStatus 
@@ -63,7 +63,11 @@
             /**
              * change to one line if like stastment
              */
-            if (button.value === 'Start machine') 
+
+             blResult = (button.value === "Stop machine")?false:true;
+             console.log("blResult ==> " + blResult);
+             
+            if (blResult == true) 
             {
                 button.value = 'Stop machine';
                 paragraph.textContent = 'machine status: started.';
