@@ -11,14 +11,20 @@
     <!-- <link rel="icon" href="../../00_media/icons/star.jpg" /> -->
 
     <!-- title -->
-    <title> 🚀 Html - Page 1 </title>
+    <title> form #1 </title>
 
     <style>
 
-        #idFile 
+        /* #idFile 
         {
             padding-right: 10px;
             font-size: 17px;
+        } */
+
+        div
+        {
+            margin-top:10px;
+
         }
 
     </style>
@@ -31,24 +37,44 @@
 
         <!-- <form class="" action="" method="post">   </form> -->
 
-        <form class="" action="" method="post">
-            <label>user: </label>
-            <input type="text" name="user" id="idUser">
-            <br/>
-            <label>password: </label>
-            <input type="password" name="password" id="idPassword">
+        <form class="" action="\form1\submit.html" method="post">
 
-            <br/>
-            <input type="color" name="" id="" value="red">
-            <br/>
-            <input type="range" name="" id="">
-            <input type="submit" value="save">
+            <div id="dUser">
+                <label>user: </label>
+                <input type="text" name="user" id="idUser">
+            </div>
+
+            <div id="dpassword">
+                <label>password: </label>
+                <input type="password" name="password" id="idPassword">
+            </div>
+
+            <div id="dColor">
+                <label>color:</label>
+                <input type="color" name="" id="" value="red">
+            </div>
+
+            <div id="dRange">
+                <label>range: </label>
+                <input type="range" name="" id="">
+            </div>
+
+            <div id="dfile">
+                <label id="idFile" for="file">File progress:</label>
+                <progress id="file" max="100" value="70"> 70% </progress>
+            </div>
+
+            <div id="dCheckbox">
+                <input type="checkbox" text="test">
+                <label>enjoying this site </label>
+            </div>
+    
+            <div id="dSubmit">
+                <input type="submit"> 
+            </div>
+
         </form>
   
-
-        <label id="idFile" for="file">File progress:</label>
-        <progress id="file" max="100" value="70"> 70% </progress>
-
     </div>
 </body>
 

@@ -11,7 +11,7 @@
     <!-- <link rel="icon" href="../../00_media/icons/star.jpg" /> -->
 
     <!-- title -->
-    <title> 🚀 Html - Page 1 </title>
+    <title> form #2 </title>
 
     <style>
 
@@ -20,6 +20,23 @@
             padding-right: 10px;
             font-size: 17px;
         }
+
+        #form1,#form2
+        {
+            /* Just to center the form on the page */
+            margin: 0 auto;
+            width: 430px;/*400*/
+            /* To see the outline of the form */
+            padding: 1em;
+            border: 5px solid #CCC;
+            border-radius: 10px; /*1em;*/
+            background-color: lightblue;
+        }
+
+        #form1  #duser { margin-top: 10px; text-align: right}
+        #form1  #dpassword { margin-top: 20px; text-align: left}
+        #form1  #dsubmit { margin-top: 20px; text-align: center }
+
 
     </style>
 
@@ -31,21 +48,40 @@
 
         <!-- <form class="" action="" method="post">   </form> -->
 
-        <form class="" action="" method="post">
-            <label>user: </label>
-            <input type="text" name="user" id="idUser">
-            <br/>
-            <label>password: </label>
-            <input type="password" name="password" id="idPassword">
+        <br/>
 
-            <br/>
-            <input type="color" name="" id="" value="red">
-            <br/>
-            <input type="range" name="" id="">
+        <form id="form1" class="" action="\form1" method="post">
+        <div id="duser">
+            <label>user: </label>
+            <input type="text" name="s2suser" id="idUser">
+        </div>            
+        <div id="dpassword">
+            <label>password: </label>
+            <input type="password" name="s2spassword" id="idPassword">
+        </div>
+        <div id="dsubmit">
             <input type="submit" value="save">
+        </div>
+
         </form>
-  
-<!-- 
+
+        <br/>
+        <form id="form2" class="" action="\form2" method="post">
+                <label>user: </label>
+                <br/>
+                <input type="text" name="user" id="idUser">
+                <br />
+                <br />
+                <label>password: </label>
+                <br/>
+                <input type="password" name="password" id="idPassword">
+    
+                <br />
+                <br />
+                <input type="submit" value="save">
+            </form>
+
+        <!-- 
         <label id="idFile" for="file">File progress:</label>
         <progress id="file" max="100" value="70"> 70% </progress> -->
 
@@ -53,27 +89,3 @@
 </body>
 
 </html>
-
-<!-- links -->
-<!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress -->
-<!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button -->
-<!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist -->
-<!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset -->
-<!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input -->
-<!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form -->
-<!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/keygen -->
-<!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label -->
-<!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/legend -->
-<!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter -->
-<!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup -->
-<!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option -->
-<!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output -->
-<!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select -->
-<!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea -->
-
-
-
-
-
-
-
