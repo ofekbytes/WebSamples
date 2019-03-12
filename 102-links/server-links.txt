@@ -1,0 +1,20 @@
+
+=== server links ===
+
+
+//apache//
+https://httpd.apache.org/
+
+//NGINX//
+https://www.nginx.com/
+
+//iis//
+https://www.iis.net/
+
+//Apache Tomcat//
+https://tomcat.apache.org/
+
+
+
+
+
