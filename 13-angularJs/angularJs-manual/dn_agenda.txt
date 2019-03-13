@@ -1,0 +1,39 @@
+AngularJs Agenda
+
+Directives 
+Data Binding
+Filters
+
+root scope - property in memory called root-scope 
+example - 
+<body ng-init="customers = " ['shalom','yifat', 'uri','amir'] ">
+
+Models
+Controllers
+
+Routes
+
+Factories
+Services
+
+
+//Model–view–controller
+https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
+
+//Model–view–presenter
+https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter
+
+//Model–view–viewmodel
+https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel
+
+//Model–view–viewmodel
+https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel
+
+
+
+//AngularJS
+https://en.wikipedia.org/wiki/AngularJS
+
+//Single-page_application
+https://en.wikipedia.org/wiki/Single-page_application
+

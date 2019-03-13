@@ -1,0 +1,273 @@
+
+
+01 - What is AngularJS?
+02 - AngularJS: Expressions 
+03 - AngularJS: Data Binding
+04 - AngularJS: Directives
+05 - AngularJS: Controllers
+
+
+.
+.‏
+01 - What is AngularJS?
+
+AngularJS is a JavaScript framework that 
+embraces extending HTML into a more expressive and readable format. 
+It allows you to decorate your HTML with special markup 
+that synchronizes with your JavaScript allowing you to write 
+your application logic instead of manually updating views.
+
+In order to start using AngularJS, we need to add the framework to our HTML:
+
+--- example: loading JavaScript angular.min.js file with CDN source.
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular.min.js"></script>
+</head>
+
+</html>
+
+-- AngularJS is open source. 
+   It is the frontend part of the 
+--- MEAN stack, 
+--- consisting of MongoDB database, 
+--- Express.js 
+--- web application server framework, 
+--- AngularJS itself, 
+--- Node.js server runtime environment.‏
+
+.
+.
+02 - AngularJS: Expressions 
+
+-- An expression is usually wrapped inside double curly braces, 
+
+--- example:
+    {{ expression }}. 
+
+-- AngularJS evaluates the expression and produces a result. 
+-- Expressions can contain literals, operators, properties.
+
+--- example: AngularJS app with an expression:‏
+
+<!DOCTYPE HTML>
+<html ng-app>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular.min.js"></script>
+</head>
+<body>
+    <p> 2 + 2 = {{ 2+2 }} </p>
+</body>
+</html>‏
+
+-- The code output is 4, because AngularJS evaluates the expression and returns the result.
+
+-- "ng-app" attribute is placed in the <html> tag. 
+   This is called a directive, and it defines that this is an AngularJS application. 
+
+-!- If we remove that directive, the expression will not be evaluated.
+
+-- There are a number of other directives, which allow AngularJS to attach specified behavior to HTML elements. 
+
+-!- AngularJS expressions do not support conditionals, loops, and exceptions, while JavaScript expressions do.
+.
+.
+03 - AngularJS: Data Binding
+
+-- One of the main concepts of AngularJS is data binding.
+
+--- example: data binding
+
+<!DOCTYPE HTML>
+<html ng-app>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular.min.js"></script>
+</head>
+<body>
+    <label>Name:</label>
+    <input type="text" ng-model="name" placeholder="Enter a name">
+    <hr />
+    <h2>Hello {{name}} !</h2>
+</body>
+</html>‏
+
+-- The code above creates a textbox. 
+   As soon as you start typing in the textbox, the input is automatically shown in the <h2> element.
+
+-- "ng-model" is a directive, which binds the HTML element to a property. 
+   In the code above, we bind the input to a property named name. 
+   Then we use the property in the expression: 
+   {{ name }}. 
+
+-- Data binding allows automatic synchronization of data between the "model" and the "view".
+
+-- The "view" is basically the DOM that the user sees.
+-- The "model" is the data shown to the user in the view and with which the user interacts.‏
+-- Data binding makes the "view" a projection of the model at all times. 
+   When the "model" changes, the "view" reflects the change.‏
+
+.
+.
+04 - AngularJS: Directives
+
+-- Directives are similar to HTML attributes and 
+   allow a specified behavior to be attached to the DOM elements.
+
+-- The "ng-app" directive initializes an AngularJS application. 
+-- The "ng-model" directive binds an HTML element to a property.
+-- The "ng-init" directive initializes application data. 
+
+--- example: simple Celsius to Fahrenheit converter. 
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular.min.js"></script>
+    </head>
+    <body>
+        <div ng-app ng-init="celsius=0;diff=32">
+
+            <p>Celsius: <input type="text" ng-model="celsius"></p>
+            <p>Fahrenheit: {{ celsius*1.8+diff }}</p>
+
+        </div>
+    </body>
+</html>
+
+
+
+-- The code above creates a simple Celsius to Fahrenheit converter. 
+   We have declared two properties using the "ng-init" directive. 
+   We have also used "ng-model" to bind the "textbox" with the "celsius" property.
+   The expression calculates the corresponding Fahrenheit value in the paragraph element.
+
+    {{ celsius*1.8+diff }}
+
+
+-- "ng-repeat" - Another useful directive is "ng-repeat". 
+   It repeats an HTML template for each item in the specified collection. 
+
+--- example:
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular.min.js"></script>
+    </head>
+    <body>
+        <div ng-app ng-init="students=['David','Steve','Bob']">
+            <ol>
+                <li ng-repeat="name in students">
+                {{name}}
+                </li>
+            </ol>
+        </div>
+    </body>
+</html> 
+
+We created a list item for each item in the students collection.‏
+You can use a directive multiple times.‏
+.
+.
+05 - AngularJS: Controllers
+
+An AngularJS controller is a JavaScript function that maintains the application data and behavior.
+
+The ng-controller directive is used to define a controller. 
+
+--- example:
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular.min.js"></script>
+    </head>
+    <body>
+        <div ng-app="myApp" ng-controller="myController">
+          subject : {{subject}}
+          <br>
+          message: {{message}}
+        </div>
+        <script>
+        var ngApp = angular.module('myApp', []);
+
+        ngApp.controller('myController', function ($scope) {
+            $scope.message = "Hello World!";   
+            $scope.subject = "hello";
+        });
+    </script>
+    </body>
+</html> 
+
+
+We gave a name to our application using the ng-app directive. Then, we used that name to create a module. The module is a container for the application controllers. Controllers always belong to a module. 
+
+After creating a module, we add a controller function using the controller() method where the first parameter is the name of the controller and second parameter is a function for the controller.
+
+$scope is a built-in object that contains application data and methods. We have initialized the message property using $scope, and used it in our view.
+
+AngularJS creates and injects a different $scope object to each controller in an application. The data and methods attached to $scope inside one controller cannot be accessed in another controller.
+
+Controllers are used to:
+- Set up the initial state of the $scope object.
+- Add behavior to the $scope object.‏
+
+‏
+An AngularJS application consists of:
+View: Essentially the DOM that the user sees.
+Model: The data shown to the user in the view.
+Controller: The business logic behind views.
+
+The model is stored in the $scope, so that controllers, directives, and expressions can access it.
+.
+.
+06 - AngularJS: Events
+
+AngularJS includes certain directives that can be used to provide custom behavior on DOM events, such as click, dblclick, and so on.
+
+Supported directives are:
+ng-blur, 
+ng-change, 
+ng-click, 
+ng-dblclick, 
+ng-focus, 
+ng-keydown, 
+ng-keyup, 
+ng-keypress, 
+ng-mousedown, 
+ng-mouseenter, 
+ng-mouseleave, 
+ng-mousemove, 
+ng-mouseover, 
+ng-mouseup
+
+Let's create an example application that will handle the button click event and count the number of clicks:
+
+--- example: button click event and count the number of clicks.
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular.min.js"></script>
+    </head>
+    <body>
+        <div ng-app="myApp" ng-controller="clickCounter">
+            <button ng-click="count=count+1">Click me!</button>
+            <p>{{ count }}</p>
+        </div>
+        <script>
+        var app = angular.module('myApp', []);
+        app.controller('clickCounter', function($scope) {
+            $scope.count = 0;
+        });
+        </script>
+    </body>
+</html> 
+
+
+Our controller initializes the count property. Then we use the ng-click directive to handle the click event of the button and increment our count property.‏
+
+
+

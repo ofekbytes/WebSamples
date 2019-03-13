@@ -1,0 +1,239 @@
+<!-- Created by Jean-Philippe Czs-->
+
+<!DOCTYPE HTML>
+<html ng-app>
+<head>
+
+  <link href="https://fonts.googleapis.com/css?family=Kelly+Slab|Philosopher:700" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
+
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular.min.js"></script> -->
+
+  <style>
+  body {
+    
+}
+
+
+
+dive{
+    line-height: 15px;
+    
+    display: inline-block;
+    
+    
+}
+
+div0{
+            border:2px solid green;
+            border-radius:30px;
+            display: inline-block;
+            padding:10px;
+            padding-left:30px;
+            padding-right: 30px; 
+            line-height: 25px;
+            width:225px;
+            
+        }
+
+
+
+
+
+
+div1{
+            border:2px solid green;
+            border-radius:30px;
+            display: inline-block;
+            padding:10px;
+            padding-left:30px;
+            padding-right: 30px; 
+            line-height: 25px;
+            width:280px;
+            
+        }
+
+div2{
+            border:2px solid red;
+            border-radius:30px;
+            display: inline-block;
+            padding:5px;
+            padding-left:30px;
+            padding-right: 30px; 
+            line-height: 25px;
+            
+            width:225px;
+
+animation-duration: 1s;
+              animation-name: shaker;
+              animation-iteration-count:5 ;
+        }
+        
+        
+        
+            [type=num]{
+            border-radius:15px;
+            
+            
+            font-family: 'Kelly Slab', cursive;
+            
+            padding:10px;
+            padding-left:30px;
+           
+            width:100px;
+            animation-duration: 1s;
+              animation-name: shaker;
+            animation-iteration-count: 3;
+        }
+        
+        
+        
+        
+        
+        
+        @keyframes shaker {
+  0% {
+    transform:rotate(0deg);
+  }
+
+  29% {
+    transform:rotate(0deg);
+  }
+
+
+  30% {
+    transform:rotate(1deg);
+  }
+
+  31% {
+    transform:rotate(2deg);
+  }
+
+  33% {
+    transform:rotate(1deg);
+  }
+
+  35% {
+    transform:rotate(0deg);
+  }
+
+  37% {
+    transform:rotate(-1deg);
+  }
+
+  39% {
+    transform:rotate(-2deg);
+  }
+
+  41% {
+    transform:rotate(-1deg);
+  }
+
+  43% {
+    transform:rotate(0deg);
+  }
+
+
+  45% {
+    transform:rotate(1deg);
+  }
+
+  47% {
+    transform:rotate(2deg);
+  }
+
+  49% {
+    transform:rotate(1deg);
+  }
+
+  51% {
+    transform:rotate(0deg);
+  }
+
+  53% {
+    transform:rotate(-1deg);
+  }
+
+  55% {
+    transform:rotate(-2deg);
+  }
+
+  57% {
+    transform:rotate(-1deg);
+  }
+
+  59% {
+    transform:rotate(0deg);
+  }
+
+
+  100%{
+    transform:rotate(0deg);
+  }
+}
+  </style>
+
+
+</head>
+<body>
+
+
+<div ng-app="myApp" ng-controller="Ctrl"
+ ng-init="x1=174; sex=1; wr=null"
+>
+
+<div1>
+
+<div0>
+  <label><span style="font-family: 'Philosopher', sans-serif;font-size:20px;">Height (cm): </label>
+  <input type="num" ng-model="x1"  style="font-family: 'Philosopher', sans-serif;font-size:20px;" >
+     </span>
+</div0>
+  <dive></dive>
+  <div0>
+  <input type="radio" name="gender" value=1 ng-model="sex"/> <span style="font-family: 'Philosopher', sans-serif;font-size:20px;">Male</span><br />
+<input type="radio" name="gender" value=0 ng-model="sex" /> <span style="font-family: 'Philosopher', sans-serif;font-size:20px;">Female</span> <br />
+  
+  </div0><dive></dive>
+  
+  <div0>
+  <label> <span style="font-family: 'Philosopher', sans-serif;font-size:20px;">Wrist Size (cm):</span></label>
+  <input type="num" ng-model="wr"  style="font-family: 'Philosopher', sans-serif;font-size:20px;" >
+  
+  
+  </div0><dive></dive>
+  <div2>
+  <h2> <span style="font-family: 'Philosopher', sans-serif;font-size:18px;">Your ideal weigth: {{
+  
+  (
+  (x1-100-(x1-150)/4)*sex +
+  (x1-100-(x1-150)/2.5)*(1-sex) 
+  +
+  cond()*(x1-100+4*wr)*.5
+  )
+   /
+  (1+cond())
+  |number:2}}  kg</span>
+  </h2>
+   </div1>
+  
+  </div1>
+  
+  <script>
+  var app = angular.module('myApp', []); function Ctrl($scope) { $scope.Math = window.Math;
+  
+  $scope.cond = function() {
+     if($scope.wr<=0) {
+      return 0;}
+      if($scope.wr>0) {
+      return 1;}
+  };
+  
+  
+   };
+  </script>
+    
+
+</body>
+</html>

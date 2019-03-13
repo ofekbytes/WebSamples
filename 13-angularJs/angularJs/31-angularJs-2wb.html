@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+
+    <style>
+        body{
+        font-family: serif;
+        background-color: #efefef;
+        }
+
+        p{
+            font-family: serif;
+            font-size: 22px;
+            text-shadow: 2px 2px #cfcfcf;
+        }
+
+        center{
+            font-size: 30px;
+            text-shadow:1px 2px #9f9f9f,
+                        2px 3px #afafaf,
+                        3px 4px #bfbfbf,
+                        4px 5px #cfcfcf,
+                        5px 6px #dfdfdf;
+        }
+
+        input{
+            font-family: serif;
+            height: 20px;
+            padding: 2px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 15px;
+            width: 98%;
+            box-shadow: 3px 3px 1px #afafaf;
+            border: 1px groove #aaa;
+            text-shadow: 1px 1px #cfcfcf;
+        }
+    </style>
+
+</head>
+
+<body>
+    <center>
+        Type Something
+    </center>
+    <input type="text" id="text" autofocus oninput=get() />
+    <hr />
+    <p id="type"></p>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular.min.js"></script>
+
+<script>
+    function get() {
+        var p = document.getElementById('type');
+        var text = document.getElementById('text').value;
+        p.innerHTML = text;
+    }
+</script>
+
+</body>
+</html>

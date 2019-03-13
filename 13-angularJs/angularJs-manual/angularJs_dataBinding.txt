@@ -1,0 +1,9 @@
+data binding - 
+data binding is a directives action that links (a pointer) to html element
+(example: directives to html text-box with the action of data binding)
+
+data binding expression - 
+
+example
+
+

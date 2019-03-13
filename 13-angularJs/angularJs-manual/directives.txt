@@ -1,0 +1,71 @@
+Directives - 
+
+The task performed by the AngularJS bootstrapper occur in three phases[11] after the DOM has been loaded:
+
+Creation of a new Injector
+Compilation of the directives that decorate the DOM
+Linking of all directives to scope
+AngularJS directives allow the developer to specify custom and reusable HTML-like elements and attributes 
+that define data bindings and the behavior of presentation components. 
+
+Some of the most commonly used directives are:
+
+ng-animate
+A module provides support for JavaScript, CSS3 transition and CSS3 keyframe animation 
+hooks within existing core and custom directives.
+Since [ng-*] attributes are not valid in HTML specifications, 
+[data-ng-*] can also be used as a prefix. 
+For example, 
+both [ng-app] and [data-ng-app] are valid in AngularJS.
+
+ng-app
+Declares the root element of an AngularJS application, 
+under which directives can be used to declare bindings and define behavior.
+
+ng-aria
+A module for accessibility support of common ARIA attributes.
+
+ng-bind
+Sets the text of a DOM element to the value of an expression. 
+For example, 
+<span ng-bind="name"></span> 
+displays the value of ‘name’ inside the span element. 
+Any change to the variable ‘name’ in the application's scope reflect instantly in the DOM.
+
+ng-class
+Conditionally apply a class, depending on the value of a boolean expression.
+
+ng-controller
+Specifies a JavaScript controller class that evaluates HTML expressions.
+
+ng-if
+Basic if statement directive that instantiates the following element if the conditions are true. 
+When the condition is false, the element is removed from the DOM. 
+When true, a clone of the compiled element is re-inserted.
+
+ng-init
+Called once when the element is initialized.
+
+ng-model
+Similar to ng-bind, but establishes a two-way data binding between the view and the scope.
+
+ng-model-options
+Provides tuning for how model updates are done.
+
+ng-repeat
+Instantiate an element once per item from a collection.
+
+ng-show & ng-hide
+Conditionally show or hide an element, depending on the value of a boolean expression.
+Show and hide is achieved by setting the CSS display style.
+
+ng-switch
+Conditionally instantiate one template from a set of choices, 
+depending on the value of a selection expression.
+
+ng-view
+The base directive responsible for handling routes that resolve JSON 
+before rendering templates driven by specified controllers.
+
+
+
