@@ -3,10 +3,10 @@ var number =0;
 
 function fnLoadPhoneList()
 {
- var myApp = angular.module('myApp', []);
- myApp.controller('custList', function($scope)
+ var myApps = angular.module('myApp', []);
+ myApps.controller('custList', function($scope)
  {
-   $scope.customers=phe; //fetch('phone_list.json'); //phe;
+   $scope.customers="phe"; //fetch('phone_list.json'); //phe;
  });
 }
 

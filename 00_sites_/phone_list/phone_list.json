@@ -1,26 +1,28 @@
-phe = [
+{
+"phe" : [
    {
-    fname:'jaron',
-    lname:'Kessler',
-    phone:'0123-456-789',
-    cell:'0123-456-789',
-    fax: '0123-456-789',
-    email: 'jron@gmail.com'
+    "fname":"jaron",
+    "lname":"Kessler",
+    "phone":"0123-456-789",
+    "cell":"0123-456-789",
+    "fax": "0123-456-789",
+    "email": "jron@gmail.com"
   },
   {
-   fname:'shalom',
-   lname:'Kessler',
-   phone:'0123-444-555',
-   cell:'0123-444-555',
-   fax: '0123-444-555',
-   email: 'shalom@gmail.com'
+   "fname":"shalom",
+   "lname":"Kessler",
+   "phone":"0123-444-555",
+   "cell":"0123-444-555",
+   "fax": "0123-444-555",
+   "email": "shalom@gmail.com"
  },
   {
-   fname:' ',
-   lname:' ',
-   phone:' ',
-   cell:' ',
-   fax: ' ',
-   email: ' '
+   "fname":" ",
+   "lname":" ",
+   "phone":" ",
+   "cell":" ",
+   "fax": " ",
+   "email": " "
  }
-];
+]
+}
