@@ -79,3 +79,8 @@ footer
 pic {
     align-content: center;
 }
+
+.spaceIt
+{
+    width: 12px;
+}
