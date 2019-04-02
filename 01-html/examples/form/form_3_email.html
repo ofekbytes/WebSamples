@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <!-- icon -->
+    <!-- <link rel="icon" href="../../00_media/icons/star.jpg" /> -->
+
+    <!-- title -->
+    <title> form #3 - email </title>
+
+    <style>
+        #idFile {
+            padding-right: 10px;
+            font-size: 17px;
+        }
+
+        #form1,
+        #form2 {
+            /* Just to center the form on the page */
+            margin: 0 auto;
+            width: 430px;
+            /*400*/
+            /* To see the outline of the form */
+            padding: 1em;
+            border: 5px solid #CCC;
+            border-radius: 10px;
+            /*1em;*/
+            background-color: lightblue;
+        }
+
+        #form1 #duser {
+            margin-top: 10px;
+            text-align: right
+        }
+
+        #form1 #dpassword {
+            margin-top: 20px;
+            text-align: left
+        }
+
+        #form1 #dsubmit {
+            margin-top: 20px;
+            text-align: center
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!--form parameter name:  -->
+        <!-- post, "/goToThisURL" -->
+        <!-- s2sUserName, s2sUserName,s2sUserMessage  -->
+
+        <form action="mailto:myMail@gmail.com" method="post" enctype="text/plain"> 
+            <div>
+                <label for="name">Name:</label>
+                <br/>
+                <input type="text" id="idName" name="your_name" value="" required> <!-- name="s2sUserName"-->
+            </div>
+            <br/>
+            <div>
+                <label for="mail">E-mail:</label>
+                <br/>
+                <input type="email" id="idMail" name="your_Email" value="" required> <!-- name="s2sUserName"  -->
+            </div>
+            <br/>
+            <div>
+                <label for="msg">Message:</label>
+                <br/>
+                <textarea id="msg" name="your_message" required></textarea>
+            </div>
+            <br/>
+            <div class="button">
+                <button type="submit" value="" name="">Send email</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
