@@ -34,7 +34,7 @@ css - text.
     "Serif", "Sans-serif", Monospace
 
 --- example:
-    <css-2.1.html>
+    <css-2.01.html>
 
 -- Separate each font with a comma.
 --- example:
@@ -55,7 +55,7 @@ css - text.
 -- xx-small, small, medium, large, larger, etc. 
 
 --- example:
-    <css-2.2.html>
+    <css-2.02.html>
 
 
 -- The font-size Property - font size: pixels
@@ -113,7 +113,7 @@ css - text.
     }
 
 --- example: 
-    <css-2.3.html>
+    <css-2.03.html>
 
 -!- The HTML <i> tag will produce exactly the same result as the italic font style (p.italic).
 .
@@ -142,7 +142,7 @@ css - text.
     }
 
 --- example: 
-    <css-2.4.html>
+    <css-2.04.html>
 
 -- You can also define the font weight with a number 100 - 900 
    100 (thin) 
@@ -167,7 +167,7 @@ css - text.
     }
 
 --- example: 
-    <css-2.5.html>
+    <css-2.05.html>
 .
 .
 - level 2.5 - The font-variant Property
@@ -189,7 +189,7 @@ css - text.
     }
 
 --- example:
-    <css-2.6.html>
+    <css-2.06.html>
 
 -!- Not every font supports CSS font-variant, so be sure to test before you publish
 .
@@ -208,7 +208,7 @@ css - text.
 
 
 --- example: 
-    <css-2.7.html>
+    <css-2.07.html>
 
 
 -- Another way of defining colors is using hexadecimal values and RGB. 
@@ -227,7 +227,7 @@ css - text.
     }
 
 --- example:
-    <css-2.8.html>
+    <css-2.08.html>
 
 .
 .
@@ -255,12 +255,14 @@ css - text.
     }
 
 --- example:
-    <css-2.9.html>
+    <css-2.09.html>
 
 
 -!- When text-align is set to "justify", each line is stretched so that every line has equal width, 
     and the left and right margins are straight (as in magazines and newspapers).
-
+.
+.
+- level 2.8 - 
 
 
     
