@@ -6,7 +6,9 @@ css - text.
 - level 2.1 - The font-family Property
 - level 2.2 - The font-size Property
 - level 2.3 - The font-style Property
-- level 2.4 - _The font-weight Property
+- level 2.4 - The font-weight Property
+- level 2.5 - The font-variant Property
+- level 2.6 - The color Property
 .
 .
 
@@ -113,11 +115,145 @@ css - text.
 -!- The HTML <i> tag will produce exactly the same result as the italic font style (p.italic).
 .
 .
-- level 2.4 - _The font-weight Property
+- level 2.4 - The font-weight Property
 .
 
 -- The font-weight controls the boldness or thickness of the text. 
    The values can be set as normal (default size), bold, bolder, and lighter.
-   
+
+--- example: 
+
+    p.light 
+    {
+        font-weight: lighter;
+    }
+
+    p.bold 
+    {
+        font-weight: bold;
+    }
+
+    p.bolder 
+    {
+        font-weight: bolder;
+    }
+
+--- example: 
+    <css-2.4.html>
+
+-- You can also define the font weight with a number 100 - 900 
+   100 (thin) 
+   400 (normal)
+   700 (bold)
+   900 (thick)
+
+--- example:
+    p.light 
+    {
+        font-weight: lighter;
+    }
+
+    p.thick 
+    {
+        font-weight: bold;
+    }
+
+    p.thicker 
+    {
+        font-weight: 700;
+    }
+
+--- example: 
+    <css-2.5.html>
+.
+.
+- level 2.5 - The font-variant Property
+.
+
+-- The CSS font-variant property allows you to convert your font to all small caps. 
+   The values can be set as normal, small-caps, inherit.
+
+--- example:
+
+    p.normal 
+    {
+    font-variant: normal;
+    }
+
+    p.small 
+    {
+    font-variant: small-caps;
+    }
+
+--- example:
+    <css-2.6.html>
+
+-!- Not every font supports CSS font-variant, so be sure to test before you publish
+.
+.
+- level 2.6 - The color Property
+.
+
+-- The CSS color property specifies the color of the text.
+
+--- example: css change font color.
+
+    p.example 
+    {
+    color: green;
+    }
+
+
+--- example: 
+    <css-2.7.html>
+
+
+-- Another way of defining colors is using hexadecimal values and RGB. 
+   Hexadecimal form is a pound sign (#) followed by at most, 6 hex values (0-F).
+   RGB defines the individual values for Red, Green, and Blue.
+
+--- example: hexadecimal value to set the heading color to blue, 
+    and RGB form to make the paragraph red. 
+
+    h1 {
+        color: #0000FF;  /* blue */
+    }
+
+    p.example {
+        color: rgb(255, 0, 0);  /* red */
+    }
+
+--- example:
+    <css-2.8.html>
+
+.
+.
+- The text-align Property
+
+-- The text-align property specifies the horizontal alignment of text in an element.
+   The default text-align is left. 
+   text-align property values are as follows: left, right, center, justify. 
+
+--- example: 
+
+    p.left 
+    {
+        text-align: left;
+    }
+
+    p.right 
+    {
+        text-align: right;
+    }
+
+    p.center 
+    {
+        text-align: center;
+    }
+
+--- example:
+    <css-2.9.html>
+
+
 
 
