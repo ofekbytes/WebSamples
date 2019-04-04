@@ -110,12 +110,14 @@ css - text.
 --- example: 
     <css-2.3.html>
 
-
+-!- The HTML <i> tag will produce exactly the same result as the italic font style (p.italic).
 .
 .
 - level 2.4 - _The font-weight Property
 .
 
--- 
+-- The font-weight controls the boldness or thickness of the text. 
+   The values can be set as normal (default size), bold, bolder, and lighter.
+   
 
 

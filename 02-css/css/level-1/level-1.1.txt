@@ -135,12 +135,13 @@ css - Cascading Style Sheets.
 
 --- example:
 
-    #id-selection
+    /* class */
+    .class-selection 
     {
-        font-style: italic;
-        font-size: 33px;
+        background-color: brown;
+        color: black;
+        font-size: 150%;
     }
-
 
 -- Descendant Selectors (Inheritance)
 --- These selectors are used to select elements that are descendants of another element.
