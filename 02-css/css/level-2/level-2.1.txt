@@ -9,6 +9,9 @@ css - text.
 - level 2.4 - The font-weight Property
 - level 2.5 - The font-variant Property
 - level 2.6 - The color Property
+- level 2.7 - The text-align Property
+
+
 .
 .
 
@@ -228,7 +231,7 @@ css - text.
 
 .
 .
-- The text-align Property
+- level 2.7 - The text-align Property
 
 -- The text-align property specifies the horizontal alignment of text in an element.
    The default text-align is left. 
@@ -255,5 +258,10 @@ css - text.
     <css-2.9.html>
 
 
+-!- When text-align is set to "justify", each line is stretched so that every line has equal width, 
+    and the left and right margins are straight (as in magazines and newspapers).
 
+
+
+    
 
