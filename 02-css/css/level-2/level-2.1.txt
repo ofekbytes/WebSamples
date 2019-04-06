@@ -262,8 +262,12 @@ css - text.
     and the left and right margins are straight (as in magazines and newspapers).
 .
 .
-- level 2.8 - 
+- level 2.8 - Aligning Text Vertically
 
+-- The vertical-align property sets an element's vertical alignment. (top, middle, bottom).
 
-    
+--- example: shows how to vertically align the text between the table. 
+
+--- example:
+    <css-10>
 

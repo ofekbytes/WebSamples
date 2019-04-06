@@ -8,24 +8,20 @@
     <meta charset="UTF-8">
 
     <!-- title -->
-    <title> css - The text-align Property </title>
+    <title> css - The vertical-align Property </title>
 
 
     <style>
-        p.left {
-            text-align: left;
+        td.top {
+            vertical-align: top;
         }
 
-        p.right {
-            text-align: right;
+        td.middle {
+            vertical-align: middle;
         }
 
-        p.center {
-            text-align: center;
-        }
-
-        p.justify {
-            text-align: justify;
+        td.bottom {
+            vertical-align: bottom;
         }
     </style>
 
@@ -34,11 +30,13 @@
 <body>
 
     <div id="wrapper">
-        <p class="left">This paragraph is aligned to <strong>left.</strong></p>
-        <p class="right">This paragraph is aligned to <strong>right.</strong></p>
-        <p class="center">This paragraph is aligned to <strong>center.</strong></p>
-        <p class="justify">This paragraph is aligned to <strong>justify.</strong></p>
-    </div>
+        <table border="1" cellpadding="2" cellspacing="0" style="height: 150px;">
+            <tr>
+                <td class="top">Top</td>
+                <td class="middle">Middle</td>
+                <td class="bottom">Bottom</td>
+            </tr>
+        </table>
 </body>
 
 </html>
