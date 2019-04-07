@@ -3,13 +3,13 @@
 css - text.
 .
 .
-- level 2.1 - The font-family Property
-- level 2.2 - The font-size Property
-- level 2.3 - The font-style Property
-- level 2.4 - The font-weight Property
-- level 2.5 - The font-variant Property
-- level 2.6 - The color Property
-- level 2.7 - The text-align Property
+- level 2.01 - The font-family Property
+- level 2.02 - The font-size Property
+- level 2.03 - The font-style Property
+- level 2.04 - The font-weight Property
+- level 2.05 - The font-variant Property
+- level 2.06 - The color Property
+- level 2.07 - The text-align Property
 
 
 .
@@ -18,7 +18,7 @@ css - text.
 
 .
 .
-- level 2.1 - The font-family Property
+- level 2.01 - The font-family Property
 .
 
 - The font-family property specifies the font for an element. 
@@ -48,7 +48,7 @@ css - text.
 
 .
 .
-- level 2.2 - The font-size Property
+- level 2.02 - The font-size Property
 .
 
 - The font-size property sets the size of a font - font keywords:
@@ -90,7 +90,7 @@ css - text.
 
 .
 .
-- level 2.3 - The font-style Property
+- level 2.03 - The font-style Property
 .
 
 -- The font-style property is used to specify italic/normal/oblique text.
@@ -118,7 +118,7 @@ css - text.
 -!- The HTML <i> tag will produce exactly the same result as the italic font style (p.italic).
 .
 .
-- level 2.4 - The font-weight Property
+- level 2.04 - The font-weight Property
 .
 
 -- The font-weight controls the boldness or thickness of the text. 
@@ -170,7 +170,7 @@ css - text.
     <css-2.05.html>
 .
 .
-- level 2.5 - The font-variant Property
+- level 2.05 - The font-variant Property
 .
 
 -- The CSS font-variant property allows you to convert your font to all small caps. 
@@ -194,7 +194,7 @@ css - text.
 -!- Not every font supports CSS font-variant, so be sure to test before you publish
 .
 .
-- level 2.6 - The color Property
+- level 2.06 - The color Property
 .
 
 -- The CSS color property specifies the color of the text.
@@ -231,7 +231,8 @@ css - text.
 
 .
 .
-- level 2.7 - The text-align Property
+- level 2.07 - The text-align Property
+.
 
 -- The text-align property specifies the horizontal alignment of text in an element.
    The default text-align is left. 
@@ -262,12 +263,82 @@ css - text.
     and the left and right margins are straight (as in magazines and newspapers).
 .
 .
-- level 2.8 - Aligning Text Vertically
+- level 2.08 - Aligning Text Vertically
+.
 
 -- The vertical-align property sets an element's vertical alignment. (top, middle, bottom).
 
 --- example: shows how to vertically align the text between the table. 
 
+    td.top 
+    {
+        vertical-align: top;
+    }
+
+    td.middle 
+    {
+        vertical-align: middle;
+    }
+
+    td.bottom 
+    {
+        vertical-align: bottom;
+    }
+
 --- example:
-    <css-10>
+    <css-10.html>
+
+.
+.
+- level 2.09 - The vertical-align Property
+.
+
+-- The vertical-align property values: baseline, sub, super, % , px , pt, cm. 
+-- px (pixel), pt (points), cm (centimeters), % (percentage) values.
+
+--- example:
+
+    span.baseline 
+    {
+        vertical-align: baseline;
+    }
+
+    span.sub 
+    {
+        vertical-align: sub;
+    }
+
+    span.super 
+    {
+        vertical-align: super;
+    }
+
+    span.pixel 
+    {
+        vertical-align: -10px;
+    }
+
+--- example:
+    <css-11.html>
+
+-!- Vertical align property does not act the same way for all elements.
+
+--- example: div elements need some additional CSS styling. 
+    <css-12.html>
+
+-!- display: inline-table; 
+    and 
+    display: table-cell; 
+    styling rules are applied to make the vertical-align property work with divs.
+
+.
+.
+- level 2.10 - The vertical-align Property
+.
+
+
+
+
+
+
 
