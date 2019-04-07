@@ -326,19 +326,52 @@ css - text.
 --- example: div elements need some additional CSS styling. 
     <css-12.html>
 
--!- display: inline-table; 
-    and 
+-!- styling rules are applied to make the vertical-align property work with divs.
+    display: inline-table;  
     display: table-cell; 
-    styling rules are applied to make the vertical-align property work with divs.
+    
+--- example:
+    <css-13.1.html>
+    <css-13.2.html>
 
 .
 .
-- level 2.10 - The vertical-align Property
+- level 2.10 - The text-decoration Property
 .
 
+-- The text-decoration property specifies how the text will be decorated. 
 
+--- example: 
+none          -  The default value, this defines a normal text
+inherit       -  Inherits this property from its parent element
+overline      -  Draws a horizontal line above the text
+underline     -  Draws a horizontal line below the text
+line-through  -  draws a horizontal line through the text (substitutes the HTML <s> tag)
 
+-!- You can combine the underline, overline, or line-through values in a space-separated list to add multiple decoration lines.
 
+--- example:
+
+    p.none {
+    text-decoration: none;
+    }
+    p.inherit {
+    text-decoration: inherit;
+    }
+    p.overline {
+    text-decoration: overline;
+    }
+    p.underline {
+    text-decoration: underline;
+    }
+    p.line-through {
+    text-decoration: line-through;
+    }
+
+--- example: 
+    <css-2.14.1.html>
+    <css-2.14.2.html>
+    <css-2.14.3.html>
 
 
 
