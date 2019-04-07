@@ -1,0 +1,11 @@
+
+/* color list links */
+
+/* colorhunt */
+https://colorhunt.co/
+
+/* css_colors */
+https://www.w3schools.com/cssref/css_colors.asp
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/background
+
