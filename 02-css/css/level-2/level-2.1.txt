@@ -371,7 +371,26 @@ line-through  -  draws a horizontal line through the text (substitutes the HTML 
 --- example: 
     <css-2.14.1.html>
     <css-2.14.2.html>
-    <css-2.14.3.html>
+
+-- blink text-decoration property makes the text blink.
+
+--- example:
+
+    text-decoration: blink; 
+
+--- example:  *****continue blink ****************************************************
+    <css-2.14.3.html> - blink 
+
+-!- This value is valid but is deprecated and most browsers ignore it.
+
+.
+.
+- level 2.11 - 
+.
+
+-- ****
+
+
 
 
 
