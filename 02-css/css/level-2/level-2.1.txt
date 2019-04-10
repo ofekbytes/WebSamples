@@ -372,6 +372,7 @@ line-through  -  draws a horizontal line through the text (substitutes the HTML 
     <css-2.14.1.html>
     <css-2.14.2.html>
 
+
 -- blink text-decoration property makes the text blink.
 
 --- example:
@@ -385,12 +386,20 @@ line-through  -  draws a horizontal line through the text (substitutes the HTML 
 
 .
 .
-- level 2.11 - 
+- level 2.11 - The text-indent Property
 .
 
--- ****
+-- The text-indent property specifies how much horizontal space should be left 
+   before the beginning of the first line (char/word) of the text. 
+   Property values are length (px, pt, cm, em, etc.), %, inherit. 
 
+-- Negative values are allowed. The first line will be indented to the left if the value is negative.
+--- example:
 
+    p 
+    {
+        text-indent: 40px;
+    }
 
-
-
+--- example:
+    <css-2.15.html>
