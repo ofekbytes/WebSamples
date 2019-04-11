@@ -14,3 +14,17 @@ https://docs.angularjs.org/api
 
 https://docs.angularjs.org/api/ng
 
+
+
+[videos]
+
+https://www.youtube.com/watch?v=Fdf5aTYRW0E
+
+https://www.youtube.com/watch?v=tnXO-i7944M&t=504s
+
+https://www.youtube.com/watch?v=i9MHigUZKEM&t=100s
+
+
+[play-list]
+https://www.youtube.com/watch?v=s3qZF4jhgDo&list=PLYxzS__5yYQmX2bItSRCqwiQZn5dIL1gt
+
