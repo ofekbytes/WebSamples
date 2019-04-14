@@ -15,7 +15,9 @@ css - text.
 - level 2.10 - The text-decoration Property
 - level 2.11 - The text-indent Property
 - level 2.12 - text-shadow
-
+- level 2.13 - The text-transform Property
+- level 2.14 - The text-transform Property
+- level 2.15 - The word-spacing Property
 .
 .
 
@@ -453,4 +455,97 @@ line-through  -  draws a horizontal line through the text (substitutes the HTML 
 --- example:
     <css-2.16.2.html>
 
+.
+.
+- level 2.13 - The text-transform Property
+.
+
+-- The text-transform CSS property specifies how to capitalize an element's text. 
+
+--- example: word capitalized
+
+    p.capitalize 
+    {
+        text-transform: capitalize;
+    }
+
+--- example:
+    <css-2.17.1.html>
+
+
+-- The text-transform CSS property specifies how to uppercase -or- lowercase an element's text. 
+
+--- example: 
+    p.uppercase 
+    {
+        text-transform: uppercase;
+    }
+
+    p.lowercase 
+    {
+        text-transform: lowercase;
+    }
+
+
+-!- "none" will produce no capitalization effect at all.
+    p.none 
+    {
+        text-transform: none;
+    }
+
+ --- example:
+     <css-2.17.2.html>
+
+
+.
+.
+- level 2.14 - The text-transform Property
+.
+
+-- The letter-spacing property specifies the space between characters in a text. 
+-- The values can be set as:
+--- normal  - defines the default style with no extra space between characters
+--- length  - defines an extra space between characters using measurement units: px, pt, cm, mm, etc.
+--- inherit - inherits the property from its parent element;
+
+--- example: 
+
+    p.normal 
+    { 
+        letter-spacing: normal; 
+    }
+
+    p.positive 
+    { 
+        letter-spacing: 4px; 
+    }
+
+
+ --- example:
+     <css-2.18.1.html>
+
+-!- Always test your result, to ensure the text is readable.
+
+
+--- example: positive -or- negative value
+
+    p.positive 
+    {
+        letter-spacing: 4px;
+    }
+
+    p.negative 
+    {
+        letter-spacing: -1.5px;
+    }
+
+--- example:
+    <css-2.18.2.html>
+
+.
+.
+- level 2.15 - The word-spacing Property
+.
+
+-- 
 
