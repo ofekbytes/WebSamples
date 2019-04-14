@@ -1,0 +1,43 @@
+.
+.
+css - Properties.
+.
+.
+- level 3.01 - The CSS Box Model
+- level 3.02 - More on Box Models
+
+
+
+.
+.
+- level 3.01 - The CSS Box Model
+.
+
+- All HTML elements can be considered as boxes. 
+  The CSS box model represents the design and layout of the site. 
+  It consists of margins, borders, paddings, and the actual content. 
+
+-- The properties work in the same order: top, right, bottom, and left. 
+
+--- example: illustrates the box model
+    <css-03-01.png>
+
+-!- The term "box model" is used when talking about design and layout
+
+.
+.
+- level 3.02 - More on Box Models
+.
+
+-- Every element of the webpage is a box. 
+
+-- CSS uses the box model to determine how big the boxes are and how to place them.
+
+-!- The box model is also used to calculate the actual width and height of the HTML elements.
+
+.
+.
+- Total Width of an Element
+.
+
+- 

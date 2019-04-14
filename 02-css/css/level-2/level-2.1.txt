@@ -18,13 +18,7 @@ css - text.
 - level 2.13 - The text-transform Property
 - level 2.14 - The text-transform Property
 - level 2.15 - The word-spacing Property
-
-
-
-.
-.
-
-
+- level 2.16 - The white-space Property
 .
 .
 - level 2.01 - The font-family Property
@@ -640,6 +634,3 @@ line-through  -  draws a horizontal line through the text (substitutes the HTML 
 -!- Pre-wrap value behaves as the pre value, 
     except that it adds extra line breaks to prevent the text breaking out of the element's box.
 
-
-
-    
