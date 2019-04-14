@@ -18,6 +18,9 @@ css - text.
 - level 2.13 - The text-transform Property
 - level 2.14 - The text-transform Property
 - level 2.15 - The word-spacing Property
+
+
+
 .
 .
 
@@ -547,5 +550,96 @@ line-through  -  draws a horizontal line through the text (substitutes the HTML 
 - level 2.15 - The word-spacing Property
 .
 
--- 
+-- The word-spacing property specifies the space between words in a text. 
+-- The values can be set as:
+--- normal  - defines the default style with no extra space between characters
+--- length  - defines an extra space between characters using measurement units: px, pt, cm, mm, etc.
+--- inherit - inherits the property from its parent element;
 
+--- example: 
+
+    p.normal 
+    { 
+        word-spacing: normal;
+    }
+
+    p.px 
+    { 
+        word-spacing: 30px;
+    }
+
+--- example:
+    <css-2.19.1.html>
+
+-!- When a weird spacing is used, and it is necessary to keep the selected paragraph with normal word spacing, the normal option is usually used.
+
+--- example: positive -or- negative value
+
+    p.positive 
+    { 
+        word-spacing: 20px;
+    }
+
+    p.negative 
+    { 
+        word-spacing: -5px;
+    }
+
+--- example:
+    <css-2.19.2.html>
+
+.
+.
+- level 2.16 - The white-space Property
+
+-- The white-space property specifies how white-space inside an element is handled. 
+-- The values can be set as:
+--- normal  - defines the default style with no extra space between characters
+--- inherit - inherits the property from its parent element;
+--- nowrap  - makes the text continue on the same line until a <br> tag is encountered, 
+              and also collapses all sequences of whitespace into a single whitespace.
+
+-!- The text will continue on the same line until a <br /> tag is encountered.
+
+--- example:
+
+    p 
+    {
+        white-space: nowrap;
+    }
+
+--- example:
+    <css-2.20.1.html>
+
+-- The white-space Values
+
+-- The white-space values can be set as:
+--- pre       - text will only wrap on line breaks and white space
+--- pre-line  - text will wrap where there is a break in code, but extra white space is still ignored
+--- pre-wrap  - text will wrap when necessary, and on line breaks
+
+--- example:
+    p.pre 
+    {
+        white-space: pre;
+    }
+
+    p.preline 
+    {
+        white-space: pre-line;
+    }
+
+    p.prewrap 
+    {
+        white-space: pre-wrap;
+    }
+
+--- example:
+    <css-2.20.2.html>
+
+-!- Pre-wrap value behaves as the pre value, 
+    except that it adds extra line breaks to prevent the text breaking out of the element's box.
+
+
+
+    
