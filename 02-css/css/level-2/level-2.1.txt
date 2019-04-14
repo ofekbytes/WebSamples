@@ -10,7 +10,11 @@ css - text.
 - level 2.05 - The font-variant Property
 - level 2.06 - The color Property
 - level 2.07 - The text-align Property
-
+- level 2.08 - Aligning Text Vertically
+- level 2.09 - The vertical-align Property
+- level 2.10 - The text-decoration Property
+- level 2.11 - The text-indent Property
+- level 2.12 - text-shadow
 
 .
 .
@@ -393,7 +397,9 @@ line-through  -  draws a horizontal line through the text (substitutes the HTML 
    before the beginning of the first line (char/word) of the text. 
    Property values are length (px, pt, cm, em, etc.), %, inherit. 
 
--- Negative values are allowed. The first line will be indented to the left if the value is negative.
+-- Negative values are allowed. 
+   The first line will be indented to the left if the value is negative.
+
 --- example:
 
     p 
@@ -403,3 +409,48 @@ line-through  -  draws a horizontal line through the text (substitutes the HTML 
 
 --- example:
     <css-2.15.html>
+
+.
+.
+- level 2.12 - text-shadow
+.
+
+-- The text-shadow property adds shadow to text. 
+   It takes four values: 
+   the first value defines the distance of the shadow in the x (horizontal) direction, 
+   the second value sets the distance in the y (vertical) direction, 
+   the third value defines the blur of the shadow,
+   the fourth value sets the color. 
+
+-- The text-shadow property is : 
+   text-shadow: horizontal-position vertical-position blur color
+
+--- example:
+
+    h1 
+    {
+        text-shadow: 5px 2px 4px grey; /* x,y,radius,shadow */
+    }
+
+--- example:
+    <css-2.16.1.html>
+
+
+-!- To add more than one shadow to the text, add a comma-separated list of shadows.
+
+-- text-shadow with Blur Effect - 
+--- The text-shadow property "x" and "y" can use: px, cm, mm, in, pc, pt. 
+-!- Negative values are also supported.
+
+--- example:
+    h1 
+    {
+        font-size: 20pt;   
+        text-shadow: rgba(0,0,255,1) -1px -2px 0.5em; 
+    }
+
+
+--- example:
+    <css-2.16.2.html>
+
+
