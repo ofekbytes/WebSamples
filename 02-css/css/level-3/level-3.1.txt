@@ -19,7 +19,7 @@ css - Properties.
 
 -- The properties work in the same order: top, right, bottom, and left. 
 
---- example: illustrates the box model
+--- example: illustrates the box model (image)
     <css-03-01.png>
 
 -!- The term "box model" is used when talking about design and layout
@@ -35,9 +35,17 @@ css - Properties.
 
 -!- The box model is also used to calculate the actual width and height of the HTML elements.
 
-.
-.
-- Total Width of an Element
-.
 
-- 
+- Total Width of an Element:
+
+-- When working with boxes, it is important to understand how the total width of an element is calculated. 
+
+--- example: the total width of the box with paddings will be the sum of width plus padding left and padding right.
+    <css-03-02.png>
+
+--- example: another box with margins, border, and paddings. 
+    The total width is the sum of left and right margins, 
+    left and right borders, 
+    left and right paddings, 
+    and the actual width of the content.
+    <css-03-02.png>
