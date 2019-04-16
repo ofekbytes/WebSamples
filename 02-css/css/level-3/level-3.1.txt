@@ -5,7 +5,8 @@ css - Properties.
 .
 - level 3.01 - The CSS Box Model
 - level 3.02 - More on Box Models
-
+- level 3.03 - The border Property
+- level 3.04 - CSS Width and Height
 
 
 .
@@ -52,9 +53,87 @@ css - Properties.
 
 
 - Total Height of an Element
--- The total height of an element is calculated the same way as the width. 
-   The example below is the same box from the previous lesson with padding, border and margin.
-***
+--- example: The total height of an element (box). 
+    The Total element height = height + top padding + bottom padding + top border + bottom border + top margin + bottom margin
+    <css-03-04.png>   
+
+.
+.
+- level 3.03 - The border Property
+.
+
+-- The CSS border property customize the borders of HTML elements.
+   add a border to the element: size, style, color of the border. 
+
+--- example: paragraph solid green border.
+
+    p 
+    {
+        padding: 10px;    
+        border: 5px solid green;
+    }
+
+--- example: border Propert
+    <css-3.01.html>
 
 
+-- Border Width - the width of the border.
 
+    p.first 
+    {
+        padding: 10px;    
+        border-style: solid;
+        border-width: 2px;
+    }
+
+    p.second 
+    {
+        padding: 10px;    
+        border-style: solid;
+        border-width: 5px;
+    }
+
+
+-- Border Color - the Border Color using a color name, RGB, Hex values
+
+--- example: border Color
+    <css-3.02.html>
+
+-!- None of the border properties will have any effect unless the border-style property is set.
+
+
+-- The border-style Property - the border-style property: dotted, dashed, double, etc. 
+
+    p.none {border-style: none;}
+    p.dotted {border-style: dotted;}
+    p.dashed {border-style: dashed;}
+    p.double {border-style: double;}
+    p.groove {border-style: groove;}
+    p.ridge {border-style: ridge;}
+    p.inset {border-style: inset;}
+    p.outset {border-style: outset;}
+    p.hidden {border-style: hidden;}
+
+--- example: border Color
+    <css-3.03.html>
+
+-!- None of the border-style will have any effect unless the border-style property is set (no border).
+
+-!- In CSS, it is possible to specify different borders for different sides, 
+    using the following properties: border-top-style, border-right-style, border-bottom-style, and border-left-style for the corresponding sides.
+
+.
+.
+- level 3.04 - CSS Width and Height
+.
+
+-- To style a <div> element to have a total width and height of 100px:
+
+--- example: border Color
+
+    div 
+    {
+        border: 5px solid green;    
+        width: 90px;
+        height: 90px;
+    }
