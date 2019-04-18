@@ -241,4 +241,26 @@ css - Properties.
     <css-3.04.1.html> 
 
 
- -- The background-image Property
+--- example: The background-image Property inside <p> element
+
+p {
+   padding: 30px;
+   background-image: url("green_photo.jpg");
+   color: white;   
+}
+
+--- example: The background-image Property inside <p> element
+    <css-3.04.2.html> 
+
+--- example: The background-image Property inside <p> element (x2 images)
+    <css-3.04.3.html> 
+
+
+-!- To specify more than one image, just separate the URLs with commas.
+
+
+
+
+
+
+
