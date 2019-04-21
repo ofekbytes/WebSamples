@@ -280,7 +280,7 @@ p {
     }
 
 
- --- example: 
+ --- example: repeat-y - vertical repeated
 
     body 
     {
@@ -289,7 +289,27 @@ p {
     }
 
 
+-- Setting the Value to Inherit
+   hen you set the background-repeat property to inherit, it will take the same specified value as the property for the element's parent. 
 
+For example, we set the body background repeat only horizontally. If we set some paragraph background-repeat values to be inherited, they will take the same property value as the body element.
+
+
+--- example:
+
+    body 
+    {
+        background-image: url("css_logo.png");
+        background-repeat: repeat-x;
+    }
+    
+    p 
+    {
+        background-image: url("css_logo.png");
+        background-repeat: inherit;
+        margin-top: 100px;
+        padding: 40px;
+    }
 
 
 
