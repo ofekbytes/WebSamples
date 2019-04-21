@@ -258,6 +258,36 @@ p {
 
 -!- To specify more than one image, just separate the URLs with commas.
 
+.
+.
+- level 3.07 - The background-repeat Property
+.
+
+-- The background repeat property specifies how background images are repeated. 
+   A background image can be repeated along the horizontal axis, the vertical axis, both axes, or not repeated at all. 
+
+   repeat-x   -  horizontal repeated
+   repeat-y   -  vertical repeated
+   no-repeat  -  once (x1) repeated
+
+
+--- example: repeat-x - horizontal
+
+    body 
+    {
+        background-image: url("css_logo.png");
+        background-repeat: repeat-x;  
+    }
+
+
+ --- example: 
+
+    body 
+    {
+        background-image: url("css_logo.png");
+        background-repeat: repeat-y;
+    }
+
 
 
 
