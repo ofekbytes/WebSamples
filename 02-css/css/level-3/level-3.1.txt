@@ -9,6 +9,9 @@ css - Properties.
 - level 3.04 - CSS Width and Height
 - level 3.05 - The background-color Property
 - level 3.06 - The background-image Property  
+- level 3.07 - The background-repeat Property
+- level 3.08 - The background-attachment Property
+
 
 .
 .
@@ -279,8 +282,10 @@ p {
         background-repeat: repeat-x;  
     }
 
+--- example: repeat-x
+    <css-3.05.1.html>
 
- --- example: repeat-y - vertical repeated
+--- example: repeat-y - vertical repeated
 
     body 
     {
@@ -288,6 +293,8 @@ p {
         background-repeat: repeat-y;
     }
 
+--- example: repeat-y
+    <css-3.05.2.html>
 
 -- Setting the Value to Inherit
    when you set the background-repeat property to inherit, 
@@ -314,8 +321,30 @@ p {
         padding: 40px;
     }
 
---- example: "body" tag background-repeat is "repeat-x", "p" tag inherit "body" tag.
+--- example: inherit : "body" tag background-repeat is "repeat-x", "p" tag inherit "body" tag.
     <css-3.05.3.html> 
 
+.
+.
+- level 3.08 - The background-attachment Property
+.
 
+--  The background-attachment property sets whether a background image is fixed or scrolls with the rest of the page.
+    Even if an element has a scrolling mechanism, a "fixed" background doesn't move with the element.
 
+--- example: background-attachment "fixed" / "scrolls"
+    background-attachment: fixed;
+    background-attachment: scrolls;
+
+--- example: "body" tag background-repeat is "repeat-x", "p" tag inherit "body" tag.
+
+--- example:
+
+    body 
+    {
+        background-image: url("css_logo.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+*****
