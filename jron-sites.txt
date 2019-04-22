@@ -7,3 +7,6 @@ https://ofekbytes.github.io/resume/
 
 [AngularJs]
 https://ofekbytes.github.io/AngularJs/
+
+[assets]
+https://ofekbytes.github.io/assets/
