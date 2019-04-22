@@ -290,12 +290,15 @@ p {
 
 
 -- Setting the Value to Inherit
-   hen you set the background-repeat property to inherit, it will take the same specified value as the property for the element's parent. 
+   when you set the background-repeat property to inherit, 
+   it will take the same specified value as the property for the element's parent. 
 
-For example, we set the body background repeat only horizontally. If we set some paragraph background-repeat values to be inherited, they will take the same property value as the body element.
+--- example: we set the body background repeat only horizontally. 
+             If we set some paragraph background-repeat values to be inherited, 
+             they will take the same property value as the body element.
 
 
---- example:
+--- example: "body" tag background-repeat is "repeat-x", "p" tag inherit "body" tag.
 
     body 
     {
@@ -311,6 +314,8 @@ For example, we set the body background repeat only horizontally. If we set some
         padding: 40px;
     }
 
+--- example: "body" tag background-repeat is "repeat-x", "p" tag inherit "body" tag.
+    <css-3.05.3.html> 
 
 
 
