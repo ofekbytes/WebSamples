@@ -413,9 +413,8 @@ p {
 
 
 -- The List Image and Position: 
-   list properties are:
 --- list-style-image - specifies an image to be used as the list item marker.
---- list-style-position - specifies the position of the marker box (inside, outside).
+--- list-style-position - specifies the position of the marker box: inside, outside (default).
 
 --- example: using an "image" as the list item marker, and specify the "position" to be "inside" of the content flow. 
 
@@ -428,4 +427,5 @@ p {
 --- example: The List Image and Position
     <css-3.07.2.html> 
 
-
+-- The list-style Property:
+--- ****
