@@ -338,7 +338,7 @@ p {
 
 --- example: "body" tag background-repeat is "repeat-x", "p" tag inherit "body" tag.
 
---- example:
+--- example: background-attachment "fixed"
 
     body 
     {
@@ -347,4 +347,85 @@ p {
         background-attachment: fixed;
     }
 
-*****
+--- example: background-attachment "fixed"
+    <css-3.06.1.html> 
+
+
+-- The background-attachment Values: "inherit", "scroll".
+---  "inherit" value - is inherit the value from its parent element. 
+---  "scroll" value - the background image will scroll with the rest of the content.
+
+--- example:
+
+    body 
+    {
+        background-image: url("css_logo.png");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+    }
+
+--- example: background-attachment "scroll"
+    <css-3.06.2.html> 
+
+.
+.
+- level 3.09 - The list-style-type Property
+.
+
+--  The CSS list properties allow us to set different list item markers. 
+    In HTML, there are two types of lists:
+    unordered lists (<ul>) - the list items are marked with bullets
+    ordered lists (<ol>) - the list items are marked with numbers or letters
+    With CSS, lists can be styled further, and images can be used as the list item marker.
+    List-style-type property values: circle, square, decimal, disc, lower-alpha, etc. 
+
+--- example:
+
+    ol.lower-alpha 
+    {
+        list-style-type: lower-alpha;
+    }
+
+    ol.upper-alpha 
+    {
+        list-style-type: upper-alpha;
+    }
+
+    ol.disc 
+    {
+        list-style-type: disc;
+    }
+
+
+    ul.circle 
+    {
+        list-style-type: circle;
+    }
+
+    ul.square 
+    {
+        list-style-type: square;
+    }
+
+--- example: The list-style-type Property
+    <css-3.07.1.html> 
+
+
+
+-- The List Image and Position: 
+   list properties are:
+--- list-style-image - specifies an image to be used as the list item marker.
+--- list-style-position - specifies the position of the marker box (inside, outside).
+
+--- example: using an "image" as the list item marker, and specify the "position" to be "inside" of the content flow. 
+
+    ul 
+    {
+        list-style-image: url("logo.jpg");
+        list-style-position: inside;
+    }
+
+--- example: The List Image and Position
+    <css-3.07.2.html> 
+
+
