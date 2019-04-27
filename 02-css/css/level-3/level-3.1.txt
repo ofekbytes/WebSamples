@@ -11,7 +11,8 @@ css - Properties.
 - level 3.06 - The background-image Property  
 - level 3.07 - The background-repeat Property
 - level 3.08 - The background-attachment Property
-
+- level 3.09 - The list-style-type Property
+- level 3.10 - The Table Properties
 
 .
 .
@@ -427,5 +428,48 @@ p {
 --- example: The List Image and Position
     <css-3.07.2.html> 
 
+
+
 -- The list-style Property:
---- ****
+
+--- list-style property set the "list-style-type", "list-style-image", "list-style-position" in one declaration:
+
+--- example: list-style property set (shorthand version)
+
+    ul 
+    {
+        list-style: square outside none;
+    }
+
+
+--- example: longhand version
+
+    ul 
+    {
+        list-style-type: square;
+        list-style-position: outside;
+        list-style-image: none;
+    }
+
+--- example: list-style property set (shorthand version)
+    <css-3.07.3.html> 
+
+
+-!- If one of the property values are missing, the default value for the missing property will be inserted, if any.
+
+.
+.
+- level 3.10 - The Table Properties
+.
+
+--  The border-collapse property specifies whether the table borders are collapsed into a single border or separated as default.
+    If the borders are separate, the border-spacing property can be used to change the spacing. 
+
+--- example: border-collapse property
+
+    table 
+    {
+        border-collapse: separate;
+        border-spacing: 20px 40px;
+    }
+
