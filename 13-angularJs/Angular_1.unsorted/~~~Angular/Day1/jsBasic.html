@@ -55,8 +55,9 @@
 			try{
 				throw new Error ('error message');
 			}catch(e){
-				console.dir(e);
-			}final{
+				console.dir("catch e >>> " + e);
+			}finally{
+				console.log("finally will be apeared anyway");
 			}
 			
 			//JSON
