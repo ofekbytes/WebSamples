@@ -5,7 +5,7 @@
 03 - AngularJS: Data Binding
 04 - AngularJS: Directives
 05 - AngularJS: Controllers
-
+06 - AngularJS: Events
 
 .
 .‏
