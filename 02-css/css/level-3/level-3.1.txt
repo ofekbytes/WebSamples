@@ -492,5 +492,11 @@ p {
         }
     </style>
 
---- example: caption-side
+--- example: caption-side "top"
     <css-3.08.2.html>
+
+--- example: caption-side "bottom"
+    <css-3.08.2.html>
+
+
+-- 
