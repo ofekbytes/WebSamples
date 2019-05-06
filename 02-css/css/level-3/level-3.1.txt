@@ -473,3 +473,24 @@ p {
         border-spacing: 20px 40px;
     }
 
+--- example: css - The Table Properties 
+    <css-3.08.1.html>
+
+
+-- The "caption-side" Property
+
+--- The "caption-side" property specifies the position of a table caption. 
+    The values set: "top" or "bottom". 
+
+--- example: caption-side
+
+    <style>
+        caption {
+            caption-side: top;
+            /*caption-side:bottom;*/
+            /*Title down*/
+        }
+    </style>
+
+--- example: caption-side
+    <css-3.08.2.html>
