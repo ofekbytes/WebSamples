@@ -13,6 +13,8 @@ css - Properties.
 - level 3.08 - The background-attachment Property
 - level 3.09 - The list-style-type Property
 - level 3.10 - The Table Properties
+- level 3.11 - Setting Styles to Links
+
 
 .
 .
@@ -477,6 +479,7 @@ p {
     <css-3.08.1.html>
 
 
+
 -- The "caption-side" Property
 
 --- The "caption-side" property specifies the position of a table caption. 
@@ -496,7 +499,92 @@ p {
     <css-3.08.2.html>
 
 --- example: caption-side "bottom"
-    <css-3.08.2.html>
+    <css-3.08.3.html>
 
 
--- 
+
+-- The "empty-cells" Property
+
+--- The empty-cells property specifies whether or not to display borders and background on empty cells in a table. 
+--- values are: show -or- hide 
+
+--- example: The empty-cells Property - hide
+    table 
+    {
+        border-collapse: separate;
+        empty-cells: hide;
+    }
+
+--- example: The empty-cells Property - hide
+    <css-3.08.4.html>
+
+
+--- example: The empty-cells Property - show 
+    table 
+    {
+        border-collapse: separate;
+        empty-cells: show;
+    }  
+
+--- example: The empty-cells Property - show
+    <css-3.08.5.html>
+
+
+-- The table-layout Property
+
+--- The table-layout specifies how the width of table columns is calculated. 
+    The possible values are: "auto" -or- "fixed"
+    auto - when column or cell width are not explicitly set, the column width will be in proportion to the amount of content in the cells that make up the column
+    fixed - when column or cell width are not explicitly set, the column width will not be affected by the amount of content in the cells that make up the column.
+
+--- example: The table-layout Property - auto & fixed
+
+    table 
+    {
+        border-collapse: separate;
+        width: 100%;
+        border: 1px solid gray;
+    } 
+
+    td 
+    {
+        border: 1px solid gray;
+    }
+
+    table.auto 
+    {
+        table-layout: auto;
+    }
+
+    table.fixed 
+    {
+        table-layout: fixed;
+    }
+
+--- example: The table-layout Property - auto & fixed
+    <css-3.08.6.html>
+
+.
+.
+- level 3.11 - Setting Styles to Links
+.
+
+--  Links can be styled with any CSS property (e.g., color, font-family, background, etc.).
+
+    a:link      - defines the style for normal unvisited links
+    a:visited   - defines the style for visited links
+    a:active    - a link becomes active once you click on it
+    a:hover     - a link is hovered when the mouse is over it
+
+The example below creates a link that will change the style when the mouse is moved over it.
+
+--- example: link will change the style when the mouse is moved over it.
+    a:hover 
+    {
+        color: red;
+    }
+
+--- example: link will change the style when the mouse is moved over it.
+    <css-3.08.7.html>
+
+

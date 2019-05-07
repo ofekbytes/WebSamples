@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <!-- title -->
+    <title> css - The table-layout Property - auto & fixed </title>
+
+    <style>
+        table {
+            border-collapse: separate;
+            width: 100%;
+            border: 1px solid gray;
+        }
+
+        td {
+            border: 1px solid gray;
+        }
+
+        table.auto {
+            table-layout: auto;
+        }
+
+        table.fixed {
+            table-layout: fixed;
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <p>Table-layout is set to <strong>auto</strong></p>
+    <table class="auto">
+        <tr>
+            <td width="5%">500.000.000.000.000</td>
+            <td width="90%">20.000</td>
+        </tr>
+    </table>
+
+    <p>Table-layout is set to <strong>fixed</strong></p>
+    <table class="fixed">
+        <tr>
+            <td width="5%">500.000.000.000.000</td>
+            <td width="90%">20.000</td>
+        </tr>
+    </table>
+</body>
+
+</html>
