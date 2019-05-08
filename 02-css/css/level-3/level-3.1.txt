@@ -570,6 +570,7 @@ p {
 .
 
 --  Links can be styled with any CSS property (e.g., color, font-family, background, etc.).
+    pseudo selectors are available:
 
     a:link      - defines the style for normal unvisited links
     a:visited   - defines the style for visited links
@@ -585,6 +586,22 @@ The example below creates a link that will change the style when the mouse is mo
     }
 
 --- example: link will change the style when the mouse is moved over it.
-    <css-3.08.7.html>
+    <css-3.09.1.html>
 
+
+-- order rules:
+    a:link     //#1
+    a:visited  //#1
+    a:hover    //#2
+    a:active   //#3
+
+--- example: link will change the style when the mouse is moved over it  - without underline 
+    <css-3.09.2.html>
+
+-!- properties used to control the look and feel of links:
+---- border:none   - removes border from images with links
+---- outline:none  - removes the dotted border on clicked lines in IE
+
+--- example: images border:none, click outline:none
+    <css-3.09.3.html>
 
