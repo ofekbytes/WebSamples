@@ -14,6 +14,7 @@ css - Properties.
 - level 3.09 - The list-style-type Property
 - level 3.10 - The Table Properties
 - level 3.11 - Setting Styles to Links
+- level 3.12 - Setting the Mouse Cursor Style
 
 
 .
@@ -604,4 +605,14 @@ The example below creates a link that will change the style when the mouse is mo
 
 --- example: images border:none, click outline:none
     <css-3.09.3.html>
+
+.
+.
+- level 3.12 - Setting the Mouse Cursor Style
+.
+
+--  
+
+
+
 
