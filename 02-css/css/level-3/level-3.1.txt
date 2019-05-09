@@ -611,8 +611,16 @@ The example below creates a link that will change the style when the mouse is mo
 - level 3.12 - Setting the Mouse Cursor Style
 .
 
---  
+--  set your desired cursor style when you mouse over an element. 
 
+--- example: set icon "help":
+
+    <span style="cursor:help;">
+        Do you need help?
+    </span>
+
+--- example: set icon "help":
+    <css-3.10.1.html>
 
 
 
