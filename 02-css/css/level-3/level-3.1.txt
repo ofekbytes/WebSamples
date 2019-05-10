@@ -596,6 +596,20 @@ The example below creates a link that will change the style when the mouse is mo
     a:hover    //#2
     a:active   //#3
 
+
+--- example: link will change the style when the mouse is moved over it  - without underline 
+
+    a:link 
+    {
+        text-decoration: none;
+    }
+
+    a:hover 
+    {
+        color: red;
+    }
+
+
 --- example: link will change the style when the mouse is moved over it  - without underline 
     <css-3.09.2.html>
 
@@ -605,6 +619,10 @@ The example below creates a link that will change the style when the mouse is mo
 
 --- example: images border:none, click outline:none
     <css-3.09.3.html>
+
+
+--- example: text-decoration
+    <css-3.09.4.html>
 
 .
 .
@@ -619,8 +637,43 @@ The example below creates a link that will change the style when the mouse is mo
         Do you need help?
     </span>
 
+
+--- example: set icon "help":
+
+    .qmc:hover 
+    {
+        color: blue;
+        cursor: help;
+    }
+
+
 --- example: set icon "help":
     <css-3.10.1.html>
 
+
+-- The cursor Property Values
+
+default - default cursor
+crosshair - cursor displays as crosshair
+pointer - cursor displays hand icon
+The list of possible values is quite long. 
+The image below demonstrates the various available 
+
+auto, crosshair, default, move, help, text, wait,
+n-resize, s-resize, ne-resize, sw-resize, 
+nw-resize, se-resize, e-resize, w-resize, 
+pointer, progress, not-allowed, no-drop,
+vertical-text, all-scroll, col-resize, row-resize,
+
+
+
+-!- The default Value - 
+
+Usually, the appearance of the mouse cursor is altered to provide a more 
+interesting experience for website visitors.
+
+
+
+text-decoration:none;
 
 
