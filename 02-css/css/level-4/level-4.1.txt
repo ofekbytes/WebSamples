@@ -1,0 +1,34 @@
+.
+.
+css - Positioning and Layout.
+.
+.
+- level 4.01 - The display Property
+
+
+.
+.
+- level 4.01 - The display Property
+.
+
+
+display: block
+
+Every element on a web page is a rectangular box.
+"display" property determines how that rectangular box behaves. 
+"block" element is an element that takes up the fullest width available, with line breaks before and after.
+
+
+--- example: <span> elements as block-level elements:
+
+    span 
+    {
+        display: block;
+    }
+
+
+--- example: <span> elements as block-level elements:
+    <css-4.01.1.html>
+
+
+
