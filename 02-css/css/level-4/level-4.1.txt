@@ -11,7 +11,6 @@ css - Positioning and Layout.
 - level 4.01 - The display Property
 .
 
-
 - display: block
 
 -- Every element on a web page is a rectangular box.
@@ -72,4 +71,9 @@ An inline element only takes up as much width as necessary, and does not force l
 
 https://devdocs.io/css/display
 
+.
+.
+- level 4.02 - The visibility Property
+.
 
+-
