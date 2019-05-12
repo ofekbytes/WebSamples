@@ -12,11 +12,11 @@ css - Positioning and Layout.
 .
 
 
-display: block
+- display: block
 
-Every element on a web page is a rectangular box.
-"display" property determines how that rectangular box behaves. 
-"block" element is an element that takes up the fullest width available, with line breaks before and after.
+-- Every element on a web page is a rectangular box.
+   "display" property determines how that rectangular box behaves. 
+   "block" element is an element that takes up the fullest width available, with line breaks before and after.
 
 
 --- example: <span> elements as block-level elements:
@@ -30,5 +30,46 @@ Every element on a web page is a rectangular box.
 --- example: <span> elements as block-level elements:
     <css-4.01.1.html>
 
+
+
+- display: inline
+
+An inline element only takes up as much width as necessary, and does not force line breaks.
+
+--- example: display: inline
+
+    p 
+    {
+        display: inline;
+    }
+
+
+--- example: display: inline
+    <css-4.01.2.html>
+
+-!- Setting the display property of an element only changes how the element is displayed, not what kind of element it is. 
+    an inline element with display:block is not allowed to have other block elements inside it.
+
+
+
+- display:none
+
+-- display:none hides an element, so it does not take up any space. 
+   The element will be hidden, and the page will be displayed as if the element is not there.
+
+--- example: display: none
+
+    h1 
+    {
+        display: none;
+    }
+
+
+--- example: display: none
+    <css-4.01.3.html>
+
+-!- There are display values, such as list-item, table, table-cell, table-column, grid, etc. 
+
+https://devdocs.io/css/display
 
 
