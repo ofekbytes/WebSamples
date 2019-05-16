@@ -8,7 +8,7 @@
 5. HTML Attributes
 6. html image <img> tag.
 7. html links <a> tag
-
+8. HTML Lists
 
 .
 1. HTML - 
@@ -40,8 +40,7 @@ CMS: Content Management
 
 
 --- example: html template file
-    <html_template.html>
-
+    <html-1.1-template.html>
 .
 .
 4. HTML Elements - 
@@ -74,32 +73,44 @@ CMS: Content Management
     </p>
 
 --- example: HTML Attributes
-    <html_Attributes.html>
+    <html-1.2-Attributes.html>
 
 .
 .
 6. html image <img> tag -
+.
 
 -- The <img> tag is used to insert an image. 
 
 --- example: html image <img> tag
 
+    <!-- image - file name -->
+    <img src="image.jpg" />
+
+    <!-- alt=" -->
+    <img src="image.jpg" alt="image.jpg - file is missing" />
+
+    <!-- image size - px -->
+    <img src="image.jpg" height="150px" width="150px" alt="" />
+    
+    <!-- image size - % -->    
+    <img src="image.jpg" height="50%" width="50%" alt="" />
+
+    <!-- image border size - px -->
+    <img src="image.jpg" height="150px" width="150px" border="1px" alt="" /> 
 
 
 --- example: html image <img> tag
     <html_img.html>
 
-
-
-
-
-
-
+.
+.
 7. html links <a> tag -
+.
 
-Links are also an integral part of every web page. 
-You can add links to text or images that will enable the user to click on them in order to be directed to another file or webpage.
-In HTML, links are defined using the <a> tag.
+-- Links are also an integral part of every web page. 
+   You can add links to text or images that will enable the user to click on them in order to be directed to another file or webpage.
+   In HTML, links are defined using the <a> tag.
 
 -!- To link an image to another document, simply nest the <img> tag inside <a> tags.
 
@@ -108,9 +119,23 @@ In HTML, links are defined using the <a> tag.
     <!-- links - a tag -->
     <a href=""></a>
 
-    <br/><a href="http://www.cnn.com"> cnn </a>
+    <br /><a href="https://ofekbytes.github.io/assets/kessler.yaron/kessler.yaron.jpeg"> jron picture in site </a>
 
-    <br/><a href="http://www.nbc.com" target="_blank"> nbc site  </a>
+    <!-- link into a new browser tab -->
+    <br /><a href="https://ofekbytes.github.io/assets/" target="_blank"> jron assets site :-) </a>
+
+    <!-- links - a image -->
+    <br />
+    <a href="https://ofekbytes.github.io/assets/" target="_blank">
+        <img src="https://ofekbytes.github.io/assets/images/picture/yamon.jpg" height="150px" width="150px" border="11px" alt="yamon" /> 
+    </a>
+
+--- example: html image <img> tag
+    <html_a_tag.html>
+
 .
 .
-8. 
+8. HTML Lists - 
+.
+
+-- 
