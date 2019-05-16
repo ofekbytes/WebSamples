@@ -6,7 +6,8 @@
 3. HTML basics file
 4. HTML Elements
 5. HTML Attributes
-6. html links <a> tag
+6. html image <img> tag.
+7. html links <a> tag
 
 
 .
@@ -26,40 +27,75 @@ CMS: Content Management
 .
 3. HTML basics file -
 
-<html>
-    <head>
-    </head>
-    <body>
-    </body>
-    <footer>
-    </footer>
-</html>
+--- example:
+
+    <html>
+        <head>
+        </head>
+        <body>
+        </body>
+        <footer>
+        </footer>
+    </html>
+
+
+--- example: html template file
+    <html_template.html>
+
 .
 .
 4. HTML Elements - 
-HTML documents are made up of HTML elements.
-An HTML element is written using a start tag and an end tag, and with the content in between.
+
+-- HTML documents are made up of HTML elements.
+   An HTML element is written using a start tag and an end tag, and with the content in between.
+
    <p>content in between tags</p>
+
 -!- Some HTML elements (like the <br /> tag) do not have end tags.
+
 .
 .
 5. HTML Attributes -
-Attributes provide additional information about an element or a tag, 
-while also modifying them. Most attributes have a value; the value modifies the attribute.
+.
+
+-- Attributes provide additional information about an element or a tag, 
+   while also modifying them. Most attributes have a value; the value modifies the attribute.
 
 --- example: Attributes: align="center" 
-<p align="center"> 
-    This text is aligned to center
-</p>
-<p>
-<hr width="50px" />
-<hr width="50%" />
-<hr width="10%" align="right" />  some text.
-<hr width="50%" align="left" />
-</p>
+
+    <p align="center"> 
+        This text is aligned to center
+    </p>
+    <p>
+        <hr width="50px" />
+        <hr width="50%" />
+        <hr width="10%" align="right" />  some text.
+        <hr width="50%" align="left" />
+    </p>
+
+--- example: HTML Attributes
+    <html_Attributes.html>
+
 .
 .
-6. html links <a> tag - 
+6. html image <img> tag -
+
+-- The <img> tag is used to insert an image. 
+
+--- example: html image <img> tag
+
+
+
+--- example: html image <img> tag
+    <html_img.html>
+
+
+
+
+
+
+
+7. html links <a> tag -
 
 Links are also an integral part of every web page. 
 You can add links to text or images that will enable the user to click on them in order to be directed to another file or webpage.
@@ -77,4 +113,4 @@ In HTML, links are defined using the <a> tag.
     <br/><a href="http://www.nbc.com" target="_blank"> nbc site  </a>
 .
 .
-7. 
+8. 
