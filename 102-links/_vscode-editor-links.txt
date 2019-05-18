@@ -13,15 +13,17 @@ https://code.visualstudio.com/
 -!- installed press "@installed"  <enter>
 .
 .
-1) Live Server - <ritwickdey.liveserver> ..MIT License
-2) Numbered Bookmarks - <Alessandro Fragnani> ..MIT License..
-3) Angular 8 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout - <Mikael Morlund> ..MIT License..
-4) Angular v7 Snippets - <John Papa> ..MIT License..
-5) Paste JSON as Code - <quicktype> ..Apache License..
-6) vscode-spotify - <shyykoserhiy>  ..MIT License.. 
-7) Debugger for Chrome - <Microsoft>  ..MIT License..
-8) GitLens — Git supercharged - <Eric Amodio> ..MIT License..
-9) VS Live Share - <Microsoft>  ..MICROSOFT PRE-RELEASE SOFTWARE LICENSE TERMS..
+01) Live Server - <ritwickdey.liveserver> ..MIT License
+02) Numbered Bookmarks - <Alessandro Fragnani> ..MIT License..
+03) Angular 8 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout - <Mikael Morlund> ..MIT License..
+04) Angular v7 Snippets - <John Papa> ..MIT License..
+05) Paste JSON as Code - <quicktype> ..Apache License..
+06) vscode-spotify - <shyykoserhiy>  ..MIT License.. 
+07) Debugger for Chrome - <Microsoft>  ..MIT License..
+08) GitLens — Git supercharged - <Eric Amodio> ..MIT License..
+09) VS Live Share - <Microsoft>  ..MICROSOFT PRE-RELEASE SOFTWARE LICENSE TERMS..
+10) Material Icon Theme - <Philipp Kief> ..MIT License
+
 
 2018
 *) Settings Sync - <Shan Khan>  ..MIT License..
@@ -32,6 +34,10 @@ https://code.visualstudio.com/
 .
 [keyboard hot-keys]
 .
+
+ctrl+ shift+p ==> quick command interface
+type "theme" ==> "preferences: colorTheme" ==> enter "theme screen"
+
 ctrl+<k> ==> key bind search (????????)
 
 - ctrl+<p> ==> search files
