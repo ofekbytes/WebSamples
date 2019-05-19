@@ -164,7 +164,102 @@ CMS: Content Management
 
 .
 .
-9.
+9. HTML Tables
 .
 
-- 
+- <table> tag. 
+-- Tables are divided into table rows with the <tr> tag.
+-- Table rows are divided into table columns (table data) with the <td> tag.
+
+--- example: table, tr, td
+
+    <h3>border= 1 row=1, cell=3</h3>
+    <table>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+    </table>
+
+
+--- example: table border size
+
+    <h3>border=2 row=1, cell=3</h3>
+    <table border="2">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+    </table>
+
+
+--- example: table border size
+
+    <h3>border=2 row=2, cell=3</h3>        
+    <table border="2">
+        <tr>
+            <td>one</td>
+            <td>two</td>
+            <td>three</td>
+        </tr>
+        <tr>
+            <td> one </td>
+            <td> two</td>
+            <td> three</td>
+        </tr>
+    </table>
+
+
+-!- The border attribute is not supported in HTML5.
+
+
+--- example: colspan - spans two cells into one (cell 2 to 1).
+
+    <h3>border=2 row=2, cell=3, 2</h3>                
+    <table border="2">
+        <tr>
+            <td>one</td>
+            <td>two</td>
+            <td>three</td>
+        </tr>
+        <tr>
+            <td> one </td>
+            <td colspan="2"> two &nbsp; three</td>
+        </tr>
+    </table>
+
+
+--- example: rowspan - rowspan Attribute
+
+    <h3>border=2 row=3,rowspan=3</h3>
+        <table border="2">
+            <tr>
+                <td>one</td>
+                <td>two</td>
+                <td>three</td>
+                <td rowspan="3">rowspan <br /> is <br /> three </td>
+            </tr>
+            <tr>
+                <td>one</td>
+                <td>two</td>
+                <td>three</td>
+            </tr>
+            <tr>
+                <td>one</td>
+                <td>two</td>
+                <td>three</td>
+            </tr>
+        </table>
+
+
+--- example: HTML Table tag
+    <html-1.6-table-tag.html>
+
+
+
+//
+// temp link
+// https://www.w3schools.com/tags/tag_td.asp
+//

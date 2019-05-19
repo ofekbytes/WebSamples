@@ -1,0 +1,237 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>HTML5 Tutorial</title>
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <h3>border= 1 row=1, cell=3</h3>
+        <table>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+        </table>
+
+        <br />
+
+        <h3>border=2 row=1, cell=3</h3>
+        <table border="2">
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+        </table>
+
+        <br />
+
+        <h3>border=2 row=2, cell=3</h3>
+        <table border="2">
+            <tr>
+                <td>one</td>
+                <td>two</td>
+                <td>three</td>
+            </tr>
+            <tr>
+                <td> one </td>
+                <td> two</td>
+                <td> three</td>
+            </tr>
+        </table>
+
+        <br />
+
+        <h3>border=2 row=2, cell=3, 2 - colspan</h3>
+        <table border="2">
+            <tr>
+                <td>one</td>
+                <td>two</td>
+                <td>three</td>
+            </tr>
+            <tr>
+                <td> one </td>
+                <td colspan="2"> two &nbsp; three</td>
+            </tr>
+        </table>
+
+        <br />
+
+        <h3>border=2 row=3,rowspan=3</h3>
+        <table border="2">
+            <tr>
+                <td>one</td>
+                <td>two</td>
+                <td>three</td>
+                <td rowspan="3">rowspan <br /> is <br /> three </td>
+            </tr>
+            <tr>
+                <td>one</td>
+                <td>two</td>
+                <td>three</td>
+            </tr>
+            <tr>
+                <td>one</td>
+                <td>two</td>
+                <td>three</td>
+            </tr>
+        </table>
+
+        <br />
+
+        <h3>border=2 row=3,rowspan=3 in th tag</h3>
+        <table border="2">
+            <thead>
+                <tr>
+                    <th>one</th>
+                    <th>two</th>
+                    <th>three</th>
+                    <th rowspan="3">title </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>one</td>
+                    <td>two</td>
+                    <td>three</td>
+                    <td rowspan="0">rowspan <br /> is <br /> three</td>
+                </tr>
+                <tr>
+                    <td>one</td>
+                    <td>two</td>
+                    <td>three</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br />
+
+
+        <hr />
+
+        <table class=".testStyleTag">
+            <tr>
+                <td>&nbsp;</td>
+                <td>Knocky</td>
+                <td>Flor</td>
+                <td>Ella</td>
+                <td>Juan</td>
+            </tr>
+            <tr>
+                <td>Breed</td>
+                <td>Jack Russell</td>
+                <td>Poodle</td>
+                <td>Streetdog</td>
+                <td>Cocker Spaniel</td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Owner</td>
+                <td>Mother-in-law</td>
+                <td>Me</td>
+                <td>Me</td>
+                <td>Sister-in-law</td>
+            </tr>
+            <tr>
+                <td>Eating Habits</td>
+                <td>Eats everyone's leftovers</td>
+                <td>Nibbles at food</td>
+                <td>Hearty eater</td>
+                <td>Will eat till he explodes</td>
+            </tr>
+        </table>
+
+        <br />
+
+        <hr />
+
+        <table border="1">
+            <tr>
+                <th>Data 1</th>
+                <th style="background-color: yellow">Data 2</th>
+            </tr>
+            <tr>
+                <td>Calcutta</td>
+                <td style="background-color: yellow">Orange</td>
+            </tr>
+            <tr>
+                <td>Robots</td>
+                <td style="background-color: yellow">Jazz</td>
+            </tr>
+        </table>
+
+        <hr />
+
+        <table border="1">
+            <colgroup>
+                <col style="background-color: lightgray">
+                <col>
+            </colgroup>
+            <tr>
+                <th>Data 1</th>
+                <th>Data 2</th>
+            </tr>
+            <tr>
+                <td>Calcutta</td>
+                <td>Orange</td>
+            </tr>
+            <tr>
+                <td>Robots</td>
+                <td>Jazz</td>
+            </tr>
+        </table>
+
+        <br />
+        <hr>
+        <table border="1">
+            <caption>head caption</caption>
+            <thead>
+                <th> ch1 </th>
+                <th> ch2 </th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>td1</td>
+                    <td>td2</td>
+                </tr>
+            </tbody>
+            <tr>
+                <td>mtd1</td>
+                <td>mtd2</td>
+            </tr>
+            <tfoot>
+                <th> cf1 </th>
+                <th> cf2 </th>
+            </tfoot>
+        </table>
+
+        <hr>
+
+    </div>
+    <!--wrapper-->
+
+
+    <script>
+        document.getElementsByClassName("testStyleTag").item.apply("<tr><td>test</td></tr>");
+    </script>
+
+
+</body>
+
+</html>

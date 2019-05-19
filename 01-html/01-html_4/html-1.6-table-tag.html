@@ -1,0 +1,230 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>HTML Table tag</title>
+
+</head>
+
+<body>
+
+        <br />
+        <hr />
+        <h3>01. Table - row=1, cell=3</h3>
+        <table>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+        </table>
+
+        <br />
+        <hr />
+        <h3>02. Table - border=2 row=1, cell=3</h3>
+        <table border="2">
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+        </table>
+
+        <br />
+        <hr />
+        <h3>03. Table - border=2 row=2, cell=3</h3>
+        <table border="2">
+            <tr>
+                <td>one</td>
+                <td>two</td>
+                <td>three</td>
+            </tr>
+            <tr>
+                <td> one </td>
+                <td> two</td>
+                <td> three</td>
+            </tr>
+        </table>
+
+        <br />
+        <hr />
+        <h3>04. Table - colspan - border=2 row=2, cell=3, 2</h3>
+        <table border="2">
+            <tr>
+                <td>one</td>
+                <td>two</td>
+                <td>three</td>
+            </tr>
+            <tr>
+                <td> one </td>
+                <td colspan="2"> two &nbsp; three</td>
+            </tr>
+        </table>
+
+        <br />
+        <hr />
+        <h3>05. Table - rowspan - border=2 row=3,rowspan=3</h3>
+        <table border="2">
+            <tr>
+                <td>one</td>
+                <td>two</td>
+                <td>three</td>
+                <td rowspan="3">rowspan <br /> is <br /> three </td>
+            </tr>
+            <tr>
+                <td>one</td>
+                <td>two</td>
+                <td>three</td>
+            </tr>
+            <tr>
+                <td>one</td>
+                <td>two</td>
+                <td>three</td>
+            </tr>
+        </table>
+
+        <br />
+        <hr />
+        <h3>06. Table - rowspan -  thead, tbody</h3>
+        <table border="2">
+            <thead>
+                <tr>
+                    <th>one</th>
+                    <th>two</th>
+                    <th>three</th>
+                    <th rowspan="3">title </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>one</td>
+                    <td>two</td>
+                    <td>three</td>
+                    <td rowspan="0">rowspan <br /> is <br /> three</td>
+                </tr>
+                <tr>
+                    <td>one</td>
+                    <td>two</td>
+                    <td>three</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br />
+        <hr />
+        <h3>07. Table row=5 col=5</h3>
+        <table border="1">
+            <tr>
+                <td>&nbsp;</td>
+                <td>jron</td>
+                <td>yifat</td>
+                <td>shalom</td>
+                <td>gal</td>
+            </tr>
+            <tr>
+                <td>programming</td>
+                <td>Full Stack</td>
+                <td>java Client</td>
+                <td>Full Stack</td>
+                <td>Web Client</td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td>45</td>
+                <td>43</td>
+                <td>39</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <td>city</td>
+                <td>holon</td>
+                <td>holon</td>
+                <td>usa</td>
+                <td>holon</td>
+            </tr>
+            <tr>
+                <td>phone</td>
+                <td>5721</td>
+                <td>5421</td>
+                <td>1212</td>
+                <td>5532</td>
+            </tr>
+        </table>
+
+        <br />
+
+        <hr />
+
+        <table border="1">
+            <tr>
+                <th>Data 1</th>
+                <th style="background-color: yellow">Data 2</th>
+            </tr>
+            <tr>
+                <td>Calcutta</td>
+                <td style="background-color: yellow">Orange</td>
+            </tr>
+            <tr>
+                <td>Robots</td>
+                <td style="background-color: yellow">Jazz</td>
+            </tr>
+        </table>
+
+        <hr />
+
+        <table border="1">
+            <colgroup>
+                <col style="background-color: lightgray">
+                <col>
+            </colgroup>
+            <tr>
+                <th>Data 1</th>
+                <th>Data 2</th>
+            </tr>
+            <tr>
+                <td>Calcutta</td>
+                <td>Orange</td>
+            </tr>
+            <tr>
+                <td>Robots</td>
+                <td>Jazz</td>
+            </tr>
+        </table>
+
+        <br />
+        <hr>
+        <table border="1">
+            <caption>head caption</caption>
+            <thead>
+                <th> ch1 </th>
+                <th> ch2 </th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>td1</td>
+                    <td>td2</td>
+                </tr>
+            </tbody>
+            <tr>
+                <td>mtd1</td>
+                <td>mtd2</td>
+            </tr>
+            <tfoot>
+                <th> cf1 </th>
+                <th> cf2 </th>
+            </tfoot>
+        </table>
+
+        <hr>
+
+    </div>
+    <!--wrapper-->
+
+
+</body>
+
+</html>
