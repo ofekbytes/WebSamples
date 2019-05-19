@@ -10,6 +10,20 @@ https://www.w3schools.com/
 https://developer.mozilla.org/en-US/docs/Web
 
 
+
+//mozilla learn//
+
+https://developer.mozilla.org/en-US/docs/Learn
+
+https://developer.mozilla.org/en-US/docs/Learn/html
+
+https://developer.mozilla.org/en-US/docs/Learn/CSS
+
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript
+
+
+
+
 [howto]
 https://www.w3schools.com/howto/
 
