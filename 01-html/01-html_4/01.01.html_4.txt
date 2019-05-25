@@ -258,8 +258,10 @@ CMS: Content Management
     <html-1.6-table-tag.html>
 
 
+---html links-
 
-//
-// temp link
-// https://www.w3schools.com/tags/tag_td.asp
-//
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics
+
+https://www.w3schools.com/tags/tag_td.asp
+
+

@@ -1,4 +1,18 @@
 
+
+[online manual]
+
+https://devdocs.io/
+
+https://www.w3schools.com/
+
+https://developer.mozilla.org/en-US/docs/Web
+
+
+https://developer.mozilla.org/en-US/docs/Learn
+
+https://developer.mozilla.org/en-US/docs/Learn/html
+
 <!-- links -->
 <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress -->
 <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button -->
