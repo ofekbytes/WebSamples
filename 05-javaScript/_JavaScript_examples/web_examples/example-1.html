@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title> ES-7 - example </title>
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <p> JavaScript ES6/ES2016 </p>
+        <div id="line1"></div>
+        <div id="line2"></div>
+    </div>
+
+
+    <script>
+
+        var stLine1 = document.getElementById("line1");
+        var stLine2 = document.getElementById("line2");
+
+        stLine1.innerHTML = "is 1 in the array ==> " +  [3,2,1].includes(1);
+        stLine2.innerHTML = "is 5 in the array ==> " +  [3,2,1].includes(5);
+
+        //exist in the array
+        console.log("is 1 in the array ==> " +  [3,2,1].includes(1) );
+        console.log("is 5 in the array ==> " +  [3,2,1].includes(5) );
+
+        //exist cell number + value
+        console.log("is cell 0 in array is 3 ==> " +  [3,2,1].includes(0,3) ); //array cell 0 ==value of == 3
+        console.log("is cell 1 in array is 3 ==> " +  [3,2,1].includes(1,3) ); //array cell 1 ==value of == 2
+
+        //text exist in text string
+        console.log("is the text name jron exist ==> " + "jron, yaron, test".includes("jron") );
+        console.log("is the text name jim exist ==> " + "jron, yaron, test".includes("jim") );
+
+        //text exist in cell
+        console.log("is the text name jron exist ==> " + "jron, yaron, test".includes("jron"),0 );
+        console.log("is the text name jim exist ==> " + "jron, yaron, test".includes("jim"),0 );
+
+
+        //Exponentiation 3^2 = 9
+        console.log(" 3^2 ==> " +  3 ** 2 );
+
+
+        
+
+
+    </script>
+
+</body>
+
+</html>

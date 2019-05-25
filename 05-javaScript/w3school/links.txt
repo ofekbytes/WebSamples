@@ -12,3 +12,21 @@ https://www.w3schools.com/js/js_comparisons.asp
 
 //array
 https://www.w3schools.com/jsref/jsref_obj_array.asp
+
+
+
+
+//JavaScript
+
+https://www.w3schools.com/js/default.asp
+
+
+https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/
+
+
+//javascript + dom
+https://www.youtube.com/playlist?list=PLWKjhJtqVAbllLK6r2dnGjUVWB_cFNcuO
+
+
+//javaScript 
+https://www.youtube.com/playlist?list=PLWKjhJtqVAbleDe3_ZA8h3AO2rXar-q2V
