@@ -3,3 +3,7 @@
 https://scrimba.com/playlist/p7v3gCd
 
 https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/es6/
+
+
+/// (youtube) es6/es5
+https://www.youtube.com/watch?v=IEf1KAcK6A8

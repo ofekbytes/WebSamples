@@ -1,14 +1,20 @@
 
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang='en'>
 
 <head>
 
     <title>English Test</title>
   <!-- <head>a Tribute Page</head> -->
 
-  <!-- <link rel="stylesheet" type="text/css" href="./80s-music.css"> -->
+  <!-- <link rel='stylesheet' type='text/css' href='./80s-music.css'> -->
+
+  <script
+    src='https://code.jquery.com/jquery-3.4.1.slim.min.js'
+    integrity='sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8='
+    crossorigin='anonymous'>
+  </script>
 
 </head>
 
@@ -17,16 +23,16 @@
 
   <div>
     <div>
-      <h1 class="title">English Test</h1>
+      <h1 class='title'>English Test</h1>
     </div>
 
     <div>
-        <span><input type="text" id="aword" name="awords"> </span>
+        <span><input type='text' id='aword' name='awords'> </span>
     </div> 
 
     <script>
 
-        var JSON = [{"name":"cat"}, {"name":"dog"}];
+        var JSON = [{'name':'cat'}, {'name':'dog'}];
 
 
         var hasMatch = false;
@@ -36,11 +42,17 @@
             var wordList = JSON[index];
 
 
-            if( $("#aword").val() == wordList)
+            if( $('#aword').val() === wordList)
             {
                 hasMatch = true;
+                console.log('true');
                 break;
             }
+
+            // if (hasMatch === true) {
+            //   console.log('match === true' + $(#waord.val()) );
+            // }
+
         }
 
     </script>

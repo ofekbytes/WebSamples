@@ -1,6 +1,16 @@
 
 <!-- links -->
 
+<!--  ===[ css - display ]===   -->
+<!-- The display CSS property sets whether an element is treated as a block or inline element -->
+<!-- and the layout used for its children, such as grid or flex. --> 
+https://developer.mozilla.org/en-US/docs/Web/CSS/display
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flow_Layout/Block_and_Inline_Layout_in_Normal_Flow
+
+
+<!-- ===[ css - Reference ]=== -->
+
 https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 
 css color-list

@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head>
+
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+
+
+    <!-- charset -->
+    <meta charset="UTF-8">
+    <title>HTML Table tag + css </title>
+
+    <style>
+        html {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Handlee', cursive;
+            font-size: 13pt;
+            background-color: #efefef;
+            padding: 10px;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 15pt;
+            color: #20bcd5;
+            text-align: center;
+            padding: 18px 0 18px 0;
+            margin: 0 0 10px 0;
+        }
+
+        h1 span {
+            border: 4px dashed #20bcd5;
+            padding: 10px;
+        }
+
+        .section {
+            background-color: #fff;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+        }
+
+
+        /* table size */
+        table {
+            width: 100%;
+            font-size: 11pt;
+        }
+
+
+        /* table border */
+        table,
+        th,
+        td {
+            border: 2px solid #cecece;
+            border-collapse: collapse; /* boarder thin */
+            text-align: center;
+            table-layout: fixed;
+        }
+
+
+        /* selected cell */
+        .selected {
+            background-color: #f36f48;
+            font-weight: bold;
+            color: white;
+        }
+       
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <!--wrapper-->
+        <div class="section">
+            <h1><span>My Coding Schedule</span></h1>
+            <table>
+                <tr>
+                    <th>Day</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                </tr>
+                <tr>
+                    <td>8-8:30</td>
+                    <td class="selected">Learn</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>9-10</td>
+                    <td></td>
+                    <td class="selected">Practice</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>1-1:30</td>
+                    <td></td>
+                    <td></td>
+                    <td class="selected">Play</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3:45-5</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="selected">Code</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>6-6:15</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="selected">Discuss</td>
+                </tr>
+            </table>
+        </div>
+
+
+    </div>
+    <!--wrapper-->
+
+</body>
+
+</html>

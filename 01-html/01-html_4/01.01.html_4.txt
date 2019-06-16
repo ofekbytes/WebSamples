@@ -9,6 +9,8 @@
 6. html image <img> tag.
 7. html links <a> tag
 8. HTML Lists
+9. HTML Tables
+10. HTML Inline and Block Elements
 
 
 .
@@ -74,8 +76,8 @@ CMS: Content Management
     </p>
 
 --- example: HTML Attributes
-    <html-1.2-Attributes.html>
-
+    <html-1.2.1-Attributes.html>
+    <html-1.2.2-html-hr.html>
 .
 .
 6. html image <img> tag -
@@ -258,10 +260,263 @@ CMS: Content Management
     <html-1.6-table-tag.html>
 
 
----html links-
+--- html <table> links -
+
+
+<!-- <table> example -->
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables
 
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics
 
+<!-- td, tr ...->
 https://www.w3schools.com/tags/tag_td.asp
+https://www.w3schools.com/tags/tag_tr.asp
+
+.
+.
+10. HTML Inline and Block Elements
+.
+
+- In HTML, most elements are defined as block level or inline elements.
+
+-- Block Elements - 
+   Block level elements start from a new line. 
+
+--- example: 
+    <h1>, <form>, <li>, <ol>, <ul>, <p>, <pre>, <table>, <div>, etc.
+
+
+-- Inline Elements - 
+   Inline elements are normally displayed without line breaks. 
+
+--- example: 
+    <b>, <a>, <strong>, <img>, <input>, <em>, <span>, etc.
+
+
+-- <div> element is a block-level element (used as a container for other HTML elements).
+   <div> with some CSS styling, can be used to style blocks of content:
+
+--- example: block level element with <p> elements.
+    <div>
+        <p>Some paragraph text goes here.</p>
+        <p>Another paragraph goes here.</p>
+    </div>
+
+
+--- example: some text with <span> elements.
+    <span>This </span> is <span>nice</span> color 
+    
+
+--- example: inline block -and- block Elements.
+    <html-1.8-inline-block-and-block-Elements.html>
+
+
+-!!!-
+-!-  The <div> element defines a block-level section in a document.
+-!-  The <span> element defines an inline section in a document.
+
+
+-- Types of Elements - 
+--- elements can be used either as "block" level elements -or- "inline" elements
+--- element list:
+    APPLET  -  embedded Java applet
+    IFRAME  -  Inline frame
+    INS     -  inserted text
+    MAP     -  image map
+    OBJECT  -  embedded object
+    SCRIPT  -  script within an HTML document
+
+-!- You can insert inline elements inside block elements. 
+
+--- example, multiple <span> elements inside a <div> element.
+
+    <div>
+        <span>This </span> is <span>nice</span> color
+        <span>This </span> is <span>nice</span> color        
+    </div>
+
+-!- Inline elements cannot contain any block level elements.
+
+
+- Block Elements List -->
+
+<address>  -  Contact information.
+<article>  -  Article content.
+<aside>  -  Aside content.
+<blockquote>  -  Long ("block") quotation.
+<details>  -  Disclosure widget.
+<dialog>  -  Dialog box.
+<dd>  -  Describes a term in a description list.
+<div>  -  Document division.
+<dl>  -  Description list.
+<dt>  -  Description list term.
+<fieldset>  -  Field set label.
+<figcaption>  -  Figure caption.
+<figure>  -  Groups media content with a caption (see <figcaption>).
+<footer>  -  Section or page footer.
+<form>  -  Input form.
+<h1>, <h2>, <h3>, <h4>, <h5>, <h6>  -  Heading levels 1-6.
+<header>  -  Section or page header.
+<hgroup>  -  Groups header information.
+<hr>  -  Horizontal rule (dividing line).
+<li>  -  List item.
+<main>  -  Contains the central content unique to this document.
+<nav>  -  Contains navigation links.
+<ol>  -  Ordered list.
+<p>  -  Paragraph.
+<pre>  -  Preformatted text.
+<section>  -  Section of a web page.
+<table>  -  Table.
+<ul>  -  Unordered list.
+
+--- <01.02.html-4-Block-Elements-List.txt>
+
+
+- Inline Elements
+
+<a>
+<abbr>
+<acronym>
+<audio> (if it has visible controls)
+<b>
+<bdi>
+<bdo>
+<big>
+<br>
+<button>
+<canvas>
+<cite>
+<code>
+<data>
+<datalist>
+<del>
+<dfn>
+<em>
+<embed>
+<i>
+<iframe>
+<img>
+<input>
+<ins>
+<kbd>
+<label>
+<map>
+<mark>
+<meter>
+<noscript>
+<object>
+<output>
+<picture>
+<progress>
+<q>
+<ruby>
+<s>
+<samp>
+<script>
+<select>
+<slot>
+<small>
+<span>
+<strong>
+<sub>
+<sup>
+<svg>
+<template>
+<textarea>
+<time>
+<u>
+<tt>
+<var>
+<video>
+<wbr>
+
+--- <01.03.html-4-Block-Elements-List.txt>
+
+.
+.
+11. HTML Forms - 
+.
+
+- The <form> Element (block element) - 
+
+
+   <form >
+   </form>
+
+-- action attribute point to a webpage that will load after the user submits the form.
+
+
+   <form action="https://ofekbytes.github.io/assets/">
+
+   </form>
+
+
+-!- Usually the form is submitted to a web page on a web server.
+
+
+-- The "method" attribute specifies the HTTP method (GET or POST) to be used 
+   when forms are submitted :
+
+   <form action="url" method="GET">
+
+   <form action="url" method="POST">
+
+--- example: 
+
+   <h1>form</h1>
+
+    <form action="https://ofekbytes.github.io/assets/" method="POST">
+    </form>
+
+
+-!- When you use GET, the form data will be visible in the page address.
+
+-!- Use POST if the form is updating data, or includes sensitive information (passwords).
+    POST offers better security because the submitted data is not visible in the page address.
+
+-- html <input> tag take in user input, such as text fields. 
+   The <input> element has many variations, depending on the type attribute. 
+   (text, password, radio, URL, submit, etc) 
+
+--- example: a form requesting a username and password:
+    <form>
+        <input type="text" name="username" /><br />
+        <input type="password" name="password" />
+    </form>
+
+-!- The "name" attribute specifies a name for a form.
+
+
+-- input type "radio"
+
+   <input type="radio" name="gender" value="male" /> Male <br />
+   <input type="radio" name="gender" value="female" /> Female <br />
+
+
+-- input type "checkbox"
+
+   <input type="checkbox" name="gender" value="1" /> Male <br />
+   <input type="checkbox" name="gender" value="2" /> Female <br />
+
+-!- The <input> tag has no end tag.
+
+
+-- The submit button submits a form to its action attribute:
+   <input type="submit" value="Submit" /> 
+
+-!- After the form is submitted, the data should be processed on the server 
+    using a programming language, such as PHP.
+
+
+//********
+//DOTO find maven post/get program i made//
+//********
+
+<!-- html <forms> links -->
+
+<!-- forms -->
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms
+
+
 
 
