@@ -1,0 +1,19 @@
+
+
+[html responsive links]
+
+
+//html_responsive
+https://www.w3schools.com/html/html_responsive.asp
+
+
+// html css table responsive
+https://www.w3schools.com/howto/howto_css_table_responsive.asp
+
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_table_responsive
+
+
+
+
+
+
