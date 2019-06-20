@@ -17,3 +17,11 @@ css color-list
 https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
 
 https://www.w3schools.com/cssref/default.asp
+
+
+
+https://www.quackit.com/css/css_cellspacing.cfm
+
+https://www.quackit.com/css/tutorial/
+
+

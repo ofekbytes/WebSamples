@@ -1,0 +1,19 @@
+
+
+/* green */
+   color: rgb(196, 196, 63);
+   text-shadow: 5px 2px 3px rgb(77, 177, 77);
+
+
+/* blue */
+    color: rgb(26, 76, 212);
+    text-shadow: 4px 2px 3px rgb(161, 180, 233);
+
+
+/* .thick-green-border {
+    border-color: white;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 30px; */
+/*square - using "%"*/
+/* }  */

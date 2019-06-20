@@ -1,0 +1,24 @@
+/* tablet width */
+@media screen and (max-width: 768) {
+
+    body {
+        font-size: 30px;
+    }
+
+    #toolbar {
+        font-size: 30px;
+    }
+  }
+
+
+   /* phone width */
+   @media screen and (max-width: 414px) {
+
+    body {
+        font-size: 60px;
+    }
+
+    #toolbar {
+        font-size: 60px;
+    }
+  }
