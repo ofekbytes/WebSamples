@@ -11,7 +11,8 @@
 8. HTML Lists
 9. HTML Tables
 10. HTML Inline and Block Elements
-
+11. HTML Form tag
+12. HTML Colors
 
 .
 1. HTML - 
@@ -430,24 +431,23 @@ https://www.w3schools.com/tags/tag_tr.asp
 <video>
 <wbr>
 
---- <01.03.html-4-Block-Elements-List.txt>
+--- <01.03.html-4-Inline-Elements-List.txt>
 
 .
 .
-11. HTML Forms - 
+11. HTML Form tag - 
 .
 
 - The <form> Element (block element) - 
-
+-- form tags used to collect information from the user.
 
    <form >
    </form>
+   
 
 -- action attribute point to a webpage that will load after the user submits the form.
 
-
    <form action="https://ofekbytes.github.io/assets/">
-
    </form>
 
 
@@ -455,7 +455,7 @@ https://www.w3schools.com/tags/tag_tr.asp
 
 
 -- The "method" attribute specifies the HTTP method (GET or POST) to be used 
-   when forms are submitted :
+   when form are submitted :
 
    <form action="url" method="GET">
 
@@ -512,11 +512,85 @@ https://www.w3schools.com/tags/tag_tr.asp
 //DOTO find maven post/get program i made//
 //********
 
-<!-- html <forms> links -->
+<!-- html <form> links -->
 
-<!-- forms -->
+<!-- form -->
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms
 
+.
+.
+12. HTML Colors - 
+.
 
+- HTML colors values are a hexadecimal values: 0-F.
+-- (0 - F) -- 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+
+- HTML Color Model
+-- Colors are displayed in combinations of red, green, and blue light (RGB).
+-- Hex values are written using the hashtag symbol (#), followed by either three or six hex characters.
+-!- RGB color values are supported in all browsers.
+
+- Color Values
+-- All of the possible red, green, blue combinations potentially number over 16 million.
+--- example:
+red - #FF0000
+green - #00FF00
+blue - #0000FF
+black - #000000
+gray - #777777
+white - #FFFFFF
+
+orange+red - #C1250F
+
+- Background color -and- Font Colors
+
+-- "bgcolor" attribute can be used to change the web page's background color. 
+
+--- example: white over blue.
+    <html-1.10.1-colors-hexadecimal.html>
+
+<body bgcolor="#000099"> <!-- #000099 === navy blue color -->
+    <h1>
+        <font color="#FFFFFF"> White headline </font> <!-- #FFFFFF === white cololr -->
+    </h1>
+</body>
+
+-!- The color attribute specifies the color of the text inside a <font> element.
+
+.
+.
+13. HTML The <frame> Tag - 
+.
+
+-!- The <frameset> tag is not supported in HTML5.
+
+-- A page can be divided into frames using a special frame document. 
+
+-- The <frame> tag defines one specific window (frame) within a <frameset>. 
+   Each <frame> in a <frameset> can have different attributes, such as border, scrolling, the ability to resize, etc. 
+
+-- The <frameset> element specifies the number of columns or rows in the frameset, 
+   as well as what percentage or number of pixels of space each of them occupies.
+
+<frameset cols="100, 25%, *"></frameset>
+<frameset rows="100, 25%, *"></frameset>
+
+-!- The <frameset> tag is not supported in HTML5.
+
+-- "noresize" attribute to specify that a user cannot resize a <frame> element:
+   <frame noresize="noresize">
+
+
+-- "src" attribute is the Frame content file.
+
+-- "noframes" element provides a way for browsers that do not support frames to view the page. 
+   The element can contain an alternative page, complete with a body tag and any other elements.
+
+<frameset cols="25%,50%,25%">
+   <frame src="left.htm" />
+   <frame src="center.htm" />
+   <frame src="right.htm" />
+   <noframes>Frames not supported!</noframes>
+</frameset>
 
 
