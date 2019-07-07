@@ -593,4 +593,5 @@ orange+red - #C1250F
    <noframes>Frames not supported!</noframes>
 </frameset>
 
+-!- The <frameset> tag is not supported in HTML5.
 
