@@ -1,0 +1,5 @@
+todo list
+
+learn this subject (create folders)
+1. scss 
+2. Sass
