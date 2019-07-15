@@ -1,0 +1,20 @@
+
+#1:
+java, j2ee, kafka, kybranet, sprint-boots, 
+cvs, svn, git
+websphere / tomcat-apache / apache 2
+xml, jaxp, jaxb, jax-websphereaxis, cxf
+oop - real world object / state & behaviour / object & data
+
+
+devend - ode, ote 
+
+jdbc statment / prepare-statment
+
+scrum - ready pojects
+
+angular 8
+javascript
+java
+
+agil = agile scrum vs watherfall

@@ -1,0 +1,14 @@
+angularJs
+
+SPA - Single Page Application
+Controller
+Scope
+Directive - support declartive programming for building UI ??
+Dependency Injection
+Modules
+$apply
+$digest
+DOM
+
+
+
