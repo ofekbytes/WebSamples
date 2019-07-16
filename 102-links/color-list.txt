@@ -9,3 +9,12 @@ https://www.w3schools.com/cssref/css_colors.asp
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/background
 
+
+/* background color popular */
+https://colorhunt.co/palettes/popular
+
+/* example */
+https://colorhunt.co/palette/2763
+(222831, 393e46, 00adb5)
+
+(48466d, 3d84a8, 46cdcf, 46cdcf, abedd8)
