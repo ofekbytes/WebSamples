@@ -1,5 +1,10 @@
 
-<!-- links -->
+/***** css links *****/
+
+
+/* css default value */
+https://www.w3schools.com/cssref/css_default_values.asp
+
 
 <!--  ===[ css - display ]===   -->
 <!-- The display CSS property sets whether an element is treated as a block or inline element -->
