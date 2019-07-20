@@ -215,6 +215,11 @@ css - Cascading Style Sheets.
 
 --- Since the paragraph tag <p> (child element) is inside the body tag (parent element), 
     it takes on any color assigned to the body tag.
-
-
-    
+.
+.
+- level 1.8 - css order and priority
+.
+- css order and priority
+1. css body inline (inside tag/s) 
+2. css body style (<style> section)
+3. css external (external css file)
