@@ -2,8 +2,15 @@
 ## HTML 5 ##
 
 1. HTML 5
-2. HTML5 - New Elements in HTML5:
+2. HTML5 - New Elements in HTML5
 3. HTML5 - The List of Content Models
+4. HTML5 - header tag
+5. HTML5 - footer tag
+6. HTML5 - nav tag
+7. HTML5 - <article> tag  (is the <div> tag of html4)
+8. HTML5 - <section> tag Element
+9. HTML5 - <aside> tag Element
+0. HTML5 - <audio> tag Element
 
 .
 .
@@ -18,7 +25,7 @@
 -!- The default character encoding in HTML5 is UTF-8.
 .
 .
-2. HTML5 - New Elements in HTML5:
+2. HTML5 - New Elements in HTML5 - 
 
 <article>, <aside>, <audio>, <canvas>, <datalist>, <details>, <embed>, <footer>, <header>, <nav>, <output>, <progress>, <section>, <video>  
 
@@ -38,7 +45,7 @@
 -- Web Messaging
 .
 .
-3. HTML5 - The List of Content Models
+3. HTML5 - The List of Content Models - 
 
 - HTML elements typically belonged in either the "block level" -or- "inline content" model. 
 
@@ -98,7 +105,15 @@ Elements: <article>, <aside>, <nav>, <section>
     <HTML5-page-structure.png>
 .
 .
-4. HTML5 - header, nav, footer tags:
+4. HTML5 - header tag -
+
+-- The <header> element represents a container for introductory content or a set of navigational links.
+-- A <header> element typically contains:
+--- one or more heading elements (<h1> - <h6>)
+--- logo or icon
+--- authorship information
+--- You can have several <header> elements in one document.
+-!- A <header> tag cannot be placed within a <footer>, <address> or another <header> element.
 
 - header html4 style:
   <div id="header">
@@ -110,15 +125,232 @@ Elements: <article>, <aside>, <nav>, <section>
 
 --- example: header element tag
 
-    <!DOCTYPE html>
-    <html>
-        <head></head>
-        <body>
-            <header>
-                <h1>Main Title</h1>
-                <h3>text content</h3>
-            </header>
-        </body>
-    </html>
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <header>
+            <h1>Title 1</h1>
+            <h3>sub title</h3>
+        </header>
+        <header>
+            <h1>Title 2</h1>
+            <div>div 1</div>
+            <div>div 2</div>
+            <span>  span 1 </span> <span> span 2</span>
+        </header>
+    </body>
+</html>
+
+--- example: header element tag
+    <html-5.1.1-tag-header.html>
+
+.
+.
+5. HTML5 - footer tag - 
+
+- <footer> Element
+
+-- <footer> element refer to a section located at the very bottom of the web page.
+   <footer> footer element </footer>
+
+-- <footer> tag common use:
+- Contact Information
+- Privacy Policy
+- Social Media Icons
+- Terms of Service
+- Copyright Information
+- Sitemap and Related Documents
+
+--- example: footer tag
+    <html-5.1.2-tag-footer.html>
+
+.
+.
+6. HTML5 - nav tag - 
+
+-  <nav> Element
+
+-- <nav> tag represents a section of a page that links to other pages -or- to certain sections within the page. 
+
+-- <nav> tag defines a set of navigation links.
+
+-!- NOT all links of a document should be inside a <nav> element. 
+   <nav> element is intended only for major block of navigation links.
+
+-!- Browsers, such as screen readers for disabled users, can use this element to determine whether to omit the initial rendering of this content.
+
+--- example: <nav> tag create a section with navigation links. 
+
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About us</a></li>
+    </ul>
+</nav>
+
+<nav>
+    <span>test1</span>
+    <span>test1</span>
+    span>test1</span>
+</nav>
+
+
+--- example: <nav> tag create a section with navigation links. 
+    <html-5.1.3-tag-nav.html>
+
+-!- all of the links in a document should be inside a <nav> element. 
+   <nav> element is intended only for major blocks of navigation links. 
+   Typically, the <footer> element often has a list of links that don't need to be in a <nav> element.
+
+.
+.
+7. HTML5 - <article> tag  (is the <div> tag of html4) - 
+
+-  <Article> tag is a self-contained, 
+   independent piece of content that can be used and distributed separately from the rest of the page or site. 
+   An article should make sense on its own and it should be possible to distribute it independently from the rest of the site.
+
+-- The <article> tag specifies independent, self-contained content.
+
+-- This could be:
+--- a forum post
+--- a magazine or newspaper article, 
+--- a blog entry, a comment, 
+--- an interactive widget or gadget, 
+--- or any other independent piece of content. 
+--- News story
+--- Comment
+
+-!- The <article> tagh element replaces the <div> tag element that was widely used in HTML4, along with an id or class.
+-!- <article> tag instead of <div> tag
+
+--- example:
+
+    <article>
+        <h1>The article title</h1> 
+        <p>Contents of the article element </p>
+    </article>
+
+
+    <article>
+        <h1>article H1</h1>
+        <p>article p tag</p>
+    </article>
+
+--- example: article tag
+    <html-5.1.4-tag-artical.html>
+
+-!- When an <article> element is nested, 
+   the inner element represents an article related to the outer element. 
+   example:
+   blog post comments can be <article> elements nested in the <article> representing the blog post.
+
+.
+.
+8. HTML5 - <section> tag Element - 
+
+- <section> is a logical container of the page or <article>. 
+-- Sections can be used to divide up content within an article.
+--- example:
+    a homepage could have a section for introducing the company, 
+    another section for news items, 
+    and still another section for contact information.
+
+-- Each <section> should be identified, typically by including a heading (h1-h6 element) as a child of the <section> element.
+
+--- example: <section> tag inside <article> tag
+
+    <article>
+        <h1>article</h1>
+        <section>
+            <h1>section Heading</h1>
+            <p>section content</p>
+        </section>
+    </article>
+
+--- example: <section> tag inside <article> tag
+    <html-5.1.5-tag-section.html>
+
+--- example: artical and section example
+    <article>
+        <h1>Welcome</h1>
+        <section>
+            <h1>Heading</h1>
+            <p>content or image</p>
+        </section>
+        <section>
+            <h1>Heading</h1>
+            <p>content or image</p>
+        </section>
+    </article>
+
+    <article>
+        <h1>Welcome</h1>0. HTML5 - <audio> tag Element
+        <section>
+            <h1>Heading</h1>
+            <p>content or image</p>
+        </section>
+    </article>
+
+    <article>
+        <h1>Welcome</h1>
+        <section>
+            <h1>Heading</h1>
+            <p>content or image</p>
+        </section>
+    </article>
+
+-!- If it makes sense to separately syndicate/unate the content of a <section> element, use an <article> element instead.
+
+-!- separated text subject separated <article> tag
+.
+.
+9. HTML5 - <aside> tag Element - 
+
+-  <aside> tag is secondary or relating to content (tangential content) 
+   which could be considered separate from but indirectly related to the main content.
+-- <aside> tag is used within an <article> tag. 
+-- <aside> tag defines some content aside from the content it is placed in.
+-!- the content of the <aside> should be specifically related to that article.
+    (The aside content should be related to the surrounding content).
+
+--- example: <aside> tag inside <artical> tag.
+
+    <artical>
+        <section>
+            <h1>JSON</h1>
+            <p>In computing, JavaScript Object Notation (JSON) is an open-standard file format that uses human-readable
+                text to transmit data objects consisting of attribute–value pairs and array data types.</p>
+        </section>
+        <aside>
+            <!-- <h1>XML</h1> -->
+            <p>XML (Extensible Markup Language) - is a markup language that defines a set of rules for encoding
+                documents in a format that is both human-readable and machine-readable.</p>
+        </aside>
+    </artical>
+
+--- example: <aside> tag inside <artical> tag.
+    <html-5.1.6-tag-aside.html>
+
+-!- When an <aside> tag is used outside of an <article> tag, its content should be related to the surrounding content.
+
+.
+.
+10. HTML5 - <audio> tag Element -
+
+- 
+
+
+
+
+
+
+
+
+
+
+
 
 
