@@ -11,6 +11,7 @@ css - Cascading Style Sheets.
 - level 1.5 - Type Selectors
 - level 1.6 - Cascade
 - level 1.7 - Inheritance
+- level 1.8 - css order and priority
 
 .
 .
@@ -88,6 +89,7 @@ css - Cascading Style Sheets.
 .
 
 --- CSS is composed of style rules for the document. 
+    (the grammar of the css Language).
     A style rule has three parts: selector, property, and value. 
 
     p { color : yellow ; }
@@ -223,3 +225,8 @@ css - Cascading Style Sheets.
 1. css body inline (inside tag/s) 
 2. css body style (<style> section)
 3. css external (external css file)
+
+--- example:
+    css file: <css-1.6.css>
+    html file: <css-1.6.html>
+

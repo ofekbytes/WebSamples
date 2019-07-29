@@ -2,7 +2,7 @@
 
 Css Elements
 
-A
+<A>
 :active
 additive-symbols (@counter-style)
 ::after (:after)
@@ -26,7 +26,7 @@ animation-timing-function
 annotation()
 attr()
 
-B
+<B>
 ::backdrop
 backface-visibility
 background
@@ -115,7 +115,7 @@ break-before
 break-inside
 brightness()
 
-C
+<C>
 calc()
 caption-side
 caret-color
@@ -156,7 +156,7 @@ cubic-bezier()
 cursor
 <custom-ident>
 
-D
+<D>
 :default
 deg
 <dimension>

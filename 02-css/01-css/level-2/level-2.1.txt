@@ -19,6 +19,8 @@ css - text.
 - level 2.14 - The text-transform Property
 - level 2.15 - The word-spacing Property
 - level 2.16 - The white-space Property
+- level 2.17 - css order and priority
+
 .
 .
 - level 2.01 - The font-family Property
@@ -407,12 +409,12 @@ line-through  -  draws a horizontal line through the text (substitutes the HTML 
     }
 
 --- example:
-    <css-2.15.html>
+ - level 1.8 - css order and priority
 
-.
-.
-- level 2.12 - text-shadow
-.
+.- level 1.8 - css order and priority
+.- level 1.8 - css order and priority
+-- level 1.8 - css order and priority
+.- level 1.8 - css order and priority
 
 -- The text-shadow property adds shadow to text. 
    It takes four values: 
@@ -633,4 +635,17 @@ line-through  -  draws a horizontal line through the text (substitutes the HTML 
 
 -!- Pre-wrap value behaves as the pre value, 
     except that it adds extra line breaks to prevent the text breaking out of the element's box.
+
+.
+.
+- level 2.17 - css order and priority
+.
+- css order and priority
+1. css body inline (inside tag/s) 
+2. css body style (<style> section)
+3. css external (external css file)
+
+--- example:
+    css file: <css-1.6.css>
+    html file: <css-1.6.html>
 
