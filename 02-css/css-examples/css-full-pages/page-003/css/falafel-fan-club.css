@@ -1,0 +1,19 @@
+body {
+    /* background: black; */
+    /* background: content-box radial-gradient(rgb(133, 192, 216), rgb(27, 131, 172)); */
+    color: white;
+}
+
+h1 {
+    /* font-size: 200px; */
+    /* background:inherit; */
+    color: red;    
+  
+}
+
+img {
+    background: red;
+    height: 20%;
+    width: 20%;
+}
+

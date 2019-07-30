@@ -1,6 +1,32 @@
 
 /***** css links *****/
 
+---[sorted]---
+
+// 002.
+// 
+// CSS  - mdn web doc
+https://developer.mozilla.org/en-US/
+// enter the site
+// [menu-bar] --> [technologies] --> [CSS]
+// in the page link --> [CSS Reference]
+//
+// CSS - Reference - 
+// CSS reference to browse an alphabetical index of all the standard CSS properties
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+
+// CSS - Reference - background
+https://developer.mozilla.org/en-US/docs/Web/CSS/background
+
+// CSS - Reference - background-color
+https://developer.mozilla.org/en-US/docs/Web/CSS/background-color
+//
+//
+
+
+
+
+---[unsorted]---
 
 /* css default value */
 https://www.w3schools.com/cssref/css_default_values.asp
