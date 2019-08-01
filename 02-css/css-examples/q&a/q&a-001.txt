@@ -1,0 +1,48 @@
+
+<q&a-001> - questions and answers
+
+<q>
+What is the difference between background and background color in CSS ? 
+
+/* background */
+body { background: blue; }
+
+/* background-color */
+body { background-color: blue; }
+
+/**/
+background-color
+background-image
+background-position
+background-repeat
+background-attachment
+background-clip
+background-origin
+background-size
+
+<a>
+
+
+
+/**?????**/
+<a>
+Thus, 
+besides the background-color, 
+using the background shortcut you could also add one or more values 
+without repeating any other  background-* property more than once.
+
+Which one to choose is essentially up to you, 
+but it could also depend on specific conditions of your style declarations 
+(e.g if you need to override just the background-color 
+when inheriting other related background-* properties from a parent element, 
+or if you need to remove all the values except the background-color).
+
+
+
+<a>
+combine many background tags into one line. 
+background: #ffffff url("img_tree.png") no-repeat right top; 
+Combines color, image and background image properties in the one line 
+instead of typing our each style individually.
+
+

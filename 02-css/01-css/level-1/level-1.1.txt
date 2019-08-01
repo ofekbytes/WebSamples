@@ -119,7 +119,11 @@ css - Cascading Style Sheets.
 
 
 -- "id" Selectors
---- select an element with a specific <id>, use a hash character <#> and can only be applied once per page.
+--- select an element with a specific <id>, use a hash character <#> 
+    and can only be applied once per page.
+
+--- example: "id" Selectors
+    #idSelectors
 
 --- example: 
     css file: <css-1.4.css>
@@ -135,7 +139,11 @@ css - Cascading Style Sheets.
 
 
 -- "class" Selectors
---- select an element with a specific <class>, use a dot <.> character can be used as many times on a page as needed.
+--- select an element with a specific <class>, use a dot <.> character and 
+    can be used as many times on a page as needed.
+    
+--- example: "class" Selectors    
+    .classSelectors
 
 --- example: 
     css file: <css-1.4.css>
