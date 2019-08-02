@@ -1,0 +1,29 @@
+body {
+    background-color:#202840;
+}
+h1 {
+    color:#C08090;
+    text-align:center;
+    border:5px dashed #38B0B0;
+    margin:20px 90px 0 90px;
+    padding:7px;
+}
+#hms {
+    text-align:center;
+    background-color:#D8D8F0;
+    color:#282048;
+    font-size:50px;
+    margin:80px 55px 0 55px;
+    border-radius:10px;
+}
+#date {
+    color:#C08090;
+    text-align:center;
+}
+#year {
+    color:#10A0A0;
+    text-align:center;
+}
+hr {
+    margin:-10px 110px;
+}
