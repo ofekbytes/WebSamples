@@ -3,19 +3,21 @@
 css - Positioning and Layout.
 .
 .
-- level 4.01 - The display Property
-
+- level 4.01 - The display Property (display: block/inline)
+- level 4.02 - The visibility Property
+- level 4.03 - Positioning
 
 .
 .
-- level 4.01 - The display Property
+- level 4.01 - The display Property (display: block/inline)
 .
 
 - display: block
 
 -- Every element on a web page is a rectangular box.
-   "display" property determines how that rectangular box behaves. 
-   "block" element is an element that takes up the fullest width available, with line breaks before and after.
+   "display" property determines how that rectangular box behaves/displayed. 
+   "block" element is an element that takes up the fullest width available, 
+   with line breaks before and after.
 
 
 --- example: <span> elements as block-level elements:
@@ -33,7 +35,8 @@ css - Positioning and Layout.
 
 - display: inline
 
-An inline element only takes up as much width as necessary, and does not force line breaks.
+An inline element only takes up as much width as necessary, 
+and does not force line breaks.
 
 --- example: display: inline
 
@@ -46,7 +49,8 @@ An inline element only takes up as much width as necessary, and does not force l
 --- example: display: inline
     <css-4.01.2.html>
 
--!- Setting the display property of an element only changes how the element is displayed, not what kind of element it is. 
+-!- Setting the display property of an element only changes how the element is displayed, 
+    not what kind of element it is. 
     an inline element with display:block is not allowed to have other block elements inside it.
 
 
@@ -67,7 +71,8 @@ An inline element only takes up as much width as necessary, and does not force l
 --- example: display: none
     <css-4.01.3.html>
 
--!- There are display values, such as list-item, table, table-cell, table-column, grid, etc. 
+-!- There are display values, such as 
+   list-item, table, table-cell, table-column, grid, etc. 
 
 https://devdocs.io/css/display
 
@@ -76,4 +81,40 @@ https://devdocs.io/css/display
 - level 4.02 - The visibility Property
 .
 
--
+- The visibility property specifies whether an element is visible or hidden. 
+  The most common values are visible and hidden. 
+
+-- Hiding an element can be done by setting the 
+   display property to "none" 
+   or the visibility property to "hidden". 
+
+
+
+-- visibility:hidden -  
+   hides an element, but it will still take up the same space (as before).
+
+--- example: visibility: "hidden"
+    .hide {
+        visibility: hidden;
+    }
+
+--- example: visibility: "hidden"
+    <css-4.02.1.html>
+
+
+
+-- display:none -
+   hides an element, without holding a place for that element. 
+
+--- example: display:none
+
+
+--- example: display:none
+    <css-4.02.2.html>
+
+.
+.
+- level 4.03 - Positioning
+.
+
+- 

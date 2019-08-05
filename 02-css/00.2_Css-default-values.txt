@@ -27,20 +27,32 @@ color: (internal value);
 
 /* abbr	{ .None. } */
 
-
 address	display: block;
+
 font-style: italic;	
+
 area	display: none;	
+
 article	display: block;	
+
 aside	display: block;	
+
 audio	None.	
+
 b	font-weight: bold;	
+
 base	None.	
+
 bdi	None.	
+
 bdo	unicode-bidi: bidi-override;	
+
 blockquote	display: block;
+
 margin-top: 1em;
+
 margin-bottom: 1em;
+
 margin-left: 40px;
 margin-right: 40px;	
 body	display: block;
@@ -143,8 +155,11 @@ border-width: 1px;
 }	
 
 html	display: block;	
+
 html:focus	outline: none;	
+
 i	font-style: italic;	
+
 iframe:focus	outline: none;	
 iframe[seamless]	display: block;	
 img	display: inline-block;	

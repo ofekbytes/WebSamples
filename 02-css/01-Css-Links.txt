@@ -23,6 +23,10 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/background-color
 //
 //
 
+-- [RTFM] - css - image ,display: inline-block; , 
+https://stackoverflow.com/questions/2402761/is-img-element-block-level-or-inline-level
+
+
 
 /* TODO cp to gen links */
 /* favicon - create icon online editor */

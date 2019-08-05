@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>css display - inline-block</title>
+
+    <style>
+        p {
+            background-color: red;
+            display: inline-block;
+            width: 200px;
+            /* display: block */
+        }
+        
+        .p2none {
+            visibility: hidden;
+        }
+        
+        span {
+            background-color: blue;
+            display: block;
+            width: 100px;
+        }
+        
+        .p3none {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Welcome</p>
+    <p class="p2none">second paragraph</p>
+    <p>Back</p>
+    <p class="p3none">third paragraph</p>
+    <span>Welcome</span>
+    <span>Back</span>
+    <div>p display: inline-block;</div>
+    <div>inline-block = inline + block</div>
+</body>
+
+</html>

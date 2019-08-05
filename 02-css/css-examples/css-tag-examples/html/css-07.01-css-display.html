@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>css display - block / inline</title>
+
+    <style>
+        p {
+            background-color: red;
+            width: 100%;
+            /* display: block */
+            /* display: block; */
+            width: 100px;
+        }
+        
+        span {
+            background-color: blue;
+            /* width: 100px; */
+            /* default */
+            /* display: inline; */
+            /*width has no effect */
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Welcome</p>
+    <p>Back</p>
+    <span>Welcome</span>
+    <span>Back</span>
+    <div>p: block (default) <br/> span: inline (default)</div>
+</body>
+
+</html>
