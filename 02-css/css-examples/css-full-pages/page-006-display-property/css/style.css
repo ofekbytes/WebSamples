@@ -2,29 +2,51 @@ body {
     margin: 0px;
 }
 
-.top-container h1 {
+h1 {
     margin: 0px;
     padding: 0;
-    /* margin-top:0; */
+    margin-top: 0;
+}
+
+p {
+    margin: 0px;
 }
 
 .top-container {
-    background: #E4F9F5;
+    background-color: green;
+    /* background-color: #E4F9F5; */
+    border: dashed 4px;
+    border-color: white;
     color: black;
     height: 200px;
     width: 200px;
+    display: inline-block;
+    padding: 20px;
+    margin: 12px;
 }
 
 .middle-container {
-    background: red;
+    background-color: yellow;
+    border: dashed 4px;
+    border-radius: 90px;
+    border-color: white;
     color: black;
     height: 200px;
     width: 200px;
+    display: inline-block;
+    padding: 20px;
+    margin: 12px;
+    ra
 }
 
 .bottom-container {
-    background: blue;
+    background-color: red;
+    border: dashed 4px white;
+    border-radius: 180px;
     color: black;
     height: 200px;
     width: 200px;
+    display: inline-block;
+    padding: 20px;
+    margin: 12px;
 }
