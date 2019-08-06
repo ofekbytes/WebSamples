@@ -117,4 +117,48 @@ https://devdocs.io/css/display
 - level 4.03 - Positioning
 .
 
-- 
+- The position property specifies the type of positioning method used for an element
+ (static, relative, fixed, absolute or sticky).
+
+- position values properties:
+-- static
+-- relative
+-- fixed
+-- absolute
+-- sticky
+
+- Elements are then positioned by using the properties:
+-- top property
+-- bottom property
+-- left property
+-- right property
+-!- these properties will not work unless the position property is set first. T
+-!- They work differently depending on the position value properties.
+
+
+
+
+- The CSS positioning properties allow you to position an element. 
+  It can also place an element behind another, 
+  and specify what should happen when an element's content is too big.
+
+-- Elements can be positioned using the properties:
+   top, bottom, left, right properties. 
+   However, these properties will not work unless the position property is set first. 
+   They also work differently depending on the positioning method.
+
+Static Positioning
+HTML elements are positioned static by default. A static positioned element is always positioned according to the normal flow of the page.
+
+
+
+--- example: 
+    <css-4.03.1.html>
+
+// delete // 
+
+https://www.sololearn.com/Play/CSS
+
+//https://www.w3schools.com/css/css_positioning.asp
+
+
