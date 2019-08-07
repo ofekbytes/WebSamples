@@ -122,8 +122,8 @@ https://devdocs.io/css/display
 
 - position values properties:
 -- static
--- relative
 -- fixed
+-- relative
 -- absolute
 -- sticky
 
@@ -132,30 +132,166 @@ https://devdocs.io/css/display
 -- bottom property
 -- left property
 -- right property
--!- these properties will not work unless the position property is set first. T
+-!- these properties will not work unless the position property is set first.
 -!- They work differently depending on the position value properties.
 
+-- The CSS positioning properties allow you to position an element. 
+   It can also place an element behind another, 
+   and specify what should happen when an element's content is too big.
+.
+.
+- Static Positioning
+
+-- HTML elements are positioned static by default. 
+   A static positioned element is always positioned according to the normal flow of the page.
+
+--- example: "Static" Positioning
+    position: static;
 
 
-
-- The CSS positioning properties allow you to position an element. 
-  It can also place an element behind another, 
-  and specify what should happen when an element's content is too big.
-
--- Elements can be positioned using the properties:
-   top, bottom, left, right properties. 
-   However, these properties will not work unless the position property is set first. 
-   They also work differently depending on the positioning method.
-
-Static Positioning
-HTML elements are positioned static by default. A static positioned element is always positioned according to the normal flow of the page.
-
-
-
---- example: 
+--- example: Static Positioning
     <css-4.03.1.html>
+    <css-4.03.2.html>
+
+-!- Static positioned elements are not affected by the top, bottom, left, and right properties.
+.
+.
+- Fixed Positioning
+
+-- position element with a fixed position (position: fixed;) is positioned 
+   relative to the browser window, and will it always stays in the same place (not move)
+   even if the window is scrolled.
+
+-- The position can be specified using one or more of the properties top, right, bottom, left. 
+
+-!- A fixed element does not leave a gap in the page where it would normally have been located.
+
+--- example: fixed Positioning
+
+    p.position_fixed {
+        position: fixed;
+        top: 40px;
+        /*right: 515px;*/
+        left: 8;
+        color: red;
+    }
+
+--- example: fixed Positioning
+    <css-4.03.3.html>
+    <css-4.03.4.html>
+.
+.
+- Relative Positioning
+
+-- A relative positioned element (position: relative;) is positioned relative to its normal position. 
+   The properties top, right, bottom, left, 
+   can be used to specify how the rendered box will be shifted. 
+
+--- example:Relative Positioning
+    div.position_relative {
+        position: relative;
+        left: 30px;
+        border: 3px solid #73AD21;
+    }
+
+--- example: Relative Positioning
+    span {
+        background: green;
+        color: white;
+        position: relative;
+        top: 150px;
+        left: 50px;
+    }
+
+-- The content of relatively positioned elements can be moved and overlap other elements, 
+   but the reserved space for the element is still preserved in the normal flow.
+
+--- example: Relative Positioning
+    <css-4.03.5.html>
+    <css-4.03.6.html>
+
+-!- This value ( position: relative;) cannot be used for 
+    table cells, columns, column groups, rows, row groups, captions.
+.
+.
+- Absolute Positioning
+
+-- An absolute position element is positioned relative to the first parent element 
+   that has a position other than static. 
+   If no such element is found, the containing block is <html>.
+
+-- Absolutely positioned elements are removed from the normal flow. 
+   The document and other elements behave like the absolutely positioned element does not exist.
+
+-!- Absolutely positioned elements can overlap other elements.
+
+--- example: Absolute Positioning
+    div.absolute {
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 200px;
+        height: 100px;
+        border: 3px solid #73AD21;
+    }
+
+--- example: Absolute Positioning
+    <css-4.03.7.html>
+    <css-4.03.8.html>
+.
+.
+- sticky Positioning
+
+-- sticky Positioning An element with (position: sticky;) 
+   is positioned based on the user's scroll position.
+
+-- A sticky element toggles between relative and fixed, depending on the scroll position. 
+   It is positioned relative until a given offset position is met in the screen - 
+   then it "sticks" in place (like position:fixed).
+
+--- example: sticky Positioning
+    position: -webkit-sticky;
+    position: sticky;
+
+--- example: sticky Positioning
+    <css-4.03.9.html>
+
+
+///./////.///unsorted
+https://www.w3schools.com/css/css_positioning.asp
+
+.
+.
+-- z-index
+
+
+--- example: sticky Positioning + transperet
+    <css-4.03.10.html>
+
+--- example: sticky Positioning + transperet
+    /* transperet */
+    z-index: -1;
+
+
+
+
 
 // delete // 
+
+All CSS Positioning Properties
+Property	Description
+bottom	Sets the bottom margin edge for a positioned box
+
+clip	Clips an absolutely positioned element
+https://www.w3schools.com/cssref/pr_pos_clip.asp
+
+left	Sets the left margin edge for a positioned box
+position	Specifies the type of positioning for an element
+right	Sets the right margin edge for a positioned box
+top	Sets the top margin edge for a positioned box
+
+z-index	Sets the stack order of an element
+https://www.w3schools.com/cssref/pr_pos_z-index.asp
 
 https://www.sololearn.com/Play/CSS
 
