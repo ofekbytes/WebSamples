@@ -187,14 +187,15 @@ https://devdocs.io/css/display
    The properties top, right, bottom, left, 
    can be used to specify how the rendered box will be shifted. 
 
---- example:Relative Positioning
+
+--- example: <div> Relative Positioning
     div.position_relative {
         position: relative;
         left: 30px;
         border: 3px solid #73AD21;
     }
 
---- example: Relative Positioning
+--- example: <span> Relative Positioning
     span {
         background: green;
         color: white;
@@ -203,12 +204,25 @@ https://devdocs.io/css/display
         left: 50px;
     }
 
+--- example: <img> Relative Positioning
+    img {
+        position: relative;
+        left: 30px;
+    }
+
 -- The content of relatively positioned elements can be moved and overlap other elements, 
    but the reserved space for the element is still preserved in the normal flow.
 
 --- example: Relative Positioning
     <css-4.03.5.html>
     <css-4.03.6.html>
+
+--- example: Relative Positioning (image inside image)
+    <css-4.03.6.1.html>
+
+--- example: Relative Positioning <div> tag.
+    <css-4.03.6.2.html>
+    <css-4.03.6.3.html>
 
 -!- This value ( position: relative;) cannot be used for 
     table cells, columns, column groups, rows, row groups, captions.
@@ -255,6 +269,9 @@ https://devdocs.io/css/display
 
 --- example: sticky Positioning
     <css-4.03.9.html>
+
+
+
 
 
 ///./////.///unsorted
