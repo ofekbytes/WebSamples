@@ -6,6 +6,12 @@ css - Positioning and Layout.
 - level 4.01 - The display Property (display: block/inline)
 - level 4.02 - The visibility Property
 - level 4.03 - Positioning
+- level 4.04 - Positioning - Static Positioning
+- level 4.05 - Positioning - Fixed Positioning
+- level 4.06 - Positioning - Relative Positioning
+- level 4.07 - Positioning - Absolute Positioning
+- level 4.08 - Positioning - sticky Positioning
+
 
 .
 .
@@ -140,7 +146,8 @@ https://devdocs.io/css/display
    and specify what should happen when an element's content is too big.
 .
 .
-- Static Positioning
+- level 4.04 - Positioning - Static Positioning
+.
 
 -- HTML elements are positioned static by default. 
    A static positioned element is always positioned according to the normal flow of the page.
@@ -150,13 +157,14 @@ https://devdocs.io/css/display
 
 
 --- example: Static Positioning
-    <css-4.03.1.html>
-    <css-4.03.2.html>
+    <css-4.04.1.html>
+    <css-4.04.2.html>
 
 -!- Static positioned elements are not affected by the top, bottom, left, and right properties.
 .
 .
-- Fixed Positioning
+- level 4.05 - Positioning - Fixed Positioning
+.
 
 -- position element with a fixed position (position: fixed;) is positioned 
    relative to the browser window, and will it always stays in the same place (not move)
@@ -177,11 +185,12 @@ https://devdocs.io/css/display
     }
 
 --- example: fixed Positioning
-    <css-4.03.3.html>
-    <css-4.03.4.html>
+    <css-4.05.1.html>
+    <css-4.05.2.html>
 .
 .
-- Relative Positioning
+- level 4.06 - Positioning - Relative Positioning
+.
 
 -- A relative positioned element (position: relative;) is positioned relative to its normal position. 
    The properties top, right, bottom, left, 
@@ -214,21 +223,22 @@ https://devdocs.io/css/display
    but the reserved space for the element is still preserved in the normal flow.
 
 --- example: Relative Positioning
-    <css-4.03.5.html>
-    <css-4.03.6.html>
+    <css-4.06.1.1.html>
+    <css-4.06.1.2.html>
 
 --- example: Relative Positioning (image inside image)
-    <css-4.03.6.1.html>
+    <css-4.06.2.1.html>
 
 --- example: Relative Positioning <div> tag.
-    <css-4.03.6.2.html>
-    <css-4.03.6.3.html>
+    <css-4.06.3.1.html>
+    <css-4.06.3.2.html>
 
 -!- This value ( position: relative;) cannot be used for 
     table cells, columns, column groups, rows, row groups, captions.
 .
 .
-- Absolute Positioning
+- level 4.07 - Positioning - Absolute Positioning
+.
 
 -- An absolute position element is positioned relative to the first parent element 
    that has a position other than static. 
@@ -250,16 +260,17 @@ https://devdocs.io/css/display
     }
 
 --- example: Absolute Positioning
-    <css-4.03.7.html>
-    <css-4.03.8.html>
+    <css-4.07.1.html>
+    <css-4.07.2.html>
 .
 .
-- sticky Positioning
+- level 4.08 - Positioning - sticky Positioning
+.
 
 -- sticky Positioning An element with (position: sticky;) 
    is positioned based on the user's scroll position.
 
--- A sticky element toggles between relative and fixed, depending on the scroll position. 
+-- A sticky element toggles between "relative" and "fixed", depending on the scroll position. 
    It is positioned relative until a given offset position is met in the screen - 
    then it "sticks" in place (like position:fixed).
 
@@ -268,10 +279,13 @@ https://devdocs.io/css/display
     position: sticky;
 
 --- example: sticky Positioning
-    <css-4.03.9.html>
+    <css-4.08.1.html>
 
+--- example: sticky Positioning - transperet
+    <css-4.08.2.html>
 
-
+--- example: sticky Positioning - not transperet
+    <css-4.08.3.html>
 
 
 ///./////.///unsorted
@@ -283,7 +297,7 @@ https://www.w3schools.com/css/css_positioning.asp
 
 
 --- example: sticky Positioning + transperet
-    <css-4.03.10.html>
+    <css-z-index.html>
 
 --- example: sticky Positioning + transperet
     /* transperet */

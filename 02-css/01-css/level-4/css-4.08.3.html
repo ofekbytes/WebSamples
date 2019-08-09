@@ -5,17 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>position: sticky</title>
+    <title>position: sticky - not transperet</title>
     <style>
         div.sticky {
+            /*safari*/
             position: -webkit-sticky;
             position: sticky;
             top: 0;
             padding: 5px;
             background-color: #cae8ca;
             border: 2px solid #4CAF50;
-            /* transperet */
-            z-index: -1;
+            /* not transperet */
+            z-index: 1;
         }
     </style>
 </head>
