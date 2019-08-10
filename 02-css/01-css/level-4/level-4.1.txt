@@ -187,6 +187,10 @@ https://devdocs.io/css/display
 --- example: fixed Positioning
     <css-4.05.1.html>
     <css-4.05.2.html>
+
+--- example: fixed Positioning (like a nav bar / side bar)
+    <css-4.05.3.html>
+
 .
 .
 - level 4.06 - Positioning - Relative Positioning
@@ -262,6 +266,19 @@ https://devdocs.io/css/display
 --- example: Absolute Positioning
     <css-4.07.1.html>
     <css-4.07.2.html>
+
+
+--- example: Absolute Positioning - <div> tag
+    <css-4.07.3.html>
+
+--- example: Absolute Positioning - <div> tag inside <div> tag
+    <css-4.07.4.html>
+    <css-4.07.5.html>
+
+--- example: fixed Positioning - <div> tag inside <div> tag
+    <css-4.07.6.html>
+
+
 .
 .
 - level 4.08 - Positioning - sticky Positioning

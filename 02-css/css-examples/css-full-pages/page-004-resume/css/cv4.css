@@ -1,35 +1,41 @@
+/* 
+* 3 containers in top of page 
+* align all element to center 
+*/
+
 body {
     margin: 0px;
+    /* center the text/screen */
+    text-align: center;
 }
 
-.top-container h1 {
+h1 {
     margin: 0px;
-    padding: 0;
 }
 
 .top-container {
     background: #E4F9F5;
     color: black;
-    height: 200px;
-    width: 200px;
-    padding: 20px;
-    border: solid 10px;
+}
+
+.top-cloud {
+    color: black;
+}
+
+.bottom-cloud {
+    position: absolute;
 }
 
 .middle-container {
-    background: red;
     color: black;
+    background: green;
     height: 200px;
     width: 200px;
-    border: solid 20px;
-    margin-left: 260px;
 }
 
 .bottom-container {
-    background: blue;
     color: black;
+    background: red;
     height: 200px;
     width: 200px;
-    border: solid 10px;
-    margin-left: 500px;
 }
