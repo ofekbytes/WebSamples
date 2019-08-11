@@ -17,16 +17,20 @@ h1 {
     background: #E4F9F5;
     color: black;
     position: relative;
-    padding-top: 10px;
+    padding-top: 100px;
 }
 
 .top-cloud {
     color: black;
     position: absolute;
+    right: 300px;
+    top: 50px;
 }
 
 .bottom-cloud {
     position: absolute;
+    left: 300px;
+    bottom: 300px;
 }
 
 .middle-container {
