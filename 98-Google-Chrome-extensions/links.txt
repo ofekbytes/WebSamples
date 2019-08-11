@@ -1,0 +1,23 @@
+
+
+-=[Google Chrome extensions links]=-
+
+
+-=[ nice to read ]=- 
+
+// how-to-go-from-coding-tutorials-to-building-your-own-projects //
+https://www.freecodecamp.org/news/how-to-go-from-coding-tutorials-to-building-your-own-projects-b9ab51074980/
+
+https://www.quora.com/What-are-some-programming-project-ideas/answer/Will-Sentance
+
+// create-chrome-extension-10-minutes-flat //
+https://www.sitepoint.com/create-chrome-extension-10-minutes-flat/
+
+// how-to-create-and-publish-a-chrome-extension-in-20-minutes //
+https://www.freecodecamp.org/news/how-to-create-and-publish-a-chrome-extension-in-20-minutes-6dc8395d7153/
+
+// programming //
+https://www.freecodecamp.org/news/tag/programming/
+
+// 404 //
+https://www.freecodecamp.org/news/how-i-went-from-fashion-model-to-software-engineer-in-1-year-a7399a40d9e7/
