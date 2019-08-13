@@ -40,19 +40,67 @@ https://www.favicon.cc/
 http://pesticide.io
 
 
-/*seanhalpin - css nice site example*/
+/* seanhalpin - css nice site example */
 http://seanhalpin.io/
 
-/*colorhunt - color picker examples*/
+/* colorhunt - color picker examples */
 https://colorhunt.co/
 
 
-/*basic css model demo*/
+/* basic css model demo */
 http://markusvogl.com/web1/interactive_box_model/css_box_demo.html
 
 
 
 /* css box properties */
+
+
+/***** font *****/
+
+/* free fonts */
+https://www.1001freefonts.com/western-fonts.php
+
+/* css_websafe_fonts */ 
+https://www.w3schools.com/cssref/css_websafe_fonts.asp
+
+/* css font stack */
+https://www.cssfontstack.com/
+
+/* google fonts */
+https://fonts.google.com
+
+
+/* merriweather */
+https://fonts.google.com/?query=merriweather&selection.family=Merriweather
+
+<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+
+font-family: 'Merriweather', serif;
+
+
+/* sacramento */
+<link href="https://fonts.googleapis.com/css?family=Sacramento&display=swap" rel="stylesheet">
+
+font-family: 'Sacramento', cursive;
+
+
+/* Montserrat */
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+font-family: 'Montserrat', sans-serif;
+
+
+/********** font example: /merriweather/Montserrat/sacramento/ **********/
+<head>
+<link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
+</head>
+
+<style>
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Merriweather', serif;
+</style>
+/******************************/
 
 
 ---[temp links]---

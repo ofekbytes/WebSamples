@@ -1,0 +1,55 @@
+/* 
+* 3 containers in top of page 
+* align all element to center 
+*/
+
+body {
+    margin: 0px;
+    /* center the text/screen */
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    margin: 0px;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 h3 {
+    font-family: 'Merriweather', serif;
+}
+
+
+.top-container {
+    background: #E4F9F5;
+    color: black;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-cloud {
+    color: black;
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.middle-container {
+    color: black;
+    background: green;
+    height: 200px;
+    width: 200px;
+}
+
+.bottom-container {
+    color: black;
+    background: red;
+    height: 200px;
+    width: 200px;
+}
