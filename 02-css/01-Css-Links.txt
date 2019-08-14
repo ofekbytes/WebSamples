@@ -51,6 +51,22 @@ https://colorhunt.co/
 http://markusvogl.com/web1/interactive_box_model/css_box_demo.html
 
 
+/* color */
+https://www.w3schools.com/colors/default.asp
+
+https://www.w3schools.com/colors/colors_psychology.asp
+
+https://encycolorpedia.com/8e1e1d
+
+
+/* icons */
+https://www.w3schools.com/icons/default.asp
+
+
+
+/* */
+
+
 
 /* css box properties */
 

@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+    /* word-spacing: 50px; */
+}
+
+.color-tomato {
+    background-color: tomato;
+    color: black;
+}
+
+.color-Orange {
+    background-color: Orange;
+    color: black;
+}
+
+.color-DodgerBlue {
+    background-color:DodgerBlue;
+}
+
+.color-MediumSeaGreen {
+    background-color:MediumSeaGreen;
+}
+
+.color-Gray {
+    background-color:Gray;
+}
+
+
+.color-SlateBlue {
+    background-color:SlateBlue;
+}
+
+
+.color-Violet {
+    background-color:Violet;
+}
+
+.color-LightGray {
+    background-color:LightGray;
+}
+
+.color-coral {
+    background-color: coral;
+}
+
+

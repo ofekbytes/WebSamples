@@ -1,0 +1,18 @@
+.
+.
+- web design
+.
+.
+- level 1.01 - color picking
+
+.
+.
+- level 1.01 - color picking
+.
+
+- text color mood picking 
+-- red - 
+-- candy - #FECCC6
+-- lipstick
+-- jam 
+-- wine 
