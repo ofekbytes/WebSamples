@@ -88,11 +88,26 @@ body {
 }
 
 .msg11 {
-    background: black;
+    background: white;
+    border: double 4px;
+    color: blue;
+    width: 150px;
+}
+
+.msg12 {
+    background: green;
     border: double 4px;
     color: white;
     width: 150px;
 }
+
+.msg13 {
+    background: white;
+    border: double 4px;
+    color: green;
+    width: 150px;
+}
+
 
 .yin {
     /* black background, white dot */
@@ -118,5 +133,5 @@ body {
     width: 150px;
     border-color: red;
     border-style: ridge;
-    color:red;
+    color: red;
 }
