@@ -4,6 +4,7 @@
 .
 .
 - level 1.01 - color picking
+- level 1.02 - pick color as picking a mood
 
 .
 .
@@ -11,8 +12,19 @@
 .
 
 - text color mood picking 
--- red - 
--- candy - #FECCC6
+-- red - love, intensity, power, energy   
+-- candy - 
 -- lipstick
 -- jam 
 -- wine 
+
+
+.
+.
+- level 1.02 - pick color as picking a moods
+.
+-- red - love, intensity, power, energy   
+
+
+-!- todo : cancel level 1.
+and replace ti with 1.02
