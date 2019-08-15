@@ -1,0 +1,122 @@
+body {
+    margin: 0px;
+    /* word-spacing: 50px; */
+    border: 1px;
+
+}
+
+.msg1 {
+    border: solid 4px;
+    border-color: white;
+    border-radius: 20px;
+    background-color: yellow;
+    color: black;
+    display: inline-block;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: monospace;
+    height: 50px;
+    width: 300px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
+    padding-bottom: 10px;
+    border-color: black;
+}
+
+.msg2 {
+    background: lightgray;
+    border: dashed 4px;
+    /* border-color: white; */
+    color: black;
+}
+
+.msg3 {
+    background: lightskyblue;
+    border: dashed 4px;
+    color: white;
+}
+
+.msg4 {
+    background: white;
+    border: dashed 4px;
+    color: lightskyblue;
+}
+
+.msg5 {
+    background: black;
+    border: double 4px;
+    color: white;
+    width: 320px;
+}
+
+.msg6 {
+    background: white;
+    border: double 4px;
+    color: black;
+    width: 320px;
+}
+
+
+.msg7 {
+    background: white;
+    border: double 4px;
+    color: red;
+    width: 320px;
+}
+
+.msg8 {
+    background: red;
+    border: double 4px;
+    color: white;
+    width: 320px;
+}
+
+.msg9 {
+    background: red;
+    border: double 4px;
+    color: white;
+    width: 130px;
+}
+
+.msg10 {
+    background: blue;
+    border: double 4px;
+    color: white;
+    width: 150px;
+}
+
+.msg11 {
+    background: black;
+    border: double 4px;
+    color: white;
+    width: 150px;
+}
+
+.yin {
+    /* black background, white dot */
+    background: black;
+    border: double 4px;
+    color: white;
+    width: 150px;
+}
+
+.yang {
+    /* white background, black dot */
+    background: white;
+    border: double 4px;
+    color: black;
+    width: 150px;
+}
+
+.yang-mouse-hover {
+    /* white background, black dot */
+    background: white;
+    border: double 4px;
+    color: black;
+    width: 150px;
+    border-color: red;
+    border-style: ridge;
+    color:red;
+}
