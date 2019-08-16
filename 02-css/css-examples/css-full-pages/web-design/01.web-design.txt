@@ -3,28 +3,221 @@
 - web design
 .
 .
-- level 1.01 - color picking
-- level 1.02 - pick color as picking a mood
-
-.
-.
-- level 1.01 - color picking
-.
-
-- text color mood picking 
--- red - love, intensity, power, energy   
--- candy - 
--- lipstick
--- jam 
--- wine 
+- level 1.01 - color moods
 
 
 .
 .
-- level 1.02 - pick color as picking a moods
+- level 1.01 - color moods
+- level 1.02 - color theory
+- level 1.03 - color tools
 .
--- red - love, intensity, power, energy   
+
+- selecting the right color to make the right mood for your web site.
+
+- color and his mood:
+-- red - 
+   love, intensity, power, energy, strength, danger,
+   increased heartbeat rate
+
+-- yellow - 
+   joy, attention, optimism, increased heartbeat rate,
+
+-- green - 
+   safety, freshness, food, relaxing, relaxed, calm 
+
+-- blue - 
+   loyalty, trust, stability, health, relax, calmer,
+
+-- black - 
+   evil, power, authority yin(black background, white dot),
+   mystery, unique, 
+
+-- purple - 
+   wealth, femininity, calm, powerful, elegance, 
+
+-- white - 
+   good, purity, innocence, yang(white background, black dot),
+
+-- pink -
+   kindness, innocense
+
+-- 
+
+.
+.
+- level 1.02 - color theory
+.
+- color theory - combine different color for your design.
+.
+.
+- color wheel:
+  <color-wheel-1.txt>
+  <color-wheel-2.txt>
+.
+.
+-- analogous color - 
+   in the color wheel, pick two colors one next to another.
+   analogous color are incredibly harmonious and easy to look at.
+
+--- example: analogous color
+    --------------------
+    RED
+    #FF0000
+    (255,0,0)
+    --------------------
+
+    #FF8000
+    (255,128,0)
+    --------------------
+.
+.
+-- complementary colors -
+   in the color wheel, pick two colors one color opposite to another.
+   complementary colors produce extremely flashy design and grab your attention.
+   can be good for logo design, popup messages.
+   can be not so good for main web page.
+
+--- example: complementary colors
+    --------------------
+    RED
+    #FF0000
+    (255,0,0)
+    --------------------
+    CYAN
+    #00FFFF
+    (0,255,255)
+    --------------------
+
+--- example: complementary colors
+    (color + background-color)
+    GREEN + RED;
+    YELLOW + purple
+    #EA765B + #EB765D
+    #91B641 + #D74F52
+.
+.
+-- split colors - 
+   select three colors, 
+   first color from the color wheel 
+   and the two other color
+   (one from the right of the opposite color -and- 
+    one from the left of the opposite color).
+
+--- example: split colors
+    --------------------
+
+    (1..opposite color)
+    RED
+    #FF0000
+    (255,0,0)
+
+    --------------------
+    (2..right of the opposite color)
+
+    #00FF80
+    (0,255,128)
+    --------------------
+    (3..left of the opposite color)
+
+    #0080FF
+    (0,128,255)
+    --------------------
+
+--- example: split colors
+    #E83F30 + #D3DD38 + #3487C5
+
+    (background-color + picture color + color)
+    #1C3D8B + #EF8A38 + #EFDC31 
+    #4296AD + #D33B3A + #8EB643
+.
+.
+-- triadic color - 
+   create a triangle by adding color from the color wheel equally 
+   (divide the color wheel total color in to three)
+
+--- triadic color example 
+    --------------------
+    RED
+    #FF0000
+    (255,0,0)
+    --------------------    
+    GREEN
+    #00FF00
+    (0,255,0)
+    --------------------
+    BLUE
+    #0000FF
+    (0,0,255)
+    --------------------
 
 
--!- todo : cancel level 1.
-and replace ti with 1.02
+--- triadic color example 
+    #FCF540 + #E83F30 + #3057FC
+    #F2B130 + #902D48 + #3487C5
+
+.
+.
+- monochromatic color
+-- taking two color, of the same color 
+   and adding various amount of black -or- 
+   adding various amount of black white
+   to the second color selection
+.
+.
+- level 1.03 - color tools
+
+- colorhunt - select a color design
+   https://colorhunt.co/
+
+
+- flat ui colors (apple) - select a color design
+  https://flatuicolors.com
+
+
+- material palette (andorid) - select a color design (+ui test)
+  https://www.materialpalette.com
+
+
+- ColorZilla - 
+  create a color sample/code in hexadecimal value from an exist web page.
+  https://www.colorzilla.com
+.
+.
+- level 1.04 - font - type (typography)
+
+- two biggest font-family:
+-- sans-serif
+-- serif
+
+  font-family: sans-serif;
+  font-family: serif;
+
+
+****************************************************************************
+.
+.
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+-!- todo -!- 
+
+1 .create html file with subject level 1.02 - color theory.
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+.
+.
+** color links
+
+/* web site color example: */
+https://visme.co/blog/website-color-schemes/
+
+/* colors wheel */
+https://www.w3schools.com/colors/colors_wheels.asp
+
+
+
+    <!-- temp - watch color moods :-) delete after watching -->
+    <!-- https://www.youtube.com/watch?v=fKTa7tFqNks -->
+
+    <!-- ?? -->
+    <!-- https://www.youtube.com/watch?v=m8F-rvg23VE -->
+
+****************************************************************************
