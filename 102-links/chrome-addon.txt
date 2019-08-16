@@ -1,14 +1,43 @@
-
--- chrome - webstore - english --
+.
+.
+[ chrome webstore - english  ] 
+link:
 https://chrome.google.com/webstore/category/extensions?hl=en
-
-
-[ pesticide for chrome ] ‏
+.
+.
+.
+[ pesticide for chrome ] 
+.
+purpose: 
+This extension inserts the Pesticide CSS into the current page, 
+outlining each element to better see placement on the page.
+.
+link:
 https://chrome.google.com/webstore/detail/pesticide-for-chrome/bblbgcheenepgnnajgfpiicnbbdmmooh?hl=en
-
-
+.
+.
+.
 [ onenote ]
+.
+purpose:
+Save anything on the web to OneNote. 
+Clip it to OneNote, organize and edit it, 
+then access it from any device.
+.
+link:
 https://chrome.google.com/webstore/detail/onenote-web-clipper/gojbdfnpnhogfdgjbigejoaolejmgdhk?hl=en
+.
+.
+.
+[ ColorZilla ]
+.
+purpose: 
+With ColorZilla you can get a color reading from any point in your browser, 
+quickly adjust this color and paste it into another program.
+.
+link:
+https://www.colorzilla.com
+
 
 
 
