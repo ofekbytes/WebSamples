@@ -194,6 +194,17 @@
   font-family: serif;
 
 
+
+
+-- good font --
+heading: serif
+body: sans-serif
+
+heading: sans-serif
+body: serif;
+
+
+
 ****************************************************************************
 .
 .

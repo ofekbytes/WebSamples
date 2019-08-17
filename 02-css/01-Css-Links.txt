@@ -70,9 +70,17 @@ https://www.w3schools.com/icons/default.asp
 https://visme.co/blog/website-color-schemes/
 
 
-/* */
+/* font rtfm */
 
+/***** font-family *****/
 
+https://en.wikipedia.org/wiki/Serif
+
+https://en.wikipedia.org/wiki/Sans-serif
+
+https://en.wikipedia.org/wiki/List_of_sans_serif_typefaces
+
+/*****************************************************************/
 
 /* css box properties */
 
