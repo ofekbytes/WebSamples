@@ -39,5 +39,14 @@ link:
 https://www.colorzilla.com
 
 
+.
+.
+What Font:
 
+purpose:
+find font type, size...
+link:
+https://www.
+.
+.
 
