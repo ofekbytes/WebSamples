@@ -133,6 +133,13 @@ font-family: 'Montserrat', sans-serif;
 /******************************/
 
 
+/* design portfolio talent site */
+https://medium.com/@tristaljing/top-10-free-online-portfolio-websites-to-create-perfect-ux-ui-design-portfolios-7d99888ab9
+
+https://css-tricks.com/guides/web-components/
+
+
+/********************************/
 ---[temp links]---
 https://www.appbrewery.co/p/web-development-course-resources/
 
