@@ -54,14 +54,18 @@ https://giphy.com
 
 /*Short Link*/ Short Link
 https://gph.is/st/mDgxpzY
+https://gph.is/st/MwrJa0E
+https://gph.is/st/YK0KpXm
 
 /*GIF Link*/
 https://media.giphy.com/media/ksE9feSa2b4V2GYwY4/giphy.gif
+https://media.giphy.com/media/H7AmqyARFEc7S1Smtl/giphy.gif
+https://media.giphy.com/media/8PmTxEQhXWdNxGPLht/giphy.gif
 
 /*HTML5 Video*/
 https://giphy.com/gifs/ksE9feSa2b4V2GYwY4/html5
-
-
+https://giphy.com/gifs/H7AmqyARFEc7S1Smtl/html5
+https://giphy.com/gifs/8PmTxEQhXWdNxGPLht/html5
 
 
 /* picture */
