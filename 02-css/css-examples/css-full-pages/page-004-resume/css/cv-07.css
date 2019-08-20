@@ -20,7 +20,6 @@ h2 h3 {
     font-family: 'Merriweather', serif;
 }
 
-
 .top-container {
     background: #E4F9F5;
     color: black;
@@ -41,16 +40,13 @@ h2 h3 {
     bottom: 300px;
 }
 
-.middle-container {
-    color: black;
-    background: green;
-    height: 200px;
-    width: 200px;
+.profileIcon {
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 120px;
 }
 
-.bottom-container {
-    color: black;
-    background: red;
-    height: 200px;
-    width: 200px;
-}
+.middle-container {}
+
+.bottom-container {}

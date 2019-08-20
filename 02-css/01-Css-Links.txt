@@ -27,10 +27,48 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/background-color
 https://stackoverflow.com/questions/2402761/is-img-element-block-level-or-inline-level
 
 
+/* icons */
+https://www.w3schools.com/icons/default.asp
 
-/* TODO cp to gen links */
+/* flat icon */
+https://www.flaticon.com
+
 /* favicon - create icon online editor */
 https://www.favicon.cc/
+
+
+/* Emojipedia */
+
+// home page 
+https://emojipedia.org
+
+// broccoli
+https://emojipedia.org/broccoli/
+
+// image url
+https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/198/broccoli_1f966.png
+
+
+/* animated gif */
+https://giphy.com
+
+/*Short Link*/ Short Link
+https://gph.is/st/mDgxpzY
+
+/*GIF Link*/
+https://media.giphy.com/media/ksE9feSa2b4V2GYwY4/giphy.gif
+
+/*HTML5 Video*/
+https://giphy.com/gifs/ksE9feSa2b4V2GYwY4/html5
+
+
+
+
+/* picture */
+
+/***********/
+
+
 
 
 /* TODO cp to gen links */
@@ -61,9 +99,6 @@ https://encycolorpedia.com/8e1e1d
 /* color wheel */
 https://www.w3schools.com/colors/colors_wheels.asp
 
-
-/* icons */
-https://www.w3schools.com/icons/default.asp
 
 
 /* website example */
@@ -137,6 +172,16 @@ font-family: 'Montserrat', sans-serif;
 https://medium.com/@tristaljing/top-10-free-online-portfolio-websites-to-create-perfect-ux-ui-design-portfolios-7d99888ab9
 
 https://css-tricks.com/guides/web-components/
+
+
+/***** test-page / loremipsum *****/
+http://loremipsumgenerator.com
+
+http://lorem-ipsum.perbang.dk/
+
+
+
+
 
 
 /********************************/
