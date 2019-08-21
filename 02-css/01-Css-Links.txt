@@ -124,7 +124,7 @@ https://en.wikipedia.org/wiki/List_of_sans_serif_typefaces
 /* css box properties */
 
 
-/***** font *****/
+/***** font / font-family *****/
 
 /* free fonts */
 https://www.1001freefonts.com/western-fonts.php

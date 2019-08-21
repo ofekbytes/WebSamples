@@ -96,7 +96,7 @@ css - text.
     }
 
 
--- The font-size Property - font size:  ems
+-- The font-size Property - font size:  em
 --- em is a relative size unit.
 
 --- example:
@@ -107,12 +107,46 @@ css - text.
     }
 
 
--!- font size: pixels / ems :
+-!- font size: pixels / em :
 
     20px = 1.25em.
 
-    pixels / 20 = ems
+    pixels / 20 = em
     20px / 16 = 1.25em.
+
+
+-- The font-size Property - font size: rem
+--- rem - (em font) stand alone font size without parent font intervention.
+    (parent -or- Block-Elementsbody, like:  p tag, form tag, etc... )
+
+--- example:
+
+    p 
+    {
+        font-size: 1.25rem; 
+    }
+
+
+-!- font size: pixels / rem :
+
+    20px = 1.25rem.
+
+    pixels / 20 = rem
+    20px / 16 = 1.25rem
+    90px / 16 = 5.625rem
+
+-- The font-size Property - font size: percentage < % >
+
+--- example: 
+    100%  = 16px (default)
+    90px / 16  = 5.625% = 562.5%
+
+---  example:
+
+    h1 
+    {
+        font-size: 562.5%; 
+    }
 
 
 .
