@@ -11,8 +11,8 @@ css - Positioning and Layout.
 - level 4.06 - Positioning - Relative Positioning
 - level 4.07 - Positioning - Absolute Positioning
 - level 4.08 - Positioning - sticky Positioning
-
-
+- level 4.09 - Positioning - Floating
+- level 4.10 - Positioning - Floating - Clearing the Float
 .
 .
 - level 4.01 - The display Property (display: block/inline)
@@ -80,8 +80,8 @@ and does not force line breaks.
 -!- There are display values, such as 
    list-item, table, table-cell, table-column, grid, etc. 
 
-https://devdocs.io/css/display
-
+--- link:
+    < https://devdocs.io/css/display > 
 .
 .
 - level 4.02 - The visibility Property
@@ -117,7 +117,6 @@ https://devdocs.io/css/display
 
 --- example: display:none
     <css-4.02.2.html>
-
 .
 .
 - level 4.03 - Positioning
@@ -190,7 +189,6 @@ https://devdocs.io/css/display
 
 --- example: fixed Positioning (like a nav bar / side bar)
     <css-4.05.3.html>
-
 .
 .
 - level 4.06 - Positioning - Relative Positioning
@@ -277,8 +275,6 @@ https://devdocs.io/css/display
 
 --- example: fixed Positioning - <div> tag inside <div> tag
     <css-4.07.6.html>
-
-
 .
 .
 - level 4.08 - Positioning - sticky Positioning
@@ -290,6 +286,10 @@ https://devdocs.io/css/display
 -- A sticky element toggles between "relative" and "fixed", depending on the scroll position. 
    It is positioned relative until a given offset position is met in the screen - 
    then it "sticks" in place (like position:fixed).
+
+-- When elements are positioned outside the normal flow, they can overlap other elements.
+   The "z-index" property specifies the stack order of an element 
+   (which element should be placed in front of, or behind, the others).
 
 --- example: sticky Positioning
     position: -webkit-sticky;
@@ -304,45 +304,490 @@ https://devdocs.io/css/display
 --- example: sticky Positioning - not transperet
     <css-4.08.3.html>
 
+--- example: 2 boxes - red box overlaps the blue box
+    <css-4.08.4.html>
+ 
+-!- The red box overlaps the blue box, 
+    because it was placed later in the HTML markup. 
+    The z-index property can change this order.
+.
+.
+-- Assigning the z-index Property
 
-///./////.///unsorted
-https://www.w3schools.com/css/css_positioning.asp
+--- Assigning a higher "z-index" value to the blue div 
+    and a lower "z-index" value to the red div will result in the following:
 
+-!- The z-index works only on positioned elements 
+    (position:absolute, position:relative, position:fixed).
+
+--- example: 2 boxes - z-index Property (blue box overlaps the red box)
+    <css-4.08.5.html>
+
+
+    .blue {
+    z-index: 3; 
+    position: relative;
+    }
+
+    .red {
+    z-index: 2;
+    position: relative;
+    }
+
+.
+.
+-- all 
+
+-- All CSS Positioning Properties
+    Property	Description
+    bottom	Sets the bottom margin edge for a positioned box
+
+    clip	Clips an absolutely positioned element
+
+    https://www.w3schools.com/cssref/pr_pos_clip.asp
+
+    left --- Sets the left margin edge for a positioned box
+    position --- Specifies the type of positioning for an element
+    right --- Sets the right margin edge for a positioned box
+    top	--- Sets the top margin edge for a positioned box
 .
 .
 -- z-index
 
 
---- example: sticky Positioning + transperet
-    <css-z-index.html>
+- z-index -- Sets the stack order of an element
 
---- example: sticky Positioning + transperet
-    /* transperet */
+-- sticky Positioning - transperet
     z-index: -1;
 
+--- example: sticky Positioning - transperet
+    <css-4.08.2.html>
+
+
+-- sticky Positioning - not transperet
+
+--- example: sticky Positioning - not transperet
+    <css-4.08.3.html>
+
+--- link
+    < https://www.w3schools.com/css/css_positioning.asp >
+    < https://www.w3schools.com/cssref/pr_pos_z-index.asp >
+    < https://www.w3schools.com/css/css_positioning.asp >
+.
+.
+- level 4.09 - Positioning - Floating
+.
+
+-- The CSS float property specifies how an element should float.
+
+--- float: left;
+
+--- example: float : left
+    <css-4.09.1.html>
+
+    img {
+        float: left;
+        width: 120px;
+        height: 120px;
+        margin-right: 20px;
+    }
+
+    p {
+        width:320px;
+        float: left;
+    }
+
+
+-- float: right;
+
+--- example: float : right
+    <css-4.09.2.html>
+
+    img {
+        float: right;
+        width: 120px;
+        height: 120px;
+        margin-left: 20px;
+    }
+    p {
+        width: 320px;
+        float: right;
+    }
+
+
+--- example: float: left  (x2)
+    <css-4.09.3.html>
+
+    img {
+        float: left;
+        width: 120px;
+        height: 120px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    p {
+        float: left;
+        width: 350px;
+    }
+
+
+--- example: div float: right -and- div float: left.
+    <css-4.09.4.html>
+
+    .float-right img {
+        float: right;
+        width: 120px;
+        height: 120px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .float-right {
+        float: right;
+        width: 350px;
+    }
+
+    .float-left img {
+        float: left;
+        width: 120px;
+        height: 120px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .float-left p {
+        float: left;
+        width: 350px;
+    }
+
+
+--- example: float:right + text under
+    <css-4.09.5.html>
+
+--- example: float:left + text big letter.
+    <css-4.09.6.html>
+
+.
+.
+- level 4.10 - Positioning - Floating - Clearing the Float
+.
+
+-- Elements that come after the floating element will flow around it. 
+   To avoid this, use the clear property.
+
+-- The clear property specifies the sides of an element where 
+   other floating elements are not allowed to be.
+
+-- if we set the float property to the div, 
+   only the paragraph that comes after the div will be wrapped around the image.
+
+--- example: Floating - without - Clearing the Float
+    <css-4.10.1.html>
+
+    body
+    {
+        width: 30%;
+    }
+
+    .floating {
+        float: right;
+    }
+
+
+-!- Use the values: "right", "left", "both"
+    to specify the sides of an element where other floating elements 
+    are not allowed to be. 
+
+-!- The default value is "none", which allows floating elements on both sides.
+
+--- example: Positioning - Floating - Clearing the Float (clear: both;)
+    <css-4.10.2.html>
+
+    body {
+        width:38%;
+    }
+
+    .floating {
+        float: right;
+    }
+
+    .clearing {
+        clear: both;
+    }
+
+    img {
+        width :150px;
+    }    
+
+
+--- example: Positioning - Floating - Clearing the Float (clear: left;)
+    <css-4.10.3.html>
+
+    body {
+        width:38%;
+    }
+
+    .floating {
+        float: right;
+        margin: 12px;
+    }
+
+    .clearing {
+        clear: left;
+    }
+
+    img {
+        width :150px;
+    }
+
+
+--- example: Positioning - Floating - Clearing the Float (clear: right;)
+    <css-4.10.4.html>
+
+    body {
+        width:38%;
+    }
+
+    .floating {
+        float: left;
+        margin: 12px;
+    }
+
+    .clearing {
+        clear: right;
+    }
+
+    img {
+        width :150px;
+    }
+
+
+--- example: Positioning - Floating - Clearing the Float (clear: left;)
+    <css-4.10.5.html>
+
+    body {
+        width: 38%;
+    }
+
+    .div1 {
+        float: left;
+        width: 100px;
+        height: 50px;
+        margin: 10px;
+        border: 3px solid #73AD21;
+    }
+
+    .div2 {
+        border: 1px solid red;
+        clear:none;
+    }
+
+    .div3 {
+        float: left;
+        width: 100px;
+        height: 50px;
+        margin: 10px;
+        border: 3px dashed #73AD21;
+    }
+
+    .div4 {
+        border: 1px solid red;
+        clear: left;
+    }
+
+
+-!- rtfm: css float
+    < https://www.w3schools.com/css/css_float.asp >
+.
+.
+- level 4.11 - Positioning - The overflow Property
+.
+
+-- every element on the page is a box. 
+   If the height of the box is not set, the height of that box will grow 
+   as large as necessary to accommodate the content. 
+
+-- The CSS overflow property specifies the behavior that occurs 
+   when an element's content overflows the element's box.
+
+--- example: overflow (height)
+
+    div {
+        width: 1800px;
+        height: 150px;
+        background-color: LightBlue;
+        float: left;
+    }
+
+
+--- example: overflow (height)
+    <css-4.11.1.html>
+
+    div {
+            width: 180px;
+            height: 150px;
+            background-color: LightBlue;
+            float: left;
+            overflow: visible;
+        }
+.
+.
+- The overflow Property Values
+
+-- The overflow property: 
+
+--- visible (the default value)
+    overflow: visible;
+    all the overflow content is visible.
+
+--- scroll - 
+    overflow: scroll;
+    a scrollbar is added to the clipped overflow.
+
+--- hidden -
+    The overflow is clipped, and the rest of the content will be invisible.
+
+--- auto - 
+    a scroll-bar should be added to make it possible to see the rest of the content.
+
+
+--- example: overflow: visible;
+    <css-4.11.1.html>
+
+    div {
+        width: 180px;
+        height: 150px;
+        background-color: LightBlue;
+        float: left;
+        overflow: visible;
+    }
+
+
+--- example: overflow: scroll;
+    <css-4.11.2.html>
+
+    div {
+        width: 180px;
+        height: 150px;
+        background-color: LightBlue;
+        float: left;
+        overflow: scroll;
+    }
+
+
+--- example: overflow: hidden;
+    <css-4.11.3.html>
+
+    div {
+        width: 180px;
+        height: 150px;
+        background-color: LightBlue;
+        float: left;
+        overflow: hidden;
+    }
+
+
+--- example: overflow: auto;
+    <css-4.11.4.html>
+
+    div {
+        width: 180px;
+        height: 150px;
+        background-color: LightBlue;
+        float: left;
+        overflow: auto;
+    }
+
+
+--- example: overflow: auto; (with image)
+    <css-4.11.5.html>
+
+    div {
+        /* border: 3px solid #4CAF50; */
+        border-style: dashed;
+        padding: 5px;
+    }
+
+    .img1 {
+        float: right;
+        width: 150px;
+    }
+
+    .clearfix {
+        overflow: auto;
+        float:right;
+    }
+
+    .img2 {
+        float: right;
+        width: 150px;
+    }
 
 
 
 
-// delete // 
+:::temp links:::
 
-All CSS Positioning Properties
-Property	Description
-bottom	Sets the bottom margin edge for a positioned box
+https://www.w3schools.com/css/css_float.asp
 
-clip	Clips an absolutely positioned element
-https://www.w3schools.com/cssref/pr_pos_clip.asp
+https://www.w3schools.com/css/tryit.asp?filename=trycss_layout_clearfix
 
-left	Sets the left margin edge for a positioned box
-position	Specifies the type of positioning for an element
-right	Sets the right margin edge for a positioned box
-top	Sets the top margin edge for a positioned box
+https://www.w3schools.com/css/tryit.asp?filename=trycss_float2
 
-z-index	Sets the stack order of an element
-https://www.w3schools.com/cssref/pr_pos_z-index.asp
+https://www.w3schools.com/css/tryit.asp?filename=trycss_float3
 
-https://www.sololearn.com/Play/CSS
+https://www.w3schools.com/css/tryit.asp?filename=trycss_float4
 
-//https://www.w3schools.com/css/css_positioning.asp
+https://www.w3schools.com/css/tryit.asp?filename=trycss_layout_webpage
+
+https://www.w3schools.com/css/tryit.asp?filename=trycss_float5
+
+https://www.w3schools.com/css/tryit.asp?filename=trycss_float_images_side
+
+http://127.0.0.1:5500/01-css/level-4/css-4.10.5.html
+
+
+
+/?/?/?/?/?/?/?/?/?/?/?/?/?/?/
+.
+CSS ::before Selector
+https://www.w3schools.com/cssref/pr_gen_content.asp
+.
+CSS content Property
+https://www.w3schools.com/cssref/sel_before.asp
+.
+CSS ::after Selector
+https://www.w3schools.com/cssref/sel_after.asp
+.
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+
+
+
+
+.
+.
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+
+.
+All CSS Float Properties
+
+box-sizing	
+Defines how the width and height of an element are calculated: should they include padding and borders, or not
+
+clear	
+Specifies what elements can float beside the cleared element and on which side
+
+float	
+Specifies how an element should float
+
+overflow	
+Specifies what happens if content overflows an element's box
+
+overflow-x	
+Specifies what to do with the left/right edges of the content if it overflows the element's content area
+
+overflow-y	
+Specifies what to do with the top/bottom edges of the content if it overflows the element's content area
+.
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+
+
 
 
