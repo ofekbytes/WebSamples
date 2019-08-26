@@ -350,6 +350,14 @@ and does not force line breaks.
     position --- Specifies the type of positioning for an element
     right --- Sets the right margin edge for a positioned box
     top	--- Sets the top margin edge for a positioned box
+
+
+-- margin:
+--- margin: auto;  /*align center*/
+    margin: 50px auto 0px auto; /*margin: up, right, bottom left*/
+--- margin:inherit  /**/
+--- margin:initial  /**/
+--- margin:unset    /**/
 .
 .
 -- z-index

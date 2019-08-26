@@ -1,0 +1,61 @@
+
+.
+css3 - basics
+.
+.
+- level 5.01 - CSS3 Basics - Introduction to CSS3 
+
+
+.
+.
+- level 5.01 - CSS3 Basics - Introduction to CSS3 
+.
+
+- CSS3 is next version for CSS.
+
+-- css3 new features are:
+
+--- Border radius - 
+    The border-radius property defines the radius of the element's corners.
+    <https://www.w3schools.com/cssref/css3_pr_border-radius.asp>
+
+--- Border images- 
+    The border-image property allows you to specify an image 
+    to be used as the border around an element.
+    <https://www.w3schools.com/cssref/css3_pr_border-image.asp>
+
+--- Multiple backgrounds - 
+    CSS allows you to add multiple background images for an element, 
+    through the background-image property.
+    <https://www.w3schools.com/css/css3_backgrounds.asp>
+
+--- Animations - 
+    <https://www.w3schools.com/css/css3_animations.asp>
+
+--- effects - 
+    <https://www.w3schools.com/css/css3_transitions.asp>
+
+--- Box Shadow - 
+    The box-shadow property attaches one or more shadows to an element.
+    <https://www.w3schools.com/cssref/css3_pr_box-shadow.asp>
+
+--- Gradients (Linear / Radial)
+    Gradients allow us to set the background color of the element to a gradient. 
+    (Linear / Radial).
+    <https://www.w3schools.com/css/css3_gradients.asp>
+    <https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient>
+    <https://developer.mozilla.org/en-US/docs/Web/CSS/gradient>
+    <https://cssgradient.io/resources/>
+
+--- Transforms -
+    Transforms method: 
+    translate(), rotate(), scaleX(), scaleY(), scale(),
+    skewX(), skewY(), skew(), matrix()
+
+--- 
+
+
+
+
+
+

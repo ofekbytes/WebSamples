@@ -195,6 +195,10 @@ https://www.appbrewery.co/p/web-development-course-resources/
 
 ---[unsorted]---
 
+/* mozilla */********************************/
+https://developer.mozilla.org/en-US/docs/Learn
+
+
 /* css default value */
 https://www.w3schools.com/cssref/css_default_values.asp
 

@@ -80,12 +80,53 @@ a {
     color: blue;
 }
 
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
 /* .programmer { */
     /* font-weight: normal; */
     /* margin-top: 2px; */
 /* } */
 
+.pipe-image {
+    width: 25%;
+    height: 25%;
+    float:left;
+    margin-right: 30px;
 
+    border-color: black;
+    border-width: 1px;
+    border-style: dashed;
+    border-radius: 60px;
+}
+
+.yaron-image {
+    /* width: 25%; */
+    /* height: 25%; */
+    float: right;
+    margin-left: 30px;
+
+    border-color: blue;
+    border-width: 1px;
+    border-style: dashed;
+    border-radius: 120px;
+}
+
+
+.profile-image {
+    /* width: 25%; */
+    height: 2%;
+
+    border-color: red;
+    border-width: 1px;
+    border-style: dashed;
+    border-radius: 35px;
+}
+}
 
 /* .programmer { */
 /* font-size: 2.5rem; */
