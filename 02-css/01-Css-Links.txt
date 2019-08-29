@@ -184,7 +184,40 @@ http://loremipsumgenerator.com
 http://lorem-ipsum.perbang.dk/
 
 
+/***** css button generator *****/
 
+/* create css button */
+https://cssbuttoncreator.com/
+
+/* create css button */
+https://www.bestcssbuttongenerator.com
+
+/* create css button -or- images (.png) */
+https://loading.io/button/generator/
+
+/* create css button -or- images (.png) + icon */
+http://buttonoptimizer.com/
+
+
+/* create css3 button */
+https://www.cssgenerators.net/
+
+/* create css3 button */
+http://css3button.net/
+
+
+/* create css3 button -*-  */
+https://dabuttonfactory.com/
+
+/* create css3 button -*-  */
+http://www.cssbuttongenerator.com
+
+/* create css3 button -*-  */
+https://css-tricks.com/examples/ButtonMaker/
+
+/* css 
+https://www.frontendmentor.io
+https://www.frontendmentor.io/challenges
 
 
 
