@@ -215,7 +215,7 @@ http://www.cssbuttongenerator.com
 /* create css3 button -*-  */
 https://css-tricks.com/examples/ButtonMaker/
 
-/* css 
+/* css  challenge */
 https://www.frontendmentor.io
 https://www.frontendmentor.io/challenges
 
