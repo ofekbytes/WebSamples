@@ -50,8 +50,18 @@ css3 - basics
 --- Transforms -
     Transforms method: 
     translate(), rotate(), scaleX(), scaleY(), scale(),
-    skewX(), skewY(), skew(), matrix()
+    skewX(), skewY(), skew(), matrix(), move()
 
+    <https://www.w3schools.com/cssref/css3_pr_transform.asp>
+    <https://www.w3schools.com/cssref/css3_pr_transform-origin.asp>
+    <https://www.w3schools.com/cssref/css3_pr_transform-style.asp>
+    <https://www.w3schools.com/cssref/css3_pr_transition.asp>
+    <https://www.w3schools.com/cssref/css3_pr_transition-delay.asp>
+    <https://www.w3schools.com/cssref/css3_pr_transition-duration.asp>
+    <https://www.w3schools.com/cssref/css3_pr_transition-property.asp>
+    <https://www.w3schools.com/cssref/css3_pr_transition-timing-function.asp>
+
+    
 --- 
 
 
