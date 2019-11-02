@@ -16,7 +16,7 @@ https://code.visualstudio.com/
 01) Live Server - <ritwickdey.liveserver> ..MIT License
 02) Numbered Bookmarks - <Alessandro Fragnani> ..MIT License..
 03) Angular 8 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout - <Mikael Morlund> ..MIT License..
-04) Angular v7 Snippets - <John Papa> ..MIT License..
+04) Angular 8 Snippets - <John Papa> ..MIT License..
 05) Paste JSON as Code - <quicktype> ..Apache License..
 06) vscode-spotify - <shyykoserhiy>  ..MIT License.. 
 07) Debugger for Chrome - <Microsoft>  ..MIT License..

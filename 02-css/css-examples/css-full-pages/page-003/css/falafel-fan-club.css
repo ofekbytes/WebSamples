@@ -1,4 +1,6 @@
-/*****[tag selector]*****/
+/*************
+[tag selector]
+**************/
 
 body {
     /* background: black; */
@@ -14,7 +16,9 @@ h1 {
 }
 
 
-/*****[class selector]*****/
+/***************
+[class selector]
+****************/
 
 .pic1 {
     background-color: green;
@@ -36,12 +40,15 @@ h1 {
     border-radius: 50px;
 }
 
+/*
+* hover
+*/
 .pic1:hover {
-    background-color: red;
+    background-color: lightgreen;
 }
 
 .pic2:hover {
-    background-color: green;
+    background-color: palevioletred;
 }
 
 
@@ -54,7 +61,9 @@ img {
 */
 
 
-/*****[id selector]*****/
+/************
+[id selector]
+*************/
 
 #title {
     align-items: center;
