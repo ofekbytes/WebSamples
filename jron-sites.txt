@@ -16,6 +16,9 @@ https://ofekbytes.github.io/AngularJs/
 [assets]
 https://ofekbytes.github.io/assets/
 
+[clock]
+https://ofekbytes.github.io/clock/
+
 .
 .
 .
