@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>english vocabulary test</title>
+<style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</style>
+</head>
+<body>
+    
+        <div class="container"
+        data-ng-init="customers=[{enWord:'city',heWord:'עיר'},
+                                 {enWord:'home',heWord:'בית'},
+                                 {enWord:'love',heWord:'אהבה'},
+                                 {enWord:'problem',heWord:'בעיה'},
+                                 {enWord:'cover	',heWord:'כיסוי'},
+                                 {enWord:'review',heWord:'סקירה'},
+                                 {enWord:'wish',heWord:'משאלה'},
+                                 {enWord:'writer',heWord:'סופר'},
+                                 {enWord:'move	',heWord:'לזוז'},
+                                 {enWord:'recommend',heWord:'ממליץ'},
+                                 {enWord:'stop',heWord:'לעצור'},
+                                 {enWord:'boring',heWord:'משעמם'},
+                                 {enWord:'scary	',heWord:'מפחיד'},
+                                 {enWord:'detective',heWord:'בלש'},
+                                 {enWord:'adventure	',heWord:'הרפתקה'},
+                                 {enWord:'kind of',heWord:'סוג של'}
+                                 ]">
+
+        <br />
+        <h3> enter a word </h3>
+        <input id="txtWord" type="text" data-ng-model='enHeWrods' />
+
+        <ul>
+            <li data-ng-repeat="cust in customers | filter:enHeWrods | orderBy:'enWord'"> {{cust.enWord | lowercase}} &nbsp;&nbsp; - &nbsp;&nbsp; {{cust.heWord | uppercase}} </li>              
+        </ul>
+        
+    </div>
+
+    <script src="../angular.min.js"> </script> <!-- script loading up -->
+ 
+    <!-- cdn -->
+    <!-- https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js --> 
+
+</body>
+</html>
