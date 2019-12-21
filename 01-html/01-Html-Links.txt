@@ -1,6 +1,6 @@
 
 
-[online manual]
+[Html-Links]
 
 https://devdocs.io/
 

@@ -23,7 +23,7 @@ https://code.visualstudio.com/
 08) GitLens — Git supercharged - <Eric Amodio> ..MIT License..
 09) VS Live Share - <Microsoft>  ..MICROSOFT PRE-RELEASE SOFTWARE LICENSE TERMS..
 10) Material Icon Theme - <Philipp Kief> ..MIT License
-
+11) Code Runner - <Jun Han> ..MIT License
 
 2018
 *) Settings Sync - <Shan Khan>  ..MIT License..
