@@ -1,0 +1,17 @@
+
+
+[online-editor]
+
+
+// lite server
+// description: run local web server from web page folder
+
+// Installation:
+$ npm i -g lite-server
+
+
+// working with
+// example: entering the project folder/directory with the ("index.html) 
+$ /home/jron/web-site/dist/> lite-server <enter>
+
+

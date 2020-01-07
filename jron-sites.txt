@@ -19,6 +19,9 @@ https://ofekbytes.github.io/assets/
 [clock]
 https://ofekbytes.github.io/clock/
 
+[angular-8]
+https://ofekbytes.github.io/angular/
+
 .
 .
 .
