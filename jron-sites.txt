@@ -10,6 +10,13 @@ Kessler Yaron (Jron Sites)
 [resume]
 https://ofekbytes.github.io/resume/
 
+[resume-english]
+https://ofekbytes.github.io/resume/download/resume_pdf/resume.pdf
+
+[resume-hebrew]
+https://ofekbytes.github.io/resume/download/resume_pdf/resume-he.pdf
+
+
 [AngularJs]
 https://ofekbytes.github.io/AngularJs/
 
