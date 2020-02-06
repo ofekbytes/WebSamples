@@ -30,6 +30,13 @@ https://ofekbytes.github.io/clock/
 https://ofekbytes.github.io/angular/
 
 
+[html]
+https://ofekbytes.github.io/html
+
+[html/web/test/]
+https://ofekbytes.github.io/html/web/test/location.html
+
+
 .
 .
 .
