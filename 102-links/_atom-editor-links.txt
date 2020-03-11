@@ -30,6 +30,8 @@ https://atom.io/
 **Step 1. After installing linter-jshint you should head into its settings.
 **Step 2. On the settings page for linter-jshint, scroll down and enable the checkbox for “Lint Inline Java Script”.
 
+-- java--
+01) Pivotal.vscode-boot-dev-pack - <Spring Boot 1.8 Support for ATOM>....
 
 [Atom Themes]
 
