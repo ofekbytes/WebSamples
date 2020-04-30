@@ -24,6 +24,7 @@ https://code.visualstudio.com/
 09) VS Live Share - <Microsoft>  ..MICROSOFT PRE-RELEASE SOFTWARE LICENSE TERMS..
 10) Material Icon Theme - <Philipp Kief> ..MIT License
 11) Code Runner - <Jun Han> ..MIT License
+12) HTML CSS Support - <ecmel> ..MIT License
 
 -- java--
 01) Pivotal.vscode-boot-dev-pack - <Spring Boot Extension Pack>....
