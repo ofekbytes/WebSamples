@@ -71,3 +71,15 @@ test.1.ts     //after change//
 - more links about the subject -
 -- https://www.youtube.com/watch?v=u21W_tfPVrY
 -- 
+
+
+- Lorem ipsum - generate automatically 20 words of text inside html file.
+-- write the word inside a tag (like dive/p/h1....)
+  lorem20
+-- press enter to execute.
+-- output:
+   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam inventore nihil expedita incidunt autem natus quasi voluptatibus mollitia molestias fugiat.
+
+
+
+   
