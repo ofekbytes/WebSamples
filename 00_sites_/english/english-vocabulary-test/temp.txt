@@ -1,3 +1,23 @@
+{enWord:'adjectives',heWord:'שמות תואר'},
+                                 {enWord:'bold',heWord:'adjectives'},
+                                 {enWord:'home',heWord:'בית'},
+                                 {enWord:'love',heWord:'אהבה'},
+                                 {enWord:'problem',heWord:'בעיה'},
+                                 {enWord:'cover	',heWord:'כיסוי'},
+                                 {enWord:'review',heWord:'סקירה'},
+                                 {enWord:'wish',heWord:'משאלה'},
+                                 {enWord:'writer',heWord:'סופר'},
+                                 {enWord:'move	',heWord:'לזוז'},
+                                 {enWord:'recommend',heWord:'ממליץ'},
+                                 {enWord:'stop',heWord:'לעצור'},
+                                 {enWord:'boring',heWord:'משעמם'},
+                                 {enWord:'scary	',heWord:'מפחיד'},
+                                 {enWord:'detective',heWord:'בלש'},
+                                 {enWord:'adventure	',heWord:'הרפתקה'},
+                                 {enWord:'kind of',heWord:'סוג של'}
+
+
+
                                 data-ng-init="customers=[{name:'eli li',city:'jerusalem'},
                                 {name:'shalom lo',city:'lod'},
                                 {name:'uri ri',city:'modin'},

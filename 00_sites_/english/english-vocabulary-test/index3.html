@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>english vocabulary test</title>
+<style>
+    /* <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> */
+</style>
+</head>
+<body>
+    
+        <div class="container"
+        data-ng-init="customers=[{enWord:'adjectives',heWord:'שמות תואר'},
+                                 {enWord:'bold',heWord:'adjectives'},
+                                 {enWord:'big',heWord:'adjectives'},
+                                 {enWord:'competitive',heWord:'adjectives'},
+                                 {enWord:'youthful',heWord:'adjectives'},
+                                 {enWord:'biggest',heWord:'adjectives'},
+                                 {enWord:'photographic',heWord:'adjectives'},
+                                 {enWord:'popular',heWord:'adjectives'},
+                                 {enWord:'favorite',heWord:'adjectives'},
+                                 {enWord:'well known',heWord:'adjectives'},
+                                 {enWord:'nouns',heWord:'שמות עצם'},
+                                 {enWord:'energy',heWord:'nouns'},
+                                 {enWord:'power',heWord:'nouns'},
+                                 {enWord:'money',heWord:'nouns'},
+                                 {enWord:'bank',heWord:'nouns'},
+                                 {enWord:'nature',heWord:'nouns'},
+                                 {enWord:'solidity',heWord:'nouns'},
+                                 {enWord:'jealousy',heWord:'nouns'},
+                                 {enWord:'verbs',heWord:'פעלים'},
+                                 {enWord:'allowed',heWord:'verbs'},
+                                 {enWord:'wear',heWord:'verbs'},
+                                 {enWord:'catches',heWord:'verbs'},
+                                 {enWord:'include',heWord:'verbs'},
+                                 {enWord:'mean',heWord:'verbs'},
+                                 {enWord:'suggest',heWord:'verbs'},
+                                 {enWord:'excite',heWord:'verbs'},
+                                 {enWord:'chose',heWord:'verbs'},
+                                 {enWord:'connectors',heWord:'מחברים'},
+                                 {enWord:'also',heWord:'connectors'},
+                                 {enWord:'and',heWord:'connectors'},
+                                 {enWord:'however',heWord:'connectors'},
+                                 {enWord:'although',heWord:'connectors'},
+                                 {enWord:'because',heWord:'connectors'}
+                                 ]">
+
+        <br />
+        <h3> enter a word </h3>
+        <input id="txtWord" type="text" data-ng-model='enHeWrods' />
+
+        <ul>
+            <li data-ng-repeat="cust in customers | filter:enHeWrods | orderBy:'enWord'"> {{cust.enWord | lowercase}} &nbsp;&nbsp; - &nbsp;&nbsp; {{cust.heWord | uppercase}} </li>              
+        </ul>
+        
+    </div>
+
+    <script src="../angular.min.js"> </script> <!-- script loading up -->
+ 
+    <!-- cdn -->
+    <!-- https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js --> 
+
+</body>
+</html>
