@@ -1,23 +1,21 @@
-.
-.
+
+
 css - Cascading Style Sheets.
-.
-.
-- level 1: css
-- level 1.1 - Inline CSS
-- level 1.2 - Embedded/Internal CSS
-- level 1.3 - External CSS
-- level 1.4 - CSS Syntax
-- level 1.5 - Type Selectors
-- level 1.6 - Cascade
-- level 1.7 - Inheritance
-- level 1.8 - css order and priority
 
+00. css
+01. Inline CSS
+02. Embedded/Internal CSS
+03. External CSS
+04. CSS Syntax
+05. Type Selectors
+06. Cascade
+07. Inheritance
+08. css order and priority
+09. css Comments
 .
 .
-- level 1: css
+00. css
 .
-
 -- Cascading refers to the way CSS applies one style on top of another.
 --- Style Sheets control the look and feel of web documents.
 --- CSS apply specific styles to specific HTML elements.
@@ -26,11 +24,9 @@ css - Cascading Style Sheets.
     html - "*.html"
     css - "*.css"
     javaScript - "*.js"
-
-
 .
 .
-- level 1.1 - Inline CSS
+01. Inline CSS
 .
 
 --  Inline CSS: adding css style attribute to the relevant tag
@@ -41,10 +37,11 @@ css - Cascading Style Sheets.
       This is an example of inline styling. 
     </p>
 
-
+--- example: 
+    <01.inline.css.html>
 .
 .
-- level 1.2 - Embedded/Internal CSS:
+02. Embedded/Internal CSS:
 .
 
 -- Internal styles are defined within the <style> element, inside the head section of an HTML page.
@@ -66,26 +63,25 @@ css - Cascading Style Sheets.
     </body>
     </html>
 
-
+--- example: 
+    <02.internal.css.html>
 .
 .
-- level 1.3 - External CSS:
+03. External CSS:
 .
 
 -- With this method, all styling rules are contained in a single text file,("***.css")
     This CSS file is then referenced in the HTML using the <link> tag. (inside <head> section.
     <head> 
-        <link rel="stylesheet" href="css-1.3.css">
+        <link rel="stylesheet" href="03.02.external.css">
     </head>
 
 --- example: 
-    <css-1.3.html>: html file
-    <css-1.3.css>: css file
-
-
+    <03.01.external.css.html>
+    <03.02.external.css>
 .
 .
-- level 1.4 - CSS Syntax
+04. CSS Syntax
 .
 
 --- CSS is composed of style rules for the document. 
@@ -98,17 +94,20 @@ css - Cascading Style Sheets.
 --- The declaration block { ... } contains one or more declarations, separated by semicolons <,>.
     Each declaration includes a property name and a value, separated by a colon.
 
-
+--- example: 
+    <04.01.type.selectors.css.html>
+    <04.02.type.selectors.css>
 .
 .
-- level 1.5 - Type Selectors (html tag, id, class)
+05. Type Selectors (html tag, id, class)
 .
 
 -- Type Selectors are selector targets element types on the page (html tags).
 
 --- example: 
-    css file: <css-1.4.css>
-    html file: <css-1.4.html>
+    <04.01.type.selectors.css.html>
+    <04.02.type.selectors.css>
+    
 
 ---example:
     p
@@ -126,8 +125,8 @@ css - Cascading Style Sheets.
     #idSelectors
 
 --- example: 
-    css file: <css-1.4.css>
-    html file: <css-1.4.html>
+    <04.01.type.selectors.css.html>
+    <04.02.type.selectors.css>
 
 --- example:
 
@@ -146,8 +145,8 @@ css - Cascading Style Sheets.
     .classSelectors
 
 --- example: 
-    css file: <css-1.4.css>
-    html file: <css-1.4.html>
+    <04.01.type.selectors.css.html>
+    <04.02.type.selectors.css>
 
 --- example:
 
@@ -164,8 +163,8 @@ css - Cascading Style Sheets.
     When selecting levels, you can select as many levels deep as you need to. 
 
 --- example:
-    css file: <css-1.5.css>
-    html file: <css-1.5.html>
+    <05.01.inner.css.path.css.html>
+    <05.02.inner.css.path.css>
 
 --- example:
 
@@ -180,11 +179,9 @@ css - Cascading Style Sheets.
         color: red;
         font-size:40px;
     }
-
-
 .
 .
-- level 1.6 - Cascade
+06. Cascade
 .
 
 -- The three/3 main sources of style information that form a cascade are
@@ -198,7 +195,7 @@ css - Cascading Style Sheets.
 
 .
 .
-- level 1.7 - Inheritance
+07. Inheritance
 .
 
 -- Inheritance refers to the way "properties" flow through the page. 
@@ -223,11 +220,15 @@ css - Cascading Style Sheets.
     </body>
     </html>
 
+--- example:
+    <07.01.Inheritance.css.html>
+    <07.02.Inheritance.css>
+
 --- Since the paragraph tag <p> (child element) is inside the body tag (parent element), 
     it takes on any color assigned to the body tag.
 .
 .
-- level 1.8 - css order and priority
+08. css order and priority
 .
 - css order and priority
 1. css body inline (inside tag/s) 
@@ -235,6 +236,22 @@ css - Cascading Style Sheets.
 3. css external (external css file)
 
 --- example:
-    css file: <css-1.6.css>
-    html file: <css-1.6.html>
+    <08.01.order.and.priority.css.html>
+    <08.02.order.and.priority.css>
+.
+.
+09. css Comments
+.
 
+--- example: 
+    /* This a Comments */ 
+
+    /* 
+        line #1
+        line #2
+        ...
+    */
+
+--- example:
+    <09.01.comments.css.html>
+    <09.02.comments.css>

@@ -1,54 +1,61 @@
-.
-.
+
+
 css - text.
-.
-.
-- level 2.01 - The font-family Property
-- level 2.02 - The font-size Property
-- level 2.03 - The font-style Property
-- level 2.04 - The font-weight Property
-- level 2.05 - The font-variant Property
-- level 2.06 - The color Property
-- level 2.07 - The text-align Property
-- level 2.08 - Aligning Text Vertically
-- level 2.09 - The vertical-align Property
-- level 2.10 - The text-decoration Property
-- level 2.11 - The text-indent Property
-- level 2.12 - text-shadow
-- level 2.13 - The text-transform Property
-- level 2.14 - The text-transform Property
-- level 2.15 - The word-spacing Property
-- level 2.16 - The white-space Property
-- level 2.17 - css order and priority
 
+01 - The font-family Property
+02 - The font-size Property
+03 - The font-style Property
+04 - The font-weight Property
+05 - The font-variant Property
+06 - The color Property
+07 - The text-align Property
+08 - Aligning Text Vertically
+09 - The vertical-align Property
+10 - The text-decoration Property
+11 - The text-indent Property
+12 - text-shadow
+13 - The text-transform Property
+14 - The text-transform Property
+15 - The word-spacing Property
+16 - The white-space Property
+17 - css order and priority
 .
 .
-- level 2.01 - The font-family Property
+01 - The font-family Property
 .
-
 - The font-family property specifies the font for an element. 
 
 - There are two types of font family names: 
 -- font family: a specific font family 
 --- example: 
-    "Times New Roman", Georgia, Arial, 
-    Verdana, "Courier New", "Lucida Console".
+    "Times New Roman" 
+    "Georgia"
+    "Arial"
+    "Verdana"
+    "Courier New"
+    "Lucida Console"
+
+--- example: a specific font family - Arial
+    body {
+        font-family: Arial;
+    }
+
+--- example: a specific font family
+    <01.01.font-family.specific.html>
+
 
 -- generic family: a group of font families with a similar look (like Serif or Monospace)
 --- example:
     "Serif", "Sans-serif", Monospace
 
---- example: font-family font
-    <css-2.01.01.html>
-
--- Separate each font with a comma.
---- example:
-    Arial, "Lucida Console", Monospace.
-
+--- example: a group of font families, Separate each font with a comma <,>
     body 
     {
         font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     }
+
+--- example: a group of font families
+    <01.02.font-family.group.html>
 
 
 -- font-family font list:
@@ -58,9 +65,6 @@ css - text.
 --- cursive
 --- fantasy
 
---- example: font-family font
-    <css-2.01.02.html>
-    
 
 -- web-safe fonts:
 --- Arial
@@ -72,26 +76,23 @@ css - text.
 --- Times New Roman
 --- Trebuchet MS
 --- Verdana
-
 .
 .
-- level 2.02 - The font-size Property
+02 - The font-size Property
 .
 
 - The font-size property sets the size of a font - font keywords:
--- xx-small, small, medium, large, larger, etc. 
+-- xx-small, x-small, small, medium, large, x-large, xx-large, smaller, larger, etc. 
 
 --- example:
-    <css-2.02.html>
+    <02.01.familyfont.font-size.html>
 
 
 -- The font-size Property - font size: pixels
 --- font size in pixel values
 
 --- example:
-
-    p 
-    {
+    p {
         font-size: 20px;
     }
 
@@ -100,14 +101,12 @@ css - text.
 --- em is a relative size unit.
 
 --- example:
-
-    p 
-    {
+    p {
         font-size: 1.25em; 
     }
 
 
--!- font size: pixels / em :
+-!- font size: pixels / em
 
     20px = 1.25em.
 
@@ -121,8 +120,7 @@ css - text.
 
 --- example:
 
-    p 
-    {
+    p {
         font-size: 1.25rem; 
     }
 
@@ -143,15 +141,16 @@ css - text.
 
 ---  example:
 
-    h1 
-    {
+    h1 {
         font-size: 562.5%; 
     }
 
 
+--- example: 20px, %, percentage, em, rem.
+    <02.02.familyfont.font-size.html>
 .
 .
-- level 2.03 - The font-style Property
+03 - The font-style Property
 .
 
 -- The font-style property is used to specify italic/normal/oblique text.
@@ -173,18 +172,17 @@ css - text.
         font-style: oblique;
     }
 
---- example: 
-    <css-2.03.html>
+--- example: font-style: normal, italic, oblique
+    <03.font-style.html>
 
--!- The HTML <i> tag will produce exactly the same result as the italic font style (p.italic).
+-!- The HTML <i> tag equals to (p.italic).
 .
 .
-- level 2.04 - The font-weight Property
+04 - The font-weight Property
 .
 
--- The font-weight controls the boldness or thickness of the text. 
-   The values can be set as normal (default size), bold, bolder, and lighter.
-
+-- The font-weight controls the font weight (boldness or thickness) of the text. 
+   
 --- example: 
 
     p.light 
@@ -203,7 +201,7 @@ css - text.
     }
 
 --- example: 
-    <css-2.04.html>
+    <04.01.font-weight.html>
 
 -- You can also define the font weight with a number 100 - 900 
    100 (thin) 
@@ -228,10 +226,10 @@ css - text.
     }
 
 --- example: 
-    <css-2.05.html>
+    <04.02.font-weight.html>
 .
 .
-- level 2.05 - The font-variant Property
+05 - The font-variant Property
 .
 
 -- The CSS font-variant property allows you to convert your font to all small caps. 
@@ -255,7 +253,7 @@ css - text.
 -!- Not every font supports CSS font-variant, so be sure to test before you publish
 .
 .
-- level 2.06 - The color Property
+06 - The color Property
 .
 
 -- The CSS color property specifies the color of the text.
@@ -292,7 +290,7 @@ css - text.
 
 .
 .
-- level 2.07 - The text-align Property
+07 - The text-align Property
 .
 
 -- The text-align property specifies the horizontal alignment of text in an element.
@@ -324,7 +322,7 @@ css - text.
     and the left and right margins are straight (as in magazines and newspapers).
 .
 .
-- level 2.08 - Aligning Text Vertically
+08 - Aligning Text Vertically
 .
 
 -- The vertical-align property sets an element's vertical alignment. (top, middle, bottom).
@@ -351,7 +349,7 @@ css - text.
 
 .
 .
-- level 2.09 - The vertical-align Property
+09 - The vertical-align Property
 .
 
 -- The vertical-align property values: baseline, sub, super, % , px , pt, cm. 
@@ -397,7 +395,7 @@ css - text.
 
 .
 .
-- level 2.10 - The text-decoration Property
+10 - The text-decoration Property
 .
 
 -- The text-decoration property specifies how the text will be decorated. 
@@ -447,7 +445,7 @@ line-through  -  draws a horizontal line through the text (substitutes the HTML 
 
 .
 .
-- level 2.11 - The text-indent Property
+11 - The text-indent Property
 .
 
 -- The text-indent property specifies how much horizontal space should be left 
@@ -512,7 +510,7 @@ line-through  -  draws a horizontal line through the text (substitutes the HTML 
 
 .
 .
-- level 2.13 - The text-transform Property
+13 - The text-transform Property
 .
 
 -- The text-transform CSS property specifies how to capitalize an element's text. 
@@ -554,7 +552,7 @@ line-through  -  draws a horizontal line through the text (substitutes the HTML 
 
 .
 .
-- level 2.14 - The text-transform Property
+14 - The text-transform Property
 .
 
 -- The letter-spacing property specifies the space between characters in a text. 
@@ -599,7 +597,7 @@ line-through  -  draws a horizontal line through the text (substitutes the HTML 
 
 .
 .
-- level 2.15 - The word-spacing Property
+15 - The word-spacing Property
 .
 
 -- The word-spacing property specifies the space between words in a text. 
@@ -642,7 +640,7 @@ line-through  -  draws a horizontal line through the text (substitutes the HTML 
 
 .
 .
-- level 2.16 - The white-space Property
+16 - The white-space Property
 
 -- The white-space property specifies how white-space inside an element is handled. 
 -- The values can be set as:
@@ -694,7 +692,7 @@ line-through  -  draws a horizontal line through the text (substitutes the HTML 
 
 .
 .
-- level 2.17 - css order and priority
+17 - css order and priority
 .
 - css order and priority
 1. css body inline (inside tag/s) 
