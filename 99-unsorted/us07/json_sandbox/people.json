@@ -15,6 +15,14 @@
     {
       "name":"Jeff",
       "age":20
+    },
+    {
+      "name":"Yifat",
+      "age":45
+    },
+    {
+      "name":"Shalom",
+      "age":42
     }
   ]
 }
