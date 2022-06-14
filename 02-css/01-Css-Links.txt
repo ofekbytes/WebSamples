@@ -79,7 +79,7 @@ https://giphy.com/gifs/8PmTxEQhXWdNxGPLht/html5
 /* chrome debug tool - for web building (html, css....) */
 /* press "pesticide" icon in the chrome browser */
 /* press "ctrl" + hover the mouse pointer over an element to view the element information */
-http://pesticide.io
+https://www.heroku.com/
 
 
 /* seanhalpin - css nice site example */
